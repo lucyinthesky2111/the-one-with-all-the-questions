@@ -1,7 +1,7 @@
-# Clutch Kings College - Basic Car Maintenance Course Website
-# Milestone Project 1 - User Centric Frontend Development
+# The one with all the questions - 'Friends' trivia interactive website
+# Milestone Project 2 - Interactive Front End Development
 
-<h2 align="center"><img src="assets/readme-images/ckc-techsini-mock-up.png"></h2>
+<h2 align="center"><img src=""></h2>
 
 # Table of Contents 
 
@@ -235,7 +235,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 
 # Disclaimer
 
-This project is for educational purposes only and was created for the Code Institute assessed project for the ..... module.  
+This project is for educational purposes only and was created for the Code Institute assessed project for the 'Interactive Front End' module.  
 
 
  
