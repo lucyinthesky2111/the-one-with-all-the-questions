@@ -1,131 +1,242 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Clutch Kings College - Basic Car Maintenance Course Website
+# Milestone Project 1 - User Centric Frontend Development
 
-Welcome USER_NAME,
+<h2 align="center"><img src="assets/readme-images/ckc-techsini-mock-up.png"></h2>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Table of Contents 
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+## Contents
+1. [Introduction](#introduction)
+2. [Live Site](#live-site)
+3. [Repository](#repository)
+4. [User Experience](#user-experience)
+    * [Strategy](#strategy)
+         + [Site Owner Goals](#site-owner-goals)
+         + [Site Manager Goals](#site-manager-goals)
+         + [User Stories](#user-stories)
+         + [User Goals](#user-goals)
+           + [Must Have](#must-have)
+           + [Should Have](#should-have)
+           + [Could Have](#could-have)
+         + [User Expectations and Requirements](#user-expectations-and-requirements)
+    * [Scope](#scope)
+        + [Initial Stage Features](#initial-stage-features)
+        + [Future Additions](#future-additions)
+    * [Structure](#structure)  
+        + [Wireframes](#wireframes)
+   * [Skeleton](#skeleton)  
+        + [Layout](#layout)
+          + [Information Architecture](#infomation-architecture)
+            + [Navigation Bar](#navigation-bar)
+            + [Sub-navigation Bar](#sub-navigation-bar)
+            + [Buttons](#buttons)
+            + [Footer](#footer)
+            + [Thank You Page](#thank-you-page)
+            + [404 Error Page](#404-error-page)
+   * [Surface](#surface)
+        + [Design](#design)
+          + [Colour Scheme](#colour-scheme)
+          + [Typography](#typography)
+          + [Imagery](#imagery)
+          + [Icons](#icons)
+          + [Logo](#logo)
+          + [Favicons](#favicons)
+5. [Technologies Used](#technologies-used)
+     + [Languages](#languages)
+     + [Frameworks Libraries and Programmes](#frameworks-libraries-and-programmes)
+       * [Creation](#creation)
+       * [Testing](#testing)
+       * [Images](#images)
+       * [Miscellaneous](#miscellaneous)
+6. [Testing and Validation](#testing-and-validation)
+7. [Deployment](#deployment)
+     + [GitHub Pages](#github-pages)
+     + [Forking the GitHub Repository](#forking-the-github-repository)
+     + [Making a Local Clone](#making-a-local-clone)      
+8. [Credits](#credits)
+     + [Content](#content)
+     + [Code](#code)
+     + [Acknowledgments](#acknowledgments)
+9. [Developer Comments](#developer-comments)
+10. [Disclaimer](#disclaimer)
 
-## Gitpod Reminders
+  
+# Introduction
+* 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* This is my second milestone project for the Code Institute Level 5 Diploma in Web Application Development.
 
-`python3 -m http.server`
+# Live Site 
+[The live site can be viewed here]
 
-A blue button should appear to click: _Make Public_,
+# Repository
+[The project repository can be viewed here]
 
-Another blue button should appear to click: _Open Browser_.
+# User Experience
+  ## Strategy
+  ### Site Owner Goals
+  * To 
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+  ### Site Manager Goals
+  * For
 
-A blue button should appear to click: _Make Public_,
+  ### User Stories
+  These can be found in my GitHub [project board]( for this repository.
 
-Another blue button should appear to click: _Open Browser_.
+  ### User Goals
+  ### Must Have
+  * To 
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  ### Should Have
+  * To 
 
-To log into the Heroku toolbelt CLI:
+  ### Could Have
+  * To 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User Expectations and Requirements
+* A
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+# Scope
+## Initial Stage Features
 
-### Connecting your Mongo database
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
 
-------
+## Future Additions
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Structure 
+## Wireframes
+<
+# Skeleton
+## Layout
+### Information Architecture
 
-**June 18, 2024,** Add Mongo back into template
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+### Navigation Bar 
 
-**May 28 2024:** Fix Mongo and Links installs
 
-**April 26 2024:** Update node version to 16
+### Sub-navigation Bar
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Buttons
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Footer 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Thank You Page
+ 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### 404 Error Page
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# Surface
+ ## Design
+ ### Colour Scheme
+ 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  ### Typography
+ 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+   ### Imagery
+   ### Aspect Ratios
+   
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  ### Image Styling
+   
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Icons
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Logo
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+### Favicons
+*
 
-## FAQ about the uptime script
+# Technologies Used
+## Languages
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* 
 
-**Why have you added this script?**
+## Frameworks Libraries and Programmes
+ ### Creation
+  * [Bootstrap version 5.3.3](https://getbootstrap.com/) - was used to create the responsive nav bar that appears on all pages, and the image carousel which appears on the site’s About page. I also used the [breakpoints defined by Bootstrap](https://getbootstrap.com/docs/5.0/layout/breakpoints/) when writing CSS media queries. 
+  * [GitPod](https://www.gitpod.io/) – was the initial code editor used.
+  * [Visual Studio Code](https://code.visualstudio.com/) – was the code editor used for the remainder of the project. I changed code editors due to Code Institute’s migration from GitPod to VS Code. 
+  *	[Git](https://git-scm.com/) – was used for version control.
+  * [GitHub](https://github.com/) – was used to create and store the project repository and create the user stories project board.
+  *	[Google Fonts](https://fonts.google.com/) – was used to choose and import the fonts used in the site.
+  * [Font Awesome](https://fontawesome.com/) – was used to choose and import the icons used in the site. 
+  * [Canva](https://www.canva.com/) – was used to create the wireframes. 
+  * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) – was used while building the project to test responsiveness, and for debugging.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+  ### Testing
+  * [W3C HTML Validator](https://validator.w3.org/) – was used to validate the HTML.
+  *	[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) – was used to validate the CSS.
+  *	[WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) – was used to test the site for accessibility.
+  * [Google Chrome Developer Tools (Lighthouse feature)](https://developer.chrome.com/docs/lighthouse/overview) - was used to test the site for Performance, Accessibility, Best Practices and SEO.
 
-**How will this affect me?**
+  ### Images
+  * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Freepik](https://www.freepik.com/) – were used to source all the images used in the site. 
+  * [Tinify](https://tinypng.com/) – was used to optimise all images.
+  * [Design](https://www.design.com/) – the Clutch Kings College logo was customised from a template on Design.
+  * [Canva](https://www.canva.com/) – was used to remove the background from the logo, and to crop all images to the desired aspect ratio.
+  * [Aspect Ratio Calculator](https://aspectratiocalculator.com/) – was used to pick appropriate aspect ratios for all images used in the site.
+  * [Favicon.io](https://favicon.io/) – was used to generate the site’s favicon.
+  * [Techsini](https://techsini.com/multi-mockup/) – was used to generate a mockup of the homepage on various screen sizes.
+  * [Coolors](https://coolors.co/) – was used to generate the site’s colour scheme.
+  *	[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) – was used to test all colour combinations for accessibility.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+ ### Miscellaneous 
+ * [ChatGPT](https://openai.com/index/chatgpt/) – was used to generate the college’s name and for proof-reading. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+# Testing and Validation
+Please refer to [this file](TESTING.md) for details of the testing and validation undertaken.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+# Deployment
+## GitHub Pages
+This site was deployed to GitHub pages. The steps to deploy a site are as follows:
 
-**So….?**
+* Log in to GitHub and navigate to the required repository.
+* Navigate to the ‘Settings’ tab on the navbar at the top of the page.
+* Navigate to ‘Pages’ on the menu on the left-hand side of the page.
+*	Navigate to ‘Build and deployment’ and select ‘Deploy from a branch’ from the dropdown menu under source.
+* Select ‘main’ and ‘root’ under branch and click save.
+* The page will automatically refresh and a link to the deployed site will appear under ‘Deployments’ on the right-hand side of the page.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Forking the GitHub Repository
+* Log in to GitHub and navigate to the required repository.
+* Navigate to the right-hand side of the page and click ‘Fork’. This is located in-line with your repository name underneath the nav bar. 
+* Give the forked repository a name of your choosing.
+* Amend the repository description if required.
+* Tick ‘Copy the main branch only'.
+*	Click the ‘Create fork’ button.
+* You will now have a copy of the original repository in your GitHub account.
 
-**Can I opt out?**
+## Making a Local Clone
+* Log in to GitHub and navigate to the required repository.
+* Click on the ‘Code’ button at the top of the repository and copy the URL. 
+* Open Git Bash in your IDE of choice and change the working directory to the location where you want the cloned directory.
+* Type git clone, then paste the URL you copied earlier.
+* Press enter. Your local clone will be created.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+# Credits
+## Content
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+ 
+## Code
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Acknowledgments
 
----
+# Developer Comments
 
-Happy coding!
+
+# Disclaimer
+
+This project is for educational purposes only and was created for the Code Institute assessed project for the ..... module.  
+
+
+ 
+Created by Lucy Kidner, 2025. 
