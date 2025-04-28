@@ -1,0 +1,14 @@
+@font-face {
+    font-family: gabrielWeissFriends;
+    src: url(../fonts/GabrielWeissFriendsFont-VGq7B.ttf);
+}
+
+@font-face {
+    font-family: crashbow;
+    src: url(../fonts/Crashbow.ttf);
+}
+
+body {
+    background-color: #7b6fb1;
+    font-family: gabrielWeissFriends, crashbow, cursive, serif;
+}
