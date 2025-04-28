@@ -135,6 +135,13 @@
  
 
   ### Typography
+  * The Font used in 'Friends' is very distinctive and easily recognisable - especially to avid fans of the show. Therefore I knew I needed to use a font as close as possible to the original to make the site appealling to Friends fans. I used [Google](https://www.google.co.uk/) to research which font was the closest match. The results showed that this was Gabriel Weiss' Friends Font. I downloaded this font from [Font Meme](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/).
+     <details open><h2 align="center"><img src="assets/readme-images/friends-tv-show-font.png">Google search results</h2></details>
+     <details open><h2 align="center"><img src="assets/readme-images/gabriel-weiss-friends-font.png">Gabriel Weiss' Friends Font</h2></details>
+* the font [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - also from Font Meme, is the first fallback font, in case Gabriel Weiss' Friends Font fails to load correctly. It was selected due to its similarity to Gabriel Weiss' Friends Font.
+     <details open><h2 align="center"><img src="assets/readme-images/crashbow-font.png">Crashbow font</h2></details>
+* Two further fallback fonts have been set, in case neither Gabriel Weiss' Friends Font or Crashbow load correctly. The second fallback is Cursive, with Serif as the third and final fallback font.
+
  
 
    ### Imagery
@@ -157,17 +164,16 @@
 ## Languages
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
-* 
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Frameworks Libraries and Programmes
  ### Creation
-  * [Bootstrap version 5.3.3](https://getbootstrap.com/) - was used to create the responsive nav bar that appears on all pages, and the image carousel which appears on the site’s About page. I also used the [breakpoints defined by Bootstrap](https://getbootstrap.com/docs/5.0/layout/breakpoints/) when writing CSS media queries. 
-  * [GitPod](https://www.gitpod.io/) – was the initial code editor used.
-  * [Visual Studio Code](https://code.visualstudio.com/) – was the code editor used for the remainder of the project. I changed code editors due to Code Institute’s migration from GitPod to VS Code. 
-  *	[Git](https://git-scm.com/) – was used for version control.
+  * [Visual Studio Code](https://code.visualstudio.com/) – was the code editor used.
+  * [Git](https://git-scm.com/) – was used for version control.
   * [GitHub](https://github.com/) – was used to create and store the project repository and create the user stories project board.
-  *	[Google Fonts](https://fonts.google.com/) – was used to choose and import the fonts used in the site.
-  * [Font Awesome](https://fontawesome.com/) – was used to choose and import the icons used in the site. 
+  * [Font Meme](https://fontmeme.com/) – was used to choose and import the icons used in the site. The specific fonts used are: 
+     * [Gabriel Weiss' Friends Font](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/) - as the main font.
+     * [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - as a back-up font, due to its similarity to Gabriel Weiss' Friends Font.
   * [Canva](https://www.canva.com/) – was used to create the wireframes. 
   * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) – was used while building the project to test responsiveness, and for debugging.
 
@@ -189,7 +195,8 @@
   *	[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) – was used to test all colour combinations for accessibility.
 
  ### Miscellaneous 
- * [ChatGPT](https://openai.com/index/chatgpt/) – was used to generate the college’s name and for proof-reading. 
+ * [ChatGPT](https://openai.com/index/chatgpt/) – was used for proof-reading. 
+ * [Google](https://www.google.co.uk/) - was the search engine used to conduct all online research.
 
 # Testing and Validation
 Please refer to [this file](TESTING.md) for details of the testing and validation undertaken.
