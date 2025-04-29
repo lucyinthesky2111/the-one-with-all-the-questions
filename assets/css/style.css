@@ -12,6 +12,11 @@
     src: url(../fonts/Crashbow.ttf);
 }
 
+/* Asterisk wildcard selector/universal selector to override default margin added by the browser */
+* {
+    margin: 0;
+}
+
 /* CSS VARIABLES */
 :root {
     --dot-red: rgb(255, 0, 0); /* Pure red */
@@ -25,8 +30,8 @@
 body {
     background-color: var(--monica-apartment-purple);
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
-}
-
+    }
+    
 /* HOMEPAGE */ 
 
  #hero-and-title-section {
