@@ -31,7 +31,7 @@ body {
     background-color: var(--monica-apartment-purple);
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
     }
-    
+
 /* HOMEPAGE */ 
 
  #hero-and-title-section {
@@ -55,6 +55,7 @@ body {
     background-color: rgba(130,129,199, 90%); /* Monica apartment purple with alpha value added */
     color: black;
     border: 5px solid var(--gold-doorknob);
+    padding: 15px;
  }
 
  /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
