@@ -1,8 +1,12 @@
+/* FONTS */ 
+/* Fonts sourced from Font Meme */
+/* Main font */ 
 @font-face {
     font-family: gabrielWeissFriends;
     src: url(../fonts/GabrielWeissFriendsFont-VGq7B.ttf);
 }
 
+/* Back-up font in case main font fails to load */
 @font-face {
     font-family: crashbow;
     src: url(../fonts/Crashbow.ttf);
@@ -13,9 +17,34 @@ body {
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
 }
 
-/* Hero image */
-#central-perk-hero-image {
-    height: 400px;
-    width: 100%;
-    background: url("../images/central-perk-hero.png") center center/cover;
+/* HOMEPAGE */ 
+
+ #hero-and-title-section {
+    /* Need to set height and width to full viewport height and width so image takes up whole screen */
+    min-height: 100vh;
+    width: 100vw; 
+    background-image: url("../images/central-perk-hero.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ /* The font size specified here affects the h2 text (the one with all the questions) only */
+ #homepage-text-container {
+    font-size: 50px;
+    background-color: rgba(123,107,241, 90%);
+    color: black;
+    border: 5px solid black;
+ }
+
+ /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
+#homepage-text h1 {
+    font-size: 100px;
+
 }
+
