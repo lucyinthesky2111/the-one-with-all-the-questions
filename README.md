@@ -132,6 +132,7 @@
 # Surface
  ## Design
  ### Colour Scheme
+ * The colours used in the site were taken from the colours of the inside of Monica's front door 
  * Background colours ......
  * Font colouurs .......
 
@@ -196,17 +197,16 @@
 
   ### Images
  * [Pexels](https://www.pexels.com/) - was used to source the [Central Perk hero image](https://www.pexels.com/photo/festive-central-perk-cafe-window-display-30500272/) used in the homepage of the site.
-
-
-  * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Freepik](https://www.freepik.com/) – were used to source all the images used in the site. 
+ * [Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica Gellar's front door. The image was found via a [Google](https://www.google.co.uk/) image search with results set to 'Creative Commons licenses'. This image was then used as the site's logo.
+     <details open><h3 align="center"><img src="assets/readme-images/peephole-frame-creative-commons-licence-search.png">Google image search for 'friends door peephole' with results set to 'Creative Commons licenses'.</h3></details>
+     <details open><h3 align="center"><img src="assets/readme-images/creative-commons-license-explanation.png">Explanation of Creative Commons licenses</h3></details>
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
-  * [Design](https://www.design.com/) – the Clutch Kings College logo was customised from a template on Design.
   * [Canva](https://www.canva.com/) – was used to remove the background from the logo, and to crop all images to the desired aspect ratio.
   * [Aspect Ratio Calculator](https://aspectratiocalculator.com/) – was used to pick appropriate aspect ratios for all images used in the site.
   * [Favicon.io](https://favicon.io/) – was used to generate the site’s favicon.
   * [Techsini](https://techsini.com/multi-mockup/) – was used to generate a mockup of the homepage on various screen sizes.
   * [Coolors](https://coolors.co/) – was used to generate the site’s colour scheme.
-  *	[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) – was used to test all colour combinations for accessibility.
+  * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) – was used to test all colour combinations for accessibility.
 
  ### Miscellaneous 
  * [ChatGPT](https://openai.com/index/chatgpt/) – was used for proof-reading. 
@@ -244,7 +244,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 
 # Credits
 ## Content
-
+* Warner Bros - Friends quotes and references
  
 ## Code
 * [This article by George.K for Dev.to](https://dev.to/bcncodeschool/aligning-elements-on-top-of-the-image-background-4kcf) - for the code to make the Central Perk hero image cover the entire background of the homepage.

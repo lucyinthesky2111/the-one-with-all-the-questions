@@ -17,10 +17,13 @@
     --dot-red: rgb(255, 0, 0); /* Pure red */
     --dot-blue: #33cff9; /* Vivid sky blue */
     --dot-yellow: #ffc73f; /* Sunglow */
+    --gold-doorknob: #dfb75d; /* Gold (metallic) */
+    --peephole-frame-yellow: #ffcb09; /* Jonquil */
+    --monica-apartment-purple: #8281c7; /* Tropical Indigo */
 }
 
 body {
-    background-color: #7b6fb1;
+    background-color: var(--monica-apartment-purple);
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
 }
 
@@ -44,9 +47,9 @@ body {
  /* The font size specified here affects the h2 text (the one with all the questions) only */
  #homepage-text-container {
     font-size: 50px;
-    background-color: rgba(123,107,241, 90%);
+    background-color: rgba(130,129,199, 90%); /* Monica apartment purple with alpha value added */
     color: black;
-    border: 5px solid black;
+    border: 5px solid var(--gold-doorknob);
  }
 
  /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
