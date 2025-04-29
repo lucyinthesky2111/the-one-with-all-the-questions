@@ -238,7 +238,8 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 
  
 ## Code
-
+* [This article by George.K for Dev.to](https://dev.to/bcncodeschool/aligning-elements-on-top-of-the-image-background-4kcf) - for the code to make the Central Perk hero image cover the entire background of the homepage.
+<details open><h3 align="center"><img src="assets/readme-images/setting-background-hero-image-help.png">Code from George.K for Dev.to</h3></details>
 
 ## Acknowledgments
 
