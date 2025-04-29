@@ -135,11 +135,11 @@
  
 
   ### Typography
-  * The Font used in 'Friends' is very distinctive and easily recognisable - especially to avid fans of the show. Therefore I knew I needed to use a font as close as possible to the original to make the site appealling to Friends fans. I used [Google](https://www.google.co.uk/) to research which font was the closest match. The results showed that this was Gabriel Weiss' Friends Font. I downloaded this font from [Font Meme](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/).
-     <details open><h2 align="center"><img src="assets/readme-images/friends-tv-show-font.png">Google search results</h2></details>
-     <details open><h2 align="center"><img src="assets/readme-images/gabriel-weiss-friends-font.png">Gabriel Weiss' Friends Font</h2></details>
+  * The Font used in the opening credits of 'Friends' is very distinctive and easily recognisable - especially to avid fans of the show. Therefore I knew I needed to use a font as close as possible to the original to make the site appealling to Friends fans. I used [Google](https://www.google.co.uk/) to research which font was the closest match. The results showed that this was Gabriel Weiss' Friends Font. I downloaded this font from [Font Meme](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/).
+     <details open><h3 align="center"><img src="assets/readme-images/friends-tv-show-font.png">Google search results</h3></details>
+     <details open><h3 align="center"><img src="assets/readme-images/gabriel-weiss-friends-font.png">Gabriel Weiss' Friends Font</h3></details>
 * the font [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - also from Font Meme, is the first fallback font, in case Gabriel Weiss' Friends Font fails to load correctly. It was selected due to its similarity to Gabriel Weiss' Friends Font.
-     <details open><h2 align="center"><img src="assets/readme-images/crashbow-font.png">Crashbow font</h2></details>
+     <details open><h3 align="center"><img src="assets/readme-images/crashbow-font.png">Crashbow font</h3></details>
 * Two further fallback fonts have been set, in case neither Gabriel Weiss' Friends Font or Crashbow load correctly. The second fallback is Cursive, with Serif as the third and final fallback font.
 
  
