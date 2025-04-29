@@ -12,6 +12,13 @@
     src: url(../fonts/Crashbow.ttf);
 }
 
+/* CSS VARIABLES */
+:root {
+    --dot-red: #da4241;
+    --dot-blue: #4497cf;
+    --dot-yellow: #f8d852;
+}
+
 body {
     background-color: #7b6fb1;
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
