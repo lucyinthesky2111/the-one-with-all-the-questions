@@ -55,3 +55,15 @@ body {
 
 }
 
+/* Coloured in between the word 'Friends' */
+.red-dot {
+    color: var(--dot-red);
+}
+
+.blue-dot {
+    color: var(--dot-blue);
+}
+
+.yellow-dot {
+    color: var(--dot-yellow)
+}
