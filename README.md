@@ -157,7 +157,8 @@
    ### Imagery
 
    ### Aspect Ratios
-   The aspect ratio chosen for the Central Perk hero image used on the homepage of this site was 16:9. This is because hero images are designed to span the whole width of the page on all screen sizes and therefore, need to be wide. 16:9 is a very versatile aspect ratio used by lots of modern media formats and provides an immersive viewing experience.
+   * The aspect ratio chosen for the Central Perk hero image used on the homepage of this site was 16:9. This is because hero images are designed to span the whole width of the page on all screen sizes and therefore, need to be wide. 16:9 is a very versatile aspect ratio used by lots of modern media formats and provides an immersive viewing experience.
+   * The aspect ratio chosen for the peephole frame logo used in the site was 3:2. This is aspect ratio was selected as it works well in both landscape and potrait orientations, and it is easily scaled without causing the image to become distorted.
    
 
   ### Image Styling
@@ -167,7 +168,9 @@
 
 
 ### Logo
-
+[Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica Gellar's front door. The image was found via a [Google](https://www.google.co.uk/) image search with results set to 'Creative Commons licenses'. This image was then used as the site's logo.
+     <details open><h3 align="center"><img src="assets/readme-images/peephole-frame-creative-commons-licence-search.png">Google image search for 'friends door peephole' with results set to 'Creative Commons licenses'.</h3></details>
+     <details open><h3 align="center"><img src="assets/readme-images/creative-commons-license-explanation.png">Explanation of Creative Commons licenses</h3></details>
 
 ### Favicons
 *
@@ -197,9 +200,7 @@
 
   ### Images
  * [Pexels](https://www.pexels.com/) - was used to source the [Central Perk hero image](https://www.pexels.com/photo/festive-central-perk-cafe-window-display-30500272/) used in the homepage of the site.
- * [Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica Gellar's front door. The image was found via a [Google](https://www.google.co.uk/) image search with results set to 'Creative Commons licenses'. This image was then used as the site's logo.
-     <details open><h3 align="center"><img src="assets/readme-images/peephole-frame-creative-commons-licence-search.png">Google image search for 'friends door peephole' with results set to 'Creative Commons licenses'.</h3></details>
-     <details open><h3 align="center"><img src="assets/readme-images/creative-commons-license-explanation.png">Explanation of Creative Commons licenses</h3></details>
+ * [Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica Gellar's front door which was used as the site's logo.
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
   * [Canva](https://www.canva.com/) – was used to remove the background from the logo, and to crop all images to the desired aspect ratio.
   * [Aspect Ratio Calculator](https://aspectratiocalculator.com/) – was used to pick appropriate aspect ratios for all images used in the site.
