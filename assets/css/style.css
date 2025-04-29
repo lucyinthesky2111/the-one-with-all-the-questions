@@ -14,9 +14,9 @@
 
 /* CSS VARIABLES */
 :root {
-    --dot-red: #da4241;
-    --dot-blue: #4497cf;
-    --dot-yellow: #f8d852;
+    --dot-red: rgb(255, 0, 0); /* Pure red */
+    --dot-blue: #33cff9; /* Vivid sky blue */
+    --dot-yellow: #ffc73f; /* Sunglow */
 }
 
 body {
