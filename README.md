@@ -145,7 +145,9 @@
  
 
    ### Imagery
+
    ### Aspect Ratios
+   The aspect ratio chosen for the Central Perk hero image used on the homepage of this site was 16:9. This is because hero images are designed to span the whole width of the page on all screen sizes and therefore, need to be wide. 16:9 is a very versatile aspect ratio used by lots of modern media formats and provides an immersive viewing experience.
    
 
   ### Image Styling
@@ -184,6 +186,9 @@
   * [Google Chrome Developer Tools (Lighthouse feature)](https://developer.chrome.com/docs/lighthouse/overview) - was used to test the site for Performance, Accessibility, Best Practices and SEO.
 
   ### Images
+ * [Pexels](https://www.pexels.com/) - was used to source the [Central Perk hero image](https://www.pexels.com/photo/festive-central-perk-cafe-window-display-30500272/) used in the homepage of the site.
+
+
   * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Freepik](https://www.freepik.com/) – were used to source all the images used in the site. 
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
   * [Design](https://www.design.com/) – the Clutch Kings College logo was customised from a template on Design.
