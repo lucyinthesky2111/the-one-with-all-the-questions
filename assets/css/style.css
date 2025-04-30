@@ -44,6 +44,9 @@ header {
     /* gives breathing space around the elements so logo and menu links do not stick to top of nav bar */ 
     padding: 1rem; 
     box-shadow: 0 10px 10px var(--monica-apartment-purple);
+    /* Makes nav bar toggle icon appear on the right */
+    display: flex;
+    justify-content: space-between;
 }
 
 header a {
@@ -65,6 +68,40 @@ li {
 .active {
     /* Underlines the menu option for the page the user is currenty on */
     text-decoration: underline;
+}
+
+/* Nav bar drop down toggle */
+nav {
+     /* position absolute takes an element outside the normal flow of the page structure.
+     It is positioned relative to the nearest positioned ancestor, which in this case is the header. */
+     position: absolute;
+     /* had to put the background color in here to make the header look like a single object when it is opened */
+     background-color: var(--peephole-frame-yellow);
+     width: 100%;
+     /* the left property with value 0 aligns the nav bar directly against the left of the screen */ 
+     left: 0;
+     padding: 0 1rem;
+     /* setting the display to none means the nav bar items are hidden until the user clicks to open them */ 
+     display: none;
+     /* top property means that the top of the nav bar should start at the bottom of its parent. 
+     0% would represent the top of the parent, 100% represents the bottom of it */
+     top: 100%;
+}
+
+/* Nav toggle */
+/* this pseudo class is saying that when the nav bar toggle is checked, the sibling nav element should be displayed - this is the 
+unordered list of menu items */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+/* hides the checkbox */
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 50px;
 }
 
 /* HOMEPAGE */ 
