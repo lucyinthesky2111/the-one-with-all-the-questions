@@ -62,6 +62,11 @@ li {
     margin-bottom: 1em;
 }
 
+.active {
+    /* Underlines the menu option for the page the user is currenty on */
+    text-decoration: underline;
+}
+
 /* HOMEPAGE */ 
 
  #hero-and-title-section {
@@ -96,6 +101,8 @@ li {
 #homepage-text h1 {
     font-size: 23px;
     letter-spacing: normal;
+    /* Add a gap between title and subtitle */
+    margin-bottom: 30px;
 }
 
 /* Coloured in between the word 'Friends' */
