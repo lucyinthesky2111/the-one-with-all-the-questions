@@ -35,12 +35,31 @@ body {
 /* NAV BAR */
 header {
     background-color: var(--peephole-frame-yellow);
+    /* Using position fixed to fix nav bar to top of screen when user scrolls. Must use width of 100% with fixed position or nav bar
+    will fall short of edge of screen */
     position: fixed;
-    z-index: 99;
     width: 100%;
+    /* Need high z index to keep nav bar positioned on top of other elements */
+    z-index: 99;
     /* gives breathing space around the elements so logo and menu links do not stick to top of nav bar */ 
     padding: 1rem; 
+    box-shadow: 0 10px 10px var(--monica-apartment-purple);
+}
 
+header a {
+    /* removes the default underline from the menu links in nav bar */
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    /*  Removes the default bullet points set by having an unordered list of links in nav bar */
+    list-style-type: none;
+}
+
+li {
+    /* Spaces out the options in the nav bar */
+    margin-bottom: 1em;
 }
 
 /* HOMEPAGE */ 
@@ -58,6 +77,7 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 1em;
  }
 
  /* The font size specified here affects the h2 text (the one with all the questions) only */
@@ -68,6 +88,8 @@ header {
     letter-spacing: 10px;
     border: 5px solid var(--gold-doorknob);
     padding: 15px;
+    /* Centres the box with title and subtitle over Central Perk on background image more effectively */
+    margin-top: 35px;
  }
 
  /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
