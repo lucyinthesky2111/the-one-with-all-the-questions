@@ -54,6 +54,7 @@ body {
     font-size: 50px;
     background-color: rgba(130,129,199, 90%); /* Monica apartment purple with alpha value added */
     color: black;
+    letter-spacing: 10px;
     border: 5px solid var(--gold-doorknob);
     padding: 15px;
  }
