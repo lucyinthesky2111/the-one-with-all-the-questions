@@ -190,7 +190,8 @@
      </details>
 
 ### Favicons
-*
+** The favicon was generated using [Favicon.io](https://favicon.io/). 
+* The favicon is the peephole frame logo.
 
 # Technologies Used
 ## Languages
