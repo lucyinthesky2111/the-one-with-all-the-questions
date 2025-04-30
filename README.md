@@ -266,6 +266,11 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 * Warner Bros - Friends quotes and references
  
 ## Code
+* [Code Institute Love Running walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3) :-
+  - for the code for the social media links in the footer. 
+  - for the code for the general styles used to push the footer to the bottom of the page. 
+  - for the code for the responsive nav bar.
+  - for help writing media queries.
 * [This article by George.K for Dev.to](https://dev.to/bcncodeschool/aligning-elements-on-top-of-the-image-background-4kcf) - for the code to make the Central Perk hero image cover the entire background of the homepage.
      <details>
           <summary>Code from George.K for Dev.to</summary>

@@ -32,6 +32,10 @@ body {
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
     }
 
+/* NAV BAR */
+header {
+    background-color: var(--peephole-frame-yellow);
+}
 /* HOMEPAGE */ 
 
  #hero-and-title-section {
@@ -51,7 +55,7 @@ body {
 
  /* The font size specified here affects the h2 text (the one with all the questions) only */
  #homepage-text-container {
-    font-size: 50px;
+    font-size: 14Spx;
     background-color: rgba(130,129,199, 90%); /* Monica apartment purple with alpha value added */
     color: black;
     letter-spacing: 10px;
@@ -61,8 +65,8 @@ body {
 
  /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
 #homepage-text h1 {
-    font-size: 100px;
-
+    font-size: 23px;
+    letter-spacing: normal;
 }
 
 /* Coloured in between the word 'Friends' */
