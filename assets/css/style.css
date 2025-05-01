@@ -38,9 +38,9 @@ header {
     background-color: var(--peephole-frame-yellow);
     /* Using position fixed to fix nav bar to top of screen when user scrolls. Must use width of 100% with fixed position or nav bar
     will fall short of edge of screen */
-    /* UPDATE when trivia page added, had to change position to sticky, otherwise the nav bar was covering elements located underneath it. */
-    position: relative;
-    width: 100%;
+    /* UPDATE when trivia page added, had to change position to sticky, otherwise the nav bar was covering elements located underneath it.
+    Had to remove width of 100% or footer did not display properly*/
+    position: sticky;
     /* Need high z index to keep nav bar positioned on top of other elements */
     z-index: 99;
     /* gives breathing space around the elements so logo and menu links do not stick to top of nav bar */ 
