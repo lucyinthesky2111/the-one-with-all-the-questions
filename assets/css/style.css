@@ -100,8 +100,10 @@ unordered list of menu items */
     display: none;
 }
 
+/* Adjusts size of menu bars icon and stops it sticking to the side of the nav bar */
 .nav-toggle-label {
-    font-size: 50px;
+    font-size: 60px;
+    margin: 20px 30px 0 0;
 }
 
 /* HOMEPAGE */ 
