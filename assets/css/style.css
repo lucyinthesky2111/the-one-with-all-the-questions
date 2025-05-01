@@ -47,7 +47,7 @@ header {
     /* Need high z index to keep nav bar positioned on top of other elements */
     z-index: 99;
     /* gives breathing space around the elements so logo and menu links do not stick to top of nav bar */ 
-    padding: 1rem; 
+    padding-top: 1rem; 
     box-shadow: 0 10px 10px var(--monica-apartment-purple);
     /* Makes nav bar toggle icon appear on the right */
     display: flex;
