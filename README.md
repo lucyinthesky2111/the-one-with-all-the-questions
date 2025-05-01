@@ -243,9 +243,12 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 * Log in to GitHub and navigate to the required repository.
 * Navigate to the ‘Settings’ tab on the navbar at the top of the page.
 * Navigate to ‘Pages’ on the menu on the left-hand side of the page.
-*	Navigate to ‘Build and deployment’ and select ‘Deploy from a branch’ from the dropdown menu under source.
+* Navigate to ‘Build and deployment’ and select ‘Deploy from a branch’ from the dropdown menu under source.
 * Select ‘main’ and ‘root’ under branch and click save.
 * The page will automatically refresh and a link to the deployed site will appear under ‘Deployments’ on the right-hand side of the page.
+* If for any reason, the page does not automatically refresh. Navigate to the top of the page and click on the repository name (next to your GitHub profile name) to go back to the homepage for the repository.
+* From here you will now see ‘Deployments’ on the right-hand side of the page.
+* Click the link below 'Deployments' to access your deployed site.
 
 ## Forking the GitHub Repository
 * Log in to GitHub and navigate to the required repository.
