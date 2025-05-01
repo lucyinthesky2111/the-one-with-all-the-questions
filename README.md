@@ -265,7 +265,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 
 # Credits
 ## Content
-* Warner Bros - Friends quotes and references
+* [Warner Bros](https://www.warnerbros.co.uk/tv/friends) - for the site colour scheme and the Friends quotes and references which appear throughout the site.
  
 ## Code
 * [Code Institute Love Running walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3) :-
