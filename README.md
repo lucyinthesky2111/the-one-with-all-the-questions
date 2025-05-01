@@ -210,6 +210,7 @@
      * [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - as a back-up font, due to its similarity to Gabriel Weiss' Friends Font.
   * [Font Awesome](https://fontawesome.com/) – was used to choose and import the icons used in the site.
   * [Canva](https://www.canva.com/) – was used to create the wireframes. 
+  * [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) - these breakpoints defined by Bootstrap, were used when making the site responsive.
   * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) – was used while building the project to test responsiveness, and for debugging.
 
   ### Testing

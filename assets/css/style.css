@@ -157,3 +157,30 @@ unordered list of menu items */
 .yellow-dot {
     color: var(--dot-yellow)
 }
+
+/* MEDIA QUERIES */
+
+/*BS breakpoint large screens */
+
+/* NAV BAR */
+@media (min-width: 992px) {
+    nav {
+        /* display block and position relative make the list items in the nav bar visible on large screens */
+        display: block;
+        position: relative;
+        /* Moves the list items in the nav bar to the right */ 
+        width: fit-content; 
+        /* Stops the list items from sticking to the edge of the nav bar */
+        margin-right: 30px;
+    }
+
+    .nav-toggle-label {
+        /* Hides the nav bar menu bars icon on large screens */
+        visibility: hidden;
+    }
+    
+    .navbar-ul {
+        /* Makes the nav bar list items appear side by side on large screens */
+        display: flex;
+    }
+}
