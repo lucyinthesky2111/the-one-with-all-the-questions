@@ -63,6 +63,7 @@ header a {
 .navbar-list {
     /* Spaces out the options in the nav bar */
     margin-bottom: 1em;
+    font-size: 20px;
 }
 
 .active {
