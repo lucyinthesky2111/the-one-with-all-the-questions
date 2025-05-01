@@ -15,6 +15,7 @@
 /* Asterisk wildcard selector/universal selector to override default margin added by the browser */
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* CSS VARIABLES */
