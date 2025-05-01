@@ -64,6 +64,7 @@ header a {
 .navbar-ul {
     /*  Removes the default bullet points set by having an unordered list of links in nav bar */
     list-style-type: none; 
+    max-width: 100%;
 }
 
 .navbar-list {
