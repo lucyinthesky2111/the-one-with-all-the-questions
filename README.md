@@ -1,4 +1,4 @@
-# The one with all the questions - 'Friends' trivia interactive website
+# The one with all the questions - 'Friends' interactive trivia website
 # Milestone Project 2 - Interactive Front End Development
 
 <h2 align="center"><img src=""></h2>
@@ -179,7 +179,7 @@
 
 
 ### Logo
-[Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica's front door. The image was found via a [Google](https://www.google.co.uk/) image search with results set to 'Creative Commons licenses'. This image was then used as the site's logo.
+* [Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica's front door. The image was found via a [Google](https://www.google.co.uk/) image search with results set to 'Creative Commons licenses'. This image was then used as the site's logo.
      <details>
           <summary>Google image search for 'friends door peephole' with results set to 'Creative Commons licenses'</summary>
           <img src="assets/readme-images/peephole-frame-creative-commons-licence-search.png" alt="Google image search for 'friends door peephole' with results set to 'Creative Commons licenses'"> 
@@ -188,9 +188,10 @@
           <summary>Explanation of Creative Commons licenses</summary>
           <img src="assets/readme-images/creative-commons-license-explanation.png" alt="Explanation of Creative Commons licenses"> 
      </details>
+* For convenience, clicking the logo on the navbar will ..........
 
 ### Favicons
-** The favicon was generated using [Favicon.io](https://favicon.io/). 
+* The favicon was generated using [Favicon.io](https://favicon.io/). 
 * The favicon is the peephole frame logo.
 
 # Technologies Used
@@ -204,9 +205,10 @@
   * [Visual Studio Code](https://code.visualstudio.com/) – was the code editor used.
   * [Git](https://git-scm.com/) – was used for version control.
   * [GitHub](https://github.com/) – was used to create and store the project repository and create the user stories project board.
-  * [Font Meme](https://fontmeme.com/) – was used to choose and import the icons used in the site. The specific fonts used are: 
+  * [Font Meme](https://fontmeme.com/) – was used to choose and import the fonts used in the site. The specific fonts used are: 
      * [Gabriel Weiss' Friends Font](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/) - as the main font.
      * [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - as a back-up font, due to its similarity to Gabriel Weiss' Friends Font.
+  * [Font Awesome](https://fontawesome.com/) – was used to choose and import the icons used in the site.
   * [Canva](https://www.canva.com/) – was used to create the wireframes. 
   * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) – was used while building the project to test responsiveness, and for debugging.
 
@@ -217,11 +219,10 @@
   * [Google Chrome Developer Tools (Lighthouse feature)](https://developer.chrome.com/docs/lighthouse/overview) - was used to test the site for Performance, Accessibility, Best Practices and SEO.
 
   ### Images
- * [Pexels](https://www.pexels.com/) - was used to source the [Central Perk hero image](https://www.pexels.com/photo/festive-central-perk-cafe-window-display-30500272/) used in the homepage of the site.
+ * [Pexels](https://www.pexels.com/) - was used to source the [Central Perk background image](https://www.pexels.com/photo/festive-central-perk-cafe-window-display-30500272/) used in the homepage of the site.
  * [Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica Gellar's front door which was used as the site's logo.
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
   * [Canva](https://www.canva.com/) – was used to remove the background from the logo.
-  * [Aspect Ratio Calculator](https://aspectratiocalculator.com/) – was used to pick appropriate aspect ratios for all images used in the site.
   * [Favicon.io](https://favicon.io/) – was used to generate the site’s favicon.
   * [Techsini](https://techsini.com/multi-mockup/) – was used to generate a mockup of the homepage on various screen sizes.
   * [Coolors](https://coolors.co/) – was used to generate the site’s colour scheme.
@@ -286,8 +287,6 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 
 # Disclaimer
 
-This project is for educational purposes only and was created for the Code Institute assessed project for the 'Interactive Front End' module.  
-
-
+This project is for educational purposes only and not for public use. It was created for the Code Institute assessed project for the 'Interactive Front End' module.  
  
 Created by Lucy Kidner, 2025. 
