@@ -33,6 +33,14 @@ body {
     background-color: var(--monica-apartment-purple);
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
     }
+    
+main {
+    /*makes the main element take up any surplus space and not shrink when the screen
+        is too small to show all the content. This is used in conjunction with body styles
+         min-height: 100vh; display: flex; flex-direction: column; to ensure that the footer is
+         pushed all the way to the bottom of the page*/
+    flex: 1 0 auto;
+}
 
 /* NAV BAR */
 header {
@@ -64,7 +72,6 @@ header a {
 .navbar-ul {
     /*  Removes the default bullet points set by having an unordered list of links in nav bar */
     list-style-type: none; 
-    max-width: 100%;
 }
 
 .navbar-list {
