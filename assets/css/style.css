@@ -55,12 +55,12 @@ header a {
     color: black;
 }
 
-ul {
+.navbar-ul {
     /*  Removes the default bullet points set by having an unordered list of links in nav bar */
-    list-style-type: none;
+    list-style-type: none; 
 }
 
-li {
+.navbar-list {
     /* Spaces out the options in the nav bar */
     margin-bottom: 1em;
 }
