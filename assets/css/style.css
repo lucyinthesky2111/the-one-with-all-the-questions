@@ -41,6 +41,9 @@ header {
     /* UPDATE when trivia page added, had to change position to sticky, otherwise the nav bar was covering elements located underneath it.
     Had to remove width of 100% or footer did not display properly*/
     position: sticky;
+    /* When using sticky, must set top, right, bottom or left for it to work. Top 0 means nav bar sticks to top of page 
+    when you reach its scroll posiiton */
+    top: 0;
     /* Need high z index to keep nav bar positioned on top of other elements */
     z-index: 99;
     /* gives breathing space around the elements so logo and menu links do not stick to top of nav bar */ 
