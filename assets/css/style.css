@@ -25,6 +25,7 @@
     --gold-doorknob: #dfb75d; /* Gold (metallic) */
     --peephole-frame-yellow: #ffcb09; /* Jonquil */
     --monica-apartment-purple: #8281c7; /* Tropical Indigo */
+    --footer-and-navbar-hover: #0000ff;
 }
 
 body {
@@ -122,7 +123,6 @@ unordered list of menu items */
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 1em;
  }
 
  /* The font size specified here affects the h2 text (the one with all the questions) only */
@@ -157,6 +157,41 @@ unordered list of menu items */
 .yellow-dot {
     color: var(--dot-yellow)
 }
+
+/* FOOTER */
+footer {
+    background-color: var(--peephole-frame-yellow);
+}
+
+#social-links {
+    /* Removes bullet points from social media icons*/
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+        /* these 2 padding values add space above and below the icons */
+        padding: 10px 0;
+        margin-bottom: 0;
+    }
+    
+    /*targets the social media icons*/
+    .fa-brands {
+        color: black;
+    }
+    
+    /*targets the social media icons so their colours will change when they are hovered over. 
+    To get this to work, had to target i element not a element as originally thought*/
+    i:hover {
+        color: var(--footer-and-navbar-hover);
+
+    }
+    
+    .footer-text {
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    
 
 /* MEDIA QUERIES */
 
