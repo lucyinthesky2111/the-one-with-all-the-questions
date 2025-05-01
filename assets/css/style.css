@@ -25,7 +25,7 @@
     --gold-doorknob: #dfb75d; /* Gold (metallic) */
     --peephole-frame-yellow: #ffcb09; /* Jonquil */
     --monica-apartment-purple: #8281c7; /* Tropical Indigo */
-    --footer-and-navbar-hover: #0000ff;
+    --footer-and-navbar-hover: #0000ff; /* Blue */
 }
 
 body {
@@ -106,6 +106,13 @@ unordered list of menu items */
 .nav-toggle-label {
     font-size: 60px;
     margin: 20px 30px 0 0;
+}
+
+/* NAV BAR HOVER FUNCTIONALITY */
+/* Need to target both the ul (using the added class of nav-list) and the individual li items (using the added class of nav-list) for
+this to work */
+.navbar-list .nav-link:hover {
+    color: var(--footer-and-navbar-hover);
 }
 
 /* HOMEPAGE */ 
