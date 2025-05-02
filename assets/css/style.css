@@ -236,7 +236,7 @@ this to work */
     letter-spacing: 5px;
     border: 5px solid black;
     padding: 15px;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 20px 20px;
     text-align: center;
  }
 
@@ -246,6 +246,11 @@ this to work */
     letter-spacing: normal;
     /* Add a gap between title and subtitle */
     margin-bottom: 30px;
+}
+
+.select-difficulty {
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .game-area {
