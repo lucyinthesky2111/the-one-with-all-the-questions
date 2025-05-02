@@ -27,10 +27,13 @@
     --peephole-frame-yellow: #ffcb09; /* Jonquil */
     --monica-apartment-purple: #8281c7; /* Tropical Indigo */
     ---hover: #0000ff; /* Blue */
-}
+} 
+
+html {
+    background-color: var(--monica-apartment-purple);
+}  
 
 body {
-    background-color: var(--monica-apartment-purple);
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
     }
 
@@ -159,7 +162,7 @@ this to work */
  /* The font size specified here affects the h2 text (the one with all the questions) only */
  #homepage-text-container {
     font-size: 14Spx;
-    background-color: rgba(130,129,199, 90%); /* Monica apartment purple with alpha value added */
+    background-color: rgba(130,129,199, 90%);  /* Monica apartment purple with an alpha value applied */
     color: black;
     letter-spacing: 10px;
     border: 5px solid var(--gold-doorknob);
@@ -207,6 +210,7 @@ this to work */
     border: 5px solid black;
     margin-top: 15px;
     padding: 5px;
+    background-color: #f1f1f1;
 }
 
 .button-styling:hover {
@@ -224,10 +228,10 @@ this to work */
 /* TRIVIA PAGE */
 #trivia-text-container {
     font-size: 14Spx;
-    background-color: rgba(130,129,199, 90%); /* Monica apartment purple with alpha value added */
+    background-color: var(--peephole-frame-yellow);
     color: black;
     letter-spacing: 5px;
-    border: 5px solid var(--gold-doorknob);
+    border: 5px solid black;
     padding: 15px;
     margin: 20px 20px 0 20px;
     text-align: center;
@@ -240,6 +244,7 @@ this to work */
     /* Add a gap between title and subtitle */
     margin-bottom: 30px;
 }
+
 
 /* FOOTER */
 footer {
