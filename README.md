@@ -231,6 +231,7 @@
 
  ### Miscellaneous 
  * [ChatGPT](https://openai.com/index/chatgpt/) – was used for proof-reading. 
+ * [Microsoft Word](https://www.microsoft.com/en-gb/microsoft-365/word) - was used for proof-reading.
  * [Google](https://www.google.co.uk/) - was the search engine used to conduct all online research.
 
 # Testing and Validation

@@ -189,7 +189,15 @@ this to work */
 }
 
 /* BUTTONS */ 
-.button-styling{
+.menu-button {
+    font-size: 20px;
+    letter-spacing: 5px;
+    border: 5px solid black;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.button-styling {
     font-size: 20px;
     letter-spacing: 5px;
     border: 5px solid black;
@@ -269,6 +277,7 @@ form {
     .navbar-ul {
         /* Makes the nav bar list items appear side by side on large screens */
         display: flex;
+        flex-direction: row;
     }
 
     /* spaces out the list items inside the unordered list to stop them sticking together */
