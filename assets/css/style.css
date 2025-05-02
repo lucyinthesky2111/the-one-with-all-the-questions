@@ -245,11 +245,23 @@ this to work */
     margin-bottom: 30px;
 }
 
+.game-area {
+    background-color: var(--monica-apartment-purple);
+    box-sizing: border-box;
+    /* width and height set so question box cannot take the full width and height of the screen */
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
 .score-area {
     display: flex;
     text-align: center;
     letter-spacing: 2px;
-    margin-top: 150px;
 }
 
 /* FOOTER */

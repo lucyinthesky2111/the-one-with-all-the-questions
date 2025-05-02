@@ -273,7 +273,8 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 * SUZYBEE1987
  
 ## Code
-* CODE INSTITUTE LOVE MATHS PROJECT
+* [Code Institute Love Maths walkthrough project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) :-
+  - for the code to style the game area.
 * [Code Institute Love Running walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3) :-
   - for the code for the social media links in the footer. 
   - for the code for the general styles used to push the footer to the bottom of the page. 
