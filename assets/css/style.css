@@ -261,6 +261,12 @@ this to work */
     text-align: center;
 }
 
+.scores {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px; 
+}
+
 .score-area {
     display: flex;
     text-align: center;
