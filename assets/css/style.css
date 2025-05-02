@@ -153,6 +153,7 @@ this to work */
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: fixed;
  }
 
  /* The font size specified here affects the h2 text (the one with all the questions) only */
@@ -164,7 +165,7 @@ this to work */
     border: 5px solid var(--gold-doorknob);
     padding: 15px;
     /* Centres the box with title and subtitle over Central Perk on background image more effectively */
-    margin-top: 35px;
+    margin-bottom: 215px;
  }
 
  /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
@@ -174,6 +175,7 @@ this to work */
     /* Add a gap between title and subtitle */
     margin-bottom: 30px;
 }
+
 
 /* Coloured in between the word 'Friends' */
 .red-dot {
@@ -203,6 +205,32 @@ this to work */
     border: 5px solid black;
     margin-top: 15px;
     padding: 5px;
+}
+
+.button-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* TRIVIA PAGE */
+#trivia-text-container {
+    font-size: 14Spx;
+    background-color: rgba(130,129,199, 90%); /* Monica apartment purple with alpha value added */
+    color: black;
+    letter-spacing: 10px;
+    border: 5px solid var(--gold-doorknob);
+    padding: 15px;
+    margin-top: 20px;
+ }
+
+  /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
+#trivia-text h1 {
+    font-size: 23px;
+    letter-spacing: normal;
+    /* Add a gap between title and subtitle */
+    margin-bottom: 30px;
 }
 
 /* FOOTER */
