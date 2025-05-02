@@ -210,7 +210,6 @@
      * [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - as a back-up font, due to its similarity to Gabriel Weiss' Friends Font.
   * [Font Awesome](https://fontawesome.com/) – was used to choose and import the icons used in the site.
   * [Canva](https://www.canva.com/) – was used to create the wireframes. 
-  * [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) - these breakpoints defined by Bootstrap, were used when making the site responsive.
   * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) – was used while building the project to test responsiveness, and for debugging.
 
   ### Testing
@@ -274,7 +273,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
  
 ## Code
 * [Code Institute Love Maths walkthrough project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) :-
-  - for the code to style the game area.
+  - for help with styling the website.
 * [Code Institute Love Running walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3) :-
   - for the code for the social media links in the footer. 
   - for the code for the general styles used to push the footer to the bottom of the page. 

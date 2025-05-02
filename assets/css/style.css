@@ -248,14 +248,17 @@ this to work */
 .game-area {
     background-color: var(--monica-apartment-purple);
     box-sizing: border-box;
-    /* width and height set so question box cannot take the full width and height of the screen */
+    /* width set so question box cannot take the up full width of the screen */
     width: 85%;
-    height: 65vh;
+    /* height: 65vh; */
     max-height: 450px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .score-area {
