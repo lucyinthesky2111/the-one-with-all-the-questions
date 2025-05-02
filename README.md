@@ -269,7 +269,8 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 # Credits
 ## Content
 * [Warner Bros](https://www.warnerbros.co.uk/tv/friends) - for the site colour scheme and the Friends quotes and references which appear throughout the site.
-* SUZYBEE1987
+* [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file) - for ......
+* [suzybee1987 'Terry pratchett Discworld quiz'](https://github.com/suzybee1987/milestone-2) - for........
  
 ## Code
 * [Code Institute Love Maths walkthrough project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) :-
