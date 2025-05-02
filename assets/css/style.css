@@ -223,6 +223,7 @@ this to work */
     border: 5px solid var(--gold-doorknob);
     padding: 15px;
     margin-top: 20px;
+    text-align: center;
  }
 
   /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
