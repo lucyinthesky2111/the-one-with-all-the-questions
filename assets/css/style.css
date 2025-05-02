@@ -35,6 +35,10 @@ html {
 
 body {
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
     }
 
 main {
