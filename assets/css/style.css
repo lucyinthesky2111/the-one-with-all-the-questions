@@ -303,7 +303,7 @@ this to work */
 .scores {
     box-sizing: border-box;
     width: 85%;
-    height: 65vh;
+   /*  height: 65vh; */
     max-height: 350px;
     max-width: 830px;
     margin-left: auto;
