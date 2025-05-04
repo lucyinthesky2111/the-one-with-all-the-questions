@@ -184,7 +184,6 @@ this to work */
     margin-bottom: 30px;
 }
 
-
 /* Coloured in between the word 'Friends' */
 .red-dot {
     color: var(--dot-red);
@@ -233,6 +232,20 @@ this to work */
      align-items: center;
 }
 
+/* IMAGES */
+
+.drawn-images-container {
+  /* height: 150px; */
+  max-height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.drawn-images {
+    width: 100%;
+    max-height: 70%;
+}
+
 /* TRIVIA PAGE */
 
   /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
@@ -276,7 +289,6 @@ this to work */
 
 .scores-area {
     box-sizing: border-box;
-    /* width set so question box cannot take the up full width of the screen */
     width: 85%;
     max-height: 300px;
     max-width: 830px;
@@ -290,7 +302,6 @@ this to work */
 
 .scores {
     box-sizing: border-box;
-    /* width set so question box cannot take the up full width of the screen */
     width: 85%;
     height: 65vh;
     max-height: 350px;
