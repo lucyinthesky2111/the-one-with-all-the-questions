@@ -290,6 +290,7 @@ this to work */
 footer {
     background-color: var(--peephole-frame-yellow);
     width: 100%;
+    position: relative;
 }
 
 #social-links {
