@@ -256,12 +256,29 @@ this to work */
     text-align: center;
 }
 
-.game-area {
+#question-area {
     box-sizing: border-box;
     /* width set so question box cannot take the up full width of the screen */
     width: 85%;
-    /* height: 65vh; */
-    max-height: 450px;
+    height: 65vh;
+    max-height: 350px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--monica-apartment-purple);
+    box-shadow: 0 0 10px 10px var(--gold-doorknob);
+}
+
+.scores-area {
+    box-sizing: border-box;
+    /* width set so question box cannot take the up full width of the screen */
+    width: 85%;
+    max-height: 300px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
@@ -271,7 +288,7 @@ this to work */
     text-align: center;
 }
 
-#question-area {
+.scores {
     box-sizing: border-box;
     /* width set so question box cannot take the up full width of the screen */
     width: 85%;
@@ -284,14 +301,9 @@ this to work */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--monica-apartment-purple);
+    letter-spacing: 2px;
 }
 
-.scores {
-    display: flex;
-    justify-content: center;
-    letter-spacing: 2px; 
-}
 
 /* FOOTER */
 footer {
