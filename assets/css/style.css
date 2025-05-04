@@ -234,30 +234,18 @@ this to work */
 }
 
 /* TRIVIA PAGE */
-/* ------------------------------------------MAY NOT NEED THIS - CHECK BEFORE SUBMISSION ------ */
-#trivia-text-container {
-    font-size: 14Spx;
-    background-color: var(--peephole-frame-yellow);
-    color: black;
-    letter-spacing: 5px;
-    border: 5px solid black;
-    padding: 15px;
-    margin: 20px 20px 20px 20px;
-    text-align: center;
- }
 
   /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
 #trivia-text h1 {
     font-size: 20px;
     letter-spacing: normal;
-    /* Add a gap between title and subtitle */
     margin: 30px 0 30px 0;
     text-align: center;
 }
 
 #trivia-text h2 {
     font-size: 20px;
-    letter-spacing: px;
+    letter-spacing: 2px;
     /* Add a gap between title and subtitle */
     margin-bottom: 30px;
     text-align: center;
@@ -283,35 +271,26 @@ this to work */
     text-align: center;
 }
 
-
 #question-area {
     box-sizing: border-box;
     /* width set so question box cannot take the up full width of the screen */
     width: 85%;
     height: 65vh;
-    max-height: 450px;
+    max-height: 350px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
     background-color: var(--monica-apartment-purple);
 }
-
-
 
 .scores {
     display: flex;
     justify-content: center;
     letter-spacing: 2px; 
-}
-
-.score-area {
-    display: flex;
-    text-align: center;
-    letter-spacing: 2px;
 }
 
 /* FOOTER */
