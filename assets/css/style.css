@@ -308,7 +308,7 @@ this to work */
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%;
+    padding: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
