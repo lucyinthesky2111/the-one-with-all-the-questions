@@ -173,6 +173,7 @@ this to work */
     padding: 15px;
     /* Centres the box with title and subtitle over Central Perk on background image more effectively */
     margin-bottom: 240px;
+    box-shadow: 0 0 5px 2px var(--gold-doorknob);
  }
 
  /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
