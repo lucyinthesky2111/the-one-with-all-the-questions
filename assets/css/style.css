@@ -49,6 +49,8 @@ main {
         /* UPDATE needed to stop nav bar list items and footer spilling over right side of page and causing an unecessary horizontal 
         scroll bar to appear */
     flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 /* NAV BAR */
@@ -224,7 +226,6 @@ this to work */
 .button-styling:hover {
     color: var(---hover);
     background-color: white;
-
 }
 
 .button-container {
