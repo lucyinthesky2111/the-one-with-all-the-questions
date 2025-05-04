@@ -289,11 +289,7 @@ this to work */
 /* FOOTER */
 footer {
     background-color: var(--peephole-frame-yellow);
-    /* Using position fixed to fix footer to bottom of screen when user scrolls. Must use width of 100% with fixed position or footer
-    will fall short of edge of screen. Must use bottom 0 or footer won't show on screen*/
-    position: sticky;
     width: 100%;
-    bottom: 0;
 }
 
 #social-links {
