@@ -222,7 +222,8 @@ this to work */
 }
 
 .button-styling:hover {
-    color: var(--footer-and-navbar-hover);
+    color: var(---hover);
+    background-color: white;
 
 }
 
@@ -230,6 +231,8 @@ this to work */
      display: flex;
      flex-direction: column;
      align-items: center;
+     /* Adds spacing between each button in the question area box */
+     gap: 20px;
 }
 
 /* IMAGES */
