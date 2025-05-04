@@ -30,7 +30,7 @@
 } 
 
 html {
-    background-color: var(--monica-apartment-purple);
+    /* background-color: var(--monica-apartment-purple);*/
 }  
 
 body {
@@ -215,7 +215,7 @@ this to work */
     border: 5px solid black;
     margin-top: 15px;
     padding: 5px;
-    background-color: #f1f1f1;
+    background-color: var(--peephole-frame-yellow);
     height: 50px;
     width: 125px;
     display: flex;
@@ -234,6 +234,7 @@ this to work */
 }
 
 /* TRIVIA PAGE */
+/* ------------------------------------------MAY NOT NEED THIS - CHECK BEFORE SUBMISSION ------ */
 #trivia-text-container {
     font-size: 14Spx;
     background-color: var(--peephole-frame-yellow);
@@ -250,7 +251,16 @@ this to work */
     font-size: 20px;
     letter-spacing: normal;
     /* Add a gap between title and subtitle */
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+
+#trivia-text h2 {
+    font-size: 20px;
+    letter-spacing: px;
+    /* Add a gap between title and subtitle */
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .select-difficulty {
@@ -259,7 +269,6 @@ this to work */
 }
 
 .game-area {
-    background-color: var(--monica-apartment-purple);
     box-sizing: border-box;
     /* width set so question box cannot take the up full width of the screen */
     width: 85%;
@@ -273,6 +282,25 @@ this to work */
     flex-direction: column;
     text-align: center;
 }
+
+
+#question-area {
+    box-sizing: border-box;
+    /* width set so question box cannot take the up full width of the screen */
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--monica-apartment-purple);
+}
+
+
 
 .scores {
     display: flex;
