@@ -303,12 +303,11 @@ this to work */
 .scores {
     box-sizing: border-box;
     width: 85%;
-   /*  height: 65vh; */
     max-height: 350px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5%;
+    padding: 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
