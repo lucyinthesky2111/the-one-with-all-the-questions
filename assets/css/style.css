@@ -560,8 +560,8 @@ i:hover {
 
         #question-area {
             width: 100%;
-            max-height: 600px;
-            max-width: 1000px;
+            max-height: 550px;
+            max-width: 900px;
         }
 
         .button-container {
@@ -606,8 +606,8 @@ i:hover {
 
         #question-area {
             width: 100%;
-            max-height: 800px;
-            max-width: 1400px;
+            max-height: 550px;
+            max-width: 1200px;
         }
         
         .button-container {
