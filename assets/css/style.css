@@ -317,6 +317,10 @@ this to work */
     letter-spacing: 2px;
 }
 
+p.quotes {
+    visibility:hidden;
+}
+
 
 /* FOOTER */
 footer {
@@ -388,4 +392,18 @@ footer {
     .navbar-ul  > li {
         padding: 50px 0 0 50px; 
 }
+
+
+/* TRIVIA PAGE */
+@media (min-width: 768px) {
+    p.quotes {
+        visibility: visible;
+        text-align: center;
+        letter-spacing: 2px;
+
+    }
+  
+}
+
+
 }

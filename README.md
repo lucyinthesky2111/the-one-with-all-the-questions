@@ -205,6 +205,7 @@
   * [Visual Studio Code](https://code.visualstudio.com/) – was the code editor used.
   * [Git](https://git-scm.com/) – was used for version control.
   * [GitHub](https://github.com/) – was used to create and store the project repository and create the user stories project board.
+  * [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) - the breakpoints defined by Bootstrap were used in this project.
   * [Font Meme](https://fontmeme.com/) – was used to choose and import the fonts used in the site. The specific fonts used are: 
      * [Gabriel Weiss' Friends Font](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/) - as the main font.
      * [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - as a back-up font, due to its similarity to Gabriel Weiss' Friends Font.
