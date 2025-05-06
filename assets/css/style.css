@@ -1,6 +1,6 @@
-/* FONTS */ 
+/* FONTS */
 /* Fonts sourced from Font Meme */
-/* Main font */ 
+/* Main font */
 @font-face {
     font-family: gabrielWeissFriends;
     src: url(../fonts/GabrielWeissFriendsFont-VGq7B.ttf);
@@ -20,18 +20,25 @@
 
 /* CSS VARIABLES */
 :root {
-    --dot-red: rgb(255, 0, 0); /* Pure red */
-    --dot-blue: #33cff9; /* Vivid sky blue */
-    --dot-yellow: #ffc73f; /* Sunglow */
-    --gold-doorknob: #dfb75d; /* Gold (metallic) */
-    --peephole-frame-yellow: #ffcb09; /* Jonquil */
-    --monica-apartment-purple: #8281c7; /* Tropical Indigo */
-    ---hover: #0000ff; /* Blue */
-} 
+    --dot-red: rgb(255, 0, 0);
+    /* Pure red */
+    --dot-blue: #33cff9;
+    /* Vivid sky blue */
+    --dot-yellow: #ffc73f;
+    /* Sunglow */
+    --gold-doorknob: #dfb75d;
+    /* Gold (metallic) */
+    --peephole-frame-yellow: #ffcb09;
+    /* Jonquil */
+    --monica-apartment-purple: #8281c7;
+    /* Tropical Indigo */
+    ---hover: #0000ff;
+    /* Blue */
+}
 
 html {
     /* background-color: var(--monica-apartment-purple);*/
-}  
+}
 
 body {
     font-family: gabrielWeissFriends, crashbow, cursive, serif;
@@ -39,14 +46,14 @@ body {
     display: flex;
     flex-direction: column;
 
-    }
+}
 
 main {
     /*makes the main element take up any surplus space and not shrink when the screen
         is too small to show all the content. This is used in conjunction with body styles
          min-height: 100vh; display: flex; flex-direction: column; to ensure that the footer is
          pushed all the way to the bottom of the page*/
-        /* UPDATE needed to stop nav bar list items and footer spilling over right side of page and causing an unecessary horizontal 
+    /* UPDATE needed to stop nav bar list items and footer spilling over right side of page and causing an unecessary horizontal 
         scroll bar to appear */
     flex: 1 0 auto;
     display: flex;
@@ -66,8 +73,8 @@ header {
     top: 0;
     /* Need high z index to keep nav bar positioned on top of other elements */
     z-index: 99;
-    /* gives breathing space around the elements so logo and menu links do not stick to top of nav bar */ 
-    padding-top: 1rem; 
+    /* gives breathing space around the elements so logo and menu links do not stick to top of nav bar */
+    padding-top: 1rem;
     box-shadow: 0 10px 10px var(--monica-apartment-purple);
     /* Makes nav bar toggle icon appear on the right */
     display: flex;
@@ -82,7 +89,7 @@ header a {
 
 .navbar-ul {
     /*  Removes the default bullet points set by having an unordered list of links in nav bar */
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 .navbar-list {
@@ -98,20 +105,20 @@ header a {
 
 /* Nav bar drop down toggle */
 nav {
-     /* position absolute takes an element outside the normal flow of the page structure.
+    /* position absolute takes an element outside the normal flow of the page structure.
      It is positioned relative to the nearest positioned ancestor, which in this case is the header. */
-     position: absolute;
-     /* had to put the background color in here to make the header look like a single object when it is opened */
-     background-color: var(--peephole-frame-yellow);
-     width: 100%;
-     /* the left property with value 0 aligns the nav bar directly against the left of the screen */ 
-     left: 0;
-     padding: 0 1rem;
-     /* setting the display to none means the nav bar items are hidden until the user clicks to open them */ 
-     display: none;
-     /* top property means that the top of the nav bar should start at the bottom of its parent. 
+    position: absolute;
+    /* had to put the background color in here to make the header look like a single object when it is opened */
+    background-color: var(--peephole-frame-yellow);
+    width: 100%;
+    /* the left property with value 0 aligns the nav bar directly against the left of the screen */
+    left: 0;
+    padding: 0 1rem;
+    /* setting the display to none means the nav bar items are hidden until the user clicks to open them */
+    display: none;
+    /* top property means that the top of the nav bar should start at the bottom of its parent. 
      0% would represent the top of the parent, 100% represents the bottom of it */
-     top: 100%;
+    top: 100%;
 }
 
 /* Makes the nav bar list items appear at the right of the screen (directly under menu button) rather than at the left on small screens */
@@ -147,28 +154,29 @@ this to work */
     color: var(---hover);
 }
 
-/* HOMEPAGE */ 
+/* HOMEPAGE */
 
- #hero-and-title-section {
+#hero-and-title-section {
     /* Need to set height and width to full viewport height and width so image takes up whole screen */
     min-height: 100vh;
-    width: 100vw; 
+    width: 100vw;
     background-image: url("../images/central-perk-hero.png");
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
-    background-attachment: fixed; 
-    display:flex;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     position: fixed;
- }
+}
 
- /* The font size specified here affects the h2 text (the one with all the questions) only */
- #homepage-text-container {
+/* The font size specified here affects the h2 text (the one with all the questions) only */
+#homepage-text-container {
     font-size: 14Spx;
-    background-color: rgba(130,129,199, 90%);  /* Monica apartment purple with an alpha value applied */
+    background-color: rgba(130, 129, 199, 90%);
+    /* Monica apartment purple with an alpha value applied */
     color: black;
     letter-spacing: 10px;
     border: 5px solid var(--gold-doorknob);
@@ -176,9 +184,9 @@ this to work */
     /* Centres the box with title and subtitle over Central Perk on background image more effectively */
     margin-bottom: 240px;
     box-shadow: 0 0 5px 2px var(--gold-doorknob);
- }
+}
 
- /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
+/* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */
 #homepage-text h1 {
     font-size: 23px;
     letter-spacing: normal;
@@ -199,7 +207,7 @@ this to work */
     color: var(--dot-yellow)
 }
 
-/* BUTTONS */ 
+/* BUTTONS */
 .menu-button {
     font-size: 20px;
     letter-spacing: 5px;
@@ -228,20 +236,20 @@ this to work */
 }
 
 .button-container {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     /* Adds spacing between each button in the question area box */
-     gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Adds spacing between each button in the question area box */
+    gap: 20px;
 }
 
 /* IMAGES */
 
 .drawn-images-container {
-  /* height: 150px; */
-  max-height: 50%;
-  display: flex;
-  justify-content: center;
+    /* height: 150px; */
+    max-height: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .drawn-images {
@@ -251,7 +259,7 @@ this to work */
 
 /* TRIVIA PAGE */
 
-  /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */ 
+/* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */
 #trivia-text h1 {
     font-size: 20px;
     letter-spacing: normal;
@@ -331,33 +339,33 @@ footer {
 
 #social-links {
     /* Removes bullet points from social media icons*/
-        list-style-type: none;
-        display: flex;
-        justify-content: space-evenly;
-        color: black;
-        /* these 2 padding values add space above and below the icons */
-        padding: 10px 0;
-        margin-bottom: 0;
-    }
-    
-    /*targets the social media icons*/
-    .fa-brands {
-        color: black;
-    }
-    
-    /*targets the social media icons so their colours will change when they are hovered over. 
-    To get this to work, had to target i element not a element as originally thought*/
-    i:hover {
-        color: var(---hover);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    /* these 2 padding values add space above and below the icons */
+    padding: 10px 0;
+    margin-bottom: 0;
+}
 
-    }
-    
-    .footer-text {
-        text-align: center;
-        margin-bottom: 0;
-        font-size: 15px;
-        letter-spacing: 2px;
-    }
+/*targets the social media icons*/
+.fa-brands {
+    color: black;
+}
+
+/*targets the social media icons so their colours will change when they are hovered over. 
+    To get this to work, had to target i element not a element as originally thought*/
+i:hover {
+    color: var(---hover);
+
+}
+
+.footer-text {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
 
 
 
@@ -365,6 +373,16 @@ footer {
 
 /* BS breakpoint small screens */
 @media (min-width: 576px) {
+
+    /* HOMEPAGE */
+    #homepage-text h1 {
+        font-size: 35px;
+    }
+
+    #homepage-text-container {
+        font-size: 25px;
+    }
+
     /* TRIVIA PAGE */
     #trivia-text h1 {
         font-size: 30px;
@@ -373,7 +391,7 @@ footer {
     #trivia-text h2 {
         font-size: 25px;
     }
-    
+
     #question-area {
         font-size: 30px;
     }
@@ -396,14 +414,24 @@ footer {
 /* BS breakpoint tablet screens */
 
 @media (min-width: 768px) {
-/* TRIVIA PAGE */
+
+    /* HOMEPAGE */
+    #homepage-text h1 {
+        font-size: 45px;
+    }
+
+    #homepage-text-container {
+        font-size: 25px;
+    }
+
+    /* TRIVIA PAGE */
     /* Unhides the quotes on the drawn images on medium size screens and above */
     p.quotes {
         visibility: visible;
         text-align: center;
         letter-spacing: 2px;
     }
-  
+
     #trivia-text h1 {
         font-size: 35px;
     }
@@ -411,7 +439,7 @@ footer {
     #trivia-text h2 {
         font-size: 30px;
     }
-    
+
     #question-area {
         font-size: 30px;
     }
@@ -419,24 +447,26 @@ footer {
     .button-styling {
         font-size: 30px;
         height: 60px;
-        width: 165px;   
+        width: 165px;
+    }
+
+    .scores {
+        font-size: 25px;
+    }
+
 }
 
-.scores {
-    font-size: 25px;
-}
-
-}
 /*BS breakpoint large screens */
 
 @media (min-width: 992px) {
+
     /* NAV BAR */
     nav {
         /* display block and position relative make the list items in the nav bar visible on large screens */
         display: block;
         position: relative;
-        /* Moves the list items in the nav bar to the right */ 
-        width: fit-content; 
+        /* Moves the list items in the nav bar to the right */
+        width: fit-content;
         /* Stops the list items from sticking to the edge of the nav bar */
         margin-right: 30px;
     }
@@ -445,7 +475,7 @@ footer {
         /* Hides the nav bar menu bars icon on large screens */
         visibility: hidden;
     }
-    
+
     .navbar-ul {
         /* Makes the nav bar list items appear side by side on large screens */
         display: flex;
@@ -453,10 +483,40 @@ footer {
     }
 
     /* spaces out the list items inside the unordered list to stop them sticking together */
-    .navbar-ul  > li {
-        padding: 50px 0 0 50px; 
-}
+    .navbar-ul>li {
+        padding: 50px 0 0 50px;
+    }
 
+    /* HOMEPAGE */
+    #homepage-text h1 {
+        font-size: 65px;
+    }
 
+    #homepage-text-container {
+        font-size: 40px;
+    }
+
+    /* TRIVIA PAGE */
+    #trivia-text h1 {
+        font-size: 50px;
+    }
+
+    #trivia-text h2 {
+        font-size: 35px;
+    }
+
+    #question-area {
+        font-size: 35px;
+    }
+
+    .button-styling {
+        font-size: 40px;
+        height: 60px;
+        width: 200px;
+    }
+
+    .scores {
+        font-size: 25px;
+    }
 
 }
