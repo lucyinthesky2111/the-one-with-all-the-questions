@@ -1,7 +1,7 @@
 # The one with all the questions - 'Friends' interactive trivia website
 # Milestone Project 2 - Interactive Front End Development
 
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="assets/readme-images/homepage-mockup.png" alt="Homepage mockup></h2>
 
 # Table of Contents 
 
@@ -117,7 +117,7 @@
 
 ### Sub-navigation Bar
 * TEMPLATE FOR IMAGE THAT IS OPEN BY DEFAULT
-<details open><h3 align="center"><img src="./assets/readme-images/friends-tv-show-font.png">Google search results</h3></details>
+<details open><h3 align="center"><img src="./assets/readme-images/friends-tv-show-font.png" alt="Google search result">Google search results</h3></details>
 
 ### Buttons
 
