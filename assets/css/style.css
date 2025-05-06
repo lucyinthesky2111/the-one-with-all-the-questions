@@ -392,10 +392,6 @@ i:hover {
         font-size: 25px;
     }
 
-    #question-area {
-        font-size: 30px;
-    }
-
     .select-difficulty {
         font-size: 25px;
     }
@@ -440,10 +436,9 @@ i:hover {
         font-size: 30px;
     }
 
-    #question-area {
+  .select-difficulty {
         font-size: 30px;
     }
-
     .button-styling {
         font-size: 30px;
         height: 60px;
@@ -505,8 +500,8 @@ i:hover {
         font-size: 35px;
     }
 
-    #question-area {
-        font-size: 35px;
+    .select-difficulty {
+        font-size: 40px;
     }
 
     .button-styling {
@@ -516,7 +511,47 @@ i:hover {
     }
 
     .scores {
-        font-size: 25px;
+        font-size: 35px;
     }
 
 }
+
+/*BS breakpoint extra large screens */
+@media (min-width: 1200px) {
+      /* HOMEPAGE */
+      #homepage-text h1 {
+        font-size: 85px;
+    }
+
+    #homepage-text-container {
+        font-size: 50px;
+    }
+
+        /* TRIVIA PAGE */
+        #trivia-text h1 {
+            font-size: 70px;
+        }
+    
+        #trivia-text h2 {
+            font-size: 45px;
+        }
+
+        .select-difficulty {
+            font-size: 45px;
+        }
+    
+        .button-styling {
+            font-size: 50px;
+            height: 65px;
+            width: 250px;
+        }
+    
+        .scores {
+            font-size: 40px;
+        }
+}
+
+        /*BS breakpoint extra extra large screens */
+        @media (min-width: 1400px) {
+            
+        }
