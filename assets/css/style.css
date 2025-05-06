@@ -318,6 +318,7 @@ this to work */
 }
 
 p.quotes {
+    /* Hides the quotes on the drawn images on small and extra small screens */
     visibility: hidden;
 }
 
@@ -362,20 +363,74 @@ footer {
 
 /* MEDIA QUERIES */
 
-/* TRIVIA PAGE */
+/* BS breakpoint small screens */
+@media (min-width: 576px) {
+    /* TRIVIA PAGE */
+    #trivia-text h1 {
+        font-size: 30px;
+    }
+
+    #trivia-text h2 {
+        font-size: 25px;
+    }
+    
+    #question-area {
+        font-size: 30px;
+    }
+
+    .select-difficulty {
+        font-size: 25px;
+    }
+
+    .button-styling {
+        font-size: 25px;
+        height: 50px;
+        width: 145px;
+    }
+
+    .scores {
+        font-size: 20px;
+    }
+}
+
+/* BS breakpoint tablet screens */
+
 @media (min-width: 768px) {
+/* TRIVIA PAGE */
+    /* Unhides the quotes on the drawn images on medium size screens and above */
     p.quotes {
         visibility: visible;
         text-align: center;
         letter-spacing: 2px;
     }
   
+    #trivia-text h1 {
+        font-size: 35px;
+    }
+
+    #trivia-text h2 {
+        font-size: 30px;
+    }
+    
+    #question-area {
+        font-size: 30px;
+    }
+
+    .button-styling {
+        font-size: 30px;
+        height: 60px;
+        width: 165px;   
 }
 
+.scores {
+    font-size: 25px;
+}
+
+}
 /*BS breakpoint large screens */
 
-/* NAV BAR */
 @media (min-width: 992px) {
+    /* NAV BAR */
     nav {
         /* display block and position relative make the list items in the nav bar visible on large screens */
         display: block;
