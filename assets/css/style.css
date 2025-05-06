@@ -502,6 +502,7 @@ i:hover {
 
     .select-difficulty {
         font-size: 40px;
+        margin-bottom: 40px; 
     }
 
     .button-styling {
@@ -512,6 +513,12 @@ i:hover {
 
     .scores {
         font-size: 35px;
+    }
+
+    #question-area {
+        width: 100%;
+        max-height: 400px;
+        max-width: 800px;
     }
 
 }
@@ -538,6 +545,7 @@ i:hover {
 
         .select-difficulty {
             font-size: 45px;
+            margin-bottom: 40px;
         }
     
         .button-styling {
@@ -549,9 +557,61 @@ i:hover {
         .scores {
             font-size: 40px;
         }
+
+        #question-area {
+            width: 100%;
+            max-height: 600px;
+            max-width: 1000px;
+        }
+
+        .button-container {
+            gap: 30px;
+        }
 }
 
         /*BS breakpoint extra extra large screens */
         @media (min-width: 1400px) {
-            
+            /* HOMEPAGE */
+      #homepage-text h1 {
+        font-size: 100px;
+    }
+
+    #homepage-text-container {
+        font-size: 65px;
+    }
+
+        /* TRIVIA PAGE */
+        #trivia-text h1 {
+            font-size: 100px;
+        }
+    
+        #trivia-text h2 {
+            font-size: 65px;
+        }
+
+        .select-difficulty {
+            font-size: 65px;
+            margin-bottom: 40px;
+        }
+    
+        .button-styling {
+            font-size: 60px;
+            height: 80px;
+            width: 300px;
+        }
+    
+        .scores {
+            font-size: 40px;
+        }
+
+        #question-area {
+            width: 100%;
+            max-height: 800px;
+            max-width: 1400px;
+        }
+        
+        .button-container {
+            gap: 40px;
+        }
+
         }
