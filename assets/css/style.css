@@ -224,7 +224,6 @@ this to work */
 }
 
 .button-styling:hover {
-    color: var(---hover);
     background-color: white;
 }
 
