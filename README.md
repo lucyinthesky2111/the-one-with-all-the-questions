@@ -1,7 +1,7 @@
 # The one with all the questions - 'Friends' interactive trivia website
 # Milestone Project 2 - Interactive Front End Development
 
-<h2 align="center"><img src="assets/readme-images/homepage-mockup.png" alt="Homepage mockup></h2>
+<h2 align="center"><img src="assets/readme-images/homepage-mockup.png" alt="Homepage mockup"></h2>
 
 # Table of Contents 
 
