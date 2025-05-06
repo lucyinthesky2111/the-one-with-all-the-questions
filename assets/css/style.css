@@ -318,9 +318,8 @@ this to work */
 }
 
 p.quotes {
-    visibility:hidden;
+    visibility: hidden;
 }
-
 
 /* FOOTER */
 footer {
@@ -363,6 +362,16 @@ footer {
 
 /* MEDIA QUERIES */
 
+/* TRIVIA PAGE */
+@media (min-width: 768px) {
+    p.quotes {
+        visibility: visible;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+  
+}
+
 /*BS breakpoint large screens */
 
 /* NAV BAR */
@@ -393,17 +402,6 @@ footer {
         padding: 50px 0 0 50px; 
 }
 
-
-/* TRIVIA PAGE */
-@media (min-width: 768px) {
-    p.quotes {
-        visibility: visible;
-        text-align: center;
-        letter-spacing: 2px;
-
-    }
-  
-}
 
 
 }
