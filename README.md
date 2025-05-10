@@ -160,7 +160,8 @@
           <summary>Gabriel Weiss' Friends Font</summary>
           <img src="assets/readme-images/gabriel-weiss-friends-font.png" alt="Gabriel Weiss' Friends Font"> 
      </details>
-* the font [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - also from Font Meme, is the first fallback font, in case Gabriel Weiss' Friends Font fails to load correctly. It was selected due to its similarity to Gabriel Weiss' Friends Font.
+* The Gabriel Weiss’ Friends Font is entirely upper case by default. To keep the font authentic, I have not adjusted this. I did, however, notice that the font in its default state, placed the letters quite close to each other, which made it slightly difficult to read. For user convenience and accessibility, I have used CSS to add a small amount of letter spacing to rectify this. 
+* The font [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - also from Font Meme, is the first fallback font, in case Gabriel Weiss' Friends Font fails to load correctly. It was selected due to its similarity to Gabriel Weiss' Friends Font.
      <details>
           <summary>Crashbow font</summary>
           <img src="assets/readme-images/crashbow-font.png" alt="Crashbow font"> 
@@ -205,8 +206,8 @@
  ### Creation
   * [Visual Studio Code](https://code.visualstudio.com/) – was the code editor used.
   * [Git](https://git-scm.com/) – was used for version control.
-  * [GitHub](https://github.com/) – was used to create and store the project repository and create the user stories project board.
-  * [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) - the breakpoints defined by Bootstrap were used in this project.
+  * [GitHub](https://github.com/) – was used to create and store the project repository and create and track the user stories project board.
+  * [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/) - the breakpoints defined by Bootstrap were used to make this project responsive.
   * [Font Meme](https://fontmeme.com/) – was used to choose and import the fonts used in the site. The specific fonts used are: 
      * [Gabriel Weiss' Friends Font](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/) - as the main font.
      * [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - as a back-up font, due to its similarity to Gabriel Weiss' Friends Font.
@@ -232,7 +233,7 @@
   * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) – was used to test all colour combinations for accessibility.
 
  ### Miscellaneous 
- * [ChatGPT](https://openai.com/index/chatgpt/) – was used for proof-reading. 
+ * [ChatGPT](https://openai.com/index/chatgpt/) – was used for proof-reading and to help with general trouble-shooting. 
  * [Microsoft Word](https://www.microsoft.com/en-gb/microsoft-365/word) - was used for proof-reading.
  * [Google](https://www.google.co.uk/) - was the search engine used to conduct all online research.
 
