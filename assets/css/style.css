@@ -34,6 +34,11 @@
     /* Tropical Indigo */
     ---hover: #0000ff;
     /* Blue */
+    --green-correct: #008518;
+    /* India green */
+    --red-incorrect: #E00000;
+    /* red (cmyt)
+
 }
 
 html {
@@ -331,6 +336,15 @@ this to work */
     flex-direction: column;
     justify-content: center;
     letter-spacing: 2px;
+}
+
+/* Changes the colours of the score tally numbers to red and green according to whether answer is correct or incorrect */
+#correct {
+    color: var(--green-correct);
+}
+
+#incorrect {
+    color: var(--red-incorrect);
 }
 
 p.quotes {
