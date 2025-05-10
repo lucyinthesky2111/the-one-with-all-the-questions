@@ -133,16 +133,21 @@
 # Surface
  ## Design
  ### Homepage design 
+ * The homepage features a full-page background image, which fans of the show will recognise as the outside of the famous ‘Central Perk’ coffeehouse. 
+ * There is a partially transparent box over the centre of the image containing the site’s title and subtitle, which makes it immediately clear that the site is a quiz about the TV show Friends. 
+ * The box border (and all box borders which appear on the site), do not have any border radius applied to them. This is because the Gabriel Weiss’ Friends Font suits stark square edges better than softer, rounder ones. 
+ * A box shadow is applied to add texture and a layering effect, to add visual interest to the page, making it more aesthetically pleasing. 
 
-### Play Page Design 
+ ### Introduction Modal Design 
 
-### Navigation Bar Design 
+ ### How To Play Modal Design 
 
-### Footer Colour Design 
+ ### Play Page Design 
 
-### Introduction Modal Design 
+ ### Navigation Bar Design 
 
-### How To Play Modal Design 
+ ### Footer Colour Design 
+
 
  ### Colour Scheme
  * The colours used in the site were taken from the colours of the inside of Monica Geller's front door 
@@ -162,15 +167,15 @@
           <img src="assets/readme-images/coloured-dots-desktop.png" alt="Coloured dots in the site title (desktop)"> 
      </details>
 
+### Introduction Modal Colour Scheme 
+
+### How To Play Modal Colour Scheme 
+
 ### Play Page Colour Scheme 
 
 ### Navigation Bar Colour Scheme 
 
 ### Footer Colour Scheme 
-
-### Introduction Modal Colour Scheme 
-
-### How To Play Modal Colour Scheme 
 
  ### Typography
   * The Font used in the opening credits of 'Friends' is very distinctive and easily recognisable - especially to avid fans of the show. Therefore I knew I needed to use a font as close as possible to the original to make the site appealling to Friends fans. I used [Google](https://www.google.co.uk/) to research which font was the closest match. The results showed that this was Gabriel Weiss' Friends Font. I downloaded this font from [Font Meme](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/).
