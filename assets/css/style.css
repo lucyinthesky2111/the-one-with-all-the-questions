@@ -154,6 +154,15 @@ this to work */
     color: var(---hover);
 }
 
+/* LOGO */ 
+/* logo animation */
+.logo-container img:hover {
+    transform: rotate(180deg);
+    transition: 0.5s;
+    z-index: 112;
+}
+
+
 /* HOMEPAGE */
 
 #hero-and-title-section {
