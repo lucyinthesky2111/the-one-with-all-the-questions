@@ -329,5 +329,9 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 # Disclaimer
 
 This project is for educational purposes only and not for public use. It was created for the Code Institute assessed project for the 'Interactive Front End' module.  
+
+This project is not affiliated with ‘Friends’ the TV show. 
+
+All trademarked and /or copyrighted content are property of their respective owners.  
  
 Created by Lucy Kidner, 2025. 
