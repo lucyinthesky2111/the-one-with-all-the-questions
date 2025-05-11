@@ -169,6 +169,41 @@ this to work */
 
 /* HOMEPAGE */
 
+/* MODALS */
+/* INTRODUCTION MODAL */
+
+.introduction-modal-container {
+    /* height: 70vh; */
+    /*  max-width: 100%; */
+     /* display: flex; */
+    /* justify-content: center;*/
+    /* align-items: center;*/
+    /* padding: 0 0 0 20px;*/
+    /* background-color: white; */
+     /*display: block;*/
+     /*position: fixed;*/
+     /*top: 0;*/
+    /* left: 0;*/
+}
+
+#introduction-modal {
+    max-width: 100%;
+    height: 770px; 
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: var(--monica-apartment-purple);
+    border: 5px solid var(--gold-doorknob);
+    box-shadow: 0 0 10px 10px var(--gold-doorknob);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#close {
+    text-align: left;
+}
+
 #hero-and-title-section {
     /* Need to set height and width to full viewport height and width so image takes up whole screen */
     min-height: 100vh;
