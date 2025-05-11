@@ -213,11 +213,11 @@ this to work */
 }
 
 .blue-dot {
-    color: var(--dot-blue);
+    color: #099BC3;
 }
 
 .yellow-dot {
-    color: var(--dot-yellow)
+    color: #c28b00;
 }
 
 /* BUTTONS */
