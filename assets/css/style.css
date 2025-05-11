@@ -207,7 +207,7 @@ this to work */
     margin-bottom: 30px;
 }
 
-/* Coloured in between the word 'Friends' */
+/* Coloured in between the word 'Friends' on homepage */
 .red-dot {
     color: var(--dot-red);
 }
@@ -350,6 +350,19 @@ this to work */
 p.quotes {
     /* Hides the quotes on the drawn images on small and extra small screens */
     visibility: hidden;
+}
+
+/* Coloured in between the word 'Friends' on trivia page */
+.red-dot-white-bg {
+    color: var(--dot-red);
+}
+
+.blue-dot-white-bg {
+    color: #099BC3;
+}
+
+.yellow-dot-white-bg {
+    color: #c28b00;
 }
 
 /* FOOTER */
