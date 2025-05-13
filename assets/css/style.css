@@ -1,6 +1,6 @@
 /* FONTS */
 /* Fonts sourced from Font Meme */
-/* Main font */
+/* Primary font */
 @font-face {
     font-family: gabrielWeissFriends;
     src: url(../fonts/GabrielWeissFriendsFont-VGq7B.ttf);
@@ -10,6 +10,12 @@
 @font-face {
     font-family: crashbow;
     src: url(../fonts/Crashbow.ttf);
+}
+
+/* Secondary font - easier to read for large chunks of text */
+@font-face {
+    font-family: lydian;
+    src: url(../fonts/lydian.ttf);
 }
 
 /* Asterisk wildcard selector/universal selector to override default margin added by the browser */
@@ -186,6 +192,10 @@ this to work */
     /* left: 0;*/
 }
 
+#introduction-modal h1 {
+    font-family: gabrielWeissFriends;
+}
+
 #introduction-modal {
     max-width: 100%;
     height: 770px; 
@@ -198,6 +208,7 @@ this to work */
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: lydian;
 }
 
 #close {
