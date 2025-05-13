@@ -260,8 +260,10 @@
 
   ### Images
   * [Pexels](https://www.pexels.com/) - was used to source the [Central Perk background image](https://www.pexels.com/photo/festive-central-perk-cafe-window-display-30500272/) used in the homepage of the site.
-  * [Printerval] was used to source:-
+  * [Printerval](https://printerval.com/us) was used to source:-
     * was used to source the image of the [peephole frame](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) from the back of Monica Gellar's front door which was used as the site's logo.
+    * PRINCESS CONSUELA
+    * BOTH CREATIVE COMMONS
   * [Noun Project](https://thenounproject.com/) - was used to source the ['Friends Icons Set' by created by Amelia Detwiler](https://thenounproject.com/browse/collection-icon/friends-30104/). All icons from the collection except 'Apartment Door Frame icon' and 'Magna Doodle icon' were used in the site.
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
   * [Canva](https://www.canva.com/) – was used to remove the background from the logo.
