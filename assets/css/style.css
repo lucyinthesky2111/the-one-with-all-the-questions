@@ -192,6 +192,11 @@ this to work */
     /* left: 0;*/
 }
 
+/* INTRODUCTION MODAL IMAGE */
+#princess-consuela {
+    max-width: 70%;
+}
+
 #introduction-modal h1 {
     font-family: gabrielWeissFriends;
 }

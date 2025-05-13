@@ -203,6 +203,7 @@
           <img src="assets/readme-images/crashbow-font.png" alt="Crashbow font"> 
      </details>
 * Two further fallback fonts have been set, in case neither Gabriel Weiss' Friends Font or Crashbow load correctly. The second fallback is Cursive, with Serif as the third and final fallback font.
+* SECONDARY FONT ......
 
  
 
@@ -259,7 +260,8 @@
 
   ### Images
   * [Pexels](https://www.pexels.com/) - was used to source the [Central Perk background image](https://www.pexels.com/photo/festive-central-perk-cafe-window-display-30500272/) used in the homepage of the site.
-  * [Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica Gellar's front door which was used as the site's logo.
+  * [Printerval] was used to source:-
+    * was used to source the image of the [peephole frame](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) from the back of Monica Gellar's front door which was used as the site's logo.
   * [Noun Project](https://thenounproject.com/) - was used to source the ['Friends Icons Set' by created by Amelia Detwiler](https://thenounproject.com/browse/collection-icon/friends-30104/). All icons from the collection except 'Apartment Door Frame icon' and 'Magna Doodle icon' were used in the site.
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
   * [Canva](https://www.canva.com/) – was used to remove the background from the logo.
