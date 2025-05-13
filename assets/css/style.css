@@ -195,15 +195,18 @@ this to work */
 /* INTRODUCTION MODAL IMAGE */
 #princess-consuela {
     max-width: 70%;
+    border: 5px solid var(--gold-doorknob);
+    box-shadow: 0 0 5px 5px var(--gold-doorknob);
 }
 
 #introduction-modal h1 {
     font-family: gabrielWeissFriends;
+    margin-top: 15px;
 }
 
 #introduction-modal {
     max-width: 100%;
-    height: 770px; 
+    height: 815px; 
     text-align: center;
     letter-spacing: 2px;
     background-color: var(--monica-apartment-purple);
@@ -214,10 +217,24 @@ this to work */
     align-items: center;
     justify-content: center;
     font-family: lydian;
+    padding: 10px;
 }
 
 #close {
     text-align: left;
+}
+
+.modal-button-styling {
+    font-size: 20px;
+    border: 5px solid black;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: var(--peephole-frame-yellow);
+    height: 40px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: gabrielWeissFriends;
 }
 
 #hero-and-title-section {
