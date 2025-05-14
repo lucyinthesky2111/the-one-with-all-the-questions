@@ -222,8 +222,13 @@ this to work */
     padding: 10px;
 }
 
-#close {
-    text-align: left;
+.close-btn-div {
+    display: flex;
+    align-self: flex-end;
+}
+
+.option-btns-div {
+    margin-top: 5px;
 }
 
 .modal-button-styling {
