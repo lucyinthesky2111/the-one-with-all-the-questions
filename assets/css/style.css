@@ -225,7 +225,7 @@ this to work */
 
 #introduction-modal p {
     line-height: 1.5rem;
-    
+
 }
 
 .close-btn-div {
@@ -562,6 +562,12 @@ i:hover {
         justify-content: center;
     }
 
+    .option-btns-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
     /* TRIVIA PAGE */
     /* Unhides the quotes on the drawn images on medium size screens and above */
     p.quotes {
@@ -674,6 +680,30 @@ i:hover {
 
     #homepage-text-container {
         font-size: 50px;
+    }
+
+    /* INTRODUCTION MODAL */
+    #introduction-modal {
+        height: 980px; 
+    }
+
+    #princess-consuela {
+        max-width: 40%;
+    }
+
+    #introduction-modal h1 {
+    font-family: gabrielWeissFriends;
+    margin-top: 20px;
+    font-size: 30px;
+    }
+
+    #introduction-modal p {
+        font-size: 20px;
+    }
+
+    .modal-button-styling {
+        font-size: 25px;
+        width: 90px;
     }
 
         /* TRIVIA PAGE */
