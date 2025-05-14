@@ -498,7 +498,6 @@ i:hover {
 }
 
 
-
 /* MEDIA QUERIES */
 
 /* BS breakpoint small screens */
@@ -552,21 +551,20 @@ i:hover {
 
     /* INTRODUCTION MODAL */
 
-#introduction-modal h1 {
+    #introduction-modal h1 {
     font-family: gabrielWeissFriends;
     margin-top: 20px;
     font-size: 25px;
-}
+    }
 
-#introduction-modal p {
-   font-size: 18px;  
-}
+    #introduction-modal p {
+    font-size: 18px;
+    }
 
-.modal-button-styling {
+    .modal-button-styling {
     font-size: 25px;
     width: 100px;
-}
-}
+    }
 
     /* TRIVIA PAGE */
     /* Unhides the quotes on the drawn images on medium size screens and above */
