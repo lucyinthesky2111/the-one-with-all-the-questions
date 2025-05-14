@@ -250,6 +250,18 @@ this to work */
     font-family: gabrielWeissFriends;
 }
 
+#close:hover {
+    background-color: white;
+}
+
+#play:hover {
+    background-color: white;
+}
+
+#help:hover {
+    background-color: white;
+}
+
 #hero-and-title-section {
     /* Need to set height and width to full viewport height and width so image takes up whole screen */
     min-height: 100vh;
