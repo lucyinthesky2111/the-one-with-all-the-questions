@@ -197,6 +197,8 @@ this to work */
     max-width: 50%;
     border: 5px solid var(--gold-doorknob);
     box-shadow: 0 0 5px 5px var(--gold-doorknob);
+    display: flex;
+    align-self: center;
 }
 
 #introduction-modal h1 {
@@ -206,7 +208,7 @@ this to work */
 }
 
 #introduction-modal {
-    max-width: 100%;
+    max-width: 85%;
     height: 900px; 
     text-align: center;
     letter-spacing: 2px;
@@ -215,7 +217,7 @@ this to work */
     box-shadow: 0 0 10px 10px var(--gold-doorknob);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-self: center;
     justify-content: center;
    /* font-family: lydian; */
     /* font-size: 115%; */
@@ -235,6 +237,9 @@ this to work */
 
 .option-btns-div {
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .modal-button-styling {
@@ -547,23 +552,6 @@ i:hover {
 
     #homepage-text-container {
         font-size: 25px;
-    }
-
-    /* INTRODUCTION MODAL */
-
-    #introduction-modal h1 {
-    font-family: gabrielWeissFriends;
-    margin-top: 20px;
-    font-size: 25px;
-    }
-
-    #introduction-modal p {
-    font-size: 18px;
-    }
-
-    .modal-button-styling {
-    font-size: 25px;
-    width: 100px;
     }
 
     /* TRIVIA PAGE */
