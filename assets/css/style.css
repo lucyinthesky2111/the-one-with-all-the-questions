@@ -209,7 +209,7 @@ this to work */
 
 #introduction-modal {
     max-width: 100%;
-    height: 900px; 
+    height: 930px; 
     text-align: center;
     letter-spacing: 2px;
     background-color: var(--monica-apartment-purple);
@@ -218,8 +218,6 @@ this to work */
     display: flex;
     flex-direction: column;
     justify-content: center;
-   /* font-family: lydian; */
-    /* font-size: 115%; */
     padding: 10px;
 }
 
@@ -228,6 +226,7 @@ this to work */
     font-family: lydian;
     font-size: 20px;
     text-align: center;
+    /* Need line height of 150% or lines will squash into each on mobile devices */
     line-height: 150%;
 }
 
@@ -653,6 +652,12 @@ i:hover {
 
     #homepage-text-container {
         font-size: 40px;
+    }
+
+    /* INTRODUCTION MODAL */
+    /* STOPS BUTTONS OVERSPILLING THE MODAL */
+    #introduction-modal {
+        height: 950px;
     }
 
     /* TRIVIA PAGE */
