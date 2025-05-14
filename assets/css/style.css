@@ -474,6 +474,7 @@ p.quotes {
     font-family: lydian;
     font-size: 20px;
     text-align: center;
+    line-height: 150%;
 }
 
 /* FOOTER */
