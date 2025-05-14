@@ -250,6 +250,8 @@ this to work */
     font-family: gabrielWeissFriends;
 }
 
+/* HOVER FUNCTIONALITY ON MODAL BUTTONS */
+
 #close:hover {
     background-color: white;
 }
@@ -547,6 +549,24 @@ i:hover {
     #homepage-text-container {
         font-size: 25px;
     }
+
+    /* INTRODUCTION MODAL */
+
+#introduction-modal h1 {
+    font-family: gabrielWeissFriends;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#introduction-modal p {
+   font-size: 18px;  
+}
+
+.modal-button-styling {
+    font-size: 25px;
+    width: 100px;
+}
+}
 
     /* TRIVIA PAGE */
     /* Unhides the quotes on the drawn images on medium size screens and above */
