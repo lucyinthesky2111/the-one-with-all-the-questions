@@ -254,6 +254,11 @@ this to work */
     font-family: gabrielWeissFriends;
 }
 
+.option-btns-div a {
+    text-decoration: none;
+    color: black;
+}
+
 /* HOVER FUNCTIONALITY ON MODAL BUTTONS */
 
 #close:hover {
@@ -462,6 +467,13 @@ p.quotes {
 
 .yellow-dot-white-bg {
     color: #c28b00;
+}
+
+/* HELP PAGE */
+.help-text {
+    font-family: lydian;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* FOOTER */
