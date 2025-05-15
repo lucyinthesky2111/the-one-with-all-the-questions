@@ -30,6 +30,9 @@ document.getElementById('help-btn').addEventListener('click', function (e) {
 })
 
 
+
+
+
 function startGame() {
 
 }
