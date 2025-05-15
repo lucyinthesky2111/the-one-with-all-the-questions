@@ -491,7 +491,8 @@ p.quotes {
    list-style-type: circle;
    padding: 5px;
    margin-right: 25px;
-   text-align: center;
+   text-align: justify;
+   text-align-last: start;
 }
 
 .help-text-2 {
