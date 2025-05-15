@@ -3,7 +3,6 @@ const openIntroductionModal = document.getElementById("open-introduction-modal")
 const introductionModal = document.getElementById("introduction-modal")
 const close = document.getElementById("close")
 const play = document.getElementById("play")
-const howToPlay = document.getElementById("how-to-play")
 
 //MODALS
 // Displays the introduction modal
