@@ -16,12 +16,6 @@ close.addEventListener('click', function () {
 
 })
 
-// When the user clicks anywhere outside of the modal, close the instructions
-window.addEventListener("click", function(event) {
-  if (event.target === introductionModal) {
-    introductionModal.style.display = "none";
-  }
-});
 
 
 

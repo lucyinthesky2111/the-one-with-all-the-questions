@@ -165,6 +165,11 @@ this to work */
     color: var(---hover);
 }
 
+.menu-button:hover {
+    background-color: white;
+
+}
+
 /* LOGO */ 
 /* logo animation */
 .logo-container img:hover {
