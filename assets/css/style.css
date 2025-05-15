@@ -213,7 +213,7 @@ this to work */
 
 #introduction-modal {
     max-width: 100%;
-    height: 930px; 
+    height: 970px; 
     text-align: center;
     letter-spacing: 2px;
     background-color: var(--monica-apartment-purple);
@@ -253,8 +253,8 @@ this to work */
     margin-bottom: 15px;
     padding: 5px;
     background-color: var(--peephole-frame-yellow);
-    height: 40px;
-    width: 75px;
+    height: 50px;
+    width: 125px;
     display: flex;
     justify-content: center;
     font-family: gabrielWeissFriends;
@@ -722,10 +722,6 @@ i:hover {
     }
 
     /* INTRODUCTION MODAL */
-    /* STOPS BUTTONS OVERSPILLING THE MODAL */
-    #introduction-modal {
-        height: 950px;
-    }
 
     /* TRIVIA PAGE */
     #trivia-text h1 {
@@ -787,11 +783,6 @@ i:hover {
 
     #introduction-modal p {
         font-size: 20px;
-    }
-
-    .modal-button-styling {
-        font-size: 25px;
-        width: 90px;
     }
 
         /* TRIVIA PAGE */
