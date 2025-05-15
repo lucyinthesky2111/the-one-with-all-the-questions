@@ -29,6 +29,13 @@ document.getElementById('help-btn').addEventListener('click', function (e) {
   document.getElementById('help-area').style.display = "block";
 })
 
+// Opens Help modal from 'help; link in nav bar */
+document.getElementById('nav-link-help').addEventListener('click', function (e) {
+  document.getElementById('introduction-modal').style.display = 'none';
+  document.getElementById('help-area').style.display = "block";
+  
+})
+
 
 
 
