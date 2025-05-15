@@ -3,6 +3,7 @@ const openIntroductionModal = document.getElementById("open-introduction-modal")
 const introductionModal = document.getElementById("introduction-modal")
 const close = document.getElementById("close")
 const play = document.getElementById("play")
+const helpArea = document.getElementById("help-area")
 
 //MODALS
 // Displays the introduction modal
@@ -17,6 +18,16 @@ close.addEventListener('click', function () {
 
 })
 
+// Prevent default anchor behaviour when the help button is clicked
+document.getElementById('help-btn').addEventListener('click', function (e) {
+  e.preventDefault();
+
+// Instead of default behaviour - hides.closes Introduction modal when user clicks the 'help; button
+  document.getElementById('introduction-modal').style.display = 'none';
+
+ // And displays the help modal instead
+  document.getElementById('help-area').style.display = "block";
+})
 
 
 function startGame() {

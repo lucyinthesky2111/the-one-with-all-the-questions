@@ -479,7 +479,7 @@ p.quotes {
     color: #c28b00;
 }
 
-/* HELP PAGE */
+/* HELP MODA; */
 .help-text {
     font-family: lydian;
     font-size: 20px;
@@ -520,6 +520,7 @@ p.quotes {
     justify-content: center;
     background-color: rgba(255, 203, 9, 70%); /* Peephole yellow with transparency */
     box-shadow: 0 0 10px 10px var(--monica-apartment-purple);
+    display: none;
 }
 
 .help-modal-btn-styling {
