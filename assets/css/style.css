@@ -261,6 +261,10 @@ this to work */
     color: black;
 }
 
+.modal-border {
+    border-bottom: 1px solid #d5dede;
+}
+
 /* HOVER FUNCTIONALITY ON MODAL BUTTONS */
 
 #close:hover {
