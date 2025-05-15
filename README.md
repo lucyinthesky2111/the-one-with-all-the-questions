@@ -340,6 +340,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 # Developer Comments
 
 
+
 # Disclaimer
 
 This project is for educational purposes only and not for public use. It was created for the Code Institute assessed project for the 'Interactive Front End' module.  
