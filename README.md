@@ -326,6 +326,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
   - for help writing media queries.
 * [W3Schools](https://www.w3schools.com/) :-
   - for help animating the logo.
+  - for help with creating the modalS......
 * [This article by George.K for Dev.to](https://dev.to/bcncodeschool/aligning-elements-on-top-of-the-image-background-4kcf) - for the code to make the Central Perk hero image cover the entire background of the homepage.
      <details>
           <summary>Code from George.K for Dev.to</summary>
