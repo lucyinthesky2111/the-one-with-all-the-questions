@@ -1,5 +1,4 @@
 
-
 // Variables 
 const openIntroductionModal = document.getElementById("open-introduction-modal")
 const introductionModal = document.getElementById("introduction-modal")
@@ -8,11 +7,11 @@ const play = document.getElementById("play")
 const helpArea = document.getElementById("help-area")
 
 //MODALS
-// Displays the introduction modal
+ //  Displays the introduction modal
 openIntroductionModal.addEventListener('click', function () {
     introductionModal.style.display = "block";
 
-})
+}) 
 
 // Closes the introduction modal when the user clicks the 'X' icon 
 close.addEventListener('click', function () {
@@ -24,7 +23,7 @@ close.addEventListener('click', function () {
 document.getElementById('help-btn').addEventListener('click', function (e) {
   e.preventDefault();
 
-// Instead of default behaviour - hides.closes Introduction modal when user clicks the 'help; button
+// Instead of default behaviour - hides.closes Introduction modal when user clicks the 'help' button
   document.getElementById('introduction-modal').style.display = 'none';
 
  // And displays the help modal instead
@@ -37,26 +36,47 @@ document.getElementById('nav-link-help').addEventListener('click', function (e) 
   document.getElementById('help-area').style.display = "block";
 })
 
-/* document.addEventListener('DOMContentLoaded', function () {
 // Opens Help modal from 'help' link in nav bar when user is on play page//
 document.getElementById('nav-link-help').addEventListener('click', function (e) {
   e.preventDefault();
   document.getElementById('help-area').style.display = "block";
 
-})
 });
-*/
 
 
+/*  Potential function names
+function startGame()
 
+ 
 
-function startGame() {
+function displayEasyQuestions() 
 
-}
+ 
 
-function setNextQuestion() {
+function displayMediumQuestions() 
 
-}
-function selectAnswer() {
-    
-}
+ 
+
+function displayHardQuestions() 
+
+ 
+
+function checkAnswer() // Turn box green if correct and red if incorrect 
+
+ 
+
+function incrementCorrectScoreTally() // Adds to correct answer tally if user gets question right 
+
+ 
+
+function incrementIncorrectScoreTally() // Adds to incorrect answer tally if user gets question right 
+
+ 
+
+function setNextQuestion() 
+
+ 
+
+function displayFinalScore() 
+
+ */
