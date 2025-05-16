@@ -1,5 +1,5 @@
 
-document.addEventListener('DOMContentLoaded', function () {
+
 // Variables 
 const openIntroductionModal = document.getElementById("open-introduction-modal")
 const introductionModal = document.getElementById("introduction-modal")
@@ -31,13 +31,21 @@ document.getElementById('help-btn').addEventListener('click', function (e) {
   document.getElementById('help-area').style.display = "block";
 })
 
-// Opens Help modal from 'help; link in nav bar //
+// Opens Help modal from 'help' link in nav bar when user is on homepage//
 document.getElementById('nav-link-help').addEventListener('click', function (e) {
   document.getElementById('introduction-modal').style.display = 'none';
   document.getElementById('help-area').style.display = "block";
-  
+})
+
+/* document.addEventListener('DOMContentLoaded', function () {
+// Opens Help modal from 'help' link in nav bar when user is on play page//
+document.getElementById('nav-link-help').addEventListener('click', function (e) {
+  e.preventDefault();
+  document.getElementById('help-area').style.display = "block";
+
 })
 });
+*/
 
 
 
