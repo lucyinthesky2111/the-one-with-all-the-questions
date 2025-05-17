@@ -3,6 +3,7 @@
 const introductionModal = document.getElementById("introduction-modal") 
 const close = document.getElementById("close")
 const play = document.getElementById("play")
+const buttonContainer = document.getElementById("button-container")
 
 //MODALS
  /*  Displays the introduction modal
@@ -11,6 +12,7 @@ openIntroductionModal.addEventListener('click', function () {
 
 }) */
 
+// MODAL
 // Closes the introduction modal when the user clicks the 'X' icon 
 close.addEventListener('click', function () {
     introductionModal.style.display = "none";
@@ -19,9 +21,38 @@ close.addEventListener('click', function () {
 
 
 
+
+// Easy questions as objects within an array. Possible answers are an array within the object S
+const easyQuestions = [
+  
+   {
+  questionNo: '1',
+  question: "1. What is the name of the coffee shop where the friends go to hang out?",
+  possibleAnswers: ['Central Park', 'Coffee 1', 'Costa', 'Central Perk'],
+  correctAnswer: 'Central Perk',
+
+  },
+
+  {
+  questionNo: '2',
+  question: "Which two characters are brother and sister?",
+  possibleAnswers: ['Monica and Ross', 'Ross and Rachel', 'Phoebe and Joey', 'Monica and Chandler'],
+  correctAnswer: 'Monica and Ross',
+  
+  },
+]
+
+ const theQuestion = document.getElementById('the-question')
+
+function handleQuestion() {
+  easyQuestions.forEach(question)
+
+} 
+
+
 // Questions contained in a nested object
 
-const questions = {
+/* const questions = {
   easy: {
     question1: {
   question: "1. What is the name of the coffee shop where the friends go to hang out?",
@@ -54,7 +85,7 @@ console.log(questions.easy.question2.question)
 console.log(questions.easy.question2.answerA)
 console.log(questions.easy.question3.question)
 console.log(questions.easy.question3.answerC)
-console.log(questions.easy.question1.answerA)
+console.log(questions.easy.question1.answerA) */
 
 
 

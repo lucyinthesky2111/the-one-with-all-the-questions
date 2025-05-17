@@ -424,6 +424,7 @@ this to work */
     justify-content: center;
     background-color: var(--monica-apartment-purple);
     box-shadow: 0 0 10px 10px var(--gold-doorknob);
+    cursor: pointer;
 }
 
 .scores-area {
