@@ -24,7 +24,7 @@
     <!--NAV BAR-->
     <header>
         <!--LOGO-->
-        <div class="logo-container" id="open-introduction-modal">
+        <div class="logo-container">
             <a href="index.html">
                 <img src="assets/images/peephole-frame-logo.png" alt="Peephole frame logo" width="100" height="100"
                     class="logo">
@@ -37,60 +37,79 @@
         </label>
         <nav>
             <ul class="navbar-ul">
-                <li class="navbar-list"><a class="nav-link active" href="index.html">Home</a></li>
-                <li class="navbar-list"><a class="nav-link" href="trivia.html">Play</a></li>
+                <li class="navbar-list"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="navbar-list"><a class="nav-link active" href="trivia.html">Play</a></li>
                 <li class="navbar-list"><a class="nav-link" href="help.html">Help</a></li>
-                <li class="navbar-list"><a class="nav-link" href="trivia2.html">TRIVIA2</a></li>
             </ul>
         </nav>
 
     </header>
 
-    <!--INTRODUCTION MODAL-->
-    
-        <div id="introduction-modal">
-            <div class="close-btn-div">
-                <p><span id="close" class="modal-button-styling"><strong>X</strong></span></p>
-            </div>
-            <img id="princess-consuela" src="assets/images/princess-consuela.png" alt="Princess Consuela name badge">
-            <h1 class="modal-border">The One With All The Questions</h1>
-            <br>
-            <P>Monica just can't believe that Joey thinks he and Chandler know her and Rachel better than the other way
-                around.</p>
-            <br>
-            <p>But how well do you know the iconic TV show 'Friends'?</p>
-            <br>
-            <p>Ross has made up some questions for you (it's not like he has a job, or a child, or a life of his own!).</p>
-            <br>
-            <p>The test is ready.</p>
-            <br>
-            <p>Challenge accepted?</p>
-            <br>
-            <p class="modal-border">Hit 'PLAY' to begin <br> or select 'HELP' <br> if you need instructions.</p>
-            <br>
-            <div class="option-btns-div">
-                <a href="trivia.html">
-                    <p><span id="play" class="modal-button-styling">Play</span></p>
-                </a>
-                <a href="help.html" id="help-btn">
-                    <p><span id="help" class="modal-button-styling">Help</span></p>
-                </a>
-            </div>
-        </div>
-       
     <main>
-        <!-- HERO AND TITLE SECTION-->
-        <div id="hero-and-title-section">
-            <div id="homepage-text-container">
-                <div id="homepage-text">
-                    <h1>F <span class="red-dot">. </span>R <span class="blue-dot">. </span>
-                        I <span class="yellow-dot">. </span>E <span class="red-dot">. </span>
-                        N <span class="yellow-dot">. </span>D <span class="blue-dot">. </span> S
-                    </h1>
-                    <h2>The One With All The Questions</h2>
-                </div>
+
+        <!--TITLE AND SUBTITLE SECTION-->
+        <div id="trivia-text">
+            <h1>F <span class="red-dot-white-bg">. </span>R <span class="blue-dot-white-bg">. </span>
+                I <span class="yellow-dot-white-bg">. </span>E <span class="red-dot-white-bg">. </span>
+                N <span class="yellow-dot-white-bg">. </span>D <span class="blue-dot-white-bg">. </span> S
+            </h1>
+            <h2>The One With All The Questions</h2>
+        </div>
+
+    <!--GAME AREA -->
+    <div id="question-area">
+        <div class="container">
+            <div class="quiz-progress" id="quiz-progress">
+                <span class="seen"></span>
+                <span class="seen"></span>
+                <span class="seen"></span>
+                <span class="seen"></span>
+                <span class="seen"></span>
+                <span class="seen"></span>
+                <span class="seen"></span>
+                <span class="seen"></span>
+                <span class="seen"></span>
+                <span class="seen"></span>
             </div>
         </div>
+        <div class="button-container" id="button-container">
+            <div id="question-text">
+                <span id="the-question"></span>
+            </div>
+            <div id="possible-answers">
+                <span id="answer-a" class="button-styling"></span> <!-- APPLY CLASS button-styling TO ALL POSSIBLE ANSWERS-->
+                <span id="answer-b" class="button-styling"></span>
+                <span id="answer-c"></span>
+                <span id="answer-d"></span>
+            </div>
+        </div>
+    </div>
+        
+        <div class="scores-area">
+            <p class="scores">Correct Answers: <span id="correct">0</span></p>
+            <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+        </div>
+
+<div class="drawn-images-container">
+    <div>
+        <img class="drawn-images" src="assets/images/chick-and-duck.png" alt="Drawn image of the Chick and the Duck">
+        <p class="quotes"><i>"Yeah, I'm The Chick, and Chandler's The Duck."</i><br>
+            <br>
+            Joey Tribbiani</p>
+    </div>
+    <div>
+        <img class="drawn-images" src="assets/images/big-white-dog.png" alt="Drawn image of the Big White Dog">
+        <p class="quotes"><i>"Pat The Dog. Oh I get it!"</i><br>
+            <br>
+          Rachel Greene</p>
+    </div>
+    <div>
+        <img class="drawn-images" src="assets/images/lobster.png" alt="Drawn image of a lobster">
+        <p class="quotes"><i>"See?! He's her lobster!"</i><br>
+            <br>
+            Phoebe Buffay</p>
+    </div>
+</div>
 
     </main>
 
@@ -110,8 +129,7 @@
             <li><a href="https://uk.linkedin.com/" target="_blank" rel="noopener"
                     aria-label="Visit our LinkedIn page (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a></li>
         </ul>
-        <h6 class="footer-text">Miss Chanandler Bong, <br>
-             15 Yemen Road, Yemen. </h6>
+        <h6 class="footer-text">Miss Chanandler Bong, <br> 15 Yemen Road, Yemen. </h6>
         <h6 class="footer-text">Copyright © 2025 Lucy Kidner</h6>
     </footer>
 
@@ -121,4 +139,3 @@
 </body>
 
 </html>
-

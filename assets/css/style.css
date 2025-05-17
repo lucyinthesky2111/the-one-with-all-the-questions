@@ -412,7 +412,7 @@ this to work */
     box-sizing: border-box;
     /* width set so question box cannot take the up full width of the screen */
     width: 85%;
-    height: 65vh;
+    /* height: 65vh; */
     max-height: 350px;
     max-width: 830px;
     margin-left: auto;
@@ -479,6 +479,27 @@ p.quotes {
 
 .yellow-dot-white-bg {
     color: #c28b00;
+}
+
+/* TRIVIA TWO */
+/* CODE FROM https://github.com/treehouse/quiz-app/blob/main/styles/app.css CUSTOMISED FOR THIS PROJECT*/
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+.container .quiz-progress {
+  display: flex;
+  justify-content: evenly;
+  gap: 0.5rem;
+  margin-top: 10px;
+}
+.container .quiz-progress span {
+  width: 100%;
+  height: 4px;
+  border-radius: 25px;
+}
+.container .quiz-progress span.seen {
+  background-color: var(--peephole-frame-yellow);
 }
 
 /* HELP PAGE */

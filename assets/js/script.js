@@ -42,12 +42,6 @@ const easyQuestions = [
   },
 ]
 
- const theQuestion = document.getElementById('the-question')
-
-function handleQuestion() {
-  easyQuestions.forEach(question)
-
-} 
 
 
 // Questions contained in a nested object
