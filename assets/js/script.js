@@ -1,17 +1,15 @@
 
 // Variables 
-const openIntroductionModal = document.getElementById("open-introduction-modal")
-const introductionModal = document.getElementById("introduction-modal")
+const introductionModal = document.getElementById("introduction-modal") 
 const close = document.getElementById("close")
 const play = document.getElementById("play")
-const helpArea = document.getElementById("help-area")
 
 //MODALS
- //  Displays the introduction modal
+ /*  Displays the introduction modal
 openIntroductionModal.addEventListener('click', function () {
     introductionModal.style.display = "block";
 
-}) 
+}) */
 
 // Closes the introduction modal when the user clicks the 'X' icon 
 close.addEventListener('click', function () {
@@ -19,29 +17,46 @@ close.addEventListener('click', function () {
 
 })
 
-// Prevent default anchor behaviour when the help button is clicked
-document.getElementById('help-btn').addEventListener('click', function (e) {
-  e.preventDefault();
 
-// Instead of default behaviour - hides.closes Introduction modal when user clicks the 'help' button
-  document.getElementById('introduction-modal').style.display = 'none';
 
- // And displays the help modal instead
-  document.getElementById('help-area').style.display = "block";
-})
+// Questions contained in a nested object
 
-// Opens Help modal from 'help' link in nav bar when user is on homepage//
-document.getElementById('nav-link-help').addEventListener('click', function (e) {
-  document.getElementById('introduction-modal').style.display = 'none';
-  document.getElementById('help-area').style.display = "block";
-})
+const questions = {
+  easy: {
+    question1: {
+  question: "1. What is the name of the coffee shop where the friends go to hang out?",
+  answerA: "Central Park", correct: false,
+  answerB: "Coffe 1", correct: false,
+  answerC: "Costa", correct: false,
+  answerD: "Central Perk", correct: true,
+},
+   question2: {
+    question: "Which two characters are brother and sister?",
+    answerA: "Monica and Ross", correct: true,
+    answerB: "Ross and Rachel", correct: false,
+    answerC: "Phoebe and Joey", correct: false,
+    answerD: "Monica and Chandler", correct: false,
+},
+  question3: {
+    question: "How many sisters does Joey have?",
+    answerA: "2",
+    answerB: "6",
+    answerC: "7",
+    answerD: "None",
+},
+}
+}
 
-// Opens Help modal from 'help' link in nav bar when user is on play page//
-document.getElementById('nav-link-help').addEventListener('click', function (e) {
-  e.preventDefault();
-  document.getElementById('help-area').style.display = "block";
+console.log(questions)
+console.log(questions.easy.question1.question)
+console.log(questions.easy.question1.answerD)
+console.log(questions.easy.question2.question)
+console.log(questions.easy.question2.answerA)
+console.log(questions.easy.question3.question)
+console.log(questions.easy.question3.answerC)
+console.log(questions.easy.question1.answerA)
 
-});
+
 
 
 /*  Potential function names

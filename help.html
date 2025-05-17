@@ -33,18 +33,17 @@
         <!-- this checkbox means we can toggle the nav bar open and closed -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
-                <p class="menu-button">MENU</p>
+            <p class="menu-button">MENU</p>
         </label>
         <nav>
             <ul class="navbar-ul">
                 <li class="navbar-list"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="navbar-list"><a class="nav-link active" href="trivia.html">Play</a></li>
-                <li class="navbar-list"><a class="nav-link" href="help.html">Help</a></li>
+                <li class="navbar-list"><a class="nav-link" href="trivia.html">Play</a></li>
+                <li class="navbar-list"><a class="nav-link active" href="help.html">Help</a></li>
             </ul>
         </nav>
 
     </header>
-
     <main>
 
         <!--TITLE AND SUBTITLE SECTION-->
@@ -56,45 +55,52 @@
             <h2>The One With All The Questions</h2>
         </div>
 
-        <div id="question-area">
-            <h3 class="select-difficulty">Select difficulty:</h3>
-            <div class="button-container">
-                <a class="button-styling" href="trivia.html">Easy</a>
-                <a class="button-styling" href="trivia.html">Medium</a>
-                <a class="button-styling" href="trivia.html">Hard</a>
+        <!-- HELP -->
+        <div id="help-area">
+            <div>
+                <img class="drawn-images-help-area" src="assets/images/hugsy.png" alt="Drawn image of Hugsy">
+                <img class="drawn-images-help-area" src="assets/images/turkey.png"
+                    alt="Drawn image of a turkey wearing glasses">
+                <img class="drawn-images-help-area" src="assets/images/marcel.png"
+                    alt="Drawn image of Marcel, Ross' monkey">
+            </div>
+            <p class="help-text">
+                "What's complicated?!
+                <br>
+                You spin the Wheel of Mayhem,
+                <br>
+                to go up the Ladder of Chance.
+                <br>
+                You go past the Mud Hut,
+                <br>
+                through the Rainbow Ring,
+                <br>
+                to get to the Golden Monkey.
+                <br>
+                You yank his tail, and boom!
+                <br>
+                You're in Paradise Pond!"
+            </p>
+            <p class="help-text-2">"Yeah, all that's gone. It's basically just a simple question and answer game now"
+            </p>
+            <p class="help-text-2">INSTRUCTIONS:</p>
+            <br>
+            <ul class="help-text">
+                <li>Select your desired difficulty - either Easy, Medium, or Hard.</li>
+                <li>Each level of difficulty contains 10 questions.</li>
+                <li>Read each question and select the answer you think is correct.</li>
+                <li>Answer all the questions and receive your score at the end of the game.</li>
+                <li>Or follow the score count below the question box to keep track of your score as you go along.</li>
+                <li>Use the 'MENU' at the top of the screen at any time to access a reminder of these instructions, or
+                    to start
+                    a new
+                    game.</li>
+            </ul>
+            <div class="option-btns-div">
+                <a class="help-modal-btn-styling" href="trivia.html">Play</a>
+                <a class="help-modal-btn-styling" href="index.html">Home</a>
             </div>
         </div>
-
-        <!--GAME AREA SECTION-->
-        <div class="scores-area">
-        <!-- <span id="answer-a">Answer a</span> -->
-        <!--   <span id="answer-b">Answer b</span> -->
-        <!--    <span id="answer-c">Answer c</span> -->
-        <!--    <span id="answer-d">Answer d</span> -->
-            <p class="scores">Correct Answers: <span id="correct">0</span></p>
-            <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
-        </div>
-
-<div class="drawn-images-container">
-    <div>
-        <img class="drawn-images" src="assets/images/chick-and-duck.png" alt="Drawn image of the Chick and the Duck">
-        <p class="quotes"><i>"Yeah, I'm The Chick, and Chandler's The Duck."</i><br>
-            <br>
-            Joey Tribbiani</p>
-    </div>
-    <div>
-        <img class="drawn-images" src="assets/images/big-white-dog.png" alt="Drawn image of the Big White Dog">
-        <p class="quotes"><i>"Pat The Dog. Oh I get it!"</i><br>
-            <br>
-          Rachel Greene</p>
-    </div>
-    <div>
-        <img class="drawn-images" src="assets/images/lobster.png" alt="Drawn image of a lobster">
-        <p class="quotes"><i>"See?! He's her lobster!"</i><br>
-            <br>
-            Phoebe Buffay</p>
-    </div>
-</div>
 
     </main>
 
@@ -107,12 +113,14 @@
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
             <li><a href="https://github.com/" target="_blank" rel="noopener"
                     aria-label="Visit our GitHub page (opens in a new tab)"><i class="fa-brands fa-github"></i></a></li>
             <li><a href="https://uk.linkedin.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our LinkedIn page (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a></li>
+                    aria-label="Visit our LinkedIn page (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
         </ul>
         <h6 class="footer-text">Miss Chanandler Bong, <br> 15 Yemen Road, Yemen. </h6>
         <h6 class="footer-text">Copyright © 2025 Lucy Kidner</h6>
