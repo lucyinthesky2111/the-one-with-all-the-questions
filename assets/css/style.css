@@ -666,6 +666,7 @@ i:hover {
         flex-direction: column;
         align-self: center;
         justify-content: center;
+        display: none;
     }
 
     .option-btns-div {
@@ -744,8 +745,6 @@ i:hover {
     #homepage-text-container {
         font-size: 40px;
     }
-
-    /* INTRODUCTION MODAL */
 
     /* TRIVIA PAGE */
     #trivia-text h1 {
