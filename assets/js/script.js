@@ -1,145 +1,96 @@
+document.addEventListener('DOMContentLoaded',  function() {
+  // Variables 
+  // Gets the introduction modal
+  let introductionModal = document.getElementById("introduction-modal");
+  let close = document.getElementById("close");
 
+  /*
+  let play = document.getElementById("play")
+  let buttonContainer = document.getElementById("button-container") */
 
-document.addEventListener("DOMContentLoaded", function() {
-// Variables 
-// Gets the introduction modal
-let introductionModal = document.getElementById("introduction-modal");
-let close = document.getElementById("close");
+  //MODALS
+  /*  Displays the introduction modal
+ openIntroductionModal.addEventListener('click', function () {
+     introductionModal.style.display = "block";
+ 
+ }) */
 
-/*
-let play = document.getElementById("play")
-let buttonContainer = document.getElementById("button-container") */
+  // MODAL
 
-//MODALS
- /*  Displays the introduction modal
-openIntroductionModal.addEventListener('click', function () {
-    introductionModal.style.display = "block";
-
-}) */
-
-// MODAL
-
-// Closes the introduction modal when the user clicks the 'X' icon 
-/* DOES NOT WORK WITH WHEN THE JS BELOW THE QUESTIONS IS APPLIED
-close.addEventListener('click', function () {
-    introductionModal.style.display = "none";
-
-}); */
-
-// Easy questions as objects within an array. Possible answers are an array within the object S
-const easyQuestions = [
+  // Closes the introduction modal when the user clicks the 'X' icon 
+  /* DOES NOT WORK WITH WHEN THE JS BELOW THE QUESTIONS IS APPLIED
+  close.addEventListener('click', function () {
+      introductionModal.style.display = "none"; 
   
-   {
-  questionNo: '1',
-  question: "1. What is the name of the coffee shop where the friends go to hang out?",
-  possibleAnswers: ['Central Park', 'Coffee 1', 'Costa', 'Central Perk'],
-  correctAnswer: 'Central Perk',
+  }); */
 
-  },
+  // Easy questions as objects within an array. Possible answers are an array within the object 
+  const easyQuestions = [
 
-  {
-  questionNo: '2',
-  question: "2. Which two characters are brother and sister?",
-  possibleAnswers: ['Monica and Ross', 'Ross and Rachel', 'Phoebe and Joey', 'Monica and Chandler'],
-  correctAnswer: 'Monica and Ross',
-  
-  },
+    {
+      questionNo: '1',
+      question: "1. What is the name of the coffee shop where the friends go to hang out?",
+      possibleAnswers: ['Central Park', 'Coffee 1', 'Costa', 'Central Perk'],
+      correctAnswer: 'Central Perk',
 
-  {
-  questionNo: '2',
-  question: "3. How many sisters does Joey haveS?",
-  possibleAnswers: ['2', '6', '7', 'None'],
-  correctAnswer: 'Monica and Ross',
-  
-  },
-]
+    },
 
-const quizProgress = document.getElementById('quiz-progress')
+    {
+      questionNo: '2',
+      question: "2. Which two characters are brother and sister?",
+      possibleAnswers: ['Monica and Ross', 'Ross and Rachel', 'Phoebe and Joey', 'Monica and Chandler'],
+      correctAnswer: 'Monica and Ross',
 
-function handleQuestion() {
+    },
 
-  easyQuestions.forEach((question) => {
-    const span = document.createElement("span");
-    quizProgress.appendChild(span);
-  });
-}
+    {
+      questionNo: '3',
+      question: "3. How many sisters does Joey have?",
+      possibleAnswers: ['2', '6', '7', 'None'],
+      correctAnswer: '7',
 
-handleQuestion();
+    },
+  ]
+  // Variables
+  const quizProgress = document.getElementById("quiz-progress");
+  const questionText = document.getElementById("question-text");
+  const possibleAnswers = document.getElementById("possible-answers");
 
-});
-// Questions contained in a nested object
+  // this variable keeps track of what question the user is on
+  let currentQuestionIndex = 0;
 
-/* const questions = {
-  easy: {
-    question1: {
-  question: "1. What is the name of the coffee shop where the friends go to hang out?",
-  answerA: "Central Park", correct: false,
-  answerB: "Coffe 1", correct: false,
-  answerC: "Costa", correct: false,
-  answerD: "Central Perk", correct: true,
-},
-   question2: {
-    question: "Which two characters are brother and sister?",
-    answerA: "Monica and Ross", correct: true,
-    answerB: "Ross and Rachel", correct: false,
-    answerC: "Phoebe and Joey", correct: false,
-    answerD: "Monica and Chandler", correct: false,
-},
-  question3: {
-    question: "How many sisters does Joey have?",
-    answerA: "2",
-    answerB: "6",
-    answerC: "7",
-    answerD: "None",
-},
-}
-}
 
-console.log(questions)
-console.log(questions.easy.question1.question)
-console.log(questions.easy.question1.answerD)
-console.log(questions.easy.question2.question)
-console.log(questions.easy.question2.answerA)
-console.log(questions.easy.question3.question)
-console.log(questions.easy.question3.answerC)
-console.log(questions.easy.question1.answerA) */
+  function handleQuestion() {
+
+    // Quiz progress bar which appears above questions and possible answers
+    /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
+    turn yellow one by one, as the user clears each question. */
+    easyQuestions.forEach((question) => {
+      // this line creates the span
+      const span = document.createElement("span");
+      // this line adds the span to the correct place i.e. the div with the id of quiz-progress 
+      quizProgress.appendChild(span);
+    });
+    /* Loops through each span tag (which corresponds with each question) and adds my 'seen' class to each span incremently to change the colour 
+    of the bar to yellow */ 
+    // Sets a variable called spans and selects all the spans in the div with id of quiz-progress 
+    let spans = document.querySelectorAll("#quiz-progress span");
+    // Starts the count at zero and continues until it reaches the end of the questions. Increases the count by one each time 
+    for (let i = 0; i <= currentQuestionIndex; i++) {
+      // Everytime the count is increased, the 'seen' class is added to the corresponding span
+      spans[i].classList.add("seen");
+    };
+
+
+
+  }; //Closing tag for handleQuestion function
+
+
+  handleQuestion();
+
+
+  }); // Closing tag for load DOM content event listener
 
 
 
 
-/*  Potential function names
-function startGame()
-
- 
-
-function displayEasyQuestions() 
-
- 
-
-function displayMediumQuestions() 
-
- 
-
-function displayHardQuestions() 
-
- 
-
-function checkAnswer() // Turn box green if correct and red if incorrect 
-
- 
-
-function incrementCorrectScoreTally() // Adds to correct answer tally if user gets question right 
-
- 
-
-function incrementIncorrectScoreTally() // Adds to incorrect answer tally if user gets question right 
-
- 
-
-function setNextQuestion() 
-
- 
-
-function displayFinalScore() 
-
- */
