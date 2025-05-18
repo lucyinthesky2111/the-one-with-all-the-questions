@@ -1,9 +1,14 @@
 
+
+document.addEventListener("DOMContentLoaded", function() {
 // Variables 
-const introductionModal = document.getElementById("introduction-modal") 
-const close = document.getElementById("close")
-const play = document.getElementById("play")
-const buttonContainer = document.getElementById("button-container")
+// Gets the introduction modal
+let introductionModal = document.getElementById("introduction-modal");
+let close = document.getElementById("close");
+
+/*
+let play = document.getElementById("play")
+let buttonContainer = document.getElementById("button-container") */
 
 //MODALS
  /*  Displays the introduction modal
@@ -13,14 +18,13 @@ openIntroductionModal.addEventListener('click', function () {
 }) */
 
 // MODAL
+
 // Closes the introduction modal when the user clicks the 'X' icon 
+/* DOES NOT WORK WITH WHEN THE JS BELOW THE QUESTIONS IS APPLIED
 close.addEventListener('click', function () {
     introductionModal.style.display = "none";
 
-})
-
-
-
+}); */
 
 // Easy questions as objects within an array. Possible answers are an array within the object S
 const easyQuestions = [
@@ -35,15 +39,34 @@ const easyQuestions = [
 
   {
   questionNo: '2',
-  question: "Which two characters are brother and sister?",
+  question: "2. Which two characters are brother and sister?",
   possibleAnswers: ['Monica and Ross', 'Ross and Rachel', 'Phoebe and Joey', 'Monica and Chandler'],
+  correctAnswer: 'Monica and Ross',
+  
+  },
+
+  {
+  questionNo: '2',
+  question: "3. How many sisters does Joey haveS?",
+  possibleAnswers: ['2', '6', '7', 'None'],
   correctAnswer: 'Monica and Ross',
   
   },
 ]
 
+const quizProgress = document.getElementById('quiz-progress')
 
+function handleQuestion() {
 
+  easyQuestions.forEach((question) => {
+    const span = document.createElement("span");
+    quizProgress.appendChild(span);
+  });
+}
+
+handleQuestion();
+
+});
 // Questions contained in a nested object
 
 /* const questions = {
