@@ -4,39 +4,20 @@ document.addEventListener('DOMContentLoaded',  function() {
 
   // Only show intro modal if user is on index.html/root
   const isIndexPage =
+  /* Modal is hidden by default in css. This code checks the user is on index.html or root and if this is trues and (&&) the modal is called,
+  modal will be displayed */
   window.location.pathname === '/' || window.location.pathname.endsWith("index.html");
   if (isIndexPage && introductionModal) {
     introductionModal.style.display = "block";
   }
 
+  // CODE FROM W3SCHOOL
   // Closes the introduction modal when the user clicks on the 'X' icon
-  const close = document.getElementById("close");
-  if (close) {
+  const close = document.getElementById("close"); {
     close.addEventListener('click', function () {
       introductionModal.style.display = "none";
     })
   }
-
-
-  /*
-  let play = document.getElementById("play")
-  let buttonContainer = document.getElementById("button-container") */
-
-  //MODALS
-  /*  Displays the introduction modal
- openIntroductionModal.addEventListener('click', function () {
-     introductionModal.style.display = "block";
- 
- }) */
-
-  // MODAL
-
-  // Closes the introduction modal when the user clicks the 'X' icon 
-  /* DOES NOT WORK WITH WHEN THE JS BELOW THE QUESTIONS IS APPLIED
-  close.addEventListener('click', function () {
-      introductionModal.style.display = "none"; 
-  
-  }); */
 
   // Easy questions as objects within an array. Possible answers are an array within the object 
    const easyQuestions = [
