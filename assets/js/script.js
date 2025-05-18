@@ -1,8 +1,22 @@
 document.addEventListener('DOMContentLoaded',  function() {
-  // Variables 
   // Gets the introduction modal
   let introductionModal = document.getElementById("introduction-modal");
-  let close = document.getElementById("close");
+
+  // Only show intro modal if user is on index.html/root
+  const isIndexPage =
+  window.location.pathname === '/' || window.location.pathname.endsWith("index.html");
+  if (isIndexPage && introductionModal) {
+    introductionModal.style.display = "block";
+  }
+
+  // Closes the introduction modal when the user clicks on the 'X' icon
+  const close = document.getElementById("close");
+  if(close) {
+    close.addEventListener('click', function () {
+      introductionModal.style.display = "none;"
+    })
+  }
+
 
   /*
   let play = document.getElementById("play")
@@ -25,7 +39,7 @@ document.addEventListener('DOMContentLoaded',  function() {
   }); */
 
   // Easy questions as objects within an array. Possible answers are an array within the object 
-  const easyQuestions = [
+   const easyQuestions = [
 
     {
       questionNo: '1',
@@ -89,7 +103,7 @@ document.addEventListener('DOMContentLoaded',  function() {
   handleQuestion();
 
 
-  }); // Closing tag for load DOM content event listener
+  }); // Closing tag for load DOM content event listener 
 
 
 

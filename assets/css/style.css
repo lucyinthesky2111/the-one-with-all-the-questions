@@ -202,8 +202,6 @@ this to work */
     max-width: 50%;
     border: 5px solid var(--gold-doorknob);
     box-shadow: 0 0 5px 5px var(--gold-doorknob);
-    display: flex;
-    align-self: center;
 }
 
 #introduction-modal h1 {
@@ -224,6 +222,7 @@ this to work */
     flex-direction: column;
     justify-content: center;
     padding: 10px;
+    display: none;
 }
 
 #introduction-modal p {
@@ -237,7 +236,7 @@ this to work */
 
 .close-btn-div {
     display: flex;
-    align-self: flex-end;
+    justify-content: flex-end;
     margin-top: 10px;
 }
 
