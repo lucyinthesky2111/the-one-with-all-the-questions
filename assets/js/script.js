@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded',  function() {
 
   // Closes the introduction modal when the user clicks on the 'X' icon
   const close = document.getElementById("close");
-  if(close) {
+  if (close) {
     close.addEventListener('click', function () {
-      introductionModal.style.display = "none;"
+      introductionModal.style.display = "none";
     })
   }
 
