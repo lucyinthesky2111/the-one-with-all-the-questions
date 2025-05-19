@@ -46,6 +46,14 @@ document.addEventListener('DOMContentLoaded',  function() {
       correctAnswer: '7',
 
     },
+
+     {
+      questionNo: '4.',
+      question: "Which friend had jobs at Central Perk, Bloomingdales and Ralph Lauren?",
+      possibleAnswers: ['Monica', 'Chandler', 'Phoebe', 'Rachel'],
+      correctAnswer: 'Rachel',
+
+    },
   ]
   // Variables
   const quizProgress = document.getElementById("quiz-progress");
