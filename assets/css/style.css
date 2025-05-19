@@ -412,7 +412,7 @@ this to work */
     /* width set so question box cannot take the up full width of the screen */
     width: 85%;
     /* height: 65vh; */
-    max-height: 350px;
+    max-height: 500px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
@@ -522,6 +522,7 @@ p.quotes {
     display: flex;
     flex-direction: column;
     align-self: center;
+    margin-bottom: 20px;
 }
 
 /* HELP PAGE */
