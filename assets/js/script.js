@@ -28,7 +28,6 @@
       question: "What is the name of the coffee shop where the friends go to hang out?",
       possibleAnswers: ['Central Park', 'Coffee 1', 'Costa', 'Central Perk'],
       correctAnswer: 'Central Perk',
-
     },
 
     {
@@ -55,6 +54,7 @@
 
     },
   ]
+
   // Variables
   const quizProgress = document.getElementById("quiz-progress");
   const questionText = document.getElementById("question-text");
@@ -96,11 +96,10 @@
     easyQuestions[index].possibleAnswers.forEach(answer => {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
     });
-
-
+  
     } //Closing tag for handleQuestion function
 
-
   handleQuestion(currentQuestionIndex);
-  
+
+
   }); // Closing tag for load DOM content event listener
