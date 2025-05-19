@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded',  function() {
 
   // 
   /* Closes the introduction modal when the user clicks on the 'X' icon - this line of code is from 
-  https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js*/
+  https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js */
   const close = document.getElementById("close"); {
     close.addEventListener('click', function () {
       introductionModal.style.display = "none";
@@ -24,24 +24,24 @@ document.addEventListener('DOMContentLoaded',  function() {
    const easyQuestions = [
 
     {
-      questionNo: '1',
-      question: "1. What is the name of the coffee shop where the friends go to hang out?",
+      questionNo: '1.',
+      question: "What is the name of the coffee shop where the friends go to hang out?",
       possibleAnswers: ['Central Park', 'Coffee 1', 'Costa', 'Central Perk'],
       correctAnswer: 'Central Perk',
 
     },
 
     {
-      questionNo: '2',
-      question: "2. Which two characters are brother and sister?",
+      questionNo: '2.',
+      question: "Which two characters are brother and sister?",
       possibleAnswers: ['Monica and Ross', 'Ross and Rachel', 'Phoebe and Joey', 'Monica and Chandler'],
       correctAnswer: 'Monica and Ross',
 
     },
 
     {
-      questionNo: '3',
-      question: "3. How many sisters does Joey have?",
+      questionNo: '3.',
+      question: "How many sisters does Joey have?",
       possibleAnswers: ['2', '6', '7', 'None'],
       correctAnswer: '7',
 
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded',  function() {
   let currentQuestionIndex = 0;
 
 
-  function handleQuestion() {
+  function handleQuestion(index) {
 
     // Quiz progress bar which appears above questions and possible answers
     /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
@@ -72,17 +72,24 @@ document.addEventListener('DOMContentLoaded',  function() {
     // Sets a variable called spans and selects all the spans in the div with id of quiz-progress 
     let spans = document.querySelectorAll("#quiz-progress span");
     // Starts the count at zero and continues until it reaches the end of the questions. Increases the count by one each time 
-    for (let i = 0; i <= currentQuestionIndex; i++) {
+    for (let i = 0; i <= index; i++) {
       // Everytime the count is increased, the 'seen' class is added to the corresponding span
       spans[i].classList.add("seen");
     };
+
+    // Display question number and question
+    questionText.innerHTML =
+    `<p>${easyQuestions[index].questionNo}</p>
+    <p>${easyQuestions[index].question}</p>
+    `
+
 
 
 
   }; //Closing tag for handleQuestion function
 
 
-  handleQuestion();
+  handleQuestion(currentQuestionIndex);
 
 
   }); // Closing tag for load DOM content event listener 
