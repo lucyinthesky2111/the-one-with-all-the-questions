@@ -90,9 +90,12 @@ document.addEventListener('DOMContentLoaded',  function() {
     `<p>${easyQuestions[index].questionNo}</p>
     <p>${easyQuestions[index].question}</p>
     `
+    
+    // Display answers
+    easyQuestions[index].possibleAnswers.forEach(answer => {
+      possibleAnswers.innerHTML += `<button>${answer}</button>`;
 
-
-
+    });
 
   }; //Closing tag for handleQuestion function
 
@@ -101,6 +104,8 @@ document.addEventListener('DOMContentLoaded',  function() {
 
 
   }); // Closing tag for load DOM content event listener 
+  
+
 
 
 

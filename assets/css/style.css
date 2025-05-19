@@ -502,6 +502,28 @@ p.quotes {
   background-color: var(--peephole-frame-yellow);
 }
 
+.possible-answers button {
+    color: black;
+    text-decoration: none;
+    font-family: lydian;
+    font-size: 20px;
+    line-height: 150%;
+    border: 5px solid black;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: var(--peephole-frame-yellow);
+    height: 50px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+#question-area .possible-answers {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
 /* HELP PAGE */
 .help-text {
     font-family: lydian;
