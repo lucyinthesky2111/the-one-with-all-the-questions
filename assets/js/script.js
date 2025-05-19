@@ -92,6 +92,7 @@ document.addEventListener('DOMContentLoaded',  function() {
     `
     
     // Display answers
+    // Adds a button containing each possible answer (which is styled with CSS) 
     easyQuestions[index].possibleAnswers.forEach(answer => {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
 

@@ -518,6 +518,8 @@ p.quotes {
     justify-content: center;
 }
 
+/* Moves the answer buttons to the centre of the page by targeting the child div with the class of possible-answers which is contained
+within the parent div which has the id of question area  */
 #question-area .possible-answers {
     display: flex;
     flex-direction: column;
