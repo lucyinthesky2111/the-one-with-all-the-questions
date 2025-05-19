@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',  function() {
+  document.addEventListener('DOMContentLoaded',  function() {
   // Gets the introduction modal
   let introductionModal = document.getElementById("introduction-modal");
 
@@ -95,19 +95,12 @@ document.addEventListener('DOMContentLoaded',  function() {
     // Adds a button containing each possible answer (which is styled with CSS) 
     easyQuestions[index].possibleAnswers.forEach(answer => {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
-
     });
 
-  }; //Closing tag for handleQuestion function
+
+    } //Closing tag for handleQuestion function
 
 
   handleQuestion(currentQuestionIndex);
-
-
-  }); // Closing tag for load DOM content event listener 
   
-
-
-
-
-
+  }); // Closing tag for load DOM content event listener
