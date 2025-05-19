@@ -572,7 +572,10 @@ p.quotes {
 
 .question-text {
     font-family: lydian;
-    font-size: larger;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150%;
+    margin-top: 20px;
 }
 
 /* FOOTER */
