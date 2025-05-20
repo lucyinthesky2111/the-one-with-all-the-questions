@@ -108,29 +108,6 @@
     
   }
 
-  // Variables needed for handleQuestion function
-  const quizProgress = document.getElementById("quiz-progress");
-  const questionText = document.getElementById("question-text");
-  const possibleAnswers = document.getElementById("possible-answers");
-
-// Code for handleQuestion function adapted from https://www.youtube.com/watch?v=_FnFPmA87XU&t=1000s (see ReadMe credits section)
-  function handleQuestion(index) {
-    // Display question number and question
-    questionText.innerHTML =
-    `<p>${easyQuestions[index].questionNo}</p>
-    <p>${easyQuestions[index].question}</p>
-    `
-    
-    // Clear existing answers
-    possibleAnswers.innerHTML = "";
-    // Adds a button containing each possible answer (which is styled with CSS) 
-    easyQuestions[index].possibleAnswers.forEach(answer => {
-      possibleAnswers.innerHTML += `<button>${answer}</button>`;
-    });
-  
-    } //Closing tag for handleQuestion function
-
-  handleQuestion(currentQuestionIndex); 
 
 
 
