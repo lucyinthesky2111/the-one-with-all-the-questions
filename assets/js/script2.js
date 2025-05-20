@@ -58,33 +58,44 @@
     },
   ]
 
-  // Code help from 'Love Maths' walkthrough project
+ let currentQuestionIndex = 0;
+  let currentDifficulty = [];
+  let score = 0;
+
+  // Code help from 'Love Maths' walkthrough project 
   function startGame() {
-    let buttons = document.getElementsByTagName("button");
+    let buttons = document.querySelectorAll("button[data-type]");
 
     for (let button of buttons) {
       button.addEventListener("click", function () {
-        if (this.getAttribute("data-type") === "easy") {
+        const type = this.getAttribute("data-type");
+        if (type === "easy") {
           alert("Loading 'easy' questions! 'Good luck, good luck, we all wish you good luck!'");
+          displayEasyQuestions();
         } else {
-          if (this.getAttribute("data-type") === "medium") {
-            alert("Loading 'medium' questions! 'Good luck, good luck, we all wish you good luck!'")
-          } else {
-            if (this.getAttribute("data-type") === "hard") {
-              alert("Loading 'hard' questions! 'Good luck, good luck, we all wish you good luck!'")
-            }
-          }
+          alert(`"${type}" difficulty not available yet.`);
         }
-
-      })
-
+      });
     }
-
   }
 
-  startGame()
+  function displayEasyQuestions() {
+    currentDifficulty =(easyQuestions);
+    currentQuestionIndex = 0;
+    score = 0;
 
-  
+
+    document.getElementById("select-difficulty").style.display = "none"
+    document.getElementById("easy").style.display = "none";
+    document.getElementById("medium").style.display = "none";
+    document.getElementById("hard").style.display = "none";
+
+    showEasyQuestion();
+  }
+
+
+
+  startGame();
 
 
   }); // Closing tag for load DOM content event listener
