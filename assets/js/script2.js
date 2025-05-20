@@ -65,13 +65,13 @@
     for (let button of buttons) {
       button.addEventListener("click", function () {
         if (this.getAttribute("data-type") === "easy") {
-          alert("Loading 'easy' questions! Good luck, good luck, we all wish you good luck!");
+          alert("Loading 'easy' questions! 'Good luck, good luck, we all wish you good luck!'");
         } else {
           if (this.getAttribute("data-type") === "medium") {
-            alert("Loading 'medium' questions! Good luck, good luck, we all wish you good luck!")
+            alert("Loading 'medium' questions! 'Good luck, good luck, we all wish you good luck!'")
           } else {
             if (this.getAttribute("data-type") === "hard") {
-              alert("Loading 'hard' questions! Good luck, good luck, we all wish you good luck!")
+              alert("Loading 'hard' questions! 'Good luck, good luck, we all wish you good luck!'")
             }
           }
         }
@@ -85,5 +85,6 @@
   startGame()
 
   
+
 
   }); // Closing tag for load DOM content event listener

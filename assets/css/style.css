@@ -368,6 +368,7 @@ this to work */
     align-items: center;
     /* Adds spacing between each button in the question area box */
     gap: 20px;
+    cursor: pointer;
 }
 
 /* IMAGES */
