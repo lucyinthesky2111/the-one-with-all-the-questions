@@ -442,6 +442,11 @@ this to work */
     font-family: gabrielWeissFriends;
 }
 
+/* CSS from 'Love Maths' walkthrough project */
+.difficulty-btn-styling::after {
+    content: attr(data-type);
+}
+
 .scores-area {
     box-sizing: border-box;
     width: 85%;
