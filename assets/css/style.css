@@ -408,7 +408,7 @@ this to work */
     text-align: center;
 }
 
-#question-area {
+.question-area {
     box-sizing: border-box;
     /* width set so question box cannot take the up full width of the screen */
     width: 85%;
@@ -507,7 +507,9 @@ p.quotes {
 .container {
   width: 100%;
   max-width: 400px;
+  display: none;
 }
+
 .container .quiz-progress {
   display: flex;
   justify-content: evenly;
@@ -523,7 +525,6 @@ p.quotes {
 .container .quiz-progress span.seen {
   background-color: var(--peephole-frame-yellow);
 }
-
 .possible-answers button {
     color: black;
     text-decoration: none;
@@ -542,7 +543,7 @@ p.quotes {
 
 /* Moves the answer buttons to the centre of the page by targeting the child div with the class of possible-answers which is contained
 within the parent div which has the id of question area  */
-#question-area .possible-answers {
+#possible-answers button {
     display: flex;
     flex-direction: column;
     align-self: center;
