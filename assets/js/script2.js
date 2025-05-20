@@ -65,13 +65,13 @@
     for (let button of buttons) {
       button.addEventListener("click", function () {
         if (this.getAttribute("data-type") === "easy") {
-          alert("Loading 'Easy' Questions!");
+          alert("Loading 'easy' questions! Good luck, good luck, we all wish you good luck!");
         } else {
           if (this.getAttribute("data-type") === "medium") {
-            alert("Loading 'Medium' Questions!")
+            alert("Loading 'medium' questions! Good luck, good luck, we all wish you good luck!")
           } else {
             if (this.getAttribute("data-type") === "hard") {
-              alert("Loading 'Hard' Questions!")
+              alert("Loading 'hard' questions! Good luck, good luck, we all wish you good luck!")
             }
           }
         }
