@@ -1,4 +1,7 @@
-  document.addEventListener('DOMContentLoaded',  function() {
+ 
+ /* Wait for DOM to finish loading before doing anything, to prevent trying to target elements that technically do not
+ exist yet as they have not been loaded */
+ document.addEventListener("DOMContentLoaded",  function() {
   // Gets the introduction modal
   let introductionModal = document.getElementById("introduction-modal");
 
@@ -15,7 +18,7 @@
   /* Closes the introduction modal when the user clicks on the 'X' icon - this line of code is from 
   https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js */
   const close = document.getElementById("close"); {
-    close.addEventListener('click', function () {
+    close.addEventListener("click", function () {
       introductionModal.style.display = "none";
     })
   }
@@ -55,5 +58,17 @@
     },
   ]
 
+  // Code help from 'Love Maths' walkthrough project
+  function startGame() {
+    let buttons = documents.GetElementsByTagName("button");
+
+    for (let button of buttons) {
+      button.addEventListener("click", function () {
+        
+      })
+
+    }
+
+  }
 
   }); // Closing tag for load DOM content event listener

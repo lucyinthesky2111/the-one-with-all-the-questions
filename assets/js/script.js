@@ -1,3 +1,5 @@
+  /* Wait for DOM to finish loading before doing anything, to prevent trying to target elements that technically do not
+ exist yet as they have not been loaded */
   document.addEventListener('DOMContentLoaded',  function() {
   // Gets the introduction modal
   let introductionModal = document.getElementById("introduction-modal");
