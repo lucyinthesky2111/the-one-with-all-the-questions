@@ -60,15 +60,30 @@
 
   // Code help from 'Love Maths' walkthrough project
   function startGame() {
-    let buttons = documents.GetElementsByTagName("button");
+    let buttons = document.getElementsByTagName("button");
 
     for (let button of buttons) {
       button.addEventListener("click", function () {
-        
+        if (this.getAttribute("data-type") === "easy") {
+          alert("Loading 'Easy' Questions!");
+        } else {
+          if (this.getAttribute("data-type") === "medium") {
+            alert("Loading 'Medium' Questions!")
+          } else {
+            if (this.getAttribute("data-type") === "hard") {
+              alert("Loading 'Hard' Questions!")
+            }
+          }
+        }
+
       })
 
     }
 
   }
+
+  startGame()
+
+  
 
   }); // Closing tag for load DOM content event listener
