@@ -5,7 +5,7 @@
   // Gets the introduction modal
   let introductionModal = document.getElementById("introduction-modal");
 
-  // Only show intro modal if user is on index.html/root - code from ChatGPT (see Readme credits)
+  // Only shows intro modal if user is on index.html/root - code from ChatGPT (see ReadMe credits section)
   const isIndexPage =
   /* Modal is hidden by default in css. This code checks the user is on index.html or root and if this is trues and (&&) the modal is called,
   modal will be displayed */
@@ -16,7 +16,7 @@
 
   // 
   /* Closes the introduction modal when the user clicks on the 'X' icon - this line of code is from 
-  https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js */
+  https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js  (see ReadMe credits section) */
   const close = document.getElementById("close"); {
     close.addEventListener("click", function () {
       introductionModal.style.display = "none";
@@ -58,15 +58,22 @@
     },
   ]
 
- let currentQuestionIndex = 0;
+  // variables needed for startGame function
+  let currentQuestionIndex = 0;
   let currentDifficulty = [];
   let score = 0;
 
   // Code help from 'Love Maths' walkthrough project 
   function startGame() { 
+    // Hides the container div with the questions and possible answers when the user selects their desired difficulty 
     document.getElementById("container").style.display = "none";
+    // Selects all the buttons in the site - i.e. easy, medium and hard buttons
     let buttons = document.querySelectorAll("button[data-type]");
 
+    /* Iterates through the easy, medium and hard buttons and displays a pop up alert for the user when each of 
+    the difficulty buttons are clicked - 
+    good luck message from Phoebe Buffay is the same for each difficulty level, but the loading questions part 
+    is customised according to what level of difficulty the user has picked */
     for (let button of buttons) {
       button.addEventListener("click", function () {
         const type = this.getAttribute("data-type");
@@ -86,8 +93,12 @@
     currentDifficulty =(easyQuestions);
     currentQuestionIndex = 0;
     score = 0;
-    
+
+    /* Unhides the container div with the questions and possible answers which was hidden at the start of the startGame function
+    when the user selects their desired difficulty as we now need to see this content */
     document.getElementById("container").style.display = "block";
+    /* Hides the question area, select difficulty text and easy, medium and hard buttons once the user has chosen their difficulty 
+    and is viewing questions as we longer need to see difficulty options at this stage */
     document.getElementById("question-area").style.display = "none";
     document.getElementById("select-difficulty").style.display = "none"
     document.getElementById("easy").style.display = "none";
@@ -97,12 +108,12 @@
     displayEasyQuestions();
   }
 
-  // Variables
+  // Variables needed for handleQuestion function
   const quizProgress = document.getElementById("quiz-progress");
   const questionText = document.getElementById("question-text");
   const possibleAnswers = document.getElementById("possible-answers");
 
-
+// Code for handleQuestion function adapted from https://www.youtube.com/watch?v=_FnFPmA87XU&t=1000s (see ReadMe credits section)
   function handleQuestion(index) {
     // Quiz progress bar which appears above questions and possible answers
     /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
