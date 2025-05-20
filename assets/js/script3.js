@@ -105,10 +105,7 @@
     document.getElementById("easy").style.display = "none";
     document.getElementById("medium").style.display = "none";
     document.getElementById("hard").style.display = "none";
-    
   }
-
-
 
 
   }); // Closing tag for load DOM content event listener
