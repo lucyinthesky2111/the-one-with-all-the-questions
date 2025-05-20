@@ -17,11 +17,10 @@
   // 
   /* Closes the introduction modal when the user clicks on the 'X' icon - this line of code is from 
   https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js  (see ReadMe credits section) */
-  const close = document.getElementById("close"); {
+  const close = document.getElementById("close"); 
     close.addEventListener("click", function () {
       introductionModal.style.display = "none";
     })
-  }
 
 // Easy questions as objects within an array. Possible answers are an array within the object 
    const easyQuestions = [
@@ -90,7 +89,7 @@
   }
 
   function displayEasyQuestions() {
-    currentDifficulty =(easyQuestions);
+    currentDifficulty = (easyQuestions);
     currentQuestionIndex = 0;
     score = 0;
 
@@ -104,8 +103,7 @@
     document.getElementById("easy").style.display = "none";
     document.getElementById("medium").style.display = "none";
     document.getElementById("hard").style.display = "none";
-
-    displayEasyQuestions();
+    
   }
 
   // Variables needed for handleQuestion function
@@ -115,25 +113,6 @@
 
 // Code for handleQuestion function adapted from https://www.youtube.com/watch?v=_FnFPmA87XU&t=1000s (see ReadMe credits section)
   function handleQuestion(index) {
-    // Quiz progress bar which appears above questions and possible answers
-    /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
-    turn yellow one by one, as the user clears each question. */
-    easyQuestions.forEach((question) => {
-      // this line creates the span
-      const span = document.createElement("span");
-      // this line adds the span to the correct place i.e. the div with the id of quiz-progress 
-      quizProgress.appendChild(span);
-    });
-    /* Loops through each span tag (which corresponds with each question) and adds my 'seen' class to each span incremently to change the colour 
-    of the bar to yellow */ 
-    // Sets a variable called spans and selects all the spans in the div with id of quiz-progress 
-    let spans = document.querySelectorAll("#quiz-progress span");
-    // Starts the count at zero and continues until it reaches the end of the questions. Increases the count by one each time 
-    for (let i = 0; i <= index; i++) {
-      // Everytime the count is increased, the 'seen' class is added to the corresponding span
-      spans[i].classList.add("seen");
-    };
-
     // Display question number and question
     questionText.innerHTML =
     `<p>${easyQuestions[index].questionNo}</p>
@@ -141,6 +120,8 @@
     `
     
     // Display answers
+    // Clear existing answers
+    possibleAnswers.innerHTML = "";
     // Adds a button containing each possible answer (which is styled with CSS) 
     easyQuestions[index].possibleAnswers.forEach(answer => {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
@@ -148,7 +129,7 @@
   
     } //Closing tag for handleQuestion function
 
-  handleQuestion(currentQuestionIndex);
+  handleQuestion(currentQuestionIndex); 
 
 
   startGame();

@@ -507,7 +507,7 @@ p.quotes {
 .container {
   width: 100%;
   max-width: 400px;
-  display: none;
+  display: block;
 }
 
 .container .quiz-progress {

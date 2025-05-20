@@ -68,7 +68,7 @@
 
   function handleQuestion(index) {
 
-    // Quiz progress bar which appears above questions and possible answers
+     //  Quiz progress bar which appears above questions and possible answers
     /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
     turn yellow one by one, as the user clears each question. */
     easyQuestions.forEach((question) => {
@@ -85,7 +85,7 @@
     for (let i = 0; i <= index; i++) {
       // Everytime the count is increased, the 'seen' class is added to the corresponding span
       spans[i].classList.add("seen");
-    };
+    }; 
 
     // Display question number and question
     questionText.innerHTML =
