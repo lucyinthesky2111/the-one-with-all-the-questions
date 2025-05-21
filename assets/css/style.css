@@ -529,6 +529,7 @@ p.quotes {
 .container .possible-answers {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .possible-answers button {

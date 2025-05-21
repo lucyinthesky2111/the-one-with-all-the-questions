@@ -71,6 +71,7 @@
      //  Quiz progress bar which appears above questions and possible answers
     /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
     turn yellow one by one, as the user clears each question. */
+    quizProgress.innerHTML = "";
     questions.forEach((question) => {
       // this line creates the span
       const span = document.createElement("span");
@@ -95,6 +96,7 @@
     
     // Display answers
     // Adds a button containing each possible answer (which is styled with CSS) 
+    possibleAnswers.innerHTML = "";
     questions[index].possibleAnswers.forEach(answer => {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
     });
@@ -109,8 +111,18 @@
           alert("Sorry, that's incorrect")
           possibleAnswers.style.backgroundColor = "red";
         }
-      })
+
+        if (currentQuestionIndex === questions.length - 1) {
+        currentQuestionIndex = 0; 
+      } else {
+        currentQuestionIndex ++;
+      }
+       handleQuestion(currentQuestionIndex);
     })
+
+      })
+
+      
 
   
     } //Closing tag for handleQuestion function
