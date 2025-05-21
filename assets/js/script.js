@@ -104,8 +104,10 @@
       possibleAnswers.addEventListener("click", e => {
         if  (e.target.textContent === questions[index].correctAnswer) {
           alert("Correct!"); 
+          possibleAnswers.style.backgroundColor = "green";
         } else {
           alert("Sorry, that's incorrect")
+          possibleAnswers.style.backgroundColor = "red";
         }
       })
     })
