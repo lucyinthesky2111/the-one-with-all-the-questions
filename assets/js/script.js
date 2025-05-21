@@ -65,7 +65,7 @@
   // this variable keeps track of what question the user is on
   let currentQuestionIndex = 0;
 
-
+// Code for handleQuestion function adapted from https://www.youtube.com/watch?v=_FnFPmA87XU&t=1000s (see ReadMe credits section)
   function handleQuestion(index) {
 
      //  Quiz progress bar which appears above questions and possible answers
@@ -98,13 +98,25 @@
     questions[index].possibleAnswers.forEach(answer => {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
     });
+
+    let answers = document.querySelectorAll("button");
+    answers.forEach(possibleAnswers => {
+      possibleAnswers.addEventListener("click", e => {
+        if  (e.target.textContent === questions[index].correctAnswer) {
+          alert("Correct!"); 
+        } else {
+          alert("Sorry, that's incorrect")
+        }
+      })
+    })
+
   
     } //Closing tag for handleQuestion function
 
   handleQuestion(currentQuestionIndex);
 
 
-  
+
 
 
   }); // Closing tag for load DOM content event listener
