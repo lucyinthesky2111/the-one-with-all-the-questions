@@ -1,4 +1,6 @@
  
+ 
+ 
  /* Wait for DOM to finish loading before doing anything, to prevent trying to target elements that technically do not
  exist yet as they have not been loaded */
  document.addEventListener("DOMContentLoaded",  function() {
@@ -57,10 +59,78 @@
     },
   ]
 
-  // variables needed for startGame function
-  let currentQuestionIndex = 0;
-  let currentDifficulty = [];
-  let score = 0;
+   const mediumQuestions = [
+
+    {
+      questionNo: '1.',
+      question: "",
+      possibleAnswers: [''],
+      correctAnswer: '',
+    },
+
+    {
+      questionNo: '2.',
+      question: "",
+      possibleAnswers: [''],
+      correctAnswer: '',
+
+    },
+
+    {
+      questionNo: '3.',
+      question: "",
+      possibleAnswers: [''],
+      correctAnswer: '',
+
+    },
+
+     {
+      questionNo: '4.',
+      question: "",
+      possibleAnswers: [''],
+      correctAnswer: '',
+
+    },
+  ]
+
+   const hardQuestions = [
+
+    {
+      questionNo: '1.',
+      question: "",
+      possibleAnswers: [''],
+      correctAnswer: '',
+    },
+
+    {
+      questionNo: '2.',
+      question: "",
+      possibleAnswers: [''],
+      correctAnswer: '',
+
+    },
+
+    {
+      questionNo: '3.',
+      question: "",
+      possibleAnswers: [''],
+      correctAnswer: '',
+
+    },
+
+     {
+      questionNo: '4.',
+      question: "",
+      possibleAnswers: [''],
+      correctAnswer: '',
+
+    },
+  ]
+
+
+ // let currentQuestionIndex = 0;
+  //let currentDifficulty = [];
+ // let score = 0;
 
   // Code help from 'Love Maths' walkthrough project 
   function startGame() { 
@@ -78,11 +148,13 @@
         const type = this.getAttribute("data-type");
         if (type === "easy") {
           alert("Loading 'easy' questions! 'Good luck, good luck, we all wish you good luck!'");
-          displayEasyQuestions();
+          selectDifficulty(easyQuestions);
         } else if (type === "medium") {
           alert("Loading 'medium' questions! 'Good luck, good luck, we all wish you good luck!'");
+          selectDifficulty(mediumQuestions);
         } else if (type === "hard") {
           alert("Loading 'hard' questions! 'Good luck, good luck, we all wish you good luck!'");
+          selectDifficulty(hardQuestions);
         }
       });
     }
@@ -90,10 +162,10 @@
 
     startGame();
 
-  function displayEasyQuestions() {
-    currentDifficulty = (easyQuestions);
-    currentQuestionIndex = 0;
-    score = 0;
+  function selectDifficulty() {
+   //  currentDifficulty = (easyQuestions);
+    // currentQuestionIndex = 0;
+    // score = 0;
 
     /* Unhides the container div with the questions and possible answers which was hidden at the start of the startGame function
     when the user selects their desired difficulty as we now need to see this content */
