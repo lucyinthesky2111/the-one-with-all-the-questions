@@ -63,9 +63,9 @@
 
     {
       questionNo: '1.',
-      question: "",
-      possibleAnswers: [''],
-      correctAnswer: '',
+      question: "template",
+      possibleAnswers: ['template', 'template', 'template', 'template'],
+      correctAnswer: 'template',
     },
 
     {
@@ -97,9 +97,9 @@
 
     {
       questionNo: '1.',
-      question: "",
-      possibleAnswers: [''],
-      correctAnswer: '',
+      question: "template",
+      possibleAnswers: ['template', 'template', 'template', 'template'],
+      correctAnswer: 'template',
     },
 
     {
@@ -127,10 +127,6 @@
     },
   ]
 
-
- // let currentQuestionIndex = 0;
-  //let currentDifficulty = [];
- // let score = 0;
 
   // Code help from 'Love Maths' walkthrough project 
   function startGame() { 
@@ -163,9 +159,6 @@
     startGame();
 
   function selectDifficulty() {
-   //  currentDifficulty = (easyQuestions);
-    // currentQuestionIndex = 0;
-    // score = 0;
 
     /* Unhides the container div with the questions and possible answers which was hidden at the start of the startGame function
     when the user selects their desired difficulty as we now need to see this content */
@@ -178,6 +171,50 @@
     document.getElementById("medium").style.display = "none";
     document.getElementById("hard").style.display = "none";
   }
+
+  // Variables
+  const quizProgress = document.getElementById("quiz-progress");
+  const questionText = document.getElementById("question-text");
+  const possibleAnswers = document.getElementById("possible-answers");
+
+  // this variable keeps track of what question the user is on
+  let currentQuestionIndex = 0;
+
+
+  function handleQuestion(index) {
+
+     //  Quiz progress bar which appears above questions and possible answers
+    /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
+    turn yellow one by one, as the user clears each question. */
+    easyQuestions.forEach((question) => {
+      quizProgress.innerHTML += "<span></span>"
+    });
+
+    /* Loops through each span tag (which corresponds with each question) and adds my 'seen' class to each span incremently to change the colour 
+    of the bar to yellow */ 
+    // Sets a variable called spans and selects all the spans in the div with id of quiz-progress 
+    let spans = document.querySelectorAll("#quiz-progress span");
+    // Starts the count at zero and continues until it reaches the end of the questions. Increases the count by one each time 
+    for (let i = 0; i <= index; i++) {
+      // Everytime the count is increased, the 'seen' class is added to the corresponding span
+      spans[i].classList.add("seen");
+    }; 
+
+    // Display question number and question
+    questionText.innerHTML =
+    `<p>${easyQuestions[index].questionNo}</p>
+    <p>${easyQuestions[index].question}</p>
+    `
+    
+    // Display answers
+    // Adds a button containing each possible answer (which is styled with CSS) 
+    easyQuestions[index].possibleAnswers.forEach(answer => {
+      possibleAnswers.innerHTML += `<button>${answer}</button>`;
+    });
+  
+    } //Closing tag for handleQuestion function
+
+  handleQuestion(currentQuestionIndex);
 
 
   }); // Closing tag for load DOM content event listener
