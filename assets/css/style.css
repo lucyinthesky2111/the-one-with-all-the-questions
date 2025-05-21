@@ -525,6 +525,12 @@ p.quotes {
 .container .quiz-progress span.seen {
   background-color: var(--peephole-frame-yellow);
 }
+
+.container .possible-answers {
+    display: flex;
+    flex-direction: column;
+}
+
 .possible-answers button {
     color: black;
     text-decoration: none;

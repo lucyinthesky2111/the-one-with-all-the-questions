@@ -22,8 +22,8 @@
     })
   }
 
-  // Easy questions as objects within an array. Possible answers are an array within the object 
-   const easyQuestions = [
+  // All questions as objects within an array. Possible answers are an array within the object 
+   const questions = [
 
     {
       questionNo: '1.',
@@ -58,9 +58,9 @@
   ]
 
   // Variables
-  const quizProgress = document.getElementById("quiz-progress");
-  const questionText = document.getElementById("question-text");
-  const possibleAnswers = document.getElementById("possible-answers");
+  let quizProgress = document.getElementById("quiz-progress");
+  let questionText = document.getElementById("question-text");
+  let possibleAnswers = document.getElementById("possible-answers");
 
   // this variable keeps track of what question the user is on
   let currentQuestionIndex = 0;
@@ -71,7 +71,7 @@
      //  Quiz progress bar which appears above questions and possible answers
     /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
     turn yellow one by one, as the user clears each question. */
-    easyQuestions.forEach((question) => {
+    questions.forEach((question) => {
       // this line creates the span
       const span = document.createElement("span");
       // this line adds the span to the correct place i.e. the div with the id of quiz-progress 
@@ -89,19 +89,22 @@
 
     // Display question number and question
     questionText.innerHTML =
-    `<p>${easyQuestions[index].questionNo}</p>
-    <p>${easyQuestions[index].question}</p>
+    `<p>${questions[index].questionNo}</p>
+    <p>${questions[index].question}</p>
     `
     
     // Display answers
     // Adds a button containing each possible answer (which is styled with CSS) 
-    easyQuestions[index].possibleAnswers.forEach(answer => {
+    questions[index].possibleAnswers.forEach(answer => {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
     });
   
     } //Closing tag for handleQuestion function
 
   handleQuestion(currentQuestionIndex);
+
+
+  
 
 
   }); // Closing tag for load DOM content event listener

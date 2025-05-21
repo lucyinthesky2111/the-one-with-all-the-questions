@@ -1,8 +1,5 @@
  
- 
- 
-
-  // Gets the introduction modal
+ // Gets the introduction modal
   let introductionModal = document.getElementById("introduction-modal");
 
   // Only shows intro modal if user is on index.html/root - code from ChatGPT (see ReadMe credits section)
@@ -125,6 +122,10 @@
     },
   ]
 
+  // variables 
+  let difficultyLevel = [];
+  let currentDifficulty = 
+
 
   // Code help from 'Love Maths' walkthrough project 
   function startGame() { 
@@ -142,13 +143,15 @@
         const type = this.getAttribute("data-type");
         if (type === "easy") {
           alert("Loading 'easy' questions! 'Good luck, good luck, we all wish you good luck!'");
+          /* calls select difficutly function for each level of question in order to display contianer and hide difficulty
+          options once a difficulty has been selected */
           selectDifficulty(easyQuestions);
         } else if (type === "medium") {
           alert("Loading 'medium' questions! 'Good luck, good luck, we all wish you good luck!'");
-          selectDifficulty(mediumQuestions);
+         selectDifficulty(mediumQuestions);
         } else if (type === "hard") {
           alert("Loading 'hard' questions! 'Good luck, good luck, we all wish you good luck!'");
-          selectDifficulty(hardQuestions);
+         selectDifficulty(hardQuestions);
         }
       });
     }
@@ -156,7 +159,7 @@
 
     startGame();
 
-  function selectDifficulty() {
+ function selectDifficulty() {
 
     /* Unhides the container div with the questions and possible answers which was hidden at the start of the startGame function
     when the user selects their desired difficulty as we now need to see this content */
@@ -168,48 +171,4 @@
     document.getElementById("easy").style.display = "none";
     document.getElementById("medium").style.display = "none";
     document.getElementById("hard").style.display = "none";
-  }
-
-  // Variables
-  let quizProgress = document.getElementById("quiz-progress");
-  let questionText = document.getElementById("question-text");
-  let possibleAnswers = document.getElementById("possible-answers");
-
-  // this variable keeps track of what question the user is on
-  let currentQuestionIndex = 0;
-
-
-  function handleQuestion(index) {
-
-     //  Quiz progress bar which appears above questions and possible answers
-    /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
-    turn yellow one by one, as the user clears each question. */
-    easyQuestions.forEach((question) => {
-      quizProgress.innerHTML += "<span></span>"
-    });
-
-    /* Loops through each span tag (which corresponds with each question) and adds my 'seen' class to each span incremently to change the colour 
-    of the bar to yellow */ 
-    // Sets a variable called spans and selects all the spans in the div with id of quiz-progress 
-    let spans = document.querySelectorAll("#quiz-progress span");
-    // Starts the count at zero and continues until it reaches the end of the questions. Increases the count by one each time 
-    for (let i = 0; i <= index; i++) {
-      // Everytime the count is increased, the 'seen' class is added to the corresponding span
-      spans[i].classList.add("seen");
-    }; 
-
-    // Display question number and question
-    questionText.innerHTML =
-    `<p>${easyQuestions[index].questionNo}</p>
-    <p>${easyQuestions[index].question}</p>
-    `
-    
-    // Display answers
-    // Adds a button containing each possible answer (which is styled with CSS) 
-    easyQuestions[index].possibleAnswers.forEach(answer => {
-      possibleAnswers.innerHTML += `<button>${answer}</button>`;
-    });
-  
-    } //Closing tag for handleQuestion function
-
-  handleQuestion(currentQuestionIndex);
+ }
