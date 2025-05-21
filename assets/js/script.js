@@ -112,20 +112,22 @@
           possibleAnswers.style.backgroundColor = "red";
         }
 
+    // Disable all buttons so the user can't click again
+    answers.forEach(btn => btn.disabled = true);
+
+    setTimeout(() => {
         if (currentQuestionIndex === questions.length - 1) {
+          alert("End of questions!")
         currentQuestionIndex = 0; 
       } else {
         currentQuestionIndex ++;
       }
        handleQuestion(currentQuestionIndex);
-    })
+    }, 1000);
+  });
+});
 
-      })
-
-      
-
-  
-    } //Closing tag for handleQuestion function
+  } //Closing tag for handleQuestion function
 
   handleQuestion(currentQuestionIndex);
 
