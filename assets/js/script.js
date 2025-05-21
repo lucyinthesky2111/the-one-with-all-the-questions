@@ -104,12 +104,12 @@
     let answers = document.querySelectorAll("button");
     answers.forEach(possibleAnswers => {
       possibleAnswers.addEventListener("click", e => {
-        if  (e.target.textContent === questions[index].correctAnswer) {
-          alert("Correct!"); 
+        if  (e.target.textContent === questions[index].correctAnswer) { 
           possibleAnswers.style.backgroundColor = "green";
+          incrementCorrectAnswer();
         } else {
-          alert("Sorry, that's incorrect")
           possibleAnswers.style.backgroundColor = "red";
+          incrementIncorrectAnswer();
         }
 
     // Disable all buttons so the user can't click again
@@ -131,7 +131,22 @@
 
   handleQuestion(currentQuestionIndex);
 
+  // Code help from Love Maths Walkthrough project
+  /** 
+   * Get current score from the DOM and increment correct answers when user gets answer right
+   */
+  function incrementCorrectAnswer () {
+    let oldScore = parseInt(document.getElementById("correct").innerText);
+    document.getElementById("correct").innerText = ++oldScore;
+  };
 
+  /** 
+   * Get current score from the DOM and increment incorrect answers when user gets answer wrong
+   */
+  function incrementIncorrectAnswer () {
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
+  };
 
 
 

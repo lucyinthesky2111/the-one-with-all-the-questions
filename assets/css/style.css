@@ -555,6 +555,7 @@ within the parent div which has the id of question area  */
     flex-direction: column;
     align-self: center;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 /* HELP PAGE */
