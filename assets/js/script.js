@@ -105,7 +105,7 @@
     answers.forEach(possibleAnswers => {
       possibleAnswers.addEventListener("click", e => {
         if  (e.target.textContent === questions[index].correctAnswer) { 
-          possibleAnswers.style.backgroundColor = "green";
+          possibleAnswers.style.backgroundColor = "lime";
           incrementCorrectAnswer();
         } else {
           possibleAnswers.style.backgroundColor = "red";
@@ -127,7 +127,7 @@
   });
 });
 
-  } //Closing tag for handleQuestion function
+  } // Closing tag for handleQuestion function
 
   handleQuestion(currentQuestionIndex);
 
