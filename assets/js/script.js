@@ -112,24 +112,31 @@
           incrementIncorrectAnswer();
         }
 
+    // CODE FROM CHATGPT
     // Disable all buttons so the user can't click again
     answers.forEach(btn => btn.disabled = true);
 
-    setTimeout(() => {
-        if (currentQuestionIndex === questions.length - 1) {
-          alert("End of questions!")
-        currentQuestionIndex = 0; 
-      } else {
-        currentQuestionIndex ++;
-      }
-       handleQuestion(currentQuestionIndex);
-    }, 1000);
-  });
-});
+
+        // STARTER CODE FROM CHATGPT - ADAPTED TO FIT PROJECT
+        setTimeout(() => {
+          // If there are still questions left to ask ie. if the current question is not the last in the array of questions
+          if (currentQuestionIndex < questions.length) {
+            // Increment by one to move to the next question in the array (as opposed to skipping forward 2,3,4 etc questions)
+            currentQuestionIndex++;
+            // Have to call handleQuestion in conjunction with incrementation above or the next question does not display
+            handleQuestion(currentQuestionIndex);
+          } else {
+            alert("End of quiz!");
+            endQuiz()
+          }
+        }, 1000);
+      });
+    }); 
+
 
   } // Closing tag for handleQuestion function
 
-  handleQuestion(currentQuestionIndex);
+   handleQuestion(currentQuestionIndex);
 
   // Code help from Love Maths Walkthrough project
   /** 
@@ -147,6 +154,7 @@
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
   };
+
 
 
 
