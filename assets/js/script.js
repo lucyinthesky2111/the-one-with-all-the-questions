@@ -118,19 +118,24 @@
 
 
         // STARTER CODE FROM CHATGPT - ADAPTED TO FIT PROJECT
-        setTimeout(() => {
-          // If there are still questions left to ask ie. if the current question is not the last in the array of questions
+         setTimeout(() => {
+          // increment question by one in the first instance to move to the next question in the array
+           currentQuestionIndex++;
+          
+          // Then check if there are still questions left to ask ie. if the current question is not the last in the array of questions
           if (currentQuestionIndex < questions.length) {
-            // Increment by one to move to the next question in the array (as opposed to skipping forward 2,3,4 etc questions)
-            currentQuestionIndex++;
-            // Have to call handleQuestion in conjunction with incrementation above or the next question does not display
+            /* If there are still questions there, continue cycling through the questions array in order to display them
+            one by one */
             handleQuestion(currentQuestionIndex);
+            // If not questions left, call the end quiz function
           } else {
-            alert("End of quiz!");
             endQuiz()
           }
+          /* 1000 sets a 1 milliseond delay between the user selecting an answer and the quiz moving on to the 
+          next question. Without this, the question moves on so fast, the user cannot see the relevant background
+          colours which indicate whether their answer is right or wrong */
         }, 1000);
-      });
+      }); 
     }); 
 
 
@@ -154,6 +159,16 @@
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
   };
+
+    function endQuiz() {
+      console.log("endQuiz() has been called")
+  
+        alert("End of questions!")
+        document.getElementById("question-text").innerHTML = "";
+        document.getElementById("possible-answers").innerHTML = "";
+        document.getElementById("quiz-progress").style.display = "none";
+    
+    }  
 
 
 
