@@ -185,11 +185,14 @@
       finalScoreElement which has the user's final score stored within it */
       if (finalScoreElement) {
       }
-      /* If score is between 0-5 (greater than or equal to 0 and less than or equal to 5) display thie specified message 
+      /* If score is between 0-5 (greater than or equal to 0 and less than or equal to 4) display thie specified message 
       which includes the user's final score */
-      if (finalScore >= 0 && finalScore < 5) {
-      console.log("Yay")
-      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Yay</p>`;
+      if (finalScore >= 0 && finalScore < 4) {
+      console.log("Oh dear")
+      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Oh dear!</p>` + 
+      `<button onclick="location.href='trivia2.html'">Try again</button>`;
+      // ******* ADD A CLASS TO STYLE THIS BUTTON IN THE CSS AND LINK IT HERE ****
+      finalScoreElement.classList.add("");
     }
   }
 
