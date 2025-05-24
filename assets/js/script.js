@@ -55,6 +55,22 @@ document.addEventListener('DOMContentLoaded', function () {
       correctAnswer: 'Rachel',
 
     },
+
+    {
+      questionDifficulty: 'DIFFICULTY LEVEL: MEDIUM ',
+      question: "Which friend has the middle name <em>Muriel?</em>",
+      possibleAnswers: ['Ross ', 'Rachel ', 'Phoebe', 'Chandler'],
+      correctAnswer: 'Chandler',
+
+    },
+
+    {
+      questionDifficulty: 'DIFFICULTY LEVEL: HARD',
+      question: "In <em>'The One with the Embryos'</em>, which of these is not a categories in Ross' quiz?",
+      possibleAnswers: ['Fears and pet peeves', 'Music', 'Ancient history', 'Literature'],
+      correctAnswer: 'Music',
+
+    },
   ]
 
   // Fisher Yates shuffle function used to shuffle questions
