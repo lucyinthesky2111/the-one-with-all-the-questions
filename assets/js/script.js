@@ -57,6 +57,22 @@
     },
   ]
 
+    // Fisher Yates shuffle function used to shuffle questions
+    // Code help from w3 schools 
+    // https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort_random2
+    // https://www.w3schools.com/js/js_array_sort.asp
+
+  function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  // call the Fisher Yates shuffle function and apply it to the questions array so the questions all appear in a random order
+   shuffle(questions);
+
+
   // Variables
   let quizProgress = document.getElementById("quiz-progress");
   let questionText = document.getElementById("question-text");
@@ -93,7 +109,8 @@
     `<p>${questions[index].questionDifficulty}</p>
     <p>${questions[index].question}</p>
     `
-    
+
+     
     // Display answers
     // Adds a button containing each possible answer (which is styled with CSS) 
     possibleAnswers.innerHTML = "";
@@ -190,12 +207,13 @@
       if (finalScore >= 0 && finalScore < 4) {
       console.log("Oh dear")
       finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Oh dear!</p>` + 
-      `<button onclick="location.href='trivia2.html'">Try again</button>`;
+      `<button onclick="location.href='trivia2.html'">Play again</button>`;
       // ******* ADD A CLASS TO STYLE THIS BUTTON IN THE CSS AND LINK IT HERE ****
       finalScoreElement.classList.add("");
     }
   }
 
+  
 
 
 
