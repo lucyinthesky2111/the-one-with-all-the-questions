@@ -161,28 +161,37 @@
   };
 
     function endQuiz() {
-  
+    // Display alert when all the questions have been asked 
         alert("End of questions!")
+        // Hide Q & A and progress spans once all the questions have been asked
         document.getElementById("question-text").innerHTML = "";
         document.getElementById("possible-answers").innerHTML = "";
         document.getElementById("quiz-progress").style.display = "none";
 
+        // Call the finalScore function once all the questions have been asked
         finalScore()
     }  
 
-    // Function to display the user's final score 
+    /** Function to display the user's final score */
     function finalScore() {
-      // Get the user's 
+      // Get the user's final score from the DOM as a number by getting the number of correct answers and stores it as the variable 'finalScore'
       let finalScore = parseInt(document.getElementById("correct").innerText);
-
+      // console.log to check function is working
       console.log(`Your final score is ${finalScore}`)
 
-
+      // Gets the div with the id of final-score from the DOM and stores it as a new variable called finalScoreElement
       const finalScoreElement = document.getElementById("final-score");
+      /* the endQuiz function has already been called so the q, a and progress spans are hidden. This line of code grabs the variable
+      finalScoreElement which has the user's final score stored within it */
       if (finalScoreElement) {
-        finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore}</p>`;
       }
+      /* If score is between 0-5 (greater than or equal to 0 and less than or equal to 5) display thie specified message 
+      which includes the user's final score */
+      if (finalScore >= 0 && finalScore < 5) {
+      console.log("Yay")
+      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Yay</p>`;
     }
+  }
 
 
 
