@@ -26,14 +26,14 @@
    const questions = [
 
     {
-      questionNo: '1.',
+      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
       question: "What is the name of the coffee shop where the friends go to hang out?",
       possibleAnswers: ['Central Park', 'Coffee 1', 'Costa', 'Central Perk'],
       correctAnswer: 'Central Perk',
     },
 
     {
-      questionNo: '2.',
+      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
       question: "Which two characters are brother and sister?",
       possibleAnswers: ['Monica and Ross', 'Ross and Rachel', 'Phoebe and Joey', 'Monica and Chandler'],
       correctAnswer: 'Monica and Ross',
@@ -41,7 +41,7 @@
     },
 
     {
-      questionNo: '3.',
+       questionDifficulty: 'DIFFICULTY LEVEL: EASY',
       question: "How many sisters does Joey have?",
       possibleAnswers: ['2', '6', '7', 'None'],
       correctAnswer: '7',
@@ -49,7 +49,7 @@
     },
 
      {
-      questionNo: '4.',
+      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
       question: "Which friend had jobs at Central Perk, Bloomingdales and Ralph Lauren?",
       possibleAnswers: ['Monica', 'Chandler', 'Phoebe', 'Rachel'],
       correctAnswer: 'Rachel',
@@ -90,7 +90,7 @@
 
     // Display question number and question
     questionText.innerHTML =
-    `<p>${questions[index].questionNo}</p>
+    `<p>${questions[index].questionDifficulty}</p>
     <p>${questions[index].question}</p>
     `
     
@@ -161,14 +161,28 @@
   };
 
     function endQuiz() {
-      console.log("endQuiz() has been called")
   
         alert("End of questions!")
         document.getElementById("question-text").innerHTML = "";
         document.getElementById("possible-answers").innerHTML = "";
         document.getElementById("quiz-progress").style.display = "none";
-    
+
+        finalScore()
     }  
+
+    // Function to display the user's final score 
+    function finalScore() {
+      // Get the user's 
+      let finalScore = parseInt(document.getElementById("correct").innerText);
+
+      console.log(`Your final score is ${finalScore}`)
+
+
+      const finalScoreElement = document.getElementById("final-score");
+      if (finalScoreElement) {
+        finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore}</p>`;
+      }
+    }
 
 
 
