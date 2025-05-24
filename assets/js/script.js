@@ -62,18 +62,31 @@
     // https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort_random2
     // https://www.w3schools.com/js/js_array_sort.asp
 
-    // Parameter (array) tells the function it is going to be shuffling items that are held in an array 
+    /* Parameter (array) tells the function it is going to be shuffling items that are held in an array 
   function shuffle(array) {
     // Start at end of list and move back one step at a time until the start of the list is reached
     for (let i = array.length - 1; i > 0; i--) {
      // pick a random question in the list 
       let j = Math.floor(Math.random() * (i + 1));
       // Swap current question (i) with the question randomly selected in the step above (j)
-      [array[i], array[j]] = [array[j], array[i]];
+      [array[i], array[j]] = [array[j], array[i]]; 
+    }
+  } */
+
+  // call the Fisher Yates shuffle function and apply it to the questions array so the questions all appear in a random order
+
+// Parameter (questions) tells the function it is going to be shuffling items that are held in the array named 'questions'
+  function shuffle(questions) {
+    // Start at end of list and move back one step at a time until the start of the list is reached
+    for (let i = questions.length - 1; i > 0; i--) {
+     // pick a random question in the list 
+      let j = Math.floor(Math.random() * (i + 1));
+      // Swap current question (i) with the question randomly selected in the step above (j)
+      [questions[i], questions[j]] = [questions[j], questions[i]];
     }
   }
 
-  // call the Fisher Yates shuffle function and apply it to the questions array so the questions all appear in a random order
+  // call the Fisher Yates shuffle function 
    shuffle(questions);
 
 
