@@ -558,6 +558,12 @@ within the parent div which has the id of question area  */
     justify-content: center;
 }
 
+.good-luck-message {
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 5px 20px 5px;
+}
+
 /* HELP PAGE */
 .help-text {
     font-family: lydian;

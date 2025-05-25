@@ -56,6 +56,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
     },
 
+     {
+      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+      question: "Which of these is a song by Phoebe Buffay?",
+      possibleAnswers: ['Stinky Dog', 'Smelly Cat', 'Putrid Parrot', 'Funky Fish'],
+      correctAnswer: 'Smelly Cat',
+
+    },
+
+    {
+      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+      question: 'Finish this iconic Friends line. "We were on a...”',
+      possibleAnswers: ['Trip', 'Night out with Gandolf', 'Break', 'Ferry to Staten Island'],
+      correctAnswer: 'Break',
+
+    },
+
     {
       questionDifficulty: 'DIFFICULTY LEVEL: MEDIUM ',
       question: "Which friend has the middle name <em>Muriel?</em>",
@@ -274,10 +290,16 @@ document.addEventListener('DOMContentLoaded', function () {
     clearInterval(timerInterval);
     // Hides timer once it has been stopped (without this paused timer shows on the results page)
     document.getElementById("timer").style.display = "none";
-    // Hide Q & A and progress spans once all the questions have been asked
+    // Hide Q & A, progress spans, good luck message from Phoebe once all the questions have been asked
     document.getElementById("question-text").innerHTML = "";
     document.getElementById("possible-answers").innerHTML = "";
     document.getElementById("quiz-progress").style.display = "none";
+    document.getElementById("good-luck-message").style.display = "none";
+    document.getElementById("correct").style.display = "none";
+    document.getElementById("incorrect").style.display = "none";
+    document.getElementById("incorrect-text").style.display = "none";
+    document.getElementById("correct-text").style.display = "none";
+
 
     // Call the finalScore function once all the questions have been asked
     finalScore()
