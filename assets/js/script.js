@@ -73,6 +73,39 @@ document.addEventListener('DOMContentLoaded', function () {
     },
 
     {
+      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+      question: 'Whose name does Ross mistakenly say at the alter?',
+      possibleAnswers: ['Rachel', 'Emily', 'Julie', 'Mona'],
+      correctAnswer: 'Rachel',
+
+    },
+
+     {
+      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+      question: 'What do the friends nickname the man who lives across the street from Monica and Rachel?',
+      possibleAnswers: ['Unattractive Nude Man', 'Unsightly Unclothed Dude', 'Unusual Nudist Fella', 'Ugly Naked Guy'],
+      correctAnswer: 'Ugly Naked Guy',
+
+    },
+
+     {
+      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+      question: 'Complete Joey’s catchphrase. “How you ...”',
+      possibleAnswers: ['Feeling?', 'Doing?', 'Today?', 'Getting on?'],
+      correctAnswer: 'Doing?',
+
+    },
+
+     {
+      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+      question: "What colour is Monica's living room?",
+      possibleAnswers: ['Pink', 'Purple', 'Black', 'Orange'],
+      correctAnswer: 'Purple',
+
+    },
+
+
+    {
       questionDifficulty: 'DIFFICULTY LEVEL: MEDIUM ',
       question: "Which friend has the middle name <em>Muriel?</em>",
       possibleAnswers: ['Ross ', 'Rachel ', 'Phoebe', 'Chandler'],
@@ -290,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function () {
     clearInterval(timerInterval);
     // Hides timer once it has been stopped (without this paused timer shows on the results page)
     document.getElementById("timer").style.display = "none";
-    // Hide Q & A, progress spans, good luck message from Phoebe once all the questions have been asked
+    // Hide Q & A, progress spans, good luck message from Phoebe and scores under the purple box once all the questions have been asked
     document.getElementById("question-text").innerHTML = "";
     document.getElementById("possible-answers").innerHTML = "";
     document.getElementById("quiz-progress").style.display = "none";
@@ -323,7 +356,8 @@ document.addEventListener('DOMContentLoaded', function () {
     if (finalScore >= 0 && finalScore < 4) {
       console.log("Oh dear")
       finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Oh dear!</p>` +
-        `<button onclick="location.href='trivia2.html'">Play again</button>`;
+        `<button onclick="location.href='trivia2.html'">Play again</button>` +
+        `<button onclick="location.href='index.html'">Home</button>`;
       // ******* ADD A CLASS TO STYLE THIS BUTTON IN THE CSS AND LINK IT HERE ****
       finalScoreElement.classList.add("");
     }
