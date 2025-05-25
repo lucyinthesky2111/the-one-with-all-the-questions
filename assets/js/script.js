@@ -360,6 +360,12 @@ document.addEventListener('DOMContentLoaded', function () {
         `<button onclick="location.href='index.html'">Home</button>`;
       // ******* ADD A CLASS TO STYLE THIS BUTTON IN THE CSS AND LINK IT HERE ****
       finalScoreElement.classList.add("");
+    } else {
+      if (finalScore >= 5 && finalScore < 7)
+        console.log("That's not great")
+        finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> that's not great!</p>` +
+        `<button onclick="location.href='trivia2.html'">Play again</button>` +
+        `<button onclick="location.href='index.html'">Home</button>`;
     }
   }
 
