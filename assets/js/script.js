@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     {
       questionDifficulty: 'DIFFICULTY LEVEL: HARD',
-      question: "In <em>'The One with the Embryos'</em>, which of these is not a categories in Ross' quiz?",
+      question: "In <em>'The One with the Embryos'</em>, which of these is not a category in Ross' quiz?",
       possibleAnswers: ['Fears and pet peeves', 'Music', 'Ancient history', 'Literature'],
       correctAnswer: 'Music',
 
@@ -74,24 +74,24 @@ document.addEventListener('DOMContentLoaded', function () {
   ]
 
   // Fisher Yates shuffle function used to shuffle questions
-  // Code help from w3 schools 
-  // https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort_random2
-  // https://www.w3schools.com/js/js_array_sort.asp
+  // Code help from and freeCodeCamp
+  // https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/
+
 
   // call the Fisher Yates shuffle function and apply it to the questions array so the questions all appear in a random order
 
-  // Parameter (questions) tells the function it is going to be shuffling items that are held in the array named 'questions'
-  function shuffle(questions) {
+  // Parameter (array) tells the function it is going to be shuffling items that are held in an array
+  function shuffle(array) {
     // Start at end of list and move back one step at a time until the start of the list is reached
-    for (let i = questions.length - 1; i > 0; i--) {
+    for (let i = array.length - 1; i > 0; i--) {
       // pick a random question in the list 
       let j = Math.floor(Math.random() * (i + 1));
       // Swap current question (i) with the question randomly selected in the step above (j)
-      [questions[i], questions[j]] = [questions[j], questions[i]];
+      [array[i], array[j]] = [array[j], array[i]];
     }
   }
 
-  // call the Fisher Yates shuffle function 
+  // call the Fisher Yates shuffle function and use it to shuffle the questions
   shuffle(questions);
 
 
@@ -169,6 +169,13 @@ document.addEventListener('DOMContentLoaded', function () {
       `<p>${questions[index].questionDifficulty}</p>
     <p>${questions[index].question}</p>
     `
+    // Shuffle the answer options
+    // Code from freeCodeCamp https://forum.freecodecamp.org/t/is-there-anyway-i-can-shuffle-an-array-inside-of-an-object/477299/7
+    const shuffleTheAnswers = () => 0.5 - Math.random();
+    const shuffledAnswers = questions.map(q => ({
+      ...q,
+      possibleAnswers: q.possibleAnswers.sort(shuffleTheAnswers)
+    }));
 
 
     // Display answers
