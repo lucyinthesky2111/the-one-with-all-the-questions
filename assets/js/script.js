@@ -355,7 +355,8 @@ document.addEventListener('DOMContentLoaded', function () {
     which includes the user's final score */
     if (finalScore >= 0 && finalScore < 4) {
       console.log("Oh dear")
-      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Oh dear!</p>` +
+      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Oh dear! It hasn't been your day, your week, your
+      month, or even your year has it?!</p>` +
         `<button onclick="location.href='trivia2.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
       // ******* ADD A CLASS TO STYLE THIS BUTTON IN THE CSS AND LINK IT HERE ****
