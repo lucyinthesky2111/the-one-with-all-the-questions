@@ -584,6 +584,7 @@ within the parent div which has the id of question area  */
     align-items: center;
 }
 
+/* Styles the text of the messages that appear to user at end of game */
 .final-score p {
     font-family: lydian;
     line-height: 150%;

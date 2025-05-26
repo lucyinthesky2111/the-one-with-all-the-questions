@@ -1,3 +1,4 @@
+
 // All questions as objects within an array. Possible answers are an array within the object 
 const questions = [
 
@@ -378,9 +379,14 @@ document.addEventListener('DOMContentLoaded', function () {
     } else if (finalScore >= 7 && finalScore < 10) { 
       console.log("It's getting better")
      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} / 30. <br> it's getting better</p>` +
+        `<img src="assets/images/lobster.png" alt="Lobster image" style="width:120px; margin-top:15px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
+    
+
     }
+
+    // Code help for adding img dynamically https://www.geeksforgeeks.org/how-to-create-an-image-element-dynamically-using-javascript/
 
     // style the added play again and home buttons with CSS
     const buttons = finalScoreElement.querySelectorAll("button");
