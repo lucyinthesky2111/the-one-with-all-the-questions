@@ -1,3 +1,6 @@
+ // Global variables
+ // Selects all the buttons in the site - i.e. easy, medium and hard buttons
+  let buttons = document.querySelectorAll("button[data-type]");
  
  /* Wait for DOM to finish loading before doing anything, to prevent trying to target elements that technically do not
 exist yet as they have not been loaded */
@@ -127,13 +130,13 @@ document.addEventListener('DOMContentLoaded', function () {
     },
   ]
 
+    
+
   // Code help from 'Love Maths' walkthrough project 
   function startGame() { 
     // Hides the container div with the questions and possible answers when the user selects their desired difficulty 
     document.getElementById("container").style.display = "none";
-    // Selects all the buttons in the site - i.e. easy, medium and hard buttons
-    let buttons = document.querySelectorAll("button[data-type]");
-
+    document.getElementById("difficulty-area").style.display = "block";
     /* Iterates through the easy, medium and hard buttons and displays a pop up alert for the user when each of 
     the difficulty buttons are clicked - 
     good luck message from Phoebe Buffay is the same for each difficulty level, but the loading questions part 
@@ -165,7 +168,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById("container").style.display = "block";
     /* Hides the question area, select difficulty text and easy, medium and hard buttons once the user has chosen their difficulty 
     and is viewing questions as we longer need to see difficulty options at this stage */
-    document.getElementById("question-area").style.display = "none";
+    document.getElementById("difficulty-area").style.display = "none";
+    document.getElementById("button-container").style.display = "none";
     document.getElementById("select-difficulty").style.display = "none";
     document.getElementById("easy").style.display = "none";
     document.getElementById("medium").style.display = "none";
