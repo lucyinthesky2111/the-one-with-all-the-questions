@@ -1,102 +1,102 @@
 // All questions as objects within an array. Possible answers are an array within the object 
-  const questions = [
+const questions = [
 
-    {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: "What is the name of the coffee shop where the friends go to hang out?",
-      possibleAnswers: ['Central Park', 'Coffee 1', 'Costa', 'Central Perk'],
-      correctAnswer: 'Central Perk',
-    },
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: "What is the name of the coffee shop where the friends go to hang out?",
+    possibleAnswers: ['Central Park', 'Coffee 1', 'Costa', 'Central Perk'],
+    correctAnswer: 'Central Perk',
+  },
 
-    {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: "Which two characters are brother and sister?",
-      possibleAnswers: ['Monica and Ross', 'Ross and Rachel', 'Phoebe and Joey', 'Monica and Chandler'],
-      correctAnswer: 'Monica and Ross',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: "Which two characters are brother and sister?",
+    possibleAnswers: ['Monica and Ross', 'Ross and Rachel', 'Phoebe and Joey', 'Monica and Chandler'],
+    correctAnswer: 'Monica and Ross',
 
-    },
+  },
 
-    {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: "How many sisters does Joey have?",
-      possibleAnswers: ['2', '6', '7', 'None'],
-      correctAnswer: '7',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: "How many sisters does Joey have?",
+    possibleAnswers: ['2', '6', '7', 'None'],
+    correctAnswer: '7',
 
-    },
+  },
 
-    {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: "Which friend had jobs at Central Perk, Bloomingdales and Ralph Lauren?",
-      possibleAnswers: ['Monica', 'Chandler', 'Phoebe', 'Rachel'],
-      correctAnswer: 'Rachel',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: "Which friend had jobs at Central Perk, Bloomingdales and Ralph Lauren?",
+    possibleAnswers: ['Monica', 'Chandler', 'Phoebe', 'Rachel'],
+    correctAnswer: 'Rachel',
 
-    },
+  },
 
-     {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: "Which of these is a song by Phoebe Buffay?",
-      possibleAnswers: ['Stinky Dog', 'Smelly Cat', 'Putrid Parrot', 'Funky Fish'],
-      correctAnswer: 'Smelly Cat',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: "Which of these is a song by Phoebe Buffay?",
+    possibleAnswers: ['Stinky Dog', 'Smelly Cat', 'Putrid Parrot', 'Funky Fish'],
+    correctAnswer: 'Smelly Cat',
 
-    },
+  },
 
-    {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: 'Finish this iconic Friends line. "We were on a...”',
-      possibleAnswers: ['Trip', 'Night out with Gandolf', 'Break', 'Ferry to Staten Island'],
-      correctAnswer: 'Break',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: 'Finish this iconic Friends line. "We were on a...”',
+    possibleAnswers: ['Trip', 'Night out with Gandolf', 'Break', 'Ferry to Staten Island'],
+    correctAnswer: 'Break',
 
-    },
+  },
 
-    {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: 'Whose name does Ross mistakenly say at the alter?',
-      possibleAnswers: ['Rachel', 'Emily', 'Julie', 'Mona'],
-      correctAnswer: 'Rachel',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: 'Whose name does Ross mistakenly say at the alter?',
+    possibleAnswers: ['Rachel', 'Emily', 'Julie', 'Mona'],
+    correctAnswer: 'Rachel',
 
-    },
+  },
 
-     {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: 'What do the friends nickname the man who lives across the street from Monica and Rachel?',
-      possibleAnswers: ['Unattractive Nude Man', 'Unsightly Unclothed Dude', 'Unusual Nudist Fella', 'Ugly Naked Guy'],
-      correctAnswer: 'Ugly Naked Guy',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: 'What do the friends nickname the man who lives across the street from Monica and Rachel?',
+    possibleAnswers: ['Unattractive Nude Man', 'Unsightly Unclothed Dude', 'Unusual Nudist Fella', 'Ugly Naked Guy'],
+    correctAnswer: 'Ugly Naked Guy',
 
-    },
+  },
 
-     {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: 'Complete Joey’s catchphrase. “How you ...”',
-      possibleAnswers: ['Feeling?', 'Doing?', 'Today?', 'Getting on?'],
-      correctAnswer: 'Doing?',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: 'Complete Joey’s catchphrase. “How you ...”',
+    possibleAnswers: ['Feeling?', 'Doing?', 'Today?', 'Getting on?'],
+    correctAnswer: 'Doing?',
 
-    },
+  },
 
-     {
-      questionDifficulty: 'DIFFICULTY LEVEL: EASY',
-      question: "What colour is Monica's living room?",
-      possibleAnswers: ['Pink', 'Purple', 'Black', 'Orange'],
-      correctAnswer: 'Purple',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
+    question: "What colour is Monica's living room?",
+    possibleAnswers: ['Pink', 'Purple', 'Black', 'Orange'],
+    correctAnswer: 'Purple',
 
-    },
+  },
 
 
-    {
-      questionDifficulty: 'DIFFICULTY LEVEL: MEDIUM ',
-      question: "Which friend has the middle name <em>Muriel?</em>",
-      possibleAnswers: ['Ross ', 'Rachel ', 'Phoebe', 'Chandler'],
-      correctAnswer: 'Chandler',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: MEDIUM ',
+    question: "Which friend has the middle name <em>Muriel?</em>",
+    possibleAnswers: ['Ross ', 'Rachel ', 'Phoebe', 'Chandler'],
+    correctAnswer: 'Chandler',
 
-    },
+  },
 
-    {
-      questionDifficulty: 'DIFFICULTY LEVEL: HARD',
-      question: "In <em>'The One with the Embryos'</em>, which of these is not a category in Ross' quiz?",
-      possibleAnswers: ['Fears and pet peeves', 'Music', 'Ancient history', 'Literature'],
-      correctAnswer: 'Music',
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: HARD',
+    question: "In <em>'The One with the Embryos'</em>, which of these is not a category in Ross' quiz?",
+    possibleAnswers: ['Fears and pet peeves', 'Music', 'Ancient history', 'Literature'],
+    correctAnswer: 'Music',
 
-    },
-  ]
+  },
+]
 
 
 
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 
-  
+
 
   // Fisher Yates shuffle function used to shuffle questions
   // Code help from and freeCodeCamp
@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // AND https://www.youtube.com/watch?v=xZXW5SnCiWI
   function startTimer() {
     // Start with clear timer
-    clearInterval(timerInterval); 
+    clearInterval(timerInterval);
     // Set the timer to 30 seconds allowed per question
     timeLeft = 30;
     // Grab the div with ID of time from the DOM and display the timer counting down with the prefixing text of 'Time left'
@@ -177,16 +177,16 @@ document.addEventListener('DOMContentLoaded', function () {
     timerInterval = setInterval(() => {
       // takes 1 second away form the timer incrementally e.g. 30 seconds, then 29, then 28 etc
       timeLeft--;
-     // Grab the div with ID of time from the DOM and display the timer counting down with the prefixing text of 'Time left'
+      // Grab the div with ID of time from the DOM and display the timer counting down with the prefixing text of 'Time left'
       document.getElementById("timer").innerText = `Time left: ${timeLeft}s`;
       // Once the timer reaches 0
       if (timeLeft <= 0) {
-      // Stop timer 
+        // Stop timer 
         clearInterval(timerInterval);
-      // Tells user their time is up
+        // Tells user their time is up
         alert("Time's up!");
-     // call timerEnded function
-     timerEnded()
+        // call timerEnded function
+        timerEnded()
       }
       // Repeat all steps inside timer every 1 second (1000 milliseconds)
     }, 1000);
@@ -255,8 +255,8 @@ document.addEventListener('DOMContentLoaded', function () {
             button.style.backgroundColor = "lime";
           }
         })
-        
-    
+
+
         // Disable all buttons so the user can't click again
         answers.forEach(btn => btn.disabled = true);
 
@@ -292,13 +292,13 @@ document.addEventListener('DOMContentLoaded', function () {
     let answers = document.querySelectorAll("button");
     // for each button
     answers.forEach(button => {
-  //  disable them so they can't be clicked anymore - the quiz will just move on to the next question instead once user had clicked pop up alert away 
+      //  disable them so they can't be clicked anymore - the quiz will just move on to the next question instead once user had clicked pop up alert away 
       button.disabled = true;
-    }); 
+    });
 
     // If timer is allowed to run out, question is unanswered and therefore treated as wrong
     // incrementIncorrectAnswer records an incorrect response and counts that in the tally of incorrect answers
-     incrementIncorrectAnswer();
+    incrementIncorrectAnswer();
 
     setTimeout(() => {
       currentQuestionIndex++;
@@ -370,15 +370,21 @@ document.addEventListener('DOMContentLoaded', function () {
       month, or even your year has it?!</p>` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
-      // ******* ADD A CLASS TO STYLE THIS BUTTON IN THE CSS AND LINK IT HERE ****
-      finalScoreElement.classList.add("");
-    } else {
-      if (finalScore >= 5 && finalScore < 7)
-        console.log("That's not great")
-        finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> that's not great!</p>` +
+    } else if (finalScore >= 4 && finalScore < 7) {
+      console.log("That's not great")
+      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} / 30. <br> that's not great!</p>` +
+        `<button onclick="location.href='trivia.html'">Play again</button>` +
+        `<button onclick="location.href='index.html'">Home</button>`;
+    } else if (finalScore >= 7 && finalScore < 10) { 
+      console.log("It's getting better")
+     finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} / 30. <br> it's getting better</p>` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     }
+
+    // style the added play again and home buttons with CSS
+    const buttons = finalScoreElement.querySelectorAll("button");
+    buttons.forEach(btn => btn.classList.add("end-of-game-btns"));
   }
 
 

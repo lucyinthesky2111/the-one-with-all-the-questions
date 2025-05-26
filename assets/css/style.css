@@ -564,6 +564,34 @@ within the parent div which has the id of question area  */
     margin: 0 5px 20px 5px;
 }
 
+.end-of-game-btns {
+    font-family: gabrielWeissFriends;
+    letter-spacing: 5px;
+    border: 5px solid black;
+    margin: 15px 0 10px 0;
+    background-color: var(--peephole-frame-yellow);
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pushes end-of-game-btns to middele of page */
+.final-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final-score p {
+    font-family: lydian;
+    line-height: 150%;
+    font-size: 20px;
+    text-align: center;
+}
+ 
+
 /* HELP PAGE */
 .help-text {
     font-family: lydian;
@@ -639,6 +667,7 @@ within the parent div which has the id of question area  */
     line-height: 150%;
     margin-top: 20px;
 }
+
 
 /* FOOTER */
 footer {
