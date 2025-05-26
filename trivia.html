@@ -44,7 +44,6 @@
         </nav>
 
     </header>
-
     <!--INTRODUCTION MODAL-->
     
         <div id="introduction-modal">
@@ -86,79 +85,32 @@
                 N <span class="yellow-dot-white-bg">. </span>D <span class="blue-dot-white-bg">. </span> S
             </h1>
             <h2>The One With All The Questions</h2>
+            <p class="good-luck-message" id="good-luck-message">"Good luck, good luck, we all wish you good luck!"<br> Phoebe Buffay</p>
         </div>
 
-          
-    <!-- GAME AREA-->
-   <!-- Help with data-type attribute from 'Love Maths' walkthrough project -->
-    <div id="difficulty-area" class="question-area">
-        <div class="button-container" id="button-container">
-            <h3 class="select-difficulty" id="select-difficulty">Select difficulty:</h3>
-            <button data-type="easy" class="difficulty-btn-styling" id="easy"></button>
-            <button data-type="medium" class="difficulty-btn-styling" id="medium"></button>
-            <button data-type="hard" class="difficulty-btn-styling" id="hard"></button>
+    
+        <!--GAME AREA -->
+        <!-- Help with data-type attribute from 'Love Maths' walkthrough project-->
+        <div id="question-area" class="question-area">
+            <div class="container">
+                <div id="quiz-progress" class="quiz-progress">
+                </div>
+                <div id="timer" class="timer">
+                </div>
+                <div id="question-text" class="question-text">
+                </div>
+                <div id="possible-answers" class="possible-answers">
+                </div>
+                <div id="final-score" class="final-score">
+                </div>
+            </div>
         </div>
-    </div>
-    <div id="container" class="question-area">
-        <div id="quiz-progress" class="quiz-progress">
-        </div>
-        <div id="question-text" class="question-text">
-        </div>
-        <div id="possible-answers" class="possible-answers">
-        </div>
-        <div id="next-question" class="next-question">
-        </div>
-        <div id="new-game" class="new-game">
-        </div>
-    </div> 
+
 
         <div class="scores-area">
             <p class="scores" id="incorrect-text">Correct Answers: <span id="correct">0</span></p>
             <p class="scores" id="correct-text">Incorrect Answers: <span id="incorrect">0</span></p>
         </div>
-
-    <!-- GAME AREA--
-    Help with data-type attribute from 'Love Maths' walkthrough project
-    <div id="question-area" class="question-area">
-        <div class="button-container" id="button-container">
-            <h3 class="select-difficulty" id="select-difficulty">Select difficulty:</h3>
-            <button data-type="easy" class="difficulty-btn-styling" id="easy"></button>
-            <button data-type="medium" class="difficulty-btn-styling" id="medium"></button>
-            <button data-type="hard" class="difficulty-btn-styling" id="hard"></button>
-        </div>
-    </div>
-    <div id="container" class="question-area">
-        <div id="quiz-progress" class="quiz-progress">
-        </div>
-        <div id="question-text" class="question-text">
-        </div>
-        <div id="possible-answers" class="possible-answers">
-        </div>
-        <div id="next-question" class="next-question">
-        </div>
-        <div id="new-game" class="new-game">
-        </div>
-    </div> -->
-
-    <!--GAME AREA 
-    <div id="question-area">
-        <div class="button-container" id="button-container">
-            <h3 class="select-difficulty">Select difficulty:</h3>
-            <a class="button-styling" id="easy">Easy</a>
-            <a class="button-styling" id="medium">Medium</a>
-            <a class="button-styling" id="hard">Hard</a>
-            <div id="question-text">
-                <span id="the-question"></span>
-            </div>
-            <div id="possible-answers">
-                <span id="answer-a"></span>
-                <span id="answer-b"></span>
-                <span id="answer-c"></span>
-                <span id="answer-d"></span>
-            </div>
-        </div>
-    </div> -->
-        
 
 <div class="drawn-images-container">
     <div>
@@ -205,7 +157,7 @@
 
     <!--Font Awesome kit-->
     <script src="https://kit.fontawesome.com/81194f5098.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script4.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
