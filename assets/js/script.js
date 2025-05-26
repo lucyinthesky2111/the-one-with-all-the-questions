@@ -1,28 +1,4 @@
-/* Wait for DOM to finish loading before doing anything, to prevent trying to target elements that technically do not
-exist yet as they have not been loaded */
-document.addEventListener('DOMContentLoaded', function () {
-  // Gets the introduction modal
-  let introductionModal = document.getElementById("introduction-modal");
-
-  // Only show intro modal if user is on index.html/root - code from ChatGPT (see Readme credits)
-  const isIndexPage =
-    /* Modal is hidden by default in css. This code checks the user is on index.html or root and if this is trues and (&&) the modal is called,
-    modal will be displayed */
-    window.location.pathname === '/' || window.location.pathname.endsWith("index.html");
-  if (isIndexPage && introductionModal) {
-    introductionModal.style.display = "block";
-  }
-
-  // 
-  /* Closes the introduction modal when the user clicks on the 'X' icon - this line of code is from 
-  https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js */
-  const close = document.getElementById("close"); {
-    close.addEventListener('click', function () {
-      introductionModal.style.display = "none";
-    })
-  }
-
-  // All questions as objects within an array. Possible answers are an array within the object 
+// All questions as objects within an array. Possible answers are an array within the object 
   const questions = [
 
     {
@@ -121,6 +97,34 @@ document.addEventListener('DOMContentLoaded', function () {
 
     },
   ]
+
+
+
+/* Wait for DOM to finish loading before doing anything, to prevent trying to target elements that technically do not
+exist yet as they have not been loaded */
+document.addEventListener('DOMContentLoaded', function () {
+  // Gets the introduction modal
+  let introductionModal = document.getElementById("introduction-modal");
+
+  // Only show intro modal if user is on index.html/root - code from ChatGPT (see Readme credits)
+  const isIndexPage =
+    /* Modal is hidden by default in css. This code checks the user is on index.html or root and if this is trues and (&&) the modal is called,
+    modal will be displayed */
+    window.location.pathname === '/' || window.location.pathname.endsWith("index.html");
+  if (isIndexPage && introductionModal) {
+    introductionModal.style.display = "block";
+  }
+
+  // 
+  /* Closes the introduction modal when the user clicks on the 'X' icon - this line of code is from 
+  https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js */
+  const close = document.getElementById("close"); {
+    close.addEventListener('click', function () {
+      introductionModal.style.display = "none";
+    })
+  }
+
+  
 
   // Fisher Yates shuffle function used to shuffle questions
   // Code help from and freeCodeCamp
@@ -245,7 +249,14 @@ document.addEventListener('DOMContentLoaded', function () {
           incrementIncorrectAnswer();
         }
 
-        // CODE FROM CHATGPT
+        // highlight correct answer if user if they get answer wrong
+        answers.forEach(button => {
+          if (button.textContent === questions[index].correctAnswer) {
+            button.style.backgroundColor = "lime";
+          }
+        })
+        
+    
         // Disable all buttons so the user can't click again
         answers.forEach(btn => btn.disabled = true);
 
@@ -357,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function () {
       console.log("Oh dear")
       finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Oh dear! It hasn't been your day, your week, your
       month, or even your year has it?!</p>` +
-        `<button onclick="location.href='trivia2.html'">Play again</button>` +
+        `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
       // ******* ADD A CLASS TO STYLE THIS BUTTON IN THE CSS AND LINK IT HERE ****
       finalScoreElement.classList.add("");
@@ -365,7 +376,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (finalScore >= 5 && finalScore < 7)
         console.log("That's not great")
         finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> that's not great!</p>` +
-        `<button onclick="location.href='trivia2.html'">Play again</button>` +
+        `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     }
   }
