@@ -670,6 +670,27 @@ within the parent div which has the id of question area  */
 }
 
 
+/* 404 ERROR PAGE */
+
+.error-404-btn {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 5px;
+    border: 5px solid black;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: var(--monica-apartment-purple);
+    height: 50px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-404-btn:hover {
+    background-color: white;
+}
+
 /* FOOTER */
 footer {
     background-color: var(--peephole-frame-yellow);
