@@ -1,5 +1,5 @@
 
-/*I used a variety of sources to help me construct this JS code.
+/* I used a variety of sources to help me construct this JS code.
  Each source is briefly mentioned next to the corresponding code in the relevant section of this JS file. 
 Full details of each source can be found in the Credits (Code) section of the ReadMe. */
 
@@ -113,31 +113,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Only show intro modal if user is on index.html/root
   const isIndexPage =
-    /* Modal is hidden by default in css. This code checks the user is on index.html or root and if this is trues and (&&) the modal is called,
+    /* Modal is hidden by default in css. This code checks the user is on index.html or root and if this is true and (&&) the modal is called,
     modal will be displayed */
-    // Help with code from w3Schools and Stack Overflow
+    // Help with code from W3Schools and Stack Overflow
     window.location.pathname === '/' || window.location.pathname.endsWith("index.html");
   if (isIndexPage && introductionModal) {
     introductionModal.style.display = "block";
   }
 
   // Closes the introduction modal when the user clicks on the 'X' icon
-  // This line of code is from https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js 
+  // This line of code is from Diane-4P 'Harry Potter quiz'
   const close = document.getElementById("close"); {
     close.addEventListener('click', function () {
       introductionModal.style.display = "none";
     })
   }
 
-
-
   // Fisher Yates shuffle function used to shuffle questions
-  // Code help from and freeCodeCamp
-  // https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/
-
-
-  // call the Fisher Yates shuffle function and apply it to the questions array so the questions all appear in a random order
-
+  // Code help from FreeCodeCamp
   // Parameter (array) tells the function it is going to be shuffling items that are held in an array
   function shuffle(array) {
     // Start at end of list and move back one step at a time until the start of the list is reached
@@ -149,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  // call the Fisher Yates shuffle function and use it to shuffle the questions
+ // call the Fisher Yates shuffle function and apply it to the questions array so the questions all appear in a random order
   shuffle(questions);
 
 
@@ -169,8 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
    * Sets a 30 timer on each question
    */
 
-  // CODE HELP FROM https://www.sitepoint.com/simple-javascript-quiz/#demo
-  // AND https://www.youtube.com/watch?v=xZXW5SnCiWI
+  // Code help from Sitepoint
   function startTimer() {
     // Start with clear timer
     clearInterval(timerInterval);
@@ -197,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 1000);
   }
 
-  // Code for handleQuestion function adapted from https://www.youtube.com/watch?v=_FnFPmA87XU&t=1000s (see ReadMe credits section)
+  // Code for handleQuestion function adapted from Treehouse - 'Beginner JavaScript project: build a quiz app' YouTube video
   function handleQuestion(index) {
     /* Call startTimer function at the start of the HandleQuestion function so that the time starts as soon as the handleQuestion function 
     starts working i.e. as soon as the questions and possible answers are displayed */
@@ -222,13 +214,13 @@ document.addEventListener('DOMContentLoaded', function () {
       spans[i].classList.add("seen");
     };
 
-    // Display question number and question
+    // Display question difficulty and question
     questionText.innerHTML =
       `<p>${questions[index].questionDifficulty}</p>
     <p>${questions[index].question}</p>
     `
     // Shuffle the answer options
-    // Code from freeCodeCamp https://forum.freecodecamp.org/t/is-there-anyway-i-can-shuffle-an-array-inside-of-an-object/477299/7
+    // Code from freeCodeCamp
     const shuffleTheAnswers = () => 0.5 - Math.random();
     const shuffledAnswers = questions.map(q => ({
       ...q,
@@ -237,12 +229,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // Display answers
-    // Adds a button containing each possible answer (which is styled with CSS) 
+    // Adds a button containing each possible answer (which is styled with CSS using .possible-answers button) 
     possibleAnswers.innerHTML = "";
     questions[index].possibleAnswers.forEach(answer => {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
     });
 
+     // Code to make correct and incorrect answers different colours when selected from my mentor Mitko Bachvarov
     let answers = document.querySelectorAll("button");
     answers.forEach(possibleAnswers => {
       possibleAnswers.addEventListener("click", e => {
@@ -254,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function () {
           incrementIncorrectAnswer();
         }
 
-        // highlight correct answer if user if they get answer wrong
+        // highlight correct answer for user if they get answer wrong
         answers.forEach(button => {
           if (button.textContent === questions[index].correctAnswer) {
             button.style.backgroundColor = "lime";
@@ -263,10 +256,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         // Disable all buttons so the user can't click again
+        // Code help from W3Schools
         answers.forEach(btn => btn.disabled = true);
 
 
-        // STARTER CODE FROM CHATGPT - ADAPTED TO FIT PROJECT
+        // Code help from W3Schools and FreeCodeCamp
         setTimeout(() => {
           // increment question by one in the first instance to move to the next question in the array
           currentQuestionIndex++;
@@ -275,7 +269,7 @@ document.addEventListener('DOMContentLoaded', function () {
             /* If there are still questions there, continue cycling through the questions array in order to display them
             one by one */
             handleQuestion(currentQuestionIndex);
-            // If not questions left, call the end quiz function
+            // If no questions left, call the end quiz function
           } else {
             endQuiz()
           }
@@ -297,7 +291,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let answers = document.querySelectorAll("button");
     // for each button
     answers.forEach(button => {
-      //  disable them so they can't be clicked anymore - the quiz will just move on to the next question instead once user had clicked pop up alert away 
+      //  disable them so they can't be clicked anymore - the quiz will just move on to the next question instead once user has clicked pop up alert away 
       button.disabled = true;
     });
 
@@ -369,6 +363,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     /* If score is between 0-5 (greater than or equal to 0 and less than or equal to 4) display thie specified message 
     which includes the user's final score */
+    // Code help for adding images dynamically from Dev.to
     if (finalScore >= 0 && finalScore < 4) {
       console.log("Oh dear")
       finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Oh dear! It hasn't been your day, your week, your
@@ -386,11 +381,7 @@ document.addEventListener('DOMContentLoaded', function () {
         `<img src="assets/images/lobster.png" alt="Lobster image" style="width:120px; margin-top:15px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
-    
-
     }
-
-    // Code help for adding img dynamically https://www.geeksforgeeks.org/how-to-create-an-image-element-dynamically-using-javascript/
 
     // style the added play again and home buttons with CSS
     const buttons = finalScoreElement.querySelectorAll("button");

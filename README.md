@@ -324,17 +324,28 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
   - for the code for the social media links in the footer. 
   - for the code for the general styles used to push the footer to the bottom of the page. 
   - for help with the code for the responsive nav bar.
-  - for help writing media queries.
+* [Treehouse - 'Beginner JavaScript project: build a quiz app' YouTube video](https://www.youtube.com/watch?v=_FnFPmA87XU&t=1000s) - the code for the handleQuestion JS function was adapted from this video.
 * [W3Schools](https://www.w3schools.com/) :-
-  - for help animating the logo using the CSS [transform](https://www.w3schools.com/cssref/css3_pr_transform.php) property.
-  - for help with creating the modal......
-* [This article by George.K for Dev.to](https://dev.to/bcncodeschool/aligning-elements-on-top-of-the-image-background-4kcf) - for the code to make the Central Perk hero image cover the entire background of the homepage.
-     <details>
-          <summary>Code from George.K for Dev.to</summary>
-          <img src="assets/readme-images/setting-background-hero-image-help.png" alt="Code from George.K for Dev.to"> 
-     </details>
-
-* [This article on Stack Overflow](https://stackoverflow.com/questions/27037500/css-make-every-letter-in-a-text-of-a-different-colour) - for help with making the dots in the 'Friends' title different colours. 
+  - for help animating the logo using the CSS transform property.
+  - for help with creating the modal.
+  - for help understanding window.location.
+  - for help disabling answer buttons after question has been answered, so user cannot click again.
+  - for help using setTimeOut JS method.
+* [FreeCodeCamp](https://www.freecodecamp.org/) :-
+  - [This article](https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/) - for additional help using the setTimeOut JS method.
+  - [This article](https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/) - for help with using the Fisher Yates shuffle method
+     to shuffle the questions.
+  - [This article](https://forum.freecodecamp.org/t/is-there-anyway-i-can-shuffle-an-array-inside-of-an-object/477299/7) - for the code to shuffle answers.
+* [Stack Overflow](https://stackoverflow.com/questions) :-
+  - [This article](https://stackoverflow.com/questions/27037500/css-make-every-letter-in-a-text-of-a-different-colour) - for help with making the dots in the 'Friends' title different colours. 
+  - [This article](https://stackoverflow.com/questions/75357525/how-to-check-whether-window-location-pathname-ends-with-search) - for help with code to make the modal 
+  display on the homepage only.
+* [Dev.to](https://dev.to/) :-
+  - [This article by George.K for Dev.to](https://dev.to/bcncodeschool/aligning-elements-on-top-of-the-image-background-4kcf) - for the code to make the Central Perk hero  image cover the entire background of the homepage.
+  - [This article by Raja Tamil for Dev.to](https://dev.to/rajatamil/create-image-elements-in-javascript-41ke) - for help using JS to add images dynamically.
+* [Sitepoint](https://www.sitepoint.com/simple-javascript-quiz/#demo) - for help with creating the timer.
+* [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file) - for the code to close the modal.
+* My mentor Mitko Bachvarov for the code to make correct and incorrect answers different colours when selected
 
 ## Acknowledgments
 
