@@ -89,8 +89,16 @@ const questions = [
   {
     questionDifficulty: 'DIFFICULTY LEVEL: MEDIUM ',
     question: "Which friend has the middle name <em>Muriel?</em>",
-    possibleAnswers: ['Ross ', 'Rachel ', 'Phoebe', 'Chandler'],
+    possibleAnswers: ['Ross', 'Rachel', 'Phoebe', 'Chandler'],
     correctAnswer: 'Chandler',
+
+  },
+
+  {
+    questionDifficulty: 'DIFFICULTY LEVEL: MEDIUM ',
+    question: "What is the ‘Joey special’ takeaway order?",
+    possibleAnswers: ['Two pizzas', 'Burger and chips', 'Curry and rice', 'Sushi and soy sauce'],
+    correctAnswer: 'Two pizzas',
 
   },
 
