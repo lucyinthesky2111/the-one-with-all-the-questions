@@ -691,6 +691,11 @@ within the parent div which has the id of question area  */
     background-color: white;
 }
 
+.error-404-text {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
 /* FOOTER */
 footer {
     background-color: var(--peephole-frame-yellow);
