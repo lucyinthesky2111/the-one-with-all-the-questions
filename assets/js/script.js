@@ -1,4 +1,8 @@
 
+/*I used a variety of sources to help me construct this JS code.
+ Each source is briefly mentioned next to the corresponding code in the relevant section of this JS file. 
+Full details of each source can be found in the Credits (Code) section of the ReadMe. */
+
 // All questions as objects within an array. Possible answers are an array within the object 
 const questions = [
 
@@ -107,18 +111,18 @@ document.addEventListener('DOMContentLoaded', function () {
   // Gets the introduction modal
   let introductionModal = document.getElementById("introduction-modal");
 
-  // Only show intro modal if user is on index.html/root - code from ChatGPT (see Readme credits)
+  // Only show intro modal if user is on index.html/root
   const isIndexPage =
     /* Modal is hidden by default in css. This code checks the user is on index.html or root and if this is trues and (&&) the modal is called,
     modal will be displayed */
+    // Help with code from w3Schools and Stack Overflow
     window.location.pathname === '/' || window.location.pathname.endsWith("index.html");
   if (isIndexPage && introductionModal) {
     introductionModal.style.display = "block";
   }
 
-  // 
-  /* Closes the introduction modal when the user clicks on the 'X' icon - this line of code is from 
-  https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js */
+  // Closes the introduction modal when the user clicks on the 'X' icon
+  // This line of code is from https://github.com/Diane-4P/harry-potter-quiz/blob/main/assets/js/script.js 
   const close = document.getElementById("close"); {
     close.addEventListener('click', function () {
       introductionModal.style.display = "none";
