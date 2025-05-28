@@ -7,14 +7,12 @@ Full details of each source can be found in the Credits (Code) section of the Re
 const questions = [
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: "What is the name of the coffee shop where the friends go to hang out?",
     possibleAnswers: ['Central Park', 'Coffee 1', 'Costa', 'Central Perk'],
     correctAnswer: 'Central Perk',
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: "Which two characters are brother and sister?",
     possibleAnswers: ['Monica and Ross', 'Ross and Rachel', 'Phoebe and Joey', 'Monica and Chandler'],
     correctAnswer: 'Monica and Ross',
@@ -22,7 +20,6 @@ const questions = [
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: "How many sisters does Joey have?",
     possibleAnswers: ['2', '6', '7', 'None'],
     correctAnswer: '7',
@@ -30,7 +27,6 @@ const questions = [
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: "Which friend had jobs at Central Perk, Bloomingdales and Ralph Lauren?",
     possibleAnswers: ['Monica', 'Chandler', 'Phoebe', 'Rachel'],
     correctAnswer: 'Rachel',
@@ -38,7 +34,6 @@ const questions = [
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: "Which of these is a song by Phoebe Buffay?",
     possibleAnswers: ['Stinky Dog', 'Smelly Cat', 'Putrid Parrot', 'Funky Fish'],
     correctAnswer: 'Smelly Cat',
@@ -46,7 +41,6 @@ const questions = [
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: 'Finish this iconic Friends line. "We were on a...”',
     possibleAnswers: ['Trip', 'Night out with Gandolf', 'Break', 'Ferry to Staten Island'],
     correctAnswer: 'Break',
@@ -54,7 +48,6 @@ const questions = [
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: 'Whose name does Ross mistakenly say at the alter?',
     possibleAnswers: ['Rachel', 'Emily', 'Julie', 'Mona'],
     correctAnswer: 'Rachel',
@@ -62,7 +55,6 @@ const questions = [
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: 'What do the friends nickname the man who lives across the street from Monica and Rachel?',
     possibleAnswers: ['Unattractive Nude Man', 'Unsightly Unclothed Dude', 'Unusual Nudist Fella', 'Ugly Naked Guy'],
     correctAnswer: 'Ugly Naked Guy',
@@ -70,7 +62,6 @@ const questions = [
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: 'Complete Joey’s catchphrase. “How you ...”',
     possibleAnswers: ['Feeling?', 'Doing?', 'Today?', 'Getting on?'],
     correctAnswer: 'Doing?',
@@ -78,7 +69,6 @@ const questions = [
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: EASY',
     question: "What colour is Monica's living room?",
     possibleAnswers: ['Pink', 'Purple', 'Black', 'Orange'],
     correctAnswer: 'Purple',
@@ -87,7 +77,6 @@ const questions = [
 
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: MEDIUM ',
     question: "Which friend has the middle name <em>Muriel?</em>",
     possibleAnswers: ['Ross', 'Rachel', 'Phoebe', 'Chandler'],
     correctAnswer: 'Chandler',
@@ -95,15 +84,27 @@ const questions = [
   },
 
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: MEDIUM ',
     question: "What is the ‘Joey special’ takeaway order?",
     possibleAnswers: ['Two pizzas', 'Burger and chips', 'Curry and rice', 'Sushi and soy sauce'],
     correctAnswer: 'Two pizzas',
 
   },
 
+   {
+    question: "Which of these actors was not a guest star on Friends?",
+    possibleAnswers: ['Robin Williams', 'Brad Pitt', 'Bruce Willis', 'Leonardo DiCaprio'],
+    correctAnswer: 'Leonardo DiCaprio',
+
+  },
+
+   {
+    question: "Frank Jr  and Alice’s triplets are named Frank Jr Jr, Chandler and ... ",
+    possibleAnswers: ['Lesley', 'Sophia', 'Jennifer', 'Hannah'],
+    correctAnswer: 'Lesley',
+
+  },
+
   {
-    questionDifficulty: 'DIFFICULTY LEVEL: HARD',
     question: "In <em>'The One with the Embryos'</em>, which of these is not a category in Ross' quiz?",
     possibleAnswers: ['Fears and pet peeves', 'Music', 'Ancient history', 'Literature'],
     correctAnswer: 'Music',
@@ -224,9 +225,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Display question difficulty and question
     questionText.innerHTML =
-      `<p>${questions[index].questionDifficulty}</p>
-    <p>${questions[index].question}</p>
-    `
+    `<p>${questions[index].question}</p>`
+
     // Shuffle the answer options
     // Code from freeCodeCamp
     const shuffleTheAnswers = () => 0.5 - Math.random();
