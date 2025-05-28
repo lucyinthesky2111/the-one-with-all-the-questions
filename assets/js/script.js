@@ -105,11 +105,39 @@ const questions = [
   },
 
   {
-    question: "In <em>'The One with the Embryos'</em>, which of these is not a category in Ross' quiz?",
+    question: "What is the name of the family newsletter Written by Ross?",
+    possibleAnswers: ['Red Ross', 'The Rossatron', 'The Geller Yeller', 'The Geller Teller'],
+    correctAnswer: 'The Geller Yeller',
+
+  },
+
+ {
+    question: "Ross’s son Ben goes to school with the son of which famous musician?",
+    possibleAnswers: ['Drake', 'Bono', 'Sting', 'Slash'],
+    correctAnswer: 'Sting',
+
+  },
+
+  {
+    question: "Rachel’s sister Jill is played by which actress?",
+    possibleAnswers: ['Reese Witherspoon', 'Christina Applegate', 'Winona Ryder ', 'Drew Barrymore'],
+    correctAnswer: 'Reese Witherspoon ',
+
+  },
+
+  {
+    question: "In <em>'‘The One with all the Thanksgivings’</em>', which song does Ross tell Chandler he is thinking of playing for Rachel that evening?",
+    possibleAnswers: ['Betrayal in the Common Room', 'Interplanetary Courtship Ritual', 'Shut up and Go Home', 'Emotional Knapsack'],
+    correctAnswer: 'Emotional Knapsack',
+  },
+
+    {
+    question: "In <em>'The One with the Embryos'</em>, which of these is not a category in Ross's quiz?",
     possibleAnswers: ['Fears and pet peeves', 'Music', 'Ancient history', 'Literature'],
     correctAnswer: 'Music',
 
   },
+
 ]
 
 
@@ -131,7 +159,6 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // Closes the introduction modal when the user clicks on the 'X' icon
-  // This line of code is from Diane-4P 'Harry Potter quiz'
   const close = document.getElementById("close"); {
     close.addEventListener('click', function () {
       introductionModal.style.display = "none";
@@ -170,8 +197,6 @@ document.addEventListener('DOMContentLoaded', function () {
   /**
    * Sets a 30 timer on each question
    */
-
-  // Code help from Sitepoint
   function startTimer() {
     // Start with clear timer
     clearInterval(timerInterval);
@@ -243,7 +268,6 @@ document.addEventListener('DOMContentLoaded', function () {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
     });
 
-     // Code to make correct and incorrect answers different colours when selected from my mentor Mitko Bachvarov
     let answers = document.querySelectorAll("button");
     answers.forEach(possibleAnswers => {
       possibleAnswers.addEventListener("click", e => {
@@ -264,7 +288,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         // Disable all buttons so the user can't click again
-        // Code help from W3Schools
         answers.forEach(btn => btn.disabled = true);
 
 
@@ -372,10 +395,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     /* If score is between 0-5 (greater than or equal to 0 and less than or equal to 4) display thie specified message 
     which includes the user's final score */
-    // Code help for adding images dynamically from Dev.to
     if (finalScore >= 0 && finalScore < 4) {
       console.log("Oh dear")
-      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} <br> Oh dear! It hasn't been your day, your week, your
+      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} / 30. <br> Oh dear! It hasn't been your day, your week, your
       month, or even your year has it?!</p>` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;

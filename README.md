@@ -344,8 +344,6 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
   - [This article by George.K for Dev.to](https://dev.to/bcncodeschool/aligning-elements-on-top-of-the-image-background-4kcf) - for the code to make the Central Perk hero  image cover the entire background of the homepage.
   - [This article by Raja Tamil for Dev.to](https://dev.to/rajatamil/create-image-elements-in-javascript-41ke) - for help using JS to add images dynamically.
 * [Sitepoint](https://www.sitepoint.com/simple-javascript-quiz/#demo) - for help with creating the timer.
-* [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file) - for the code to close the modal.
-* My mentor Mitko Bachvarov for the code to make correct and incorrect answers different colours when selected
 
 ## Acknowledgments
 

@@ -543,7 +543,7 @@ p.quotes {
     padding: 5px;
     background-color: var(--peephole-frame-yellow);
     height: 50px;
-    width: 240px;
+    width: 260px;
     display: flex;
     justify-content: center;
 }
