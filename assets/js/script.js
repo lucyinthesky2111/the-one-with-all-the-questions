@@ -98,7 +98,7 @@ const questions = [
   },
 
    {
-    question: "Frank Jr  and Alice’s triplets are named Frank Jr Jr, Chandler and ... ",
+    question: "Frank Jr  and Alice’s triplets are named Frank Jr Jr, Chandler and ...? ",
     possibleAnswers: ['Lesley', 'Sophia', 'Jennifer', 'Hannah'],
     correctAnswer: 'Lesley',
 
@@ -120,27 +120,90 @@ const questions = [
 
   {
     question: "Rachel’s sister Jill is played by which actress?",
-    possibleAnswers: ['Reese Witherspoon', 'Christina Applegate', 'Winona Ryder ', 'Drew Barrymore'],
-    correctAnswer: 'Reese Witherspoon ',
+    possibleAnswers: ['Reese Witherspoon', 'Christina Applegate', 'Winona Ryder', 'Drew Barrymore'],
+    correctAnswer: 'Reese Witherspoon',
 
   },
 
   {
-    question: "In <em>'‘The One with all the Thanksgivings’</em>', which song is Ross thinking of playing for Rachel?",
-    possibleAnswers: ['Betrayal in the Common Room', 'Interplanetary Courtship Ritual', 'Shut up and Go Home', 'Emotional Knapsack'],
-    correctAnswer: 'Emotional Knapsack',
+    question: "How may pages long (front and back!) was Rachel’s letter to Ross?",
+    possibleAnswers: ['5', '18', '7', '12'],
+    correctAnswer: '18',
   },
 
-    {
+  {
+    question: "The ‘moist-maker’ in Ross’s sandwich is an extra slice of bread soaked in what?",
+    possibleAnswers: ['Gravy', 'Butter', 'Cranberry Sauce', 'Mustard'],
+    correctAnswer: 'Gravy',
+  },
+
+   {
+    question: "Which game did Joey and Chandler create in <em>‘The One with the Inappropriate Sister’</em>?",
+    possibleAnswers: ['Waterball', 'Crazy Lawsuit Game', 'Fireball', 'Gonna Need Stitches Ball'],
+    correctAnswer: 'Fireball',
+  },
+
+  {
     question: "In <em>'The One with the Embryos'</em>, which of these is not a category in Ross's quiz?",
     possibleAnswers: ['Fears and pet peeves', 'Music', 'Ancient history', 'Literature'],
     correctAnswer: 'Music',
+  },
 
+  {
+    question: "In <em>‘The One in Vegas’</em>, Phoebe reminds Joey of his PIN for his bank card. What is it?",
+    possibleAnswers: ['5639', '1234', '0278', '0909'],
+    correctAnswer: '5639',
+  },
+
+   {
+    question: "In which hospital did Phoebe give birth to the triplets?",
+    possibleAnswers: ['NYC Health + Hospitals', 'Beth Israel Medical Center', 'Queens Hospital Center', 'Central Infirmary'],
+    correctAnswer: 'Beth Israel Medical Center',
+  },
+
+  {
+    question: "When Phoebe becomes Princess Consuela, what does she says her friends can call her?",
+    possibleAnswers: ['Dorothy', 'June', 'Valerie', 'Marjorie'],
+    correctAnswer: 'Valerie',
+  },
+
+  {
+    question: "Which of these is not a name that Rachel proposes calling her and Ross’s baby?",
+    possibleAnswers: ['James (but only if it’s a girl)', 'Betty', 'Sandrine', 'Rain'],
+    correctAnswer: 'Betty',
+  },
+
+  {
+    question: "What is the name of Dr Drake Ramoray’s evil twin?",
+    possibleAnswers: ['Stryker Ramoray', 'Hans Ramoray', 'Ramirez Ramoray', 'Dean Ramoray'],
+    correctAnswer: 'Hans Ramoray',
+  },
+
+   {
+    question: "What is the name of the movie that Joey goes to Las Vegas to star in?",
+    possibleAnswers: ['Light Force', 'Slow Motion', 'Shutter Speed', 'At the Speed of Light'],
+    correctAnswer: 'Shutter Speed',
+  },
+
+  {
+    question: "The character of Russ is played by David Schwimmer but credited under what pseudonym?",
+    possibleAnswers: ['Snape', 'Snaro', 'Snake', 'Stake'],
+    correctAnswer: 'Snaro',
+  },
+
+  {
+    question: "What is the date of Monica and Chandler’s wedding?",
+    possibleAnswers: ['16th June', '15th May', '23rd December', '21st November'],
+    correctAnswer: '15th May',
+  },
+
+    {
+    question: "In conversation with Chandler, what lie does Jack admit to telling Judy’s parents?",
+    possibleAnswers: ['He was older than he was', 'He was a lawyer', 'He liked Judy’s cooking', 'He didn’t smoke'],
+    correctAnswer: 'He was a lawyer',
   },
 
 ]
-
-
 
 /* Wait for DOM to finish loading before doing anything, to prevent trying to target elements that technically do not
 exist yet as they have not been loaded */
