@@ -307,6 +307,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // incrementIncorrectAnswer records an incorrect response and counts that in the tally of incorrect answers
     incrementIncorrectAnswer();
 
+    // Sets a short pause of 1 second between either showing next question or ending the quiz
     setTimeout(() => {
       currentQuestionIndex++;
       if (currentQuestionIndex < questions.length) {
