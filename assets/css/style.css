@@ -577,6 +577,19 @@ within the parent div which has the id of question area  */
     align-items: center;
 }
 
+.timer {
+    color: white;
+    border: 5px solid black;
+    margin: 10px 0 0 10px;
+    padding: 5px;
+    background-color: red;
+    height: 30px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Pushes end-of-game-btns to middele of page */
 .final-score {
     display: flex;

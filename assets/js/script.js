@@ -105,7 +105,7 @@ const questions = [
   },
 
   {
-    question: "What is the name of the family newsletter Written by Ross?",
+    question: "What is the name of the family newsletter written by Ross?",
     possibleAnswers: ['Red Ross', 'The Rossatron', 'The Geller Yeller', 'The Geller Teller'],
     correctAnswer: 'The Geller Yeller',
 
@@ -126,7 +126,7 @@ const questions = [
   },
 
   {
-    question: "In <em>'‘The One with all the Thanksgivings’</em>', which song does Ross tell Chandler he is thinking of playing for Rachel that evening?",
+    question: "In <em>'‘The One with all the Thanksgivings’</em>', which song is Ross thinking of playing for Rachel?",
     possibleAnswers: ['Betrayal in the Common Room', 'Interplanetary Courtship Ritual', 'Shut up and Go Home', 'Emotional Knapsack'],
     correctAnswer: 'Emotional Knapsack',
   },
