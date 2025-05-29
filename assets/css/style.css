@@ -212,7 +212,7 @@ this to work */
 
 #introduction-modal {
     max-width: 100%;
-    height: 970px; 
+    height: 990px; 
     text-align: center;
     letter-spacing: 2px;
     background-color: var(--monica-apartment-purple);
@@ -506,7 +506,6 @@ p.quotes {
 /* CONTAINER AND QUIZ PROGRESS CODE FROM https://github.com/treehouse/quiz-app/blob/main/styles/app.css CUSTOMISED FOR THIS PROJECT*/
 .container {
   width: 100%;
-  max-width: 400px;
   display: block;
 }
 
