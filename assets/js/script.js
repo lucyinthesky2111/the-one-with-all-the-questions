@@ -460,22 +460,22 @@ document.addEventListener('DOMContentLoaded', function () {
     if (finalScore >= 0 && finalScore <= 7) {
       finalScoreElement.innerHTML = `<p>"OH. MY. GOD."<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> Oh dear! It hasn't been your day, your week, your
       month, or even your year has it?!</p>` +
-        `<img src="../assets/images/umbrella.png" alt="Umbrella image" style="width:120px;">` +
+        `<img src="assets/images/umbrella.png" alt="Umbrella image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 8 && finalScore <= 15) {
       finalScoreElement.innerHTML = `<p>"OH. MY. GOD."<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Don’t feel bad, we all have our strengths. <br> You’re better with numbers and stuff.”</p>` +
-      `<img src="../assets/images/fountain.png" alt="Fountain image" style="width:120px;">` +
+      `<img src="assets/images/fountain.png" alt="Fountain image" style="width:120px;">` +
       `<button onclick="location.href='trivia.html'">Play again</button>` +
       `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 16 && finalScore <= 23) { 
      finalScoreElement.innerHTML = `<p>"OH. MY. GOD."<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Well, it was a stupid, unfair question.” <br> “Don’t blame the questions!”</p>` +
-        `<img src="../assets/images/sofa.png" alt="Sofa image" style="width:120px;">` +
+        `<img src="assets/images/sofa.png" alt="Sofa image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 24 && finalScore <= 30) { 
      finalScoreElement.innerHTML = `<p>"OH. MY. GOD." <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Congratulations Ross, because Chandler, you’ve been bamboozled!” <br> "This is the best game ever!” </p>` +
-        `<img src="../assets/images/magna-doodle.png" alt="Magna Doodle image" style="width:120px; margin-top:15px;">` +
+        `<img src="assets/images/magna-doodle.png" alt="Magna Doodle image" style="width:120px; margin-top:15px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     }
