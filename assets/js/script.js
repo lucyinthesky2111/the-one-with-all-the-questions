@@ -479,7 +479,7 @@ document.addEventListener('DOMContentLoaded', function () {
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore === 30) { 
-    finalScoreElement.innerHTML = `<p>"OH. MY. GOD." <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> YOU GOT EVERY ANSWER CORRECT! <br> Okay, you watch too much TV! <br> But could you BE a bigger Friends fan!</p>` +
+    finalScoreElement.innerHTML = `<p>"OH. MY. GOD." <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> YOU GOT EVERY ANSWER CORRECT! <br> Okay, you watch too much TV! <br> But could you BE a bigger Friends fan?!</p>` +
         `<img src="assets/images/central-perk.png" alt="Central Perk image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
