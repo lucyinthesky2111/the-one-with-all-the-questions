@@ -473,9 +473,14 @@ document.addEventListener('DOMContentLoaded', function () {
         `<img src="assets/images/sofa.png" alt="Sofa image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
-    } else if (finalScore >= 24 && finalScore <= 30) { 
+    } else if (finalScore >= 24 && finalScore <= 29) { 
      finalScoreElement.innerHTML = `<p>"OH. MY. GOD." <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Congratulations Ross, because Chandler, you’ve been bamboozled!” <br> "This is the best game ever!” </p>` +
-        `<img src="assets/images/magna-doodle.png" alt="Magna Doodle image" style="width:120px; margin-top:15px;">` +
+        `<img src="assets/images/magna-doodle.png" alt="Magna Doodle image" style="width:120px;">` +
+        `<button onclick="location.href='trivia.html'">Play again</button>` +
+        `<button onclick="location.href='index.html'">Home</button>`;
+    } else if (finalScore === 30) { 
+    finalScoreElement.innerHTML = `<p>"OH. MY. GOD." <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> YOU GOT EVERY ANSWER CORRECT! <br> Okay, you watch too much TV! <br> But could you BE a bigger Friends fan!</p>` +
+        `<img src="assets/images/central-perk.png" alt="Central Perk image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     }
