@@ -539,7 +539,7 @@ within the parent div which has the id of question area  */
 .good-luck-message {
     text-align: center;
     letter-spacing: 2px;
-    margin: 0 5px 20px 5px;
+    margin: 0 5px 25px 5px;
 }
 
 .end-of-game-btns {
@@ -863,8 +863,31 @@ i:hover {
 
     #question-area {
         width: 100%;
-        max-height: 450px;
+        max-height: 480px;
         max-width: 800px;
+    }
+
+    .question-text {
+        font-size: 25px;
+    }
+
+    .possible-answers button {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .scores {
+        font-size: 20px;
+    }
+
+    .final-score p {
+        font-size: 25px;
+    }
+
+    .end-of-game-btns {
+        font-size: 21px;
+        height: 60px;
+        width: 120px;
     }
 
 }
