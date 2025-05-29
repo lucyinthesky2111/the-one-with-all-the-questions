@@ -804,6 +804,10 @@ i:hover {
         width: 165px;
     }
 
+    .scores-area {
+        flex-direction: row;
+    }
+
 }
 
 /*BS breakpoint large screens */
