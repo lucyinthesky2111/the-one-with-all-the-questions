@@ -180,22 +180,7 @@ this to work */
 
 /* HOMEPAGE */
 
-/* MODALS */
 /* INTRODUCTION MODAL */
-
-.introduction-modal-container {
-    /* height: 70vh; */
-    /*  max-width: 100%; */
-     /* display: flex; */
-    /* justify-content: center;*/
-    /* align-items: center;*/
-    /* padding: 0 0 0 20px;*/
-    /* background-color: white; */
-     /*display: block;*/
-     /*position: fixed;*/
-     /*top: 0;*/
-    /* left: 0;*/
-}
 
 /* INTRODUCTION MODAL IMAGE */
 #princess-consuela {
@@ -321,7 +306,7 @@ this to work */
     margin-bottom: 30px;
 }
 
-/* Coloured in between the word 'Friends' on homepage */
+/* Coloured dots in between the word 'Friends' on homepage */
 .red-dot {
     color: var(--dot-red);
 }
@@ -403,16 +388,10 @@ this to work */
     text-align: center;
 }
 
-.select-difficulty {
-    letter-spacing: 2px;
-    text-align: center;
-}
-
 .question-area {
     box-sizing: border-box;
     /* width set so question box cannot take the up full width of the screen */
     width: 85%;
-    /* height: 65vh; */
     max-height: 500px;
     max-width: 830px;
     margin-left: auto;
@@ -763,10 +742,6 @@ i:hover {
         font-size: 25px;
     }
 
-    .select-difficulty {
-        font-size: 25px;
-    }
-
     .button-styling {
         font-size: 25px;
         height: 50px;
@@ -774,7 +749,7 @@ i:hover {
     }
 
     .scores {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
@@ -823,17 +798,10 @@ i:hover {
         font-size: 30px;
     }
 
-  .select-difficulty {
-        font-size: 30px;
-    }
     .button-styling {
         font-size: 30px;
         height: 60px;
         width: 165px;
-    }
-
-    .scores {
-        font-size: 25px;
     }
 
 }
@@ -880,16 +848,11 @@ i:hover {
 
     /* TRIVIA PAGE */
     #trivia-text h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #trivia-text h2 {
-        font-size: 35px;
-    }
-
-    .select-difficulty {
-        font-size: 40px;
-        margin-bottom: 40px; 
+        font-size: 30px;
     }
 
     .button-styling {
@@ -898,13 +861,9 @@ i:hover {
         width: 200px;
     }
 
-    .scores {
-        font-size: 35px;
-    }
-
     #question-area {
         width: 100%;
-        max-height: 400px;
+        max-height: 450px;
         max-width: 800px;
     }
 
@@ -942,16 +901,11 @@ i:hover {
 
         /* TRIVIA PAGE */
         #trivia-text h1 {
-            font-size: 70px;
+            font-size: 50px;
         }
     
         #trivia-text h2 {
-            font-size: 45px;
-        }
-
-        .select-difficulty {
-            font-size: 45px;
-            margin-bottom: 40px;
+            font-size: 35px;
         }
     
         .button-styling {
@@ -961,7 +915,7 @@ i:hover {
         }
     
         .scores {
-            font-size: 40px;
+            font-size: 17px;
         }
 
         #question-area {
@@ -988,16 +942,11 @@ i:hover {
 
         /* TRIVIA PAGE */
         #trivia-text h1 {
-            font-size: 100px;
+            font-size: 60px;
         }
     
         #trivia-text h2 {
-            font-size: 65px;
-        }
-
-        .select-difficulty {
-            font-size: 65px;
-            margin-bottom: 40px;
+            font-size: 45px;
         }
     
         .button-styling {
@@ -1007,13 +956,12 @@ i:hover {
         }
     
         .scores {
-            font-size: 40px;
+            font-size: 20px;
         }
 
         #question-area {
             width: 100%;
             max-height: 550px;
-            max-width: 1200px;
         }
         
         .button-container {
