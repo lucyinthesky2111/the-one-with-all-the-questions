@@ -485,7 +485,6 @@ document.addEventListener('DOMContentLoaded', function () {
         `<button onclick="location.href='index.html'">Home</button>`;
     }
 
-
     // style the added play again and home buttons with CSS
     const buttons = finalScoreElement.querySelectorAll("button");
     buttons.forEach(btn => btn.classList.add("end-of-game-btns"));
