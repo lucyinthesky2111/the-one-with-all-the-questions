@@ -584,7 +584,7 @@ within the parent div which has the id of question area  */
     padding: 5px;
     background-color: red;
     height: 30px;
-    width: 140px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
