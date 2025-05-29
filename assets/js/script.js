@@ -464,12 +464,12 @@ document.addEventListener('DOMContentLoaded', function () {
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 8 && finalScore <= 15) {
-      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} / 30. <br> “Don’t feel bad, we all have our strengths. You’re better with numbers and stuff.”</p>` +
+      finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} / 30. <br> “Don’t feel bad, we all have our strengths. <br> You’re better with numbers and stuff.”</p>` +
       `<img src="assets/images/fountain.png" alt="Fountain image" style="width:120px;">` +
       `<button onclick="location.href='trivia.html'">Play again</button>` +
       `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 16 && finalScore <= 23) { 
-     finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} / 30. <br> “Well, it was a stupid, unfair question” <br> “Don’t blame the questions!”</p>` +
+     finalScoreElement.innerHTML = `<p>Your final score is: ${finalScore} / 30. <br> “Well, it was a stupid, unfair question.” <br> “Don’t blame the questions!”</p>` +
         `<img src="assets/images/sofa.png" alt="Sofa image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
