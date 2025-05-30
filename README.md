@@ -324,7 +324,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
   - for the code for the social media links in the footer. 
   - for the code for the general styles used to push the footer to the bottom of the page. 
   - for help with the code for the responsive nav bar.
-* [Treehouse - 'Beginner JavaScript project: build a quiz app' YouTube video](https://www.youtube.com/watch?v=_FnFPmA87XU&t=1000s) - the code for the handleQuestion JS function was adapted from this video.
+* [Treehouse - 'Beginner JavaScript project: build a quiz app' YouTube video](https://www.youtube.com/watch?v=_FnFPmA87XU&t=1000s) - the JS code for the handleQuestion function and the accompanying CSS was adapted from this video.
 * [W3Schools](https://www.w3schools.com/) :-
   - for help animating the logo using the CSS transform property.
   - for help with creating the modal.

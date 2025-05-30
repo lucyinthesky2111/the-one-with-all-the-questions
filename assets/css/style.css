@@ -24,7 +24,7 @@
     box-sizing: border-box;
 }
 
-/* CSS VARIABLES */
+/* CSS VARIABLES - SITE COLOURS */
 :root {
     --dot-red: rgb(255, 0, 0);
     /* Pure red */
@@ -47,9 +47,10 @@
 
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden;
-   
+
 }
 
 body {
@@ -61,12 +62,7 @@ body {
 }
 
 main {
-    /*makes the main element take up any surplus space and not shrink when the screen
-        is too small to show all the content. This is used in conjunction with body styles
-         min-height: 100vh; display: flex; flex-direction: column; to ensure that the footer is
-         pushed all the way to the bottom of the page*/
-    /* UPDATE needed to stop nav bar list items and footer spilling over right side of page and causing an unecessary horizontal 
-        scroll bar to appear */
+    /* Push footer to bottom of page */
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -75,15 +71,8 @@ main {
 /* NAV BAR */
 header {
     background-color: var(--peephole-frame-yellow);
-    /* Using position fixed to fix nav bar to top of screen when user scrolls. Must use width of 100% with fixed position or nav bar
-    will fall short of edge of screen */
-    /* UPDATE when trivia page added, had to change position to sticky, otherwise the nav bar was covering elements located underneath it.
-    Had to remove width of 100% or footer did not display properly*/
     position: sticky;
-    /* When using sticky, must set top, right, bottom or left for it to work. Top 0 means nav bar sticks to top of page 
-    when you reach its scroll posiiton */
     top: 0;
-    /* Need high z index to keep nav bar positioned on top of other elements */
     z-index: 99;
     /* gives breathing space around the elements so logo and menu links do not stick to top of nav bar */
     padding-top: 1rem;
@@ -117,19 +106,13 @@ header a {
 
 /* Nav bar drop down toggle */
 nav {
-    /* position absolute takes an element outside the normal flow of the page structure.
-     It is positioned relative to the nearest positioned ancestor, which in this case is the header. */
     position: absolute;
-    /* had to put the background color in here to make the header look like a single object when it is opened */
     background-color: var(--peephole-frame-yellow);
     width: 100%;
-    /* the left property with value 0 aligns the nav bar directly against the left of the screen */
     left: 0;
     padding: 0 1rem;
-    /* setting the display to none means the nav bar items are hidden until the user clicks to open them */
+    /* Make nav bar items are hidden until the user clicks to open them */
     display: none;
-    /* top property means that the top of the nav bar should start at the bottom of its parent. 
-     0% would represent the top of the parent, 100% represents the bottom of it */
     top: 100%;
 }
 
@@ -142,8 +125,6 @@ nav {
 }
 
 /* Nav toggle */
-/* this pseudo class is saying that when the nav bar toggle is checked, the sibling nav element should be displayed - this is the 
-unordered list of menu items */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -160,8 +141,6 @@ unordered list of menu items */
 }
 
 /* NAV BAR HOVER FUNCTIONALITY */
-/* Need to target both the ul (using the added class of nav-list) and the individual li items (using the added class of nav-list) for
-this to work */
 .navbar-list .nav-link:hover {
     color: var(--hover);
 }
@@ -170,7 +149,7 @@ this to work */
     background-color: white;
 }
 
-/* LOGO */ 
+/* LOGO */
 /* logo animation */
 .logo-container img:hover {
     transform: rotate(180deg);
@@ -197,7 +176,7 @@ this to work */
 
 #introduction-modal {
     max-width: 100%;
-    height: 990px; 
+    height: 990px;
     text-align: center;
     letter-spacing: 2px;
     background-color: var(--monica-apartment-purple);
@@ -269,7 +248,7 @@ this to work */
 }
 
 #hero-and-title-section {
-    /* Need to set height and width to full viewport height and width so image takes up whole screen */
+    /* Set height and width to full viewport height and width so image takes up whole screen */
     min-height: 100vh;
     width: 100%;
     background-image: url("../images/central-perk-hero.png");
@@ -319,7 +298,7 @@ this to work */
     color: var(--dot-yellow);
 }
 
-/* BUTTONS */
+/* HOMEPAGE BUTTONS */
 .menu-button {
     font-size: 20px;
     letter-spacing: 5px;
@@ -353,13 +332,12 @@ this to work */
     align-items: center;
     /* Adds spacing between each button in the question area box */
     gap: 20px;
-    cursor: pointer;
 }
 
-/* IMAGES */
+/* TRIVIA PAGE */
+/* DRAWN IMAGES */
 
 .drawn-images-container {
-    /* height: 150px; */
     max-height: 50%;
     display: flex;
     justify-content: center;
@@ -369,8 +347,6 @@ this to work */
     width: 100%;
     max-height: 70%;
 }
-
-/* TRIVIA PAGE */
 
 /* The font size specified here affects the h1 text (F.R.I.E.N.D.S) only) */
 #trivia-text h1 {
@@ -405,24 +381,7 @@ this to work */
     box-shadow: 0 0 10px 10px var(--gold-doorknob);
 }
 
-/* .difficulty-btn-styling {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 5px;
-    border: 5px solid black;
-    margin-top: 15px;
-    padding: 5px;
-    background-color: var(--peephole-frame-yellow);
-    height: 50px;
-    width: 125px;
-    display: flex;
-    justify-content: center;
-    font-family: gabrielWeissFriends;
-    cursor: pointer;
-} */
-
-/* CSS from 'Love Maths' walkthrough project */
+/* CSS FROM CI LOVE MATHS WALKTROUGH PROJECT (SEE README FOR DETAILS)*/
 .difficulty-btn-styling::after {
     content: attr(data-type);
 }
@@ -481,33 +440,42 @@ p.quotes {
     color: #c28b00;
 }
 
-/* TRIVIA TWO */
-/* CONTAINER AND QUIZ PROGRESS CODE FROM https://github.com/treehouse/quiz-app/blob/main/styles/app.css CUSTOMISED FOR THIS PROJECT*/
+/* CONTAINER AND QUIZ PROGRESS CODE FROM TREEHOUSE (SEE README FOR DETAILS) - CUSTOMISED FOR THIS PROJECT*/
 .container {
-  width: 100%;
-  display: block;
+    width: 100%;
+    display: block;
 }
 
 .container .quiz-progress {
-  display: flex;
-  justify-content: evenly;
-  gap: 0.5rem;
-  margin-top: 10px;
+    display: flex;
+    justify-content: evenly;
+    gap: 0.5rem;
+    margin-top: 10px;
 }
+
 .container .quiz-progress span {
-  width: 100%;
-  height: 4px;
-  border-radius: 25px;
-  background-color: rgb(0, 0, 0, 40%);
+    width: 100%;
+    height: 4px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0, 40%);
 }
+
 .container .quiz-progress span.seen {
-  background-color: var(--peephole-frame-yellow);
+    background-color: var(--peephole-frame-yellow);
 }
 
 .container .possible-answers {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.question-text {
+    font-family: lydian;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150%;
+    margin-top: 20px;
 }
 
 .possible-answers button {
@@ -527,7 +495,8 @@ p.quotes {
     cursor: pointer;
 }
 
-/* Moves the answer buttons to the centre of the page by targeting the child div with the class of possible-answers which is contained
+/* Moves the answer buttons to the centre of the page by targeting the 
+child div with the class of possible-answers which is contained
 within the parent div which has the id of question area  */
 #possible-answers button {
     display: flex;
@@ -583,7 +552,7 @@ within the parent div which has the id of question area  */
     font-size: 20px;
     text-align: center;
 }
- 
+
 
 /* HELP PAGE */
 .help-text {
@@ -594,11 +563,11 @@ within the parent div which has the id of question area  */
 }
 
 .help-text li {
-   list-style-type: circle;
-   padding: 5px;
-   margin-right: 25px;
-   text-align: left;
-   text-align-last: start;
+    list-style-type: circle;
+    padding: 5px;
+    margin-right: 25px;
+    text-align: left;
+    text-align-last: start;
 }
 
 .help-text-2 {
@@ -624,7 +593,8 @@ within the parent div which has the id of question area  */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(255, 203, 9, 70%); /* Peephole yellow with transparency */
+    background-color: rgba(255, 203, 9, 70%);
+    /* Peephole yellow with transparency */
     box-shadow: 0 0 10px 10px var(--monica-apartment-purple);
 }
 
@@ -651,15 +621,6 @@ within the parent div which has the id of question area  */
 .drawn-images-help-area {
     max-width: 30%;
 }
-
-.question-text {
-    font-family: lydian;
-    font-size: 20px;
-    text-align: center;
-    line-height: 150%;
-    margin-top: 20px;
-}
-
 
 /* 404 ERROR PAGE */
 
@@ -821,7 +782,7 @@ i:hover {
 
     /* NAV BAR */
     nav {
-        /* display block and position relative make the list items in the nav bar visible on large screens */
+        /* Makes the list items in the nav bar visible on large screens */
         display: block;
         position: relative;
         /* Moves the list items in the nav bar to the right */
@@ -903,8 +864,9 @@ i:hover {
 
 /*BS breakpoint extra large screens */
 @media (min-width: 1200px) {
-      /* HOMEPAGE */
-      #homepage-text h1 {
+
+    /* HOMEPAGE */
+    #homepage-text h1 {
         font-size: 85px;
     }
 
@@ -914,7 +876,7 @@ i:hover {
 
     /* INTRODUCTION MODAL */
     #introduction-modal {
-        height: 980px; 
+        height: 980px;
     }
 
     #princess-consuela {
@@ -922,49 +884,50 @@ i:hover {
     }
 
     #introduction-modal h1 {
-    font-family: gabrielWeissFriends;
-    margin-top: 20px;
-    font-size: 30px;
+        font-family: gabrielWeissFriends;
+        margin-top: 20px;
+        font-size: 30px;
     }
 
     #introduction-modal p {
         font-size: 20px;
     }
 
-        /* TRIVIA PAGE */
-        #trivia-text h1 {
-            font-size: 50px;
-        }
-    
-        #trivia-text h2 {
-            font-size: 35px;
-        }
-    
-        .button-styling {
-            font-size: 50px;
-            height: 65px;
-            width: 250px;
-        }
-    
-        .scores {
-            font-size: 17px;
-        }
+    /* TRIVIA PAGE */
+    #trivia-text h1 {
+        font-size: 50px;
+    }
 
-        #question-area {
-            width: 100%;
-            max-height: 550px;
-            max-width: 900px;
-        }
+    #trivia-text h2 {
+        font-size: 35px;
+    }
 
-        .button-container {
-            gap: 30px;
-        }
+    .button-styling {
+        font-size: 50px;
+        height: 65px;
+        width: 250px;
+    }
+
+    .scores {
+        font-size: 17px;
+    }
+
+    #question-area {
+        width: 100%;
+        max-height: 550px;
+        max-width: 900px;
+    }
+
+    .button-container {
+        gap: 30px;
+    }
 }
 
-        /*BS breakpoint extra extra large screens */
-        @media (min-width: 1400px) {
-            /* HOMEPAGE */
-      #homepage-text h1 {
+/*BS breakpoint extra extra large screens */
+@media (min-width: 1400px) {
+
+    /* HOMEPAGE */
+    #homepage-text h1 {
         font-size: 100px;
     }
 
@@ -972,32 +935,32 @@ i:hover {
         font-size: 65px;
     }
 
-        /* TRIVIA PAGE */
-        #trivia-text h1 {
-            font-size: 60px;
-        }
-    
-        #trivia-text h2 {
-            font-size: 45px;
-        }
-    
-        .button-styling {
-            font-size: 60px;
-            height: 80px;
-            width: 300px;
-        }
-    
-        .scores {
-            font-size: 20px;
-        }
+    /* TRIVIA PAGE */
+    #trivia-text h1 {
+        font-size: 60px;
+    }
 
-        #question-area {
-            width: 100%;
-            max-height: 550px;
-        }
-        
-        .button-container {
-            gap: 40px;
-        }
+    #trivia-text h2 {
+        font-size: 45px;
+    }
 
-        }
+    .button-styling {
+        font-size: 60px;
+        height: 80px;
+        width: 300px;
+    }
+
+    .scores {
+        font-size: 20px;
+    }
+
+    #question-area {
+        width: 100%;
+        max-height: 550px;
+    }
+
+    .button-container {
+        gap: 40px;
+    }
+
+}

@@ -1,6 +1,4 @@
-/* I used a variety of sources to help me construct this JS code.
- Each source is briefly mentioned next to the corresponding code in the relevant section of this JS file. 
-Full details of each source can be found in the Credits (Code) section of the ReadMe. */
+/* Full details of sources used for help in constructing this JS file can be found in the Credits (Code) section of the ReadMe. */
 
 // All questions as objects within an array. Possible answers are an array within the object 
 const questions = [
@@ -212,9 +210,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Only show intro modal if user is on index.html/root
   const isIndexPage =
-    /* Modal is hidden by default in css. This code checks the user is on index.html or root and if this is true and (&&) the modal is called,
-    modal will be displayed */
-    // Help with code from W3Schools and Stack Overflow
     window.location.pathname === '/' || window.location.pathname.endsWith("index.html");
   if (isIndexPage && introductionModal) {
     introductionModal.style.display = "block";
@@ -227,15 +222,13 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 
+  /**
+   * Shuffle the questions
+   */
   // Fisher Yates shuffle function used to shuffle questions
-  // Code help from FreeCodeCamp
-  // Parameter (array) tells the function it is going to be shuffling items that are held in an array
   function shuffle(array) {
-    // Start at end of list and move back one step at a time until the start of the list is reached
     for (let i = array.length - 1; i > 0; i--) {
-      // pick a random question in the list 
       let j = Math.floor(Math.random() * (i + 1));
-      // Swap current question (i) with the question randomly selected in the step above (j)
       [array[i], array[j]] = [array[j], array[i]];
     }
   }
@@ -262,60 +255,45 @@ document.addEventListener('DOMContentLoaded', function () {
   function startTimer() {
     // Start with clear timer
     clearInterval(timerInterval);
-    // Set the timer to 30 seconds allowed per question
     timeLeft = 30;
-    // Grab the div with ID of time from the DOM and display the timer counting down with the prefixing text of 'Time left'
     document.getElementById("timer").innerText = `Time left: ${timeLeft}s`;
-    // Sets timer running
     timerInterval = setInterval(() => {
-      // takes 1 second away form the timer incrementally e.g. 30 seconds, then 29, then 28 etc
       timeLeft--;
-      // Grab the div with ID of time from the DOM and display the timer counting down with the prefixing text of 'Time left'
       document.getElementById("timer").innerText = `Time left: ${timeLeft}s`;
-      // Once the timer reaches 0
       if (timeLeft <= 0) {
         // Stop timer 
         clearInterval(timerInterval);
-        // Tells user their time is up
         alert("Time's up!");
         // call timerEnded function
         timerEnded()
       }
-      // Repeat all steps inside timer every 1 second (1000 milliseconds)
     }, 1000);
   }
 
+  /**
+   * Display questions, possible answers and timer 
+   */
   // Code for handleQuestion function adapted from Treehouse - 'Beginner JavaScript project: build a quiz app' YouTube video
   function handleQuestion(index) {
-    /* Call startTimer function at the start of the HandleQuestion function so that the time starts as soon as the handleQuestion function 
-    starts working i.e. as soon as the questions and possible answers are displayed */
+    /* Call startTimer function at the start of the HandleQuestion function so that the time starts as soon as the questions
+     and possible answers are displayed */
     startTimer();
     //  Quiz progress bar which appears above questions and possible answers
-    /* for each easy question, within the quiz progress div, add a span which is styled as a grey progress bar using a CSS class, each bar will later
-    turn yellow one by one, as the user clears each question. */
     quizProgress.innerHTML = "";
     questions.forEach((question) => {
-      // this line creates the span
       const span = document.createElement("span");
-      // this line adds the span to the correct place i.e. the div with the id of quiz-progress 
       quizProgress.appendChild(span);
     });
-    /* Loops through each span tag (which corresponds with each question) and adds my 'seen' class to each span incremently to change the colour 
-    of the bar to yellow */
-    // Sets a variable called spans and selects all the spans in the div with id of quiz-progress 
     let spans = document.querySelectorAll("#quiz-progress span");
-    // Starts the count at zero and continues until it reaches the end of the questions. Increases the count by one each time 
     for (let i = 0; i <= index; i++) {
-      // Everytime the count is increased, the 'seen' class is added to the corresponding span
       spans[i].classList.add("seen");
     };
 
-    // Display question difficulty and question
+    // Display question
     questionText.innerHTML =
     `<p>${questions[index].question}</p>`
 
     // Shuffle the answer options
-    // Code from freeCodeCamp
     const shuffleTheAnswers = () => 0.5 - Math.random();
     const shuffledAnswers = questions.map(q => ({
       ...q,
@@ -353,21 +331,15 @@ document.addEventListener('DOMContentLoaded', function () {
         answers.forEach(btn => btn.disabled = true);
 
 
-        // Code help from W3Schools and FreeCodeCamp
         setTimeout(() => {
-          // increment question by one in the first instance to move to the next question in the array
           currentQuestionIndex++;
-          // Then check if there are still questions left to ask ie. if the current question is not the last in the array of questions
           if (currentQuestionIndex < questions.length) {
-            /* If there are still questions there, continue cycling through the questions array in order to display them
-            one by one */
             handleQuestion(currentQuestionIndex);
-            // If no questions left, call the end quiz function
           } else {
             endQuiz()
           }
           /* 1000 sets a 1 second (1000 millisecond) delay between the user selecting an answer and the quiz moving on to the 
-          next question. Without this, the question moves on so fast, the user cannot see the relevant background
+          next question so user cannot see the relevant background
           colours which indicate whether their answer is right or wrong */
         }, 1000);
       });
@@ -378,13 +350,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
   handleQuestion(currentQuestionIndex);
 
-  // Runs when the timer has stopped
+  /**
+   * Moves quiz on to next question if user fails to answer before timer hits zero
+   */
   function timerEnded() {
-    // Select all the answer buttons
     let answers = document.querySelectorAll("button");
-    // for each button
     answers.forEach(button => {
-      //  disable them so they can't be clicked anymore - the quiz will just move on to the next question instead once user has clicked pop up alert away 
       button.disabled = true;
     });
 
@@ -392,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // incrementIncorrectAnswer records an incorrect response and counts that in the tally of incorrect answers
     incrementIncorrectAnswer();
 
-    // Sets a short pause of 1 second between either showing next question or ending the quiz
+    // Sets a short pause of 1 second between either showing next question or ending the quiz if questions have run out
     setTimeout(() => {
       currentQuestionIndex++;
       if (currentQuestionIndex < questions.length) {
@@ -420,8 +391,10 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById("incorrect").innerText = ++oldScore;
   };
 
+  /**
+   * Stop timer and hide elements that are no longer needed when quiz ends
+   */
   function endQuiz() {
-    // Display alert when all the questions have been asked 
     alert("End of questions!")
     // Stops the timer when all questions have been asked.
     clearInterval(timerInterval);
@@ -442,21 +415,15 @@ document.addEventListener('DOMContentLoaded', function () {
     finalScore()
   }
 
-  /** Function to display the user's final score */
+  /** 
+   * Function to display the user's final score with a custom message
+   */
   function finalScore() {
-    // Get the user's final score from the DOM as a number by getting the number of correct answers and stores it as the variable 'finalScore'
     let finalScore = parseInt(document.getElementById("correct").innerText);
-    // console.log to check function is working
-    console.log(`Your final score is ${finalScore}`)
-
-    // Gets the div with the id of final-score from the DOM and stores it as a new variable called finalScoreElement
     const finalScoreElement = document.getElementById("final-score");
-    /* the endQuiz function has already been called so the q, a and progress spans are hidden. This line of code grabs the variable
-    finalScoreElement which has the user's final score stored within it */
     if (finalScoreElement) {
     }
-    /* If score is between 0-5 (greater than or equal to 0 and less than or equal to 4) display thie specified message 
-    which includes the user's final score */
+    /* Custom messages to user depending on their score */
     if (finalScore >= 0 && finalScore <= 7) {
       finalScoreElement.innerHTML = `<p>"OH. MY. GOD!"<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> Oh dear! It hasn't been your day, your week, your
       month, or even your year has it?!</p>` +
