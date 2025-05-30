@@ -197,9 +197,9 @@ const questions = [
   },
 
     {
-    question: "In conversation with Chandler, what lie does Jack admit to telling Judy’s parents?",
-    possibleAnswers: ['He was older than he was', 'He was a lawyer', 'He liked Judy’s cooking', 'He didn’t smoke'],
-    correctAnswer: 'He was a lawyer',
+    question: "In <em>‘The One with all the Thanksgivings’</em>, which song does Ross tell Chandler he is thinking of playing for Rachel?",
+    possibleAnswers: ['Betrayal in the Common Room', 'Interplanetary Courtship Ritual', 'Shut up and Go Home', 'Emotional Knapsack'],
+    correctAnswer: 'Emotional Knapsack',
   },
 
 ]
@@ -458,28 +458,28 @@ document.addEventListener('DOMContentLoaded', function () {
     /* If score is between 0-5 (greater than or equal to 0 and less than or equal to 4) display thie specified message 
     which includes the user's final score */
     if (finalScore >= 0 && finalScore <= 7) {
-      finalScoreElement.innerHTML = `<p>"OH. MY. GOD."<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> Oh dear! It hasn't been your day, your week, your
+      finalScoreElement.innerHTML = `<p>"OH. MY. GOD!"<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> Oh dear! It hasn't been your day, your week, your
       month, or even your year has it?!</p>` +
         `<img src="assets/images/umbrella.png" alt="Umbrella image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 8 && finalScore <= 15) {
-      finalScoreElement.innerHTML = `<p>"OH. MY. GOD."<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Don’t feel bad, we all have our strengths. <br> You’re better with numbers and stuff.”</p>` +
+      finalScoreElement.innerHTML = `<p>"OH. MY. GOD!"<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Don’t feel bad, we all have our strengths. <br> You’re better with numbers and stuff.”</p>` +
       `<img src="assets/images/fountain.png" alt="Fountain image" style="width:120px;">` +
       `<button onclick="location.href='trivia.html'">Play again</button>` +
       `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 16 && finalScore <= 23) { 
-     finalScoreElement.innerHTML = `<p>"OH. MY. GOD."<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Well, it was a stupid, unfair question.” <br> “Don’t blame the questions!”</p>` +
+     finalScoreElement.innerHTML = `<p>"OH. MY. GOD!"<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Well, it was a stupid, unfair question!” <br> “Don’t blame the questions!”</p>` +
         `<img src="assets/images/sofa.png" alt="Sofa image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 24 && finalScore <= 29) { 
-     finalScoreElement.innerHTML = `<p>"OH. MY. GOD." <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Congratulations Ross, because Chandler, you’ve been bamboozled!” <br> "This is the best game ever!” </p>` +
+     finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Congratulations Ross, because Chandler, you’ve been bamboozled!” <br> "This is the best game ever!” </p>` +
         `<img src="assets/images/magna-doodle.png" alt="Magna Doodle image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore === 30) { 
-    finalScoreElement.innerHTML = `<p>"OH. MY. GOD." <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> YOU GOT EVERY ANSWER CORRECT! <br> Okay, you watch too much TV! <br> But could you BE a bigger Friends fan?!</p>` +
+    finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> YOU GOT EVERY ANSWER CORRECT! <br> Okay, you watch too much TV! <br> But could you BE a bigger Friends fan?!</p>` +
         `<img src="assets/images/central-perk.png" alt="Central Perk image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
