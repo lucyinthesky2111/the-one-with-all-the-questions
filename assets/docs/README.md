@@ -235,7 +235,7 @@ REMEMBER TO ADD WIREFRAMES !!!!
      * [Gabriel Weiss' Friends Font](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/) - as the main font.
      * [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - as a back-up font, due to its similarity to Gabriel Weiss' Friends Font.
   * [Font Awesome](https://fontawesome.com/) – was used to choose and import the icons used in the site.
-  * [Canva](https://www.canva.com/) – was used to create the wireframes. 
+  * [Canva](https://www.canva.com/) – was used to create the wireframes, remove the background from images, and crop all images to the desired aspect ratio.
   * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) – was used while building the project to test responsiveness, and for debugging.
 
   ### Testing
@@ -253,7 +253,7 @@ REMEMBER TO ADD WIREFRAMES !!!!
     * BOTH CREATIVE COMMONS
   * [Noun Project](https://thenounproject.com/) - was used to source the ['Friends Icons Set' by created by Amelia Detwiler](https://thenounproject.com/browse/collection-icon/friends-30104/). All icons from the collection were used in the site.
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
-  * [Canva](https://www.canva.com/) – was used to remove the background from the logo.
+  * [Canva](https://www.canva.com/) – was used to remove the background from images, and to crop all images to the desired aspect ratio.
   * [Favicon.io](https://favicon.io/) – was used to generate the site’s favicon.
   * [Techsini](https://techsini.com/multi-mockup/) – was used to generate a mockup of the homepage on various screen sizes.
   * [Coolors](https://coolors.co/) – was used to generate the site’s colour scheme.

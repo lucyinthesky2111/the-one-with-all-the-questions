@@ -101,16 +101,16 @@ The The one with all the questions - 'Friends' interactive trivia website return
 # WAVE Web Accessibility Evaluation Tools Checker
 The one with all the questions - 'Friends' interactive trivia website returned no errors or contrast errors when tested using the WAVE Web Accessibility Evaluation Tools Checker. 
 ## Homepage 
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="../readme-images/wave-homepage.png"></h2>
 
 ## Play Page 
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="../readme-images/wave-play-page.png"></h2>
 
 ## Help Page 
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="../readme-images/wave-help-page.png"></h2>
 
 ## 404 Error Page  
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="../readme-images/wave-404-page.png"></h2>
 
 # Browser Compatibility
 * The site was tested and performed as expected on Google Chrome, Microsoft Edge, and Internet Explorer.
