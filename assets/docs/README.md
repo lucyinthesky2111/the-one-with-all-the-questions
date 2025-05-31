@@ -12,55 +12,51 @@
 2. [Live Site](#live-site)
 3. [Repository](#repository)
 4. [User Experience](#user-experience)
-    * [Strategy](#strategy)
-         + [Site Owner Goals](#site-owner-goals)
-         + [Site Manager Goals](#site-manager-goals)
-         + [User Stories](#user-stories)
-         + [User Goals](#user-goals)
-           + [Must Have](#must-have)
-           + [Should Have](#should-have)
-           + [Could Have](#could-have)
-         + [User Expectations and Requirements](#user-expectations-and-requirements)
-    * [Scope](#scope)
-        + [Initial Stage Features](#initial-stage-features)
-        + [Future Additions](#future-additions)
-    * [Structure](#structure)  
-        + [Wireframes](#wireframes)
-   * [Skeleton](#skeleton)  
-        + [Layout](#layout)
-          + [Information Architecture](#infomation-architecture)
-            + [Navigation Bar](#navigation-bar)
-            + [Sub-navigation Bar](#sub-navigation-bar)
-            + [Buttons](#buttons)
-            + [Footer](#footer)
-            + [Thank You Page](#thank-you-page)
-            + [404 Error Page](#404-error-page)
-   * [Surface](#surface)
-        + [Design](#design)
-          + [Colour Scheme](#colour-scheme)
-          + [Typography](#typography)
-          + [Imagery](#imagery)
-          + [Icons](#icons)
-          + [Logo](#logo)
-          + [Favicons](#favicons)
-5. [Technologies Used](#technologies-used)
+     + [Site Owner Goals](#site-owner-goals)
+     + [Site Manager Goals](#site-manager-goals)
+     + [User Stories](#user-stories)
+     + [User Goals](#user-goals)
+          + [Must Have](#must-have)
+          + [Should Have](#should-have)
+          + [Could Have](#could-have)
+     + [User Expectations and Requirements](#user-expectations-and-requirements)
+5. [Features](#features)
+      + [Initial Stage Features](#initial-stage-features)
+           + [Navigation Bar](#navigation-bar)
+           + [Footer](#footer)
+           + [Buttons](#buttons)
+           + [Introduction Modal](#introduction-modal)
+           + [Homepage](#homepage)
+           + [Play Page](#play-page-colour-scheme)
+           + [Help Page](#help-page)
+           + [404 Error Page](#404-error-page)
+      + [Future Additions](#future-additions)
+6. [Wireframes](#wireframes)
+7. [Design](#design)
+     + [Colour Scheme](#colour-scheme)
+     + [Typography](#typography)
+     + [Imagery](#imagery)
+     + [Icons](#icons)
+     + [Logo](#logo)
+     + [Favicons](#favicons)
+8. [Technologies Used](#technologies-used)
      + [Languages](#languages)
      + [Frameworks Libraries and Programmes](#frameworks-libraries-and-programmes)
        * [Creation](#creation)
        * [Testing](#testing)
        * [Images](#images)
        * [Miscellaneous](#miscellaneous)
-6. [Testing and Validation](#testing-and-validation)
-7. [Deployment](#deployment)
+9. [Testing and Validation](#testing-and-validation)
+10. [Deployment](#deployment)
      + [GitHub Pages](#github-pages)
      + [Forking the GitHub Repository](#forking-the-github-repository)
      + [Making a Local Clone](#making-a-local-clone)      
-8. [Credits](#credits)
+11. [Credits](#credits)
      + [Content](#content)
      + [Code](#code)
      + [Acknowledgments](#acknowledgments)
-9. [Developer Comments](#developer-comments)
-10. [Disclaimer](#disclaimer)
+12. [Developer Comments](#developer-comments)
+13. [Disclaimer](#disclaimer)
 
   
 # Introduction
@@ -78,22 +74,19 @@
 [The project repository can be viewed here](https://github.com/lucyinthesky2111/the-one-with-all-the-questions)
 
 # User Experience
-  ## Strategy
-  ### Site Owner Goals
+  ## Site Owner Goals
   * For the site to provide an enjoyable, fun and interactive quiz for fans of Friends to test their knowledge of the show. 
   * For the site to be accessible to all fans of Friends by including questions of varying difficulty levels, in order to accommodate all levels of knowledge. 
   * For the site to feature links to the site owner’s social media accounts so users can contact them and find out more about their work. 
 
-
-  ### Site Manager Goals
+  ## Site Manager Goals
   * For the HTML, CSS and JS code to be clear, logical, and contain explanatory comments in order to ensure the site is easy to update and maintain. 
   * For images to be downloaded to the site manager's computer, not hosted by an external site, to ensure images are always available for the user.  
 
-
-  ### User Stories
+  ## User Stories
   These can be found in my GitHub [project board](https://github.com/users/lucyinthesky2111/projects/9/views/1) for this repository.
 
-  ### User Goals
+  ## User Goals
   As a player of the game, these are the features I want to see ranked in order of importance.
   ### Must Have Features
   * To 
@@ -104,7 +97,7 @@
   ### Could Have Features
   * To be able to filter questions by difficulty level (user story ..... )
 
-### User Expectations and Requirements
+## User Expectations and Requirements
 * All user story 1 (must-have)
 * To find the website easy to access and navigate on any screen size. 
 * For the site to be fully accessible. 
@@ -115,63 +108,43 @@
 * To receive a custom 404 error page which links back to the Homepage, when trying to access an incorrect URL within the site. 
 
 
-# Scope
+# Features
 ## Initial Stage Features
+### Navigation Bar
+
+### Footer
+
+### Buttons
+
+### Introduction Modal
+
+### Homepage
+* The homepage features a full-page background image, which fans of the show will recognise as the outside of the famous ‘Central Perk’ coffeehouse. 
+ * There is a partially transparent box over the centre of the image containing the site’s title and subtitle, which makes it immediately clear that the site is a quiz about the TV show Friends. 
+ * The box border (and all box borders which appear on the site), do not have any border radius applied to them. This is because the Gabriel Weiss’ Friends Font suits stark square edges better than softer, rounder ones. 
+ * A box shadow is applied to add texture and a layering effect, to add visual interest to the page, making it more aesthetically pleasing. 
+
+### Play Page
+
+### Help Page
+
+### 404 Error Page
 
 
 
 ## Future Additions
 
 
-# Structure 
-## Wireframes
-
-# Skeleton
-## Layout
-### Information Architecture
+# Wireframes
 
 
-### Navigation Bar 
-
-
-### Sub-navigation Bar
 * TEMPLATE FOR IMAGE THAT IS OPEN BY DEFAULT
 <details open><h3 align="center"><img src="./assets/readme-images/friends-tv-show-font.png" alt="Google search result">Google search results</h3></details>
 
-### Buttons
+ # Design
 
-
-### Footer 
-
-### Thank You Page
- 
-
-### 404 Error Page
-
-
-# Surface
- ## Design
- ### Homepage design 
- * The homepage features a full-page background image, which fans of the show will recognise as the outside of the famous ‘Central Perk’ coffeehouse. 
- * There is a partially transparent box over the centre of the image containing the site’s title and subtitle, which makes it immediately clear that the site is a quiz about the TV show Friends. 
- * The box border (and all box borders which appear on the site), do not have any border radius applied to them. This is because the Gabriel Weiss’ Friends Font suits stark square edges better than softer, rounder ones. 
- * A box shadow is applied to add texture and a layering effect, to add visual interest to the page, making it more aesthetically pleasing. 
-
- ### Introduction Modal Design 
-
- ### How To Play Modal Design 
-
- ### Play Page Design 
-
- ### Navigation Bar Design 
-
- ### Footer Colour Design 
-
-
- ### Colour Scheme
+ ## Colour Scheme
  * The colours used in the site were taken from the colours of the inside of Monica Geller's front door 
-
-### Homepage Colour Scheme  
 
 ### Site Title Colour Scheme
  * The title of the site is 'Friends', with the subtitle of 'The One with all the Questions'.
@@ -195,17 +168,7 @@
           <img src="assets/readme-images/dot-colours-on-play-page.png" alt="Colours used for the dots in Play page site title (desktop)"> 
      </details>
 
-### Introduction Modal Colour Scheme 
-
-### How To Play Modal Colour Scheme 
-
-### Play Page Colour Scheme 
-
-### Navigation Bar Colour Scheme 
-
-### Footer Colour Scheme 
-
- ### Typography
+ ## Typography
   * The Font used in the opening credits of 'Friends' is very distinctive and easily recognisable - especially to avid fans of the show. Therefore I knew I needed to use a font as close as possible to the original to make the site appealling to Friends fans. I used [Google](https://www.google.co.uk/) to research which font was the closest match. The results showed that this was Gabriel Weiss' Friends Font. I downloaded this font from [Font Meme](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/).
      <details>
           <summary>Google search results for Friends TV show font</summary>
@@ -226,16 +189,16 @@
 
  
 
-   ### Imagery
+## Imagery
 
    
-  ### Image Styling
+### Aspect Ratios
    
 
-### Icons
+## Icons
 
 
-### Logo
+## Logo
 * [Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica's front door. The image was found via a [Google](https://www.google.co.uk/) image search with results set to 'Creative Commons licenses'. This image was then used as the site's logo.
      <details>
           <summary>Google image search for 'friends door peephole' with results set to 'Creative Commons licenses'</summary>
@@ -248,7 +211,7 @@
 * The logo is animated and rotates 180 degrees when the user hovers over it.
 * For convenience, clicking the logo on the navbar will ..........
 
-### Favicons
+## Favicons
 * The favicon was generated using [Favicon.io](https://favicon.io/). 
 * The favicon is the peephole frame logo.
 
@@ -274,6 +237,7 @@
   ### Testing
   * [W3C HTML Validator](https://validator.w3.org/) – was used to validate the HTML.
   *	[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) – was used to validate the CSS.
+  * JS HINT
   *	[WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) – was used to test the site for accessibility.
   * [Google Chrome Developer Tools (Lighthouse feature)](https://developer.chrome.com/docs/lighthouse/overview) - was used to test the site for Performance, Accessibility, Best Practices and SEO.
 
@@ -331,6 +295,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 
 # Credits
 ## Content
+* All copy, questions and answers on the site were written by me. I referred to the relevant episodes of Friends to verify all answers and information given to ensure everything is correct.
 * [Warner Bros](https://www.warnerbros.co.uk/tv/friends) - for the site colour scheme and the Friends quotes and references which appear throughout the site.
 * [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file) - for ......
 * [suzybee1987 'Terry pratchett Discworld quiz'](https://github.com/suzybee1987/milestone-2) - for........
