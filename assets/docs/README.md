@@ -62,7 +62,7 @@
 * As a lifelong Friends fan, I wanted to create a quiz for other people who love the show.   
 * The quiz is a timed question and answer game to enable fans to test their knowledge of the show. 
 * All the Friends episodes have titles including ‘The One’ e.g. ‘The One with the Football’ etc. In keeping with this tradition, the website has the subtitle of ‘The One with all the Questions’. 
-* As an added touch for Friends fans to appreciate, Friends quotes, references and images relating to the show are placed throughout the site.  
+* As an added touch for Friends fans to appreciate, Friends quotes, references, and images relating to the show are placed throughout the site.  
 
 * This is my second milestone project for the Code Institute Level 5 Diploma in Web Application Development.
 
@@ -85,20 +85,19 @@
   ## User Stories
   These can be found in my GitHub [project board](https://github.com/users/lucyinthesky2111/projects/9/views/1) for this repository.
 
-  As a player of the game, these are the features I want to see ranked in order of importance.
+  As a player of the game, these are the features I want to see ranked in order of importance:
   
   ### Must Have Features
   * Clear instructions as to how to play the game which are accessible from anywhere on the site (user story 2). 
   * Immediate visual feedback as to whether my answer is correct or incorrect for each question (user story 3). 
-  * Visual feedback as to my current score all throughout the game (user story 4). 
-  * To see my final score at the end of the game so I can replay and try to beat it (user story 5). 
-  * For there to be questions of varying difficulty levels so I can participate regardless of my knowledge level. (user story 6 ).
+  * Facility to see my final score at the end of the game, so I can replay and try to beat it (user story 4). 
+  * For there to be questions of varying difficulty levels, so I can participate regardless of my knowledge level (user story 5). 
 
   ### Should Have Features
-  * To 
+  * 
 
   ### Could Have Features
-  * To be able to filter questions by difficulty level (user story ..... )
+  * 
 
 ## User Expectations and Requirements
 * All user story 1 (must-have)
