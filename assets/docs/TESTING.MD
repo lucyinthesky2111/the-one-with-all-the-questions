@@ -24,7 +24,7 @@ The The one with all the questions - 'Friends' interactive trivia website has be
 ## W3C HTML Validator
 The one with all the questions - 'Friends' interactive trivia website .......
 ### Homepage
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="../readme-images/homepage-html-validation.png"></h2>
 
 ### Play Page
 <h2 align="center"><img src=""></h2>
