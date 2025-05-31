@@ -1,3 +1,5 @@
+/*jshint esversion: 9 */
+
 /* Full details of sources used for help in constructing this JS file can be found in the Credits (Code) section of the ReadMe. */
 
 // All questions as objects within an array. Possible answers are an array within the object 
@@ -200,7 +202,7 @@ const questions = [
     correctAnswer: 'Emotional Knapsack',
   },
 
-]
+];
 
 /* Wait for DOM to finish loading before doing anything */
 document.addEventListener('DOMContentLoaded', function () {
@@ -218,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const close = document.getElementById("close"); {
     close.addEventListener('click', function () {
       introductionModal.style.display = "none";
-    })
+    });
   }
 
   /**
@@ -264,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function () {
         clearInterval(timerInterval);
         alert("Time's up!");
         // call timerEnded function
-        timerEnded()
+        timerEnded();
       }
     }, 1000);
   }
@@ -286,11 +288,11 @@ document.addEventListener('DOMContentLoaded', function () {
     let spans = document.querySelectorAll("#quiz-progress span");
     for (let i = 0; i <= index; i++) {
       spans[i].classList.add("seen");
-    };
+    }
 
     // Display question
     questionText.innerHTML =
-      `<p>${questions[index].question}</p>`
+      `<p>${questions[index].question}</p>`;
 
     // Shuffle the answer options
     const shuffleTheAnswers = () => 0.5 - Math.random();
@@ -323,7 +325,7 @@ document.addEventListener('DOMContentLoaded', function () {
           if (button.textContent === questions[index].correctAnswer) {
             button.style.backgroundColor = "lime";
           }
-        })
+        });
 
 
         // Disable all buttons so the user can't click again
@@ -335,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function () {
           if (currentQuestionIndex < questions.length) {
             handleQuestion(currentQuestionIndex);
           } else {
-            endQuiz()
+            endQuiz();
           }
           /* 1000 sets a 1 second (1000 millisecond) delay between the user selecting 
           an answer and the quiz moving on to the 
@@ -381,7 +383,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function incrementCorrectAnswer() {
     let oldScore = parseInt(document.getElementById("correct").innerText);
     document.getElementById("correct").innerText = ++oldScore;
-  };
+  }
 
   /** 
    * Get current score from the DOM and increment incorrect answers when user gets answer wrong
@@ -389,13 +391,13 @@ document.addEventListener('DOMContentLoaded', function () {
   function incrementIncorrectAnswer() {
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
-  };
+  }
 
   /**
    * Stop timer and hide elements that are no longer needed when quiz ends
    */
   function endQuiz() {
-    alert("End of questions!")
+    alert("End of questions!");
     // Stops the timer when all questions have been asked.
     clearInterval(timerInterval);
     // Hides timer once it has been stopped (without this paused timer shows on the results page)
@@ -412,7 +414,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // Call the finalScore function once all the questions have been asked
-    finalScore()
+    finalScore();
   }
 
   /** 

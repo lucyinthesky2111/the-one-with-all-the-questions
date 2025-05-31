@@ -8,7 +8,7 @@ The The one with all the questions - 'Friends' interactive trivia website has be
         - [help Page](#help-page)
         - [404 Error Page](#404-error-page)
     - [W3C CSS Validator](#w3c-css-validator)
-    - [JSHINT JavaScript Validator](https://jshint.com/)
+    - [JSHint JavaScript Validator](#jshint-javascript-validator)
 - [Lighthouse](#lighthouse)
 - [Responsiveness](#responsiveness)
 - [WAVE Web Accessibility Evaluation Tools Checker](#wave-web-accessibility-evaluation-tools-checker)
@@ -22,25 +22,29 @@ The The one with all the questions - 'Friends' interactive trivia website has be
 
 # Code Validation
 ## W3C HTML Validator
-The one with all the questions - 'Friends' interactive trivia website .......
-### Homepage
+The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the W3C HTML Validator tool.
+
+### Homepage 
 <h2 align="center"><img src="../readme-images/homepage-html-validation.png"></h2>
 
 ### Play Page
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="../readme-images/html-validation-play-page.png"></h2>
 
 ### Help Page
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="../readme-images/html-validation-help-page.png"></h2>
 
 ### 404 Error Page
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="../readme-images/html-validation-404-page.png"></h2>
 
 ## W3C CSS Validator
 The The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the W3C CSS Validator tool.
 ### CSS Stylesheet
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="../readme-images/css-validation.png"></h2>
 
-## JSHINT JavaScript Validator
+## JSHint JavaScript Validator
+The The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the JSHint JavaScript Validator tool.
+### JS Script File
+<h2 align="center"><img src="../readme-images/js-hint.png"></h2>
 
 # Lighthouse
 * I ran Lighthouse reports in Google Devtools to test for :- Performance, Accessibility, Best Practices and SEO.
@@ -135,10 +139,11 @@ All user expectations and requirements have been satisfied (evidenced by looking
 
 # Bugs 
 ## Resolved
-* 
+* On first run of the W3C HTML Validator, the error shown below was flagged on all pages of the site. This was resolved by replacing the p element with a span element. All pages of the site subsequently passed validation. 
+<h2 align="center"><img src="../readme-images/p-html-error.png"></h2>
 
 
 ## Unresolved
 * 
 
-Back to [README.md](/README.md#testing-and-validation)
+Back to [README.md](./README.md)

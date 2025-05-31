@@ -265,7 +265,6 @@ nav {
 
 /* The font size specified here affects the h2 text (the one with all the questions) only */
 #homepage-text-container {
-    font-size: 14Spx;
     background-color: rgba(130, 129, 199, 90%);
     /* Monica apartment purple with an alpha value applied */
     color: black;
@@ -448,7 +447,7 @@ p.quotes {
 
 .container .quiz-progress {
     display: flex;
-    justify-content: evenly;
+    justify-content: space-evenly;
     gap: 0.5rem;
     margin-top: 10px;
 }
@@ -669,7 +668,7 @@ footer {
 /*targets the social media icons so their colours will change when they are hovered over. 
     To get this to work, had to target i element not a element as originally thought*/
 i:hover {
-    color: var(---hover);
+    color: var(--hover);
 
 }
 
