@@ -525,7 +525,7 @@ within the parent div which has the id of question area  */
 }
 
 .timer {
-    color: white;
+    color: black;
     border: 5px solid black;
     margin: 10px 0 0 10px;
     padding: 5px;

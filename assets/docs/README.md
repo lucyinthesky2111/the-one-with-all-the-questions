@@ -86,13 +86,14 @@
   These can be found in my GitHub [project board](https://github.com/users/lucyinthesky2111/projects/9/views/1) for this repository.
 
   As a player of the game, these are the features I want to see ranked in order of importance.
+  
   ### Must Have Features
   * Clear instructions as to how to play the game which are accessible from anywhere on the site (user story 2). 
   * Immediate visual feedback as to whether my answer is correct or incorrect for each question (user story 3). 
   * Visual feedback as to my current score all throughout the game (user story 4). 
   * To see my final score at the end of the game so I can replay and try to beat it (user story 5). 
   * For there to be questions of varying difficulty levels so I can participate regardless of my knowledge level. (user story 6 ).
-  
+
   ### Should Have Features
   * To 
 
@@ -138,6 +139,7 @@
 
 
 # Wireframes
+REMEMBER TO ADD WIREFRAMES !!!!
 
 
 * TEMPLATE FOR IMAGE THAT IS OPEN BY DEFAULT
