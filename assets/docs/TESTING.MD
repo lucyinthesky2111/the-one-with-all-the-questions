@@ -14,7 +14,6 @@ The The one with all the questions - 'Friends' interactive trivia website has be
 - [WAVE Web Accessibility Evaluation Tools Checker](#wave-web-accessibility-evaluation-tools-checker)
 - [Browser Compatibility](#browser-compatibility)
 - [Testing User Stories](#testing-user-stories)
-- [Testing User Goals](#testing-user-goals)
 - [Testing User Expectations and Requirements](#testing-user-expectations-and-requirements)
 - [Peer Review](#peer-review)
 - [Bugs](#bugs)

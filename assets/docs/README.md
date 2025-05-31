@@ -15,7 +15,6 @@
      + [Site Owner Goals](#site-owner-goals)
      + [Site Manager Goals](#site-manager-goals)
      + [User Stories](#user-stories)
-     + [User Goals](#user-goals)
           + [Must Have](#must-have)
           + [Should Have](#should-have)
           + [Could Have](#could-have)
@@ -86,11 +85,14 @@
   ## User Stories
   These can be found in my GitHub [project board](https://github.com/users/lucyinthesky2111/projects/9/views/1) for this repository.
 
-  ## User Goals
   As a player of the game, these are the features I want to see ranked in order of importance.
   ### Must Have Features
-  * To 
-
+  * Clear instructions as to how to play the game which are accessible from anywhere on the site (user story 2). 
+  * Immediate visual feedback as to whether my answer is correct or incorrect for each question (user story 3). 
+  * Visual feedback as to my current score all throughout the game (user story 4). 
+  * To see my final score at the end of the game so I can replay and try to beat it (user story 5). 
+  * For there to be questions of varying difficulty levels so I can participate regardless of my knowledge level. (user story 6 ).
+  
   ### Should Have Features
   * To 
 
