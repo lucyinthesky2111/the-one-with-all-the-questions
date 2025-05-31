@@ -39,7 +39,7 @@ const questions = [
 
   {
     question: 'Finish this iconic Friends line. "We were on a...”',
-    possibleAnswers: ['Trip', 'Night out with Gandolf', 'Break', 'Ferry to Staten Island'],
+    possibleAnswers: ['Trip', 'Night out with Gandalf', 'Break', 'Ferry to Staten Island'],
     correctAnswer: 'Break',
 
   },
@@ -87,14 +87,14 @@ const questions = [
 
   },
 
-   {
+  {
     question: "Which of these actors was not a guest star on Friends?",
     possibleAnswers: ['Robin Williams', 'Brad Pitt', 'Bruce Willis', 'Leonardo DiCaprio'],
     correctAnswer: 'Leonardo DiCaprio',
 
   },
 
-   {
+  {
     question: "Frank Jr  and Alice’s triplets are named Frank Jr Jr, Chandler and ...? ",
     possibleAnswers: ['Lesley', 'Sophia', 'Jennifer', 'Hannah'],
     correctAnswer: 'Lesley',
@@ -108,7 +108,7 @@ const questions = [
 
   },
 
- {
+  {
     question: "Ross’s son Ben goes to school with the son of which famous musician?",
     possibleAnswers: ['Drake', 'Bono', 'Sting', 'Slash'],
     correctAnswer: 'Sting',
@@ -134,7 +134,7 @@ const questions = [
     correctAnswer: 'Gravy',
   },
 
-   {
+  {
     question: "Which game did Joey and Chandler create in <em>‘The One with the Inappropriate Sister’</em>?",
     possibleAnswers: ['Waterball', 'Crazy Lawsuit Game', 'Fireball', 'Gonna Need Stitches Ball'],
     correctAnswer: 'Fireball',
@@ -152,7 +152,7 @@ const questions = [
     correctAnswer: '5639',
   },
 
-   {
+  {
     question: "In which hospital did Phoebe give birth to the triplets?",
     possibleAnswers: ['NYC Health + Hospitals', 'Beth Israel Medical Center', 'Queens Hospital Center', 'Central Infirmary'],
     correctAnswer: 'Beth Israel Medical Center',
@@ -176,7 +176,7 @@ const questions = [
     correctAnswer: 'Hans Ramoray',
   },
 
-   {
+  {
     question: "What is the name of the movie that Joey goes to Las Vegas to star in?",
     possibleAnswers: ['Light Force', 'Slow Motion', 'Shutter Speed', 'At the Speed of Light'],
     correctAnswer: 'Shutter Speed',
@@ -194,7 +194,7 @@ const questions = [
     correctAnswer: '15th May',
   },
 
-    {
+  {
     question: "In <em>‘The One with all the Thanksgivings’</em>, which song does Ross tell Chandler he is thinking of playing for Rachel?",
     possibleAnswers: ['Betrayal in the Common Room', 'Interplanetary Courtship Ritual', 'Shut up and Go Home', 'Emotional Knapsack'],
     correctAnswer: 'Emotional Knapsack',
@@ -202,8 +202,7 @@ const questions = [
 
 ]
 
-/* Wait for DOM to finish loading before doing anything, to prevent trying to target elements that technically do not
-exist yet as they have not been loaded */
+/* Wait for DOM to finish loading before doing anything */
 document.addEventListener('DOMContentLoaded', function () {
   // Gets the introduction modal
   let introductionModal = document.getElementById("introduction-modal");
@@ -233,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
- // call the Fisher Yates shuffle function and apply it to the questions array so the questions all appear in a random order
+  // call the Fisher Yates shuffle function and apply it to the questions array so the questions all appear in a random order
   shuffle(questions);
 
 
@@ -291,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Display question
     questionText.innerHTML =
-    `<p>${questions[index].question}</p>`
+      `<p>${questions[index].question}</p>`
 
     // Shuffle the answer options
     const shuffleTheAnswers = () => 0.5 - Math.random();
@@ -302,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // Display answers
-    // Adds a button containing each possible answer (which is styled with CSS using .possible-answers button) 
+    // Adds a button containing each possible answer 
     possibleAnswers.innerHTML = "";
     questions[index].possibleAnswers.forEach(answer => {
       possibleAnswers.innerHTML += `<button>${answer}</button>`;
@@ -338,8 +337,9 @@ document.addEventListener('DOMContentLoaded', function () {
           } else {
             endQuiz()
           }
-          /* 1000 sets a 1 second (1000 millisecond) delay between the user selecting an answer and the quiz moving on to the 
-          next question so user cannot see the relevant background
+          /* 1000 sets a 1 second (1000 millisecond) delay between the user selecting 
+          an answer and the quiz moving on to the 
+          next question so user can see the relevant background
           colours which indicate whether their answer is right or wrong */
         }, 1000);
       });
@@ -432,21 +432,21 @@ document.addEventListener('DOMContentLoaded', function () {
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 8 && finalScore <= 15) {
       finalScoreElement.innerHTML = `<p>"OH. MY. GOD!"<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Don’t feel bad, we all have our strengths. <br> You’re better with numbers and stuff.”</p>` +
-      `<img src="assets/images/fountain.png" alt="Fountain image" style="width:120px;">` +
-      `<button onclick="location.href='trivia.html'">Play again</button>` +
-      `<button onclick="location.href='index.html'">Home</button>`;
-    } else if (finalScore >= 16 && finalScore <= 23) { 
-     finalScoreElement.innerHTML = `<p>"OH. MY. GOD!"<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Well, it was a stupid, unfair question!” <br> “Don’t blame the questions!”</p>` +
+        `<img src="assets/images/fountain.png" alt="Fountain image" style="width:120px;">` +
+        `<button onclick="location.href='trivia.html'">Play again</button>` +
+        `<button onclick="location.href='index.html'">Home</button>`;
+    } else if (finalScore >= 16 && finalScore <= 23) {
+      finalScoreElement.innerHTML = `<p>"OH. MY. GOD!"<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Well, it was a stupid, unfair question!” <br> “Don’t blame the questions!”</p>` +
         `<img src="assets/images/sofa.png" alt="Sofa image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
-    } else if (finalScore >= 24 && finalScore <= 29) { 
-     finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Congratulations Ross, because Chandler, you’ve been bamboozled!” <br> "This is the best game ever!” </p>` +
+    } else if (finalScore >= 24 && finalScore <= 29) {
+      finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Congratulations Ross, because Chandler, you’ve been bamboozled!” <br> "This is the best game ever!” </p>` +
         `<img src="assets/images/magna-doodle.png" alt="Magna Doodle image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
-    } else if (finalScore === 30) { 
-    finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> YOU GOT EVERY ANSWER CORRECT! <br> Okay, you watch too much TV! <br> But could you BE a bigger Friends fan?!</p>` +
+    } else if (finalScore === 30) {
+      finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> YOU GOT EVERY ANSWER CORRECT! <br> Okay, you watch too much TV! <br> But could you BE a bigger Friends fan?!</p>` +
         `<img src="assets/images/central-perk.png" alt="Central Perk image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
