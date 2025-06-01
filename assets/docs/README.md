@@ -135,12 +135,31 @@ I was able to successfully implement all of the initial stage features.
 * The links on the nav bar are in black text which appear blue when the user hovers over them to maintain readability and accessibility. 
 * The 'active' link i.e. the page the user is on, is underlined as a visual reminder. 
 * The links on the nav bar appear as a horizontal list on larger screens and in a drop down menu on smaller screens. 
-<h2 align="center"><img src="../readme-images/nav-bar-desktop.png">Nav bar on desktop </h2>
 <h2 align="center"><img src="../readme-images/navbar-mobile.png">Nav bar on mobile and tablet </h2>
+<h2 align="center"><img src="../readme-images/nav-bar-desktop.png">Nav bar on desktop </h2>
+
  
 ### Footer
+* Each page features a footer which contains a copyright statement, and icons linking to social media pages. 
+* Fans of Friends will also recognise the name and address featured in the footer as references from the show. 
+* All the social media links open in a new tab.
+* The footer is not sticky so it does not restrict the user's view of the bottom of the screen when scrolling.  
+* The icons and text are black with an appropriate hover colour of blue to maintain readability and accessibility. 
+<h2 align="center"><img src="../readme-images/footer-mobile.png">Footer (Mobile)</h2>
+<h2 align="center"><img src="../readme-images/footer-desktop.png">Footer (Desktop)</h2>
 
-### Buttons
+
+### Buttons 
+### Buttons on Homepage, Help page and 404 Error Page
+* Buttons are used throughout the site. 
+* The buttons are consistent in style and colour across the site. 
+* Buttons which sit against a purple background are yellow and buttons which sit against a yellow background are purple.  
+* All buttons regardless of their starting colour, change to white when clicked.
+* The text colour remains black when the button is clicked, to ensure the text remains legible against its background. 
+* Navigation buttons are used to link to other pages.  
+<h2 align="center"><img src="../readme-images/yellow-button-on-purple-background.png">Yellow button on purple background</h2>
+<h2 align="center"><img src="../readme-images/purple-btn-on-yellow-bckgrnd.png">Purple button on yellow background</h2>
+
 
 ### Introduction Modal
 
