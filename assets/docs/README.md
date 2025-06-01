@@ -99,7 +99,7 @@
   ### Could Have Features
   * A message along with my final score, which is different according to what score I achieve (user story 8). 
   * A time limit on each question, to add a small amount of pressure, and make the game more challenging and exciting (user story 9). 
-  * The questions and answers appear in a random order each time I play to increase replay -ability (user story 10). 
+  * The questions and possible answers appear in a random order each time I play to increase replay-ability (user story 10). 
   * Ability to filter questions by difficulty level (user story 11). 
 
 
@@ -201,14 +201,33 @@ I was able to successfully implement all of the initial stage features.
 <h2><img src="../readme-images/help-page-desktop.png">Help Page (Desktop)</h2>
 
 ### 404 Error Page
-
-
+* A custom 404 error page displays if the user tries to access an incorrect URL within the site.  
+* This is a simple page which features 3 Friends related images and Friends related references, as well as a button which directs the user back to the homepage. 
+* I followed [this guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-siteS) from Github to create the page.  
+<h2><img src="../readme-images/404-error.png">404 Page</h2>
 
 ## Future Additions
+I decided that the following features were ‘could-haves’ - they would be nice to have but were not essential for a ‘minimum viable product’.   
+* Displaying a message along with the user’s final score which differs depending on the score they achieve. 
+* A time limit imposed on each question. 
+* Questions and possible answers appearing in a different random order each time a new game is played. 
+* Ability to filter questions by difficulty level. 
+
+Due to time constraints, I have not been able to implement the ability to filter the questions by difficulty level. I have been able implement all other ‘could-have’ features. Given that the quiz does contain questions of varying difficultly, I decided that whilst it would be nice for the user to be able to filter those questions according, this did not add as much value to the game as the other ‘could-have’ features. Therefore, I chose to prioritise those.  
+
+Some additional features that I would like to implement in the future are: 
+
+* To increase replay-ability of the quiz, I would like to increase the pool of available questions and display only a proportion of these during each game. This would mean that the user could play the game many times over and be asked questions they have not seen before, on each playthrough. 
+* To supplement the quiz and add more value for the user, I would like implement a quote generator. This would have options to select a Friends character and view a selection of randomised quotes from them, as well as options to select an episode and receive randomised quotes from that episode.  
+*I would also like to add an episode selector feature. The user would be able to select a category (such as birthdays, weddings, Christmas etc) and receive a list of episodes which meet this criteria. The user would also be able to select a mood from a pre-defined list (e.g. I want to cry, I want to feel motivated etc) and receive a list of recommended episodes based on that mood. 
+* I have also written all the content for a 6-question ‘which character are you most like quiz that I would like to add to the site at a later stage.  
 
 
 # Wireframes
 REMEMBER TO ADD WIREFRAMES !!!!
+********
+*********
+*****
 
 
  # Design
