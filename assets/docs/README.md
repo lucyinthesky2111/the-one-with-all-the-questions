@@ -93,11 +93,15 @@
   * For there to be questions of varying difficulty levels, so I can participate regardless of my knowledge level (user story 5). 
 
   ### Should Have Features
-  * See visual indication of my progress by showing my current stage of the game (user story 6). 
+  * Visual indication of my progress, showing my current stage of the game (user story 6). 
   * Facility to see my current score throughout the game (user story 7). 
 
   ### Could Have Features
-  * 
+  * A message along with my final score, which is different according to what score I achieve (user story 8). 
+  * A time limit on each question, to add a small amount of pressure, and make the game more challenging and exciting (user story 9). 
+  * The questions and answers appear in a random order each time I play to increase replay -ability (user story 10). 
+  * Ability to filter questions by difficulty level (user story 11). 
+
 
 ## User Expectations and Requirements
 * All user story 1 (must-have)
@@ -112,8 +116,22 @@
 
 # Features
 ## Initial Stage Features
+I decided that the following features were all ‘must haves’ or ‘should haves’ (refer to the [user stories](https://github.com/users/lucyinthesky2111/projects/9/views/1) for details) at the initial stage to ensure a ‘minimum viable product’.  
+
+* Instructions on how to play. 
+* Visual indication of how far the user has progressed through the game.   
+* The ability to see whether the selected answer is correct or incorrect immediately after answering. 
+* The ability for the user to track their score throughout the game, as opposed to only seeing their score at the end.  
+* The ability for the user to also see their final score at the end of the game. 
+* For there to be questions of varying difficulty, to allow all fans of Friends to play regardless of their knowledge level. 
+
+I was able to successfully implement all of the initial stage features. 
+
+Looking at the initial stage features of each part of the project in turn: 
+
 ### Navigation Bar
 
+ 
 ### Footer
 
 ### Buttons
