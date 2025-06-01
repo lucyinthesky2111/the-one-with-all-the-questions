@@ -23,7 +23,7 @@
       + [Initial Stage Features](#initial-stage-features)
            + [Navigation Bar](#navigation-bar)
            + [Footer](#footer)
-           + [Buttons](#buttons)
+           + [Navigation Buttons](#Buttons)
            + [Introduction Modal](#introduction-modal)
            + [Homepage](#homepage)
            + [Play Page](#play-page-colour-scheme)
@@ -135,8 +135,8 @@ I was able to successfully implement all of the initial stage features.
 * The links on the nav bar are in black text which appear blue when the user hovers over them to maintain readability and accessibility. 
 * The 'active' link i.e. the page the user is on, is underlined as a visual reminder. 
 * The links on the nav bar appear as a horizontal list on larger screens and in a drop down menu on smaller screens. 
-<h2 align="center"><img src="../readme-images/navbar-mobile.png">Nav bar on mobile and tablet </h2>
-<h2 align="center"><img src="../readme-images/nav-bar-desktop.png">Nav bar on desktop </h2>
+<h2><img src="../readme-images/navbar-mobile.png">Nav bar on mobile and tablet </h2>
+<h2><img src="../readme-images/nav-bar-desktop.png">Nav bar on desktop </h2>
 
  
 ### Footer
@@ -145,33 +145,60 @@ I was able to successfully implement all of the initial stage features.
 * All the social media links open in a new tab.
 * The footer is not sticky so it does not restrict the user's view of the bottom of the screen when scrolling.  
 * The icons and text are black with an appropriate hover colour of blue to maintain readability and accessibility. 
-<h2 align="center"><img src="../readme-images/footer-mobile.png">Footer (Mobile)</h2>
-<h2 align="center"><img src="../readme-images/footer-desktop.png">Footer (Desktop)</h2>
+<h2><img src="../readme-images/footer-mobile.png">Footer (Mobile)</h2>
+<h2><img src="../readme-images/footer-desktop.png">Footer (Desktop)</h2>
 
 
-### Buttons 
-### Buttons on Homepage, Help page and 404 Error Page
-* Buttons are used throughout the site. 
+### Navigation Buttons 
+* Navigation buttons are used throughout the site to link to other pages. 
 * The buttons are consistent in style and colour across the site. 
 * Buttons which sit against a purple background are yellow and buttons which sit against a yellow background are purple.  
 * All buttons regardless of their starting colour, change to white when clicked.
-* The text colour remains black when the button is clicked, to ensure the text remains legible against its background. 
-* Navigation buttons are used to link to other pages.  
-<h2 align="center"><img src="../readme-images/yellow-button-on-purple-background.png">Yellow button on purple background</h2>
-<h2 align="center"><img src="../readme-images/purple-btn-on-yellow-bckgrnd.png">Purple button on yellow background</h2>
+* The text colour remains black when the button is clicked, to ensure the text remains legible against its background.
+<h2><img src="../readme-images/yellow-button-on-purple-background.png">Yellow button on purple background</h2>
+<h2><img src="../readme-images/purple-btn-on-yellow-bckgrnd.png">Purple button on yellow background</h2>
 
 
 ### Introduction Modal
+* The introduction modal introduces the game using a series of Friends references.  
+* The introduction is only visible on the Homepage. 
+* The modal gives the user the option to either proceed straight to the quiz (if they are a returning user or are confident they know how to play), or to navigate to the Help page where they can view instructions.  
+* The introduction modal is displayed when the Homepage loads.
+* The user can close the modal by clicking on the ‘X’ button in the top right-hand corner, or by clicking ‘Play’ or ‘Home’ to navigate to one of those pages.  
+* Clicking ‘X’ displays the Homepage content which is located behind the modal. This content is described in the next section of this documentation. 
+* After closing the modal, the user can access it again by clicking ‘Home’ from the nav bar. 
+<h2><img src="../readme-images/intro-modal-mobile.png">Introduction Modal (Mobile)</h2>
+<h2><img src="../readme-images/introduction-modal.png">Introduction Modal (Desktop)</h2>
+
 
 ### Homepage
-* The homepage features a full-page background image, which fans of the show will recognise as the outside of the famous ‘Central Perk’ coffeehouse. 
+* The Homepage is the site’s landing page.  
+* The Homepage features a full-page background image, which fans of the show will recognise as the outside of the famous ‘Central Perk’ coffeehouse. 
  * There is a partially transparent box over the centre of the image containing the site’s title and subtitle, which makes it immediately clear that the site is a quiz about the TV show Friends. 
  * The box border (and all box borders which appear on the site), do not have any border radius applied to them. This is because the Gabriel Weiss’ Friends Font suits stark square edges better than softer, rounder ones. 
  * A box shadow is applied to add texture and a layering effect, to add visual interest to the page, making it more aesthetically pleasing. 
+<h2><img src="../readme-images/homepage-mobile.png">Homepage (Mobile)</h2>
+<h2><img src="../readme-images/homepage-desktop.png">Homepage (Desktop)</h2>
 
 ### Play Page
+* The Play Page houses the quiz content. 
+* The site’s title and subtitle appear at the top of the page. 
+* The centre of the page features a box which houses the quiz content. For consistency, the box has no border radius and has a box shadow, as per the box on the Homepage.  
+* At the bottom of the page are 3 images which Friends fans will recognise as relating to the show.  
+* Corresponding quotes from 1 of the 6 main characters appear underneath each image on tablet and desktop screens only, to utilise the extra space these screens offer. 
+* To prevent clutter and over-crowding on small screens, these quotes are hidden on mobile screens.  
+* The remaining background space on this page is intentionally blank to prevent over-whelm and distraction, and to focus the user’s attention on the box which houses the quiz content.  
+<h2><img src="../readme-images/play-page-mobile.png">Play Page (Mobile)</h2>
+<h2><img src="../readme-images/play-page-desktop.png">Play Page (Desktop)</h2>
 
 ### Help Page
+* The Help Page features a box containing instructions as to how to play the game. 
+* At the top of the box there are 3 images which Friends fans will recognise as relating to the show. 
+* Underneath the images is a Friends reference which fans will recognise from an episode where Joey auditions to be the host of a quiz show to introduce the instructions. 
+* The instructions are concise and bullet-pointed for easy reading.  
+* Underneath the instructions are buttons which the user can use to either begin playing the game, or to navigate to the Homepage. 
+<h2><img src="../readme-images/help-page-mobile.png">Help Page (Mobile)</h2>
+<h2><img src="../readme-images/help-page-desktop.png">Help Page (Desktop)</h2>
 
 ### 404 Error Page
 
@@ -183,9 +210,6 @@ I was able to successfully implement all of the initial stage features.
 # Wireframes
 REMEMBER TO ADD WIREFRAMES !!!!
 
-
-* TEMPLATE FOR IMAGE THAT IS OPEN BY DEFAULT
-<details open><h3 align="center"><img src="./assets/readme-images/friends-tv-show-font.png" alt="Google search result">Google search results</h3></details>
 
  # Design
 
