@@ -23,6 +23,7 @@ The The one with all the questions - 'Friends' interactive trivia website has be
 # Code Validation
 ## W3C HTML Validator
 The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the W3C HTML Validator tool.
+There was orginally a contrast error on the Play Page caused by the blue and yellow coloured dots in the site title, which was subsequently resolved (SEE RESOLVED BUGS). 
 
 ### Homepage 
 <h2 align="center"><img src="../readme-images/homepage-html-validation.png"></h2>
@@ -139,6 +140,9 @@ All user expectations and requirements have been satisfied (evidenced by looking
 
 # Bugs 
 ## Resolved
+
+* There was orginally a contrast error on the Play Page caused by the blue and yellow coloured dots in the site title, which was subsequently resolved .....
+
 * On first run of the W3C HTML Validator, the error shown below was flagged on all pages of the site. This was resolved by replacing the p element with a span element. All pages of the site subsequently passed validation. 
 <h2 align="center"><img src="../readme-images/p-html-error.png"></h2>
 
