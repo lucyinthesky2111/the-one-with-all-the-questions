@@ -93,7 +93,8 @@
   * For there to be questions of varying difficulty levels, so I can participate regardless of my knowledge level (user story 5). 
 
   ### Should Have Features
-  * 
+  * See visual indication of my progress by showing my current stage of the game (user story 6). 
+  * Facility to see my current score throughout the game (user story 7). 
 
   ### Could Have Features
   * 
