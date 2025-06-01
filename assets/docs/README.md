@@ -35,7 +35,6 @@
      + [Colour Scheme](#colour-scheme)
      + [Typography](#typography)
      + [Imagery](#imagery)
-     + [Icons](#icons)
      + [Logo](#logo)
      + [Favicons](#favicons)
 8. [Technologies Used](#technologies-used)
@@ -59,7 +58,7 @@
 
   
 # Introduction
-* As a lifelong Friends fan, I wanted to create a quiz for other people who love the show.   
+* As someone who has been a fan of Friends since they were a child, I wanted to create a quiz for other people who love the show.     
 * The quiz is a timed question and answer game to enable fans to test their knowledge of the show. 
 * All the Friends episodes have titles including ‘The One’ e.g. ‘The One with the Football’ etc. In keeping with this tradition, the website has the subtitle of ‘The One with all the Questions’. 
 * As an added touch for Friends fans to appreciate, Friends quotes, references, and images relating to the show are placed throughout the site.  
@@ -196,9 +195,10 @@ REMEMBER TO ADD WIREFRAMES !!!!
 
    
 ### Aspect Ratios
-   
 
-## Icons
+
+###  Image animation
+
 
 
 ## Logo
