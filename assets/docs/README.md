@@ -127,10 +127,16 @@ I decided that the following features were all ‘must haves’ or ‘should hav
 
 I was able to successfully implement all of the initial stage features. 
 
-Looking at the initial stage features of each part of the project in turn: 
+## Looking at the initial stage features of each part of the project in turn: 
 
 ### Navigation Bar
-
+* A responsive navigation bar is included on each page of the site, to allow the user to easily navigate between pages without having to go back to the homepage or rely on the browser forward and back buttons.  
+* The nav bar is sticky so it is always visible at the top of the page when the user is scrolling the site. 
+* The links on the nav bar are in black text which appear blue when the user hovers over them to maintain readability and accessibility. 
+* The 'active' link i.e. the page the user is on, is underlined as a visual reminder. 
+* The links on the nav bar appear as a horizontal list on larger screens and in a drop down menu on smaller screens. 
+<h2 align="center"><img src="../readme-images/nav-bar-desktop.png">Nav bar on desktop </h2>
+<h2 align="center"><img src="../readme-images/navbar-mobile.png">Nav bar on mobile and tablet </h2>
  
 ### Footer
 
@@ -321,6 +327,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 * [Warner Bros](https://www.warnerbros.co.uk/tv/friends) - for the site colour scheme and the Friends quotes and references which appear throughout the site.
 * [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file) - for ......
 * [suzybee1987 'Terry pratchett Discworld quiz'](https://github.com/suzybee1987/milestone-2) - for........
+* README INSPO - PREVIOUS PROJECT AND ISABELLA MITCHELL
  
 ## Code
 * [Code Institute Love Maths walkthrough project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) :-
