@@ -152,8 +152,8 @@ I was able to successfully implement all of the initial stage features.
 ### Navigation Buttons 
 * Navigation buttons are used throughout the site to link to other pages. 
 * The buttons are consistent in style and colour across the site. 
-* Buttons which sit against a purple background are yellow and buttons which sit against a yellow background are purple.  
-* All buttons regardless of their starting colour, change to white when clicked.
+* Buttons which sit against a purple background are yellow and buttons which sit against a yellow background are purple to ensure they stand out from the rest of the content.  
+* All buttons regardless of their starting colour, change to white when clicked to maintain readability and accessibility.
 * The text colour remains black when the button is clicked, to ensure the text remains legible against its background.
 <h2><img src="../readme-images/yellow-button-on-purple-background.png">Yellow button on purple background</h2>
 <h2><img src="../readme-images/purple-btn-on-yellow-bckgrnd.png">Purple button on yellow background</h2>
@@ -233,7 +233,19 @@ REMEMBER TO ADD WIREFRAMES !!!!
  # Design
 
  ## Colour Scheme
- * The colours used in the site were taken from the colours of the inside of Monica Geller's front door 
+ * The colours used in the site were taken from the colours of the back of Monica Geller's front door.
+ * The colour scheme was designed using [Coolors](https://coolors.co/). I used their [Color Picker tool](https://coolors.co/ffc73f) on an image of the door to pick out the colours of the door itself (tropical indigo - purple), the peephole frame (jonquil - yellow) and the doorknob (metallic gold).
+ * All colour combinations were tested for accessibility using [WebAim: Contrast Checker](https://webaim.org/resources/contrastchecker/). 
+ * Except for the Homepage which features a full-page background image, the other pages on the site feature coloured boxes placed on a white background. These boxes are either purple or yellow and use the opposite colour for any buttons. The gold colour is used as a border colour around any purple boxes and around the name tag image on the introduction modal. 
+ * Jonquil yellow is used as the background colour on both the nav bar and the footer. 
+ * An alpha value is applied to jonquil yellow when used as a box colour on the Help and 404 Error pages to distinguish it from the nav bar and footer. 
+ * The buttons on the site which sit against a purple background are yellow and buttons which sit against a yellow background are purple to ensure they stand out from the rest of the content. 
+ * All buttons regardless of their starting colour, change to white when clicked to maintain readability and accessibility. 
+ * Black is used as the font colour, except for the correct and incorrect scores underneath the question and answers box, which are green and red respectively. 
+ * The black font is contrasted with blue as the hover colour, to ensure readability and accessibility. 
+ <h2><img src="../readme-images/background-colours.png">Background colour palette </h2>
+ <h2><img src="../readme-images/font-and-hover-colours.png">Font colour palette </h2>
+ <h2><img src="../readme-images/correct-and-incorrect-score-tally-colours.png">Correct and incorrect score tally colours</h2>
 
 ### Site Title Colour Scheme
  * The title of the site is 'Friends', with the subtitle of 'The One with all the Questions'.
