@@ -516,6 +516,6 @@ This project is for educational purposes only and not for public use. It was cre
 
 This project is not affiliated with ‘Friends’ the TV show. 
 
-All trademarked and /or copyrighted content are the property of their respective owners.  
+All trademarked and/or copyrighted content are the property of their respective owners.  
  
 Created by Lucy Kidner, 2025. 
