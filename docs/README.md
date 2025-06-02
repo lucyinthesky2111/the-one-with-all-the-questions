@@ -217,6 +217,28 @@ I was able to successfully implement all of the initial stage features.
 * The game will then auto-advance to the next question so the user will not get another chance to answer. 
 * That question will also be treated as having been answered incorrectly, and the users incorrect score tally will increment by 1 mark.  
 
+### Correct and Incorrect Answers
+* The user receives immediate feedback as whether their answer is correct or incorrect immediately after answering each question.  
+* If the user answers correctly, the answer button they selected will turn green. 
+<h2><img src="../assets/readme-images/correct-answer.png" alt="Correct answer"></h2>Correct answer
+
+* If the user answers incorrectly, the answer button they selected will turn red and the button housing the correct answer will turn green  
+<h2><img src="../assets/readme-images/incorrect-answer.png" alt="Incorrect answer"></h2>Correct answer
+
+### Running Scores Tally 
+* The number of both correct and incorrect answers are tallied throughout the quiz so the user can keep track of their performance.  
+* To match the highlight colours of the answer boxes, correct scores are tallied in green and incorrect scores are tallied in red.  
+<h2><img src="../assets/readme-images/running-scores-tally.png" alt="Running scores tally"></h2>Running scores tally
+
+### Final Scores
+* The user is notified of their final score at the end of the game. 
+* The user receives a different Friends related message depending on the score they achieved. 
+<h2><img src="../assets/readme-images/score-0-7.png" alt="Message for score 0-7"></h2>Message for score 0-7
+<h2><img src="../assets/readme-images/score8-15.png" alt="Message for score 8-15"></h2>Message for score 8-15
+<h2><img src="../assets/readme-images/score-16-23.png" alt="Message for score 16-23"></h2>Message for score 16-23
+<h2><img src="../assets/readme-images/score-24-29.png" alt="Message for score 24-29"></h2>Message for score 24-29
+<h2><img src="../assets/readme-images/score-30.png" alt="Message for score 30"></h2>Message for score 30
+
 ### Help Page
 * The Help Page features a box containing instructions as to how to play the game. 
 * At the top of the box there are 3 images which Friends fans will recognise as relating to the show. 
