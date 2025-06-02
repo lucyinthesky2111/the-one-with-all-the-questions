@@ -480,7 +480,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 * The following GitHub repositories for inspiration for creatind a themed quiz using closable modals :-
      * [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file)  
      * [suzybee1987 'Terry pratchett Discworld quiz'](https://github.com/suzybee1987/milestone-2) 
-* the structure and content of the README.md and TESTING.md was based on both my own [milestone-project-one](https://github.com/lucyinthesky2111/milestone-project-one) repository and [Isabella Mitchell's 'Fledgling Bird Game'](https://github.com/Isabella-Mitchell/fledgling-bird-game) repository.
+* The structure and content of the README.md and TESTING.md was based on both my own [milestone-project-one](https://github.com/lucyinthesky2111/milestone-project-one) repository and [Isabella Mitchell's 'Fledgling Bird Game'](https://github.com/Isabella-Mitchell/fledgling-bird-game) repository.
  
 ## Code
 * [Code Institute Love Maths walkthrough project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) :-
@@ -503,7 +503,7 @@ I would like to thank the following people for their support and feedback in the
 * My course tutor Ashley Oliver  
 * My friend James Newell  
 * My mentor Mitko Bachvarov 
-* Matthew-5P on Slack for peer reviewing my project and providing very helpful feedback. 
+* Matthew-5P on Slack for peer reviewing my project and providing very helpful feedback
 * All friends and family members who kindly tested the site for me 
 
 # Developer Comments
