@@ -288,7 +288,7 @@ REMEMBER TO ADD WIREFRAMES !!!!
      </details>
 * Two further fallback fonts have been set, in case neither Gabriel Weiss' Friends Font or Crashbow load correctly. The second fallback is Cursive, with Serif as the third and final fallback font.
 * I noticed that the Gabriel Weiss Friends Font becomes quite difficult to read when applied to large chunks of text.  
-* Friends uses a secondary font for its end credits. I conducted a Google search which identified that font as the font [Lydian](https://fontmeme.com/fonts/lydian-font/). 
+* Friends uses a secondary font for its end credits. I conducted a Google search which identified that font as [Lydian](https://fontmeme.com/fonts/lydian-font/). 
 * As the Lydian font is easier to read, it has been used on areas of the site which contain a lot of text i.e. the introduction modal, the question and answers box on the Play Page, the final score boxes, the Help Page and the 404 Error Page. 
      <details>
           <summary>Google search results for Friends end credits font</summary>
@@ -355,24 +355,31 @@ All images used on the site (except the hero image) subtly rotate in some way wh
   * [Font Meme](https://fontmeme.com/) – was used to choose and import the fonts used in the site. The specific fonts used are: 
      * [Gabriel Weiss' Friends Font](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/) - as the main font.
      * [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - as a back-up font, due to its similarity to Gabriel Weiss' Friends Font.
-     * LYDIAN FONT
-  * [Font Awesome](https://fontawesome.com/) – was used to choose and import the icons used in the site.
+     * [Lydian](https://fontmeme.com/fonts/lydian-font/) - as the secondary font, used for areas of the site which contain a lot of text.
   * [Canva](https://www.canva.com/) – was used to create the wireframes, remove the background from images, and crop all images to the desired aspect ratio.
   * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) – was used while building the project to test responsiveness, and for debugging.
 
   ### Testing
   * [W3C HTML Validator](https://validator.w3.org/) – was used to validate the HTML.
-  *	[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) – was used to validate the CSS.
-  * JS HINT
-  *	[WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) – was used to test the site for accessibility.
+  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) – was used to validate the CSS.
+  * [JS Hint](https://jshint.com/) - was used to validate the JavaScript.
+  * [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) – was used to test the site for accessibility.
   * [Google Chrome Developer Tools (Lighthouse feature)](https://developer.chrome.com/docs/lighthouse/overview) - was used to test the site for Performance, Accessibility, Best Practices and SEO.
 
   ### Images
   * [Pexels](https://www.pexels.com/) - was used to source the [Central Perk background image](https://www.pexels.com/photo/festive-central-perk-cafe-window-display-30500272/) used in the homepage of the site.
   * [Printerval](https://printerval.com/us) was used to source:-
-    * was used to source the image of the [peephole frame](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) from the back of Monica Gellar's front door which was used as the site's logo.
-    * PRINCESS CONSUELA
-    * BOTH CREATIVE COMMONS
+    * the image of the [peephole frame](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) from the back of Monica Gellar's front door which was used as the site's logo.
+    * the image of the [Princess Consuela name tag](https://printerval.com/friends-hello-my-name-is-princess-consuela-banana-hammock-friends-phone-case-phone-case7364869-friends-hello-my-name-is-princess-consuela-banana-p756448?__cf_chl_tk=Ma0.9LKPzAZUXU9W6IA4YQw14XXY3K4cd7w57Q2TT4k-1746235802-1.0.1.1-M...) which was used as the image on the introduction modal. 
+    * Both images were found via a Google image search with results set to 'Creative Commons licenses'.
+     <details>
+          <summary>Friends peephole frame Google Search</summary>
+          <img src="../readme-images/peephole-frame-creative-commons-licence-search.png" alt="Friends peephole frame Google Search"> 
+     </details>
+      <details>
+          <summary>Princess Consuela Google Search</summary>
+          <img src="../readme-images/princess-consuela-google-search.png" alt="Princess Consuela Google Search"> 
+     </details>
   * [Noun Project](https://thenounproject.com/) - was used to source the ['Friends Icons Set' by created by Amelia Detwiler](https://thenounproject.com/browse/collection-icon/friends-30104/). All icons from the collection were used in the site.
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
   * [Canva](https://www.canva.com/) – was used to remove the background from images, and to crop all images to the desired aspect ratio.
@@ -423,9 +430,10 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 ## Content
 * All copy, questions and answers on the site were written by me. I referred to the relevant episodes of Friends to verify all answers and information given to ensure everything is correct.
 * [Warner Bros](https://www.warnerbros.co.uk/tv/friends) - for the site colour scheme and the Friends quotes and references which appear throughout the site.
-* [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file) - for ......
-* [suzybee1987 'Terry pratchett Discworld quiz'](https://github.com/suzybee1987/milestone-2) - for........
-* README INSPO - PREVIOUS PROJECT AND ISABELLA MITCHELL
+* The following GitHub repositories for inspiration for creatind a themed quiz using closable modals :-
+     * [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file)  
+     * [suzybee1987 'Terry pratchett Discworld quiz'](https://github.com/suzybee1987/milestone-2) 
+* the structure and content of the README.md and TESTING.md was based on both my own [milestone-project-one](https://github.com/lucyinthesky2111/milestone-project-one) repository and [Isabella Mitchell's 'Fledgling Bird Game'](https://github.com/Isabella-Mitchell/fledgling-bird-game) repository.
  
 ## Code
 * [Code Institute Love Maths walkthrough project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) :-
@@ -436,27 +444,19 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
   - for the code for the general styles used to push the footer to the bottom of the page. 
   - for help with the code for the responsive nav bar.
 * [Treehouse - 'Beginner JavaScript project: build a quiz app' YouTube video](https://www.youtube.com/watch?v=_FnFPmA87XU&t=1000s) - the JS code for the handleQuestion function and the accompanying CSS was adapted from this video.
-* [W3Schools](https://www.w3schools.com/) :-
-  - for help animating the logo using the CSS transform property.
-  - for help with creating the modal.
-  - for help understanding window.location.
-  - for help disabling answer buttons after question has been answered, so user cannot click again.
-  - for help using setTimeOut JS method.
-* [FreeCodeCamp](https://www.freecodecamp.org/) :-
-  - [This article](https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/) - for additional help using the setTimeOut JS method.
-  - [This article](https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/) - for help with using the Fisher Yates shuffle method
-     to shuffle the questions.
-  - [This article](https://forum.freecodecamp.org/t/is-there-anyway-i-can-shuffle-an-array-inside-of-an-object/477299/7) - for the code to shuffle answers.
-* [Stack Overflow](https://stackoverflow.com/questions) :-
-  - [This article](https://stackoverflow.com/questions/27037500/css-make-every-letter-in-a-text-of-a-different-colour) - for help with making the dots in the 'Friends' title different colours. 
-  - [This article](https://stackoverflow.com/questions/75357525/how-to-check-whether-window-location-pathname-ends-with-search) - for help with code to make the modal 
-  display on the homepage only.
-* [Dev.to](https://dev.to/) :-
-  - [This article by George.K for Dev.to](https://dev.to/bcncodeschool/aligning-elements-on-top-of-the-image-background-4kcf) - for the code to make the Central Perk hero  image cover the entire background of the homepage.
-  - [This article by Raja Tamil for Dev.to](https://dev.to/rajatamil/create-image-elements-in-javascript-41ke) - for help using JS to add images dynamically.
-* [Sitepoint](https://www.sitepoint.com/simple-javascript-quiz/#demo) - for help with creating the timer.
+* The following sites were used to research CSS properties and JS methods used in the site :-
+     * [FreeCodeCamp](https://www.freecodecamp.org/)
+     * [W3Schools](https://www.w3schools.com/)
+     * [Stack Overflow](https://stackoverflow.com/questions)
+     * [Dev.to](https://dev.to/)
+     * [Sitepoint](https://www.sitepoint.com/simple-javascript-quiz/#demo) 
 
 ## Acknowledgments
+I would like to thank the following people for their support and feedback in the creation of this project: 
+     * My course tutor Ashley Oliver  
+     * My friend James Newell  
+     * My mentor Mitko Bachvarov 
+     * All friends and family members who kindly tested the site for me 
 
 # Developer Comments
 
