@@ -183,6 +183,7 @@ I was able to successfully implement all of the initial stage features.
 ### Play Page
 * The Play Page houses the quiz content. 
 * The site’s title and subtitle appear at the top of the page. 
+* Underneath the title and subtitle is a good luck message, which fans of the show will recognise as a quote from Phoebe Buffay. 
 * The centre of the page features a box which houses the quiz content. For consistency, the box has no border radius and has a box shadow, as per the box on the Homepage.  
 * At the bottom of the page are 3 images which Friends fans will recognise as relating to the show.  
 * Corresponding quotes from 1 of the 6 main characters appear underneath each image on tablet and desktop screens only, to utilise the extra space these screens offer. 
@@ -298,17 +299,28 @@ REMEMBER TO ADD WIREFRAMES !!!!
           <img src="../readme-images/lydian-font.png" alt="Lydian font"> 
      </details>
 
- 
 
 ## Imagery
 All images used in the site are related to Friends.
 
    
 ### Aspect Ratios
+Aspect ratios chosen for use in the site were:  
+* 16:9 (hero image)
+* 3:2 (logo)
+* 5:4 (other images) 
 
+16:9 - this aspect ratio was chosen for hero images as these images are designed to span the whole width of the page on all screen sizes and therefore, need to be wide. 16:9 is a very versatile aspect ratio used by lots of modern media formats and provides an immersive viewing experience.
+
+3:2 - this aspect ratio was chosen as it suits images which are in landscape orientation in their original state, because it makes the images wider than they are tall. 3:2 suits such images especially well as the result is images that are:  
+* visually pleasing;
+* wide enough to draw sufficient attention to the focal point without being too wide (such as 16:9 would be);
+* not too square (such as 1:1 would be). 
+
+5:4 – this aspect ratio was chosen as it gives a good balance between height and width, which makes it a good match for images intended to be viewed on a screen. 
 
 ###  Image animation
-
+All images used on the site (except the hero image) subtly rotate in some way when hovered over, to add visual interest and interactivity. 
 
 
 ## Logo
