@@ -192,6 +192,31 @@ I was able to successfully implement all of the initial stage features.
 <h2><img src="../assets/readme-images/play-page-mobile.png" alt="Play Page (Mobile)"></h2>Play Page (Mobile)
 <h2><img src="../assets/readme-images/play-page-desktop.png" alt="Play Page (Desktop)"></h2>Play Page (Desktop)
 
+### Game play features of the Play Page
+
+### Progress Bar
+* There is a visual progress bar at the top of the questions and answers box which tracks the user’s progress through the game. 
+* There is one bar for each of the 30 questions. 
+* The bars are initially grey and change to yellow. 
+* The bars change colour one at a time, each time a new question is started. 
+* I chose this visual style of progress bar as I felt it was more visually interesting than simple text stating ‘question x of y’. 
+<h2><img src="../assets/readme-images/progress-bar.png" alt="Progress bar"></h2>Progress bar
+
+### Timer  
+* The game is a timed quiz in which the user is only given 30 seconds to answer each question. 
+* The timer counts down the user’s remaining time. 
+* The timer is encased in a red box with black text and a black border.  
+* Red is used for the background colour to indicate urgency.
+* To make it easy for the user to see the timer whilst ensuring the question and possible answers are not obstructed, the timer is conveniently located at the top-left of the quiz container, just underneath the progress bar.  
+ <h2><img src="../assets/readme-images/timer.png" alt="Timer (styling and location)"></h2>Timer (styling and location)
+
+ * The timer starts as soon as the user starts the question. 
+ * If the user does not answer the question before the timer hits zero, the user will see a pop message telling them “Time’s up!” 
+<h2><img src="../assets/readme-images/times-up-message.png" alt="Time's up message"></h2>Time's up message
+
+* The game will then auto-advance to the next question so the user will not get another chance to answer. 
+* That question will also be treated as having been answered incorrectly, and the users incorrect score tally will increment by 1 mark.  
+
 ### Help Page
 * The Help Page features a box containing instructions as to how to play the game. 
 * At the top of the box there are 3 images which Friends fans will recognise as relating to the show. 
@@ -456,6 +481,7 @@ I would like to thank the following people for their support and feedback in the
 * My course tutor Ashley Oliver  
 * My friend James Newell  
 * My mentor Mitko Bachvarov 
+* Matthew-5P on Slack for peer reviewing my project and providing very helpful feedback. 
 * All friends and family members who kindly tested the site for me 
 
 # Developer Comments
