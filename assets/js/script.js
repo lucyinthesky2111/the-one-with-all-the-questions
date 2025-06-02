@@ -1,5 +1,3 @@
-/* Full details of sources used for help in constructing this JS file can be found in the Credits (Code) section of the ReadMe. */
-
 // All questions as objects within an array. Possible answers are an array within the object 
 const questions = [
 

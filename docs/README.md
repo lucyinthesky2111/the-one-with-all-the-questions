@@ -1,7 +1,7 @@
 # The one with all the questions - 'Friends' interactive trivia website
 # Milestone Project 2 - Interactive Front End Development
 
-<h2><img src="../readme-images/homepage-mockup.png" alt="Homepage mockup"></h2>
+<h2><img src="../assets/readme-images/homepage-mockup.png" alt="Homepage mockup"></h2>
 
 [View the live site here](https://lucyinthesky2111.github.io/the-one-with-all-the-questions/index.html)
 
@@ -135,8 +135,8 @@ I was able to successfully implement all of the initial stage features.
 * The links on the nav bar are in black text which appear blue when the user hovers over them to maintain readability and accessibility. 
 * The 'active' link i.e. the page the user is on, is underlined as a visual reminder. 
 * The links on the nav bar appear as a horizontal list on larger screens and in a drop down menu on smaller screens. 
-<h2><img src="../assets/readme-images/navbar-mobile.png" alt="Nav bar on mobile and tablet"></h2>Nav bar on mobile and tablet
-<h2><img src="../assets/readme-images/nav-bar-desktop.png"alt="Nav bar on desktop"></h2>Nav bar on desktop
+<h2><img src="../assets/readme-images/navbar-mobile.png" alt="Nav bar on mobile and tablet"></h2>Nav bar (Mobile and Tablet)
+<h2><img src="../assets/readme-images/nav-bar-desktop.png"alt="Nav bar on desktop"></h2>Nav bar (desktop)
 
  
 ### Footer
@@ -145,8 +145,8 @@ I was able to successfully implement all of the initial stage features.
 * All the social media links open in a new tab.
 * The footer is not sticky so it does not restrict the user's view of the bottom of the screen when scrolling.  
 * The icons and text are black with an appropriate hover colour of blue to maintain readability and accessibility. 
-<h2><img src="../readme-images/footer-mobile.png">Footer (Mobile)</h2>
-<h2><img src="../readme-images/footer-desktop.png">Footer (Desktop)</h2>
+<h2><img src="../assets/readme-images/footer-mobile.png" alt="Footer (Mobile)"></h2>Footer (Mobile)
+<h2><img src="../assets/readme-images/footer-desktop.png" alt="Footer (Desktop)"></h2>Footer (Desktop)
 
 
 ### Navigation Buttons 
@@ -155,8 +155,8 @@ I was able to successfully implement all of the initial stage features.
 * Buttons which sit against a purple background are yellow and buttons which sit against a yellow background are purple to ensure they stand out from the rest of the content.  
 * All buttons regardless of their starting colour, change to white when clicked to maintain readability and accessibility.
 * The text colour remains black when the button is clicked, to ensure the text remains legible against its background.
-<h2><img src="../readme-images/yellow-button-on-purple-background.png">Yellow button on purple background</h2>
-<h2><img src="../readme-images/purple-btn-on-yellow-bckgrnd.png">Purple button on yellow background</h2>
+<h2><img src="../assets/readme-images/yellow-button-on-purple-background.png" alt="Yellow button on purple background"></h2>Yellow button on purple background
+<h2><img src="../assets/readme-images/purple-btn-on-yellow-bckgrnd.png" alt="Purple button on yellow background"></h2>Purple button on yellow background
 
 
 ### Introduction Modal
@@ -167,8 +167,8 @@ I was able to successfully implement all of the initial stage features.
 * The user can close the modal by clicking on the ‘X’ button in the top right-hand corner, or by clicking ‘Play’ or ‘Home’ to navigate to one of those pages.  
 * Clicking ‘X’ displays the Homepage content which is located behind the modal. This content is described in the next section of this documentation. 
 * After closing the modal, the user can access it again by clicking ‘Home’ from the nav bar. 
-<h2><img src="../readme-images/intro-modal-mobile.png">Introduction Modal (Mobile)</h2>
-<h2><img src="../readme-images/introduction-modal.png">Introduction Modal (Desktop)</h2>
+<h2><img src="../assets/readme-images/intro-modal-mobile.png" alt="Introduction Modal (Mobile)"></h2>Introduction Modal (Mobile)
+<h2><img src="../assets/readme-images/intro-modal-mobile.png" alt="Introduction Modal (Desktop)"></h2>Introduction Modal (Desktop)
 
 
 ### Homepage
@@ -177,8 +177,8 @@ I was able to successfully implement all of the initial stage features.
  * There is a partially transparent box over the centre of the image containing the site’s title and subtitle, which makes it immediately clear that the site is a quiz about the TV show Friends. 
  * The box border (and all box borders which appear on the site), do not have any border radius applied to them. This is because the Gabriel Weiss’ Friends Font suits stark square edges better than softer, rounder ones. 
  * A box shadow is applied to add texture and a layering effect, to add visual interest to the page, making it more aesthetically pleasing. 
-<h2><img src="../readme-images/homepage-mobile.png">Homepage (Mobile)</h2>
-<h2><img src="../readme-images/homepage-desktop.png">Homepage (Desktop)</h2>
+<h2><img src="../assets/readme-images/homepage-mobile.png" alt="Homepage (Mobile)"></h2>Homepage (Mobile)
+<h2><img src="../assets/readme-images/homepage-desktop.png" alt="Homepage (Desktop)"></h2>Homepage (Desktop)
 
 ### Play Page
 * The Play Page houses the quiz content. 
@@ -189,8 +189,8 @@ I was able to successfully implement all of the initial stage features.
 * Corresponding quotes from 1 of the 6 main characters appear underneath each image on tablet and desktop screens only, to utilise the extra space these screens offer. 
 * To prevent clutter and over-crowding on small screens, these quotes are hidden on mobile screens.  
 * The remaining background space on this page is intentionally blank to prevent over-whelm and distraction, and to focus the user’s attention on the box which houses the quiz content.  
-<h2><img src="../readme-images/play-page-mobile.png">Play Page (Mobile)</h2>
-<h2><img src="../readme-images/play-page-desktop.png">Play Page (Desktop)</h2>
+<h2><img src="../assets/readme-images/play-page-mobile.png" alt="Play Page (Mobile)"></h2>Play Page (Mobile)
+<h2><img src="../assets/readme-images/play-page-desktop.png" alt="Play Page (Desktop)"></h2>Play Page (Desktop)
 
 ### Help Page
 * The Help Page features a box containing instructions as to how to play the game. 
@@ -198,14 +198,14 @@ I was able to successfully implement all of the initial stage features.
 * Underneath the images is a Friends reference which fans will recognise from an episode where Joey auditions to be the host of a quiz show to introduce the instructions. 
 * The instructions are concise and bullet-pointed for easy reading.  
 * Underneath the instructions are buttons which the user can use to either begin playing the game, or to navigate to the Homepage. 
-<h2><img src="../readme-images/help-page-mobile.png">Help Page (Mobile)</h2>
-<h2><img src="../readme-images/help-page-desktop.png">Help Page (Desktop)</h2>
+<h2><img src="../assets/readme-images/help-page-mobile.png" alt="Help Page (Mobile)"></h2> Help Page (Mobile)
+<h2><img src="../assets/readme-images/help-page-desktop.png" alt="Help Page (Desktop)"></h2>Help Page (Desktop)
 
 ### 404 Error Page
 * A custom 404 error page displays if the user tries to access an incorrect URL within the site.  
 * This is a simple page which features 3 Friends related images and Friends related references, as well as a button which directs the user back to the homepage. 
 * I followed [this guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-siteS) from Github to create the page.  
-<h2><img src="../readme-images/404-error.png">404 Page</h2>
+<h2><img src="../assets/readme-images/404-error.png" alt="404 Page"></h2>404 Error Page
 
 ## Future Additions
 I decided that the following features were ‘could-haves’ - they would be nice to have but were not essential for a ‘minimum viable product’.   
@@ -244,9 +244,9 @@ REMEMBER TO ADD WIREFRAMES !!!!
  * All buttons regardless of their starting colour, change to white when clicked to maintain readability and accessibility. 
  * Black is used as the font colour, except for the correct and incorrect scores underneath the question and answers box, which are green and red respectively. 
  * The black font is contrasted with blue as the hover colour, to ensure readability and accessibility. 
- <h2><img src="../readme-images/background-colours.png">Background colour palette </h2>
- <h2><img src="../readme-images/font-and-hover-colours.png">Font colour palette </h2>
- <h2><img src="../readme-images/correct-and-incorrect-score-tally-colours.png">Correct and incorrect score tally colours</h2>
+ <h2><img src="../assets/readme-images/background-colours.png" alt="Background colour palette"></h2>Background colour palette
+ <h2><img src="../assets/readme-images/font-and-hover-colours.png" alt="Font colour palette"></h2>Font colour palette
+ <h2><img src="../assets/readme-images/correct-and-incorrect-score-tally-colours.png" alt="Correct and incorrect score tally colours"></h2>Correct and incorrect score tally colours
 
 ### Site Title Colour Scheme
  * The title of the site is 'Friends', with the subtitle of 'The One with all the Questions'.
@@ -255,36 +255,36 @@ REMEMBER TO ADD WIREFRAMES !!!!
  * In order to maintain accessibility, the colours used for the blue and yellow dots are slightly darker on the play page (where they are against a white background), as using the same colours as used on the homepage, resulted in a contrast error when the page was tested using the [WAVE Web Accessibility Evaulation Tool](https://wave.webaim.org/) and the [WebAim Contrast Checker](https://webaim.org/resources/contrastchecker/) - [see Testing file](TESTING.md) for details. The colour of the red dot presented no contrast errors on a white background, and is therefore left unchanged.
     <details>
           <summary>Dot Colours used for Homepage</summary> 
-          <img src="../readme-images/dot-colours-homepage.png" alt="Colours used for the dots in Homepage site title"> 
+          <img src="../assets/readme-images/dot-colours-homepage.png" alt="Colours used for the dots in Homepage site title"> 
      </details>
      <details>
           <summary>Coloured dots in the site title on Homepage (desktop)</summary>
-          <img src="../readme-images/dot-colours-on-homepage.png" alt="Colours used for the dots in Homepage site title (desktop)"> 
+          <img src="../assets/readme-images/dot-colours-on-homepage.png" alt="Colours used for the dots in Homepage site title (desktop)"> 
      </details>
      <details>
           <summary>Blue and Yellow Dot Colours used for Play page</summary> 
-          <img src="../readme-images/blue-and-yellow-dot-colours-play-page.png" alt="Blue and Yellow Dot Colours used for Play page (desktop)"> 
+          <img src="../assets/readme-images/blue-and-yellow-dot-colours-play-page.png" alt="Blue and Yellow Dot Colours used for Play page (desktop)"> 
      </details>
       <details>
           <summary>Coloured dots in the site title on Play page (desktop)</summary>
-          <img src="../readme-images/dot-colours-on-play-page.png" alt="Colours used for the dots in Play page site title (desktop)"> 
+          <img src="../assets/readme-images/dot-colours-on-play-page.png" alt="Colours used for the dots in Play page site title (desktop)"> 
      </details>
 
  ## Typography
   * The Font used in the opening credits of 'Friends' is very distinctive and easily recognisable - especially to avid fans of the show. Therefore I knew I needed to use a font as close as possible to the original to make the site appealling to Friends fans. I used [Google](https://www.google.co.uk/) to research which font was the closest match. The results showed that this was Gabriel Weiss' Friends Font. I downloaded this font from [Font Meme](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/).
      <details>
           <summary>Google search results for Friends TV show font</summary>
-          <img src="../readme-images/friends-tv-show-font.png" alt="Google search results Friends TV show font"> 
+          <img src="../assets/readme-images/friends-tv-show-font.png" alt="Google search results Friends TV show font"> 
      </details>
      <details>
           <summary>Gabriel Weiss' Friends Font</summary>
-          <img src="../readme-images/gabriel-weiss-friends-font.png" alt="Gabriel Weiss' Friends Font"> 
+          <img src="../assets/readme-images/gabriel-weiss-friends-font.png" alt="Gabriel Weiss' Friends Font"> 
      </details>
 * The Gabriel Weiss’ Friends Font is entirely upper case by default. To keep the font authentic, I have not adjusted this. I did, however, notice that the font in its default state, placed the letters quite close to each other, which made it slightly difficult to read. For user convenience and accessibility, I have used CSS to add a small amount of letter spacing to rectify this. 
 * The font [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - also from Font Meme, is the first fallback font, in case Gabriel Weiss' Friends Font fails to load correctly. It was selected due to its similarity to Gabriel Weiss' Friends Font.
      <details>
           <summary>Crashbow font</summary>
-          <img src="../readme-images/crashbow-font.png" alt="Crashbow font"> 
+          <img src="../assets/readme-images/crashbow-font.png" alt="Crashbow font"> 
      </details>
 * Two further fallback fonts have been set, in case neither Gabriel Weiss' Friends Font or Crashbow load correctly. The second fallback is Cursive, with Serif as the third and final fallback font.
 * I noticed that the Gabriel Weiss Friends Font becomes quite difficult to read when applied to large chunks of text.  
@@ -292,11 +292,11 @@ REMEMBER TO ADD WIREFRAMES !!!!
 * As the Lydian font is easier to read, it has been used on areas of the site which contain a lot of text i.e. the introduction modal, the question and answers box on the Play Page, the final score boxes, the Help Page and the 404 Error Page. 
      <details>
           <summary>Google search results for Friends end credits font</summary>
-          <img src="../readme-images/lydian-google-search.png" alt="Google search results for Friends end credits font"> 
+          <img src="../assets/readme-images/lydian-google-search.png" alt="Google search results for Friends end credits font"> 
      </details>
      <details>
           <summary>Lydian font</summary>
-          <img src="../readme-images/lydian-font.png" alt="Lydian font"> 
+          <img src="../assets/readme-images/lydian-font.png" alt="Lydian font"> 
      </details>
 
 
@@ -327,11 +327,11 @@ All images used on the site (except the hero image) subtly rotate in some way wh
 * [Printerval](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) - was used to source the image of the peephole frame from the back of Monica's front door. The image was found via a [Google](https://www.google.co.uk/) image search with results set to 'Creative Commons licenses'. This image was then used as the site's logo.
      <details>
           <summary>Google image search for 'friends door peephole' with results set to 'Creative Commons licenses'</summary>
-          <img src="assets/readme-images/peephole-frame-creative-commons-licence-search.png" alt="Google image search for 'friends door peephole' with results set to 'Creative Commons licenses'"> 
+          <img src="../assets/readme-images/peephole-frame-creative-commons-licence-search.png" alt="Google image search for 'friends door peephole' with results set to 'Creative Commons licenses'"> 
      </details>
      <details>
           <summary>Explanation of Creative Commons licenses</summary>
-          <img src="assets/readme-images/creative-commons-license-explanation.png" alt="Explanation of Creative Commons licenses"> 
+          <img src="../assets/readme-images/creative-commons-license-explanation.png" alt="Explanation of Creative Commons licenses"> 
      </details>
 * The logo is animated and rotates 180 degrees when the user hovers over it.
 * For convenience, clicking the logo on the navbar will always take the user back to the Homepage.
@@ -374,11 +374,11 @@ All images used on the site (except the hero image) subtly rotate in some way wh
     * Both images were found via a Google image search with results set to 'Creative Commons licenses'.
      <details>
           <summary>Friends peephole frame Google Search</summary>
-          <img src="../readme-images/peephole-frame-creative-commons-licence-search.png" alt="Friends peephole frame Google Search"> 
+          <img src="../assets/readme-images/peephole-frame-creative-commons-licence-search.png" alt="Friends peephole frame Google Search"> 
      </details>
       <details>
           <summary>Princess Consuela Google Search</summary>
-          <img src="../readme-images/princess-consuela-google-search.png" alt="Princess Consuela Google Search"> 
+          <img src="../assets/readme-images/princess-consuela-google-search.png" alt="Princess Consuela Google Search"> 
      </details>
   * [Noun Project](https://thenounproject.com/) - was used to source the ['Friends Icons Set' by created by Amelia Detwiler](https://thenounproject.com/browse/collection-icon/friends-30104/). All icons from the collection were used in the site.
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
