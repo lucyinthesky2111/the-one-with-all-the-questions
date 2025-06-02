@@ -453,10 +453,10 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 
 ## Acknowledgments
 I would like to thank the following people for their support and feedback in the creation of this project: 
-     * My course tutor Ashley Oliver  
-     * My friend James Newell  
-     * My mentor Mitko Bachvarov 
-     * All friends and family members who kindly tested the site for me 
+* My course tutor Ashley Oliver  
+* My friend James Newell  
+* My mentor Mitko Bachvarov 
+* All friends and family members who kindly tested the site for me 
 
 # Developer Comments
 
