@@ -660,6 +660,12 @@ within the parent div which has the id of question area  */
     background-color: white;
 }
 
+/* Image animation */
+.error-images img:hover {
+    transform: rotate3d(1, 2, 1, 30deg);
+    transition: 1.5s;
+}
+
 /* FOOTER */
 footer {
     background-color: var(--peephole-frame-yellow);

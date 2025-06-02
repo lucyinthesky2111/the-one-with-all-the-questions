@@ -161,7 +161,7 @@ I was able to successfully implement all of the initial stage features.
 
 ### Introduction Modal
 * The introduction modal introduces the game using a series of Friends references.  
-* The introduction is only visible on the Homepage. 
+* The introduction modal is only visible on the Homepage. 
 * The modal gives the user the option to either proceed straight to the quiz (if they are a returning user or are confident they know how to play), or to navigate to the Help page where they can view instructions.  
 * The introduction modal is displayed when the Homepage loads.
 * The user can close the modal by clicking on the ‘X’ button in the top right-hand corner, or by clicking ‘Play’ or ‘Home’ to navigate to one of those pages.  
@@ -213,14 +213,14 @@ I decided that the following features were ‘could-haves’ - they would be nic
 * Questions and possible answers appearing in a different random order each time a new game is played. 
 * Ability to filter questions by difficulty level. 
 
-Due to time constraints, I have not been able to implement the ability to filter the questions by difficulty level. I have been able implement all other ‘could-have’ features. Given that the quiz does contain questions of varying difficultly, I decided that whilst it would be nice for the user to be able to filter those questions according, this did not add as much value to the game as the other ‘could-have’ features. Therefore, I chose to prioritise those.  
+Due to time constraints, I have not been able to implement the ability to filter the questions by difficulty level. I have been able implement all other ‘could have’ features. Given that the quiz does contain questions of varying difficultly, I decided that whilst it would be nice for the user to be able to filter those questions according, this did not add as much value to the game as the other ‘could have’ features. Therefore, I chose to prioritise those.  
 
 Some additional features that I would like to implement in the future are: 
 
 * To increase replay-ability of the quiz, I would like to increase the pool of available questions and display only a proportion of these during each game. This would mean that the user could play the game many times over and be asked questions they have not seen before, on each playthrough. 
 * To supplement the quiz and add more value for the user, I would like implement a quote generator. This would have options to select a Friends character and view a selection of randomised quotes from them, as well as options to select an episode and receive randomised quotes from that episode.  
-*I would also like to add an episode selector feature. The user would be able to select a category (such as birthdays, weddings, Christmas etc) and receive a list of episodes which meet this criteria. The user would also be able to select a mood from a pre-defined list (e.g. I want to cry, I want to feel motivated etc) and receive a list of recommended episodes based on that mood. 
-* I have also written all the content for a 6-question ‘which character are you most like quiz that I would like to add to the site at a later stage.  
+* I would also like to add an episode selector feature. The user would be able to select a category (such as birthdays, weddings, Christmas etc) and receive a list of episodes which meet this criteria. The user would also be able to select a mood from a pre-defined list (e.g. I want to cry, I want to feel motivated etc) and receive a list of recommended episodes based on that mood. 
+* I have also written all the content for a 6-question ‘which character are you most like' quiz that I would like to add to the site at a later stage.  
 
 
 # Wireframes
