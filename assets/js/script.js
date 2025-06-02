@@ -1,5 +1,3 @@
-/*jshint esversion: 9 */
-
 /* Full details of sources used for help in constructing this JS file can be found in the Credits (Code) section of the ReadMe. */
 
 // All questions as objects within an array. Possible answers are an array within the object 
@@ -276,8 +274,6 @@ document.addEventListener('DOMContentLoaded', function () {
    */
   // Code for handleQuestion function adapted from Treehouse - 'Beginner JavaScript project: build a quiz app' YouTube video
   function handleQuestion(index) {
-    /* Call startTimer function at the start of the HandleQuestion function so that the time starts as soon as the questions
-     and possible answers are displayed */
     startTimer();
     //  Quiz progress bar which appears above questions and possible answers
     quizProgress.innerHTML = "";

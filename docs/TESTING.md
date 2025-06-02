@@ -146,6 +146,8 @@ All user expectations and requirements have been satisfied (evidenced by looking
 * On first run of the W3C HTML Validator, the error shown below was flagged on all pages of the site. This was resolved by replacing the p element with a span element. All pages of the site subsequently passed validation. 
 <h2 align="center"><img src="../readme-images/p-html-error.png"></h2>
 
+* When playing the game on mobile devices, there was an issue with the timer box distorting at 27 seconds remaining, whereby the text displayed on two lines rather than one. This issue was resolved by increasing the width of the timer box. 
+
 
 ## Unresolved
 * I received some feedback in my last project that html files should be organized into a folder. I tried to implement this for this project however, having html files in folders works on the live server but not in the deployed site. There are only 4 html files in the project. This was too time-consuming to try and fix for such a small number of html files and a minor annoyance caused by the lack of folder. I would have spent the time to rectify this issue had there been a vast number of html files. Therefore html files are not placed in a folder for this project. 

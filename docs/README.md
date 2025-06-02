@@ -135,8 +135,8 @@ I was able to successfully implement all of the initial stage features.
 * The links on the nav bar are in black text which appear blue when the user hovers over them to maintain readability and accessibility. 
 * The 'active' link i.e. the page the user is on, is underlined as a visual reminder. 
 * The links on the nav bar appear as a horizontal list on larger screens and in a drop down menu on smaller screens. 
-<h2><img src="../readme-images/navbar-mobile.png">Nav bar on mobile and tablet </h2>
-<h2><img src="../readme-images/nav-bar-desktop.png">Nav bar on desktop </h2>
+<h2><img src="../assets/readme-images/navbar-mobile.png" alt="Nav bar on mobile and tablet"></h2>Nav bar on mobile and tablet
+<h2><img src="../assets/readme-images/nav-bar-desktop.png"alt="Nav bar on desktop"></h2>Nav bar on desktop
 
  
 ### Footer
