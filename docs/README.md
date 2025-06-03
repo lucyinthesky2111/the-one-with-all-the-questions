@@ -214,7 +214,8 @@ I was able to successfully implement all of the initial stage features.
  * If the user does not answer the question before the timer hits zero, the user will see a pop message telling them “Time’s up!” 
 <h2><img src="../assets/readme-images/times-up-message.png" alt="Time's up message"></h2>Time's up message
 
-* The game will then auto-advance to the next question so the user will not get another chance to answer. 
+* The user is not shown the correct answer if they do not make an attempt to answer the question before the timer runs out. 
+* The game will then auto-advance to the next question so the user will not get another chance to answer.  
 * That question will also be treated as having been answered incorrectly, and the users incorrect score tally will increment by 1 mark.  
 
 ### Correct and Incorrect Answers

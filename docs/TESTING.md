@@ -144,6 +144,7 @@ User story 3:  immediate visual feedback as to whether my answer is correct or i
 * Possible answer buttons for each question have been tested and proven to highlight in green when the user selects the correct answer. 
 * The buttons have also been proven to highlight in red when the user selects an incorrect answer. 
 * It has also been proven that when an incorrect answer is selected, the correct answer is highlighted in green for the user’s information. 
+* There is an appropriate delay of 1 second between the answer feedback and the quiz moving on to the next question, to allow the user time to see their result. 
 
 User story 4: facility to see my final score at the end of the game, so I can replay and try to beat it. 
 * The user’s final score has been proven to always display at the end of game, regardless of what score the user achieves. 
@@ -156,14 +157,35 @@ User story 5: for there to be questions of varying difficulty levels, so I can p
 * The questions have been written and categorised by myself using my extensive knowledge of the show as a frame of reference.  
 
  ### Should Have
+ User story 6: visual indication of my progress, showing my current stage of the game. 
+ * There is a visual progress bar at the top of the quiz container which effectively tracks the user’s progress through the game. 
+ * There is a bar representing each question in the quiz. 
+ * All bars are visible and coloured grey at the outset of the game. 
+ * As expected, each bar turns yellow, one at a time, as each question is displayed. 
   
+User story 7: facility to see my current score throughout the game. 
+* There is a running score count displayed underneath the question and answers box when the user is playing the game. 
+* Both the correct and incorrect score are tallied correctly (incrementing each category by one mark as appropriate) and at the correct time (as soon as the user has answered and their answered has been ‘marked’). 
 
  ### Could Have
+ User story 8: a message along with my final score, which is different according to what score I achieve. 
+ * Testing of the game achieving different scores each time, has verified that a different Friends related message is displayed according to the user’s final score as expected. 
+ * It has been proven that there are 5 different messages available, 1 for each of these score brackets: 0-7, 8-15, 16-23, 24-29, 30 and that the correct message appears for the relevant score bracket. 
 
+ User story 9: a time limit on each question, to add a small amount of pressure, and make the game more challenging and exciting. 
+ * A timer appears for each question. 
+ * The timer counts down the user’s remaining time from 30 seconds to 0, in 1 second decrements as expected. 
+ * If the timer hits 0 before the user answers, the relevant ‘Time’s up!’ message has been proven to appear as required. 
+ * It has been proven that after the ‘Time’s up!’ message has been shown, the quiz auto-advances to the next question as planned so that the user does not get a second chance to answer. 
+ * It has been verified that the user is not shown the correct answer if they do not make an attempt to answer the question before the timer runs out as expected. 
+ * It has been proven that if the user does not answer before the timer hits zero, this is counted as an incorrect answer and the user’s incorrect answer tally is incremented by one mark. 
+ * The timer correctly resets back to 30 seconds remaining each time a new question is started. 
 
-  * Due to time constraints, .....
-  but will be implementd in the future.
+User story 10: the questions and possible answers appear in a random order each time I play to increase replay-ability. 
+ * Multiple test plays of the game have proven that the questions and possible answers do in fact, appear in a different random order in each new game as expected. 
 
+User story 11: ability to filter questions by difficulty level. 
+* Due to time constraints, this featured has not yet been implemented but will be added in the future.
 
 # Peer Review
 * In the final stages of the project development, I submitted the project for review by fellow Code Institute students and alumni on slack. 
