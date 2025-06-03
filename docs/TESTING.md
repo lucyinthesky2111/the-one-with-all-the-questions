@@ -129,12 +129,31 @@ All user expectations and requirements (user story 1: user friendly navigation a
 * All navigation buttons have been tested and proven to work.  
 * All social links in the footer have been tested, proven to work and proven to open in a new tab. 
 * All copy on the site has been proof-read and proven to be clear, concise and free of SPAG (spelling, grammar and punctuation errors). 
+* There is an Introduction Modal on the Homepage which clearly explains the purpose of site to the user (without the need for them to look at the corresponding site documentation) and links to other pages of the site. 
 
 # Testing User Stories
 ### Testing remaining user stories
 
 ### Must Have
-  
+User story 2: clear instructions as to how to play the game which are accessible from anywhere on the site. 
+* There is a dedicated Help Page which the user can access from anywhere on the site, either via buttons on the page or links in the nav bar. 
+* The Help Page contains clear and concise step-by-step instructions as to how to play the game. 
+* The Help Page itself also explains to the user how they can revisit this page during game play if they need a reminder of the rules (by visiting the menu in the nav bar and clicking the ‘help’ link). 
+
+User story 3:  immediate visual feedback as to whether my answer is correct or incorrect for each question. 
+* Possible answer buttons for each question have been tested and proven to highlight in green when the user selects the correct answer. 
+* The buttons have also been proven to highlight in red when the user selects an incorrect answer. 
+* It has also been proven that when an incorrect answer is selected, the correct answer is highlighted in green for the user’s information. 
+
+User story 4: facility to see my final score at the end of the game, so I can replay and try to beat it. 
+* The user’s final score has been proven to always display at the end of game, regardless of what score the user achieves. 
+* It has also been proven that when the final score is displayed, any content which is no longer needed on the page (e.g. timer, progress bar, questions and answers box), are all hidden as expected.  
+* The navigation buttons which appear at the end of the game, directing the user to either play again or return home, have been tested and proven to work. 
+
+User story 5: for there to be questions of varying difficulty levels, so I can participate regardless of my knowledge level. 
+* The quiz features a pool of 30 questions. 
+* 10 of those questions are categorised as ‘easy, 10 as ‘medium’ and 10 as ‘hard’ to ensure each category has an equal number of questions. 
+* The questions have been written and categorised by myself using my extensive knowledge of the show as a frame of reference.  
 
  ### Should Have
   
