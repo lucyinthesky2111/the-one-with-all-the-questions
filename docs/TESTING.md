@@ -50,7 +50,7 @@ The The one with all the questions - 'Friends' interactive trivia website return
 
 # Lighthouse
 * I ran Lighthouse reports in Google Devtools to test for :- Performance, Accessibility, Best Practices and SEO.
-* All pages performed reasonably well on desktop (with some performing very well) :
+* All pages performed well on desktop (with most performing very well) :
 
 ## Homepage (Desktop)
 <h2 align="center"><img src="../assets/readme-images/lighthouse-home-desktop.png" alt="Lighthouse results Homepage (Desktop)"></h2>
@@ -64,7 +64,7 @@ The The one with all the questions - 'Friends' interactive trivia website return
 ## 404 Error Page (Desktop) 
 <h2 align="center"><img src="../assets/readme-images/lighthouse-404-desktop.png" alt="Lighthouse results 404 Error Page (Desktop)"></h2>
 
-* On mobile, results were very similar on mobile.
+* Results were also good on mobile.
 ## Homepage (Mobile)
 <h2 align="center"><img src="../assets/readme-images/lighthouse-home-mobile.png" alt="Lighthouse results Homepage (Mobile)"></h2>
 
@@ -120,10 +120,7 @@ The one with all the questions - 'Friends' interactive trivia website returned n
 * The site was also tested on Samsung Internet, on which there were some issues. One of which has subsequently been rectified (see [Resolved Bugs](#resolved)) and one of which has not (see [Unresolved Bugs](#unresolved)).
 
 # Testing User Stories
-* All tasks are completed and all acceptance criteria are met for user stories ..... 
-* Due to time constraints, no tasks have been attempted for user stories .....
 
-# Testing User Goals
 ### Must Have
   
 
@@ -131,7 +128,9 @@ The one with all the questions - 'Friends' interactive trivia website returned n
   
 
  ### Could Have
-  * Due to time constraints, none of the features relating to the 'could have' user goals have been implemented.
+
+
+  * Due to time constraints, 
 
 # Testing User Expectations and Requirements
 All user expectations and requirements have been satisfied (evidenced by looking at the deployed site as a whole).
@@ -144,7 +143,11 @@ All user expectations and requirements have been satisfied (evidenced by looking
 
 * The site was proof-read by me. In addition to this, I also used ChatGPT and the ‘read aloud’ feature of Microsoft Word for further proof-reading. Any minor typographical or grammatical errors found were subsequently corrected. 
 
-* I asked a number of friends and family members to test the site for typos, to check the quiz works correctly, and that the external links to social media sites in the footer all open in new tabs. No errors were reported. 
+* I asked a number of friends and family members to test the site for typos, to check the quiz works correctly, and that the external links to social media sites in the footer all open in new tabs. No errors were reported. Feedback from a particularly avid Friends fan was that they especially liked all the details that had been added to keep the whole site in keeping with the Friends themes.
+         <details>
+          <summary>Feedback message</summary>
+          <img src="../assets/readme-images/feedback-message.png" alt="Feedback message"> 
+         </details>
 
 # Bugs 
 ## Resolved

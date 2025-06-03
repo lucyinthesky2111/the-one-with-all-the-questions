@@ -272,11 +272,12 @@ Some additional features that I would like to implement in the future are:
 
 
 # Wireframes
-REMEMBER TO ADD WIREFRAMES !!!!
-********
-*********
-*****
-
+<h2><img src="../assets/readme-images/wireframe-homepage.png" alt="Homepage Wireframe"></h2>Homepage
+<h2><img src="../assets/readme-images/wireframe-introduction-modal.png" alt="Introduction Modal Wireframe"></h2>Introduction Modal
+<h2><img src="../assets/readme-images/wireframes-play-page.png" alt="Play Page Wireframe"></h2>Play Page
+<h2><img src="../assets/readme-images/wireframe-final-scores.png" alt="Final Scores Wireframe"></h2>Final Scores
+<h2><img src="../assets/readme-images/wireframe-help-page.png" alt="Help Page Wireframe"></h2>Help Page
+<h2><img src="../assets/readme-images/wireframe-404-error.png" alt="404 Error Page Wireframe"></h2>404 Error Page
 
  # Design
 
@@ -403,6 +404,7 @@ All images used on the site (except the hero image) subtly rotate in some way wh
      * [Gabriel Weiss' Friends Font](https://fontmeme.com/fonts/gabriel-weiss-friends-font-font/) - as the main font.
      * [Crashbow](https://fontmeme.com/fonts/crashbow-font/) - as a back-up font, due to its similarity to Gabriel Weiss' Friends Font.
      * [Lydian](https://fontmeme.com/fonts/lydian-font/) - as the secondary font, used for areas of the site which contain a lot of text.
+ * [Font Awesome](https://fontawesome.com/) – was used to choose and import the icons used in the site. 
   * [Canva](https://www.canva.com/) – was used to create the wireframes, remove the background from images, and crop all images to the desired aspect ratio.
   * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) – was used while building the project to test responsiveness, and for debugging.
 
