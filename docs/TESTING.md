@@ -138,7 +138,13 @@ All user expectations and requirements have been satisfied (evidenced by looking
 
 
 # Peer Review
-* Whilst still in progress, this project was submitted for peer review by Code Institute students and alumni on Slack. This resulted in ........
+* In the final stages of the project development, I submitted the project for review by fellow Code Institute students and alumni on slack. 
+* I received feedback that the quiz was functioning well with no errors found.  
+* It was suggested that to improve the user experience, I could ass functionality for the user to exit or restart the game whilst it is in progress. Whilst these would be useful features, I decided not to implement them as I felt it was too late in the project, due to the proximity of the submission deadline. However, this is something I will remember for future projects. 
+
+* The site was proof-read by me. In addition to this, I also used ChatGPT and the ‘read aloud’ feature of Microsoft Word for further proof-reading. Any minor typographical or grammatical errors found were subsequently corrected. 
+
+* I asked a number of friends and family members to test the site for typos, to check the quiz works correctly, and that the external links to social media sites in the footer all open in new tabs. No errors were reported. 
 
 # Bugs 
 ## Resolved
