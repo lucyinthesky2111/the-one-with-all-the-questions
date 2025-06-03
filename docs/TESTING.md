@@ -13,8 +13,8 @@ The The one with all the questions - 'Friends' interactive trivia website has be
 - [Responsiveness](#responsiveness)
 - [WAVE Web Accessibility Evaluation Tools Checker](#wave-web-accessibility-evaluation-tools-checker)
 - [Browser Compatibility](#browser-compatibility)
-- [Testing User Stories](#testing-user-stories)
 - [Testing User Expectations and Requirements](#testing-user-expectations-and-requirements)
+- [Testing User Stories](#testing-user-stories)
 - [Peer Review](#peer-review)
 - [Bugs](#bugs)
     - [Resolved](#resolved)
@@ -64,7 +64,7 @@ The The one with all the questions - 'Friends' interactive trivia website return
 ## 404 Error Page (Desktop) 
 <h2 align="center"><img src="../assets/readme-images/lighthouse-404-desktop.png" alt="Lighthouse results 404 Error Page (Desktop)"></h2>
 
-* Results were also good on mobile.
+* While results were also generally good on mobile, Lighthouse did make some suggestions as to how to improve (see [Unresolved Bugs](#unresolved)).
 ## Homepage (Mobile)
 <h2 align="center"><img src="../assets/readme-images/lighthouse-home-mobile.png" alt="Lighthouse results Homepage (Mobile)"></h2>
 
@@ -119,7 +119,19 @@ The one with all the questions - 'Friends' interactive trivia website returned n
 * The site was also tested on Safari, on which there was one small issue which has not been rectified as yet (see [Unresolved Bugs](#unresolved)).
 * The site was also tested on Samsung Internet, on which there were some issues. One of which has subsequently been rectified (see [Resolved Bugs](#resolved)) and one of which has not (see [Unresolved Bugs](#unresolved)).
 
+# Testing User Expectations and Requirements
+All user expectations and requirements (user story 1: user friendly navigation and responsive design) have been satisfied.
+* The site is fully responsive on screen sizes from 320px and upwards. 
+* The site is fully accessible, it contains appropriate alt text, a colour scheme of sufficient contrast, and has passed WAVE accessibility testing. 
+* All images used in the site have been optimised and cropped to suitable aspect ratio. 
+* There is a responsive nav bar and footer on all pages. 
+* All navigation links have been tested and proven to work. 
+* All navigation buttons have been tested and proven to work.  
+* All social links in the footer have been tested, proven to work and proven to open in a new tab. 
+* All copy on the site has been proof-read and proven to be clear, concise and free of SPAG (spelling, grammar and punctuation errors). 
+
 # Testing User Stories
+### Testing remaining user stories
 
 ### Must Have
   
@@ -130,10 +142,8 @@ The one with all the questions - 'Friends' interactive trivia website returned n
  ### Could Have
 
 
-  * Due to time constraints, 
-
-# Testing User Expectations and Requirements
-All user expectations and requirements have been satisfied (evidenced by looking at the deployed site as a whole).
+  * Due to time constraints, .....
+  but will be implementd in the future.
 
 
 # Peer Review
@@ -144,11 +154,7 @@ All user expectations and requirements have been satisfied (evidenced by looking
 * The site was proof-read by me. In addition to this, I also used ChatGPT and the ‘read aloud’ feature of Microsoft Word for further proof-reading. Any minor typographical or grammatical errors found were subsequently corrected. 
 
 * I asked a number of friends and family members to test the site for typos, to check the quiz works correctly, and that the external links to social media sites in the footer all open in new tabs. No errors were reported. Feedback from a particularly avid Friends fan was that they especially liked all the details that had been added to keep the whole site in keeping with the Friends themes.
-         <details>
-          <summary>Feedback message</summary>
-          <img src="../assets/readme-images/feedback-message.png" alt="Feedback message"> 
-         </details>
-
+       
 # Bugs 
 ## Resolved
 
@@ -181,6 +187,8 @@ All user expectations and requirements have been satisfied (evidenced by looking
 
 
 ## Unresolved
+
+* Lighthouse recommends rectifying the largeste contentful paint and serving images in next-gen formats to improve mobile performance on lower scoring pages. This recommendation was not acted upon at this time as current performance is still acceptable, especially for an MVP, but this could be looked into in the future, especially if the site expands with additional content.
 
 * When testing the game on Sarfari on my 9th generation iPad and on Samsung Internet on my Samsung Galaxy S22, I noticed that the text in the answer boxes appears to the left of the box rather than in the centre. This happens despite the text being set to align centrally with CSS. The text displays correctly when viewing the site on other devices and browsers. Therefore, this appears to be isolated to these particular devices and/or browsers. As this is only a minor aesthetic issue which does not affect game play, it has been left unresolved at this stage due to time constraints. 
         <details>
