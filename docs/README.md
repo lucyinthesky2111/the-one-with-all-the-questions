@@ -166,9 +166,9 @@ I was able to successfully implement all of the initial stage features.
 * The introduction modal is displayed when the Homepage loads.
 * The user can close the modal by clicking on the ‘X’ button in the top right-hand corner, or by clicking ‘Play’ or ‘Home’ to navigate to one of those pages.  
 * Clicking ‘X’ displays the Homepage content which is located behind the modal. This content is described in the next section of this documentation. 
-* After closing the modal, the user can access it again by clicking ‘Home’ from the nav bar. 
+* After closing the modal, the user can access it again by clicking ‘Home’ from the nav bar or clicking on the site's logo. 
 <h2><img src="../assets/readme-images/intro-modal-mobile.png" alt="Introduction Modal (Mobile)"></h2>Introduction Modal (Mobile)
-<h2><img src="../assets/readme-images/intro-modal-mobile.png" alt="Introduction Modal (Desktop)"></h2>Introduction Modal (Desktop)
+<h2><img src="../assets/readme-images/introduction-modal.png" alt="Introduction Modal (Desktop)"></h2>Introduction Modal (Desktop)
 
 
 ### Homepage
@@ -219,7 +219,7 @@ I was able to successfully implement all of the initial stage features.
 * That question will also be treated as having been answered incorrectly, and the users incorrect score tally will increment by 1 mark.  
 
 ### Correct and Incorrect Answers
-* The user receives immediate feedback as whether their answer is correct or incorrect immediately after answering each question.  
+* The user receives immediate feedback as to whether their answer is correct or incorrect immediately after answering each question.  
 * If the user answers correctly, the answer button they selected will turn green. 
 <h2><img src="../assets/readme-images/correct-answer.png" alt="Correct answer"></h2>Correct answer
 
@@ -228,7 +228,7 @@ I was able to successfully implement all of the initial stage features.
 
 ### Running Scores Tally 
 * The number of both correct and incorrect answers are tallied throughout the quiz so the user can keep track of their performance.  
-* To match the highlight colours of the answer boxes, correct scores are tallied in green and incorrect scores are tallied in red.  
+* To match the highlight colours of the answer boxes, correct answers are tallied in green and incorrect answers are tallied in red.  
 <h2><img src="../assets/readme-images/running-scores-tally.png" alt="Running scores tally"></h2>Running scores tally
 
 ### Final Scores
@@ -480,7 +480,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 ## Content
 * All copy, questions and answers on the site were written by me. I referred to the relevant episodes of Friends to verify all answers and information given to ensure everything is correct.
 * [Warner Bros](https://www.warnerbros.co.uk/tv/friends) - for the site colour scheme and the Friends quotes and references which appear throughout the site.
-* The following GitHub repositories for inspiration for creatind a themed quiz using closable modals :-
+* The following GitHub repositories for inspiration for creating a themed quiz using closable modals :-
      * [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file)  
      * [suzybee1987 'Terry pratchett Discworld quiz'](https://github.com/suzybee1987/milestone-2) 
 * The structure and content of the README.md and TESTING.md was based on both my own [milestone-project-one](https://github.com/lucyinthesky2111/milestone-project-one) repository and [Isabella Mitchell's 'Fledgling Bird Game'](https://github.com/Isabella-Mitchell/fledgling-bird-game) repository.
