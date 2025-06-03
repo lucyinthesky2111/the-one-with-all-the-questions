@@ -510,8 +510,21 @@ I would like to thank the following people for their support and feedback in the
 * All friends and family members who kindly tested the site for me 
 
 # Developer Comments
+I have built this project because I genuinely love Friends. It has been a comfort to me through difficult times in my life, as it has been for countless other fans around the world. Having watched every episode more times than I can count and being able to recognise and recite quotes and references at will, I wanted to create a Friends quiz for other people who share the same passion and enthusiasm for the show. 
 
+I have really enjoyed the whole process of creating this project, from writing the questions, to designing the colour scheme to align with the show, to picking appropriate quotes and references to scatter around the site.  
 
+Whilst this is my first project using JavaScript, it is my second project using HTML and CSS, and I feel my skills in these areas are improving with each project completed. 
+
+Getting to grips with JavaScript has been very challenging, but my decision to build the project around something I love has kept me motivated through the setbacks, and inspired me to produce the best project I can at this stage of my learning, to try and do as much justice to this much cherished show as I possibly can. 
+
+Whilst the project in its current form is the minimum viable product, I have many ideas to improve and enhance it in the future as I build my knowledge and skills.  
+
+Whilst this project is not perfect, overall I am proud of all the perseverance, late nights and dedication I put in to take this project from idea to reality. 
+
+By completing this MVP, I have proven to myself that I can persist at challenging tasks, even though getting to this stage has felt impossible at times.  
+
+I hope other fans of Friends will find as much joy in this project as I have.  
 
 # Disclaimer
 
