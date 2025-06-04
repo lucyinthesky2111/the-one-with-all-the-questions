@@ -44,7 +44,7 @@ The one with all the questions - 'Friends' interactive trivia website returned n
 <h2 align="center"><img src="../assets/readme-images/css-validation.png" alt="screenshot of CSS validation"></h2>
 
 ## JSHint JavaScript Validator
-The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the JSHint JavaScript Validator tool.
+The one with all the questions - 'Friends' interactive trivia website returned no errors when tested using the JSHint JavaScript Validator tool, but did return a several instances of the same warning (see [Unresolved Bugs](#unresolved))
 ### JS Script File
 <h2 align="center"><img src="../assets/readme-images/js-hint.png" alt="screenshot JS validation"></h2>
 
@@ -211,6 +211,8 @@ User story 11: ability to filter questions by difficulty level.
 
 
 ## Unresolved
+
+* JS Hint returns warnings that function declarations should not be placed in blocks. Use a function expression or move the statement to the top of the outer function. Whilst I appreciate that my current JS code may be not be optimal, it functions well enough for a MVP and therefore, due to time constraints, the warnings have not been rectified at this stage. 
 
 * Lighthouse recommends rectifying the largest contentful paint and serving images in next-gen formats to improve mobile performance on lower scoring pages. This recommendation was not acted upon at this time as current performance is still acceptable, especially for an MVP, but this could be looked into in the future, especially if the site expands with additional content.
 

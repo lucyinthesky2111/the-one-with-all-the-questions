@@ -202,6 +202,7 @@ const questions = [
 
 /* Wait for DOM to finish loading before doing anything */
 document.addEventListener('DOMContentLoaded', function () {
+
   // Gets the introduction modal
   let introductionModal = document.getElementById("introduction-modal");
 
@@ -219,13 +220,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  /**
-   * Shuffle the questions
-   */
-  // Fisher Yates shuffle function used to shuffle questions
-  function shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
+  /* Timer ID only exists on Homepage, if doesn't exist ignore it without throwing an error */
+  const el = document.getElementById("timer");
+
+  if (el) {
+    console.log("element exists");
+    /**
+     * Shuffle the questions
+     */
+    // Fisher Yates shuffle function used to shuffle questions
+    function shuffle(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
     }
   }
@@ -453,6 +459,8 @@ document.addEventListener('DOMContentLoaded', function () {
     buttons.forEach(btn => btn.classList.add("end-of-game-btns"));
   }
 
-
+ } else {
+  console.log("element does not exist");
+ }
 
 }); // Closing tag for load DOM content event listener
