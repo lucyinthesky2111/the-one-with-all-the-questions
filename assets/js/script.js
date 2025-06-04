@@ -133,7 +133,7 @@ const questions = [
   },
 
   {
-    question: "Which game did Joey and Chandler create in <em>‘The One with the Inappropriate Sister’</em>?",
+    question: "Which game did Joey and Chandler create in <em>‘The One with the Inappropriate Sister’</em> ?",
     possibleAnswers: ['Waterball', 'Crazy Lawsuit Game', 'Fireball', 'Gonna Need Stitches Ball'],
     correctAnswer: 'Fireball',
   },
@@ -419,8 +419,6 @@ document.addEventListener('DOMContentLoaded', function () {
   function finalScore() {
     let finalScore = parseInt(document.getElementById("correct").innerText);
     const finalScoreElement = document.getElementById("final-score");
-    if (finalScoreElement) {
-    }
     /* Custom messages to user depending on their score */
     if (finalScore >= 0 && finalScore <= 7) {
       finalScoreElement.innerHTML = `<p>"OH. MY. GOD!"<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> Oh dear! It hasn't been your day, your week, your
