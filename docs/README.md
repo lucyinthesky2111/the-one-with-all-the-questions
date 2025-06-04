@@ -262,7 +262,7 @@ I decided that the following features were ‘could-haves’ - they would be nic
 * Questions and possible answers appearing in a different random order each time a new game is played. 
 * Ability to filter questions by difficulty level. 
 
-Due to time constraints, I have not been able to implement the ability to filter the questions by difficulty level. I have been able to implement all other ‘could have’ features. Given that the quiz does contain questions of varying difficultly, I decided that whilst it would be nice for the user to be able to filter those questions accordingly, this did not add as much value to the game as the other ‘could have’ features. Therefore, I chose to prioritise those.  
+Due to time constraints, I have not been able to implement the ability to filter the questions by difficulty level. I have been able to implement all other ‘could have’ features. Given that the quiz does contain questions of varying difficulty, I decided that whilst it would be nice for the user to be able to filter those questions accordingly, this did not add as much value to the game as the other ‘could have’ features. Therefore, I chose to prioritise those.  
 
 Some additional features that I would like to implement in the future are: 
 
