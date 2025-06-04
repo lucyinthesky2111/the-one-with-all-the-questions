@@ -44,7 +44,7 @@ The one with all the questions - 'Friends' interactive trivia website returned n
 <h2 align="center"><img src="../assets/readme-images/css-validation.png" alt="screenshot of CSS validation"></h2>
 
 ## JSHint JavaScript Validator
-The one with all the questions - 'Friends' interactive trivia website returned no errors when tested using the JSHint JavaScript Validator tool, but did return a several instances of the same warning (see [Unresolved Bugs](#unresolved))
+The one with all the questions - 'Friends' interactive trivia website returned no errors when tested using the JSHint JavaScript Validator tool, but did return several instances of the same warning (see [Unresolved Bugs](#unresolved))
 ### JS Script File
 <h2 align="center"><img src="../assets/readme-images/js-hint.png" alt="screenshot JS validation"></h2>
 
@@ -165,7 +165,7 @@ User story 5: for there to be questions of varying difficulty levels, so I can p
   
 User story 7: facility to see my current score throughout the game. 
 * There is a running score count displayed underneath the question and answers box when the user is playing the game. 
-* Both the correct and incorrect score are tallied correctly (incrementing each category by one mark as appropriate) and at the correct time (as soon as the user has answered and their answered has been ‘marked’). 
+* Both the correct and incorrect scores are tallied correctly (incrementing each category by one mark as appropriate) and at the correct time (as soon as the user has answered and their answer has been ‘marked’). 
 
  ### Could Have
  User story 8: a Friends related message along with my final score, which is different according to what score I achieve. 
@@ -212,7 +212,7 @@ User story 11: ability to filter questions by difficulty level.
 
 ## Unresolved
 
-* JS Hint returns warnings that function declarations should not be placed in blocks. Use a function expression or move the statement to the top of the outer function. Whilst I appreciate that my current JS code may be not be optimal, it functions well enough for a MVP and therefore, due to time constraints, the warnings have not been rectified at this stage. 
+* JS Hint returns warnings that "function declarations should not be placed in blocks. Use a function expression or move the statement to the top of the outer function." Whilst I appreciate that my current JS code may not be optimal, it functions well enough for a MVP and therefore, due to time constraints, the warnings have not been rectified at this stage. 
 
 * Lighthouse recommends rectifying the largest contentful paint and serving images in next-gen formats to improve mobile performance on lower scoring pages. This recommendation was not acted upon at this time as current performance is still acceptable, especially for an MVP, but this could be looked into in the future, especially if the site expands with additional content.
 
