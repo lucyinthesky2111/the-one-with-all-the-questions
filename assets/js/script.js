@@ -22,7 +22,7 @@ const questions = [
   },
 
   {
-    question: "Which friend had jobs at Central Perk, Bloomingdales and Ralph Lauren?",
+    question: "Which friend had jobs at Central Perk, Bloomingdale's and Ralph Lauren?",
     possibleAnswers: ['Monica', 'Chandler', 'Phoebe', 'Rachel'],
     correctAnswer: 'Rachel',
 
@@ -43,7 +43,7 @@ const questions = [
   },
 
   {
-    question: 'Whose name does Ross mistakenly say at the alter?',
+    question: 'Whose name does Ross mistakenly say at the altar?',
     possibleAnswers: ['Rachel', 'Emily', 'Julie', 'Mona'],
     correctAnswer: 'Rachel',
 
@@ -93,7 +93,7 @@ const questions = [
   },
 
   {
-    question: "Frank Jr  and Alice’s triplets are named Frank Jr Jr, Chandler and ...? ",
+    question: "Frank Jr and Alice’s triplets are named Frank Jr Jr, Chandler and ...? ",
     possibleAnswers: ['Lesley', 'Sophia', 'Jennifer', 'Hannah'],
     correctAnswer: 'Lesley',
 
@@ -121,7 +121,7 @@ const questions = [
   },
 
   {
-    question: "How may pages long (front and back!) was Rachel’s letter to Ross?",
+    question: "How many pages long (front and back!) was Rachel’s letter to Ross?",
     possibleAnswers: ['5', '18', '7', '12'],
     correctAnswer: '18',
   },
@@ -157,7 +157,7 @@ const questions = [
   },
 
   {
-    question: "When Phoebe becomes Princess Consuela, what does she says her friends can call her?",
+    question: "When Phoebe becomes Princess Consuela, what does she say her friends can call her?",
     possibleAnswers: ['Dorothy', 'June', 'Valerie', 'Marjorie'],
     correctAnswer: 'Valerie',
   },
@@ -330,6 +330,8 @@ document.addEventListener('DOMContentLoaded', function () {
           currentQuestionIndex++;
           if (currentQuestionIndex < questions.length) {
             handleQuestion(currentQuestionIndex);
+            answers.forEach(button => {
+            });
           } else {
             endQuiz();
           }
@@ -422,7 +424,7 @@ document.addEventListener('DOMContentLoaded', function () {
     /* Custom messages to user depending on their score */
     if (finalScore >= 0 && finalScore <= 7) {
       finalScoreElement.innerHTML = `<p>"OH. MY. GOD!"<br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> Oh dear! It hasn't been your day, your week, your
-      month, or even your year has it?!</p>` +
+      month, or even your year, has it?!</p>` +
         `<img src="assets/images/umbrella.png" alt="Umbrella image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
@@ -437,12 +439,12 @@ document.addEventListener('DOMContentLoaded', function () {
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore >= 24 && finalScore <= 29) {
-      finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Congratulations Ross, because Chandler, you’ve been bamboozled!” <br> "This is the best game ever!” </p>` +
+      finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> “Congratulations, Ross! Because Chandler, you’ve been bamboozled!” <br> "This is the best game ever!” </p>` +
         `<img src="assets/images/magna-doodle.png" alt="Magna Doodle image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;
     } else if (finalScore === 30) {
-      finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> YOU GOT EVERY ANSWER CORRECT! <br> Okay, you watch too much TV! <br> But could you BE a bigger Friends fan?!</p>` +
+      finalScoreElement.innerHTML = `<p>"OH. MY. GOD!" <br> <strong>Your final score is: ${finalScore} / 30.</strong> <br> YOU GOT EVERY ANSWER CORRECT! <br> Okay, you watch too much TV! <br> But could you <i>BE</i> a bigger Friends fan?!</p>` +
         `<img src="assets/images/central-perk.png" alt="Central Perk image" style="width:120px;">` +
         `<button onclick="location.href='trivia.html'">Play again</button>` +
         `<button onclick="location.href='index.html'">Home</button>`;

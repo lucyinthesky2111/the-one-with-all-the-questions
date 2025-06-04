@@ -1,4 +1,4 @@
-# The one with all the questions - 'Friends' interactive trivia website
+# The One With All The Questions - 'Friends' interactive trivia website
 # Milestone Project 2 - Interactive Front End Development
 
 <h2><img src="../assets/readme-images/homepage-mockup.png" alt="Homepage mockup"></h2>
@@ -97,14 +97,14 @@
   * Facility to see my current score throughout the game (user story 7). 
 
   ### Could Have Features
-  * A message along with my final score, which is different according to what score I achieve (user story 8). 
+  * A Friends related message along with my final score, which is different according to what score I achieve (user story 8). 
   * A time limit on each question, to add a small amount of pressure, and make the game more challenging and exciting (user story 9). 
   * The questions and possible answers appear in a random order each time I play to increase replay-ability (user story 10). 
   * Ability to filter questions by difficulty level (user story 11). 
 
 
 ## User Expectations and Requirements
-* All user story 1 (must-have)
+* All user story 1 (must-have).
 * To find the website easy to access and navigate on any screen size. 
 * For the site to be fully accessible. 
 * For the site to be engaging and visually appealing, including high quality images which are related to Friends. 
@@ -136,7 +136,7 @@ I was able to successfully implement all of the initial stage features.
 * The 'active' link i.e. the page the user is on, is underlined as a visual reminder. 
 * The links on the nav bar appear as a horizontal list on larger screens and in a drop down menu on smaller screens. 
 <h2><img src="../assets/readme-images/navbar-mobile.png" alt="Nav bar on mobile and tablet"></h2>Nav bar (Mobile and Tablet)
-<h2><img src="../assets/readme-images/nav-bar-desktop.png"alt="Nav bar on desktop"></h2>Nav bar (desktop)
+<h2><img src="../assets/readme-images/nav-bar-desktop.png"alt="Nav bar on desktop"></h2>Nav bar (Desktop)
 
  
 ### Footer
@@ -214,7 +214,7 @@ I was able to successfully implement all of the initial stage features.
  * If the user does not answer the question before the timer hits zero, the user will see a pop message telling them “Time’s up!” 
 <h2><img src="../assets/readme-images/times-up-message.png" alt="Time's up message"></h2>Time's up message
 
-* The user is not shown the correct answer if they do not make an attempt to answer the question before the timer runs out. 
+* The user is not shown the correct answer if they do not make an attempt to answer the question before the timer runs out. This is done to encourage the user to engage with the game properly. 
 * The game will then auto-advance to the next question so the user will not get another chance to answer.  
 * That question will also be treated as having been answered incorrectly, and the users incorrect score tally will increment by 1 mark.  
 
@@ -267,7 +267,7 @@ Due to time constraints, I have not been able to implement the ability to filter
 Some additional features that I would like to implement in the future are: 
 
 * To increase replay-ability of the quiz, I would like to increase the pool of available questions and display only a proportion of these during each game. This would mean that the user could play the game many times over and be asked questions they have not seen before, on each playthrough. 
-* To supplement the quiz and add more value for the user, I would like implement a quote generator. This would have options to select a Friends character and view a selection of randomised quotes from them, as well as options to select an episode and receive randomised quotes from that episode.  
+* To supplement the quiz and add more value for the user, I would like to implement a quote generator. This would have options to select a Friends character and view a selection of randomised quotes from them, as well as options to select an episode and receive randomised quotes from that episode.  
 * I would also like to add an episode selector feature. The user would be able to select a category (such as birthdays, weddings, Christmas etc) and receive a list of episodes which meet this criteria. The user would also be able to select a mood from a pre-defined list (e.g. I want to cry, I want to feel motivated etc) and receive a list of recommended episodes based on that mood. 
 * I have also written all the content for a 6-question ‘which character are you most like' quiz that I would like to add to the site at a later stage.  
 
@@ -359,7 +359,7 @@ Aspect ratios chosen for use in the site were:
 * 3:2 (logo)
 * 5:4 (other images) 
 
-16:9 - this aspect ratio was chosen for hero images as these images are designed to span the whole width of the page on all screen sizes and therefore, need to be wide. 16:9 is a very versatile aspect ratio used by lots of modern media formats and provides an immersive viewing experience.
+16:9 - this aspect ratio was chosen for the hero image, as these images are designed to span the whole width of the page on all screen sizes and therefore, need to be wide. 16:9 is a very versatile aspect ratio used by lots of modern media formats and provides an immersive viewing experience.
 
 3:2 - this aspect ratio was chosen as it suits images which are in landscape orientation in their original state, because it makes the images wider than they are tall. 3:2 suits such images especially well as the result is images that are:  
 * visually pleasing;
@@ -369,7 +369,7 @@ Aspect ratios chosen for use in the site were:
 5:4 – this aspect ratio was chosen as it gives a good balance between height and width, which makes it a good match for images intended to be viewed on a screen. 
 
 ###  Image animation
-All images used on the site (except the hero image) subtly rotate in some way when hovered over, to add visual interest and interactivity. 
+All images used on the site (except the hero image) subtly grow or rotate when hovered over, to add visual interest and interactivity. 
 
 
 ## Logo
@@ -418,7 +418,7 @@ All images used on the site (except the hero image) subtly rotate in some way wh
 
   ### Images
   * [Pexels](https://www.pexels.com/) - was used to source the [Central Perk background image](https://www.pexels.com/photo/festive-central-perk-cafe-window-display-30500272/) used in the homepage of the site.
-  * [Printerval](https://printerval.com/us) was used to source:-
+  * [Printerval](https://printerval.com/us) was used to source :-
     * the image of the [peephole frame](https://printerval.com/peephole-frame-friends-sticker-sticker756055-peephole-frame-p797344) from the back of Monica Gellar's front door which was used as the site's logo.
     * the image of the [Princess Consuela name tag](https://printerval.com/friends-hello-my-name-is-princess-consuela-banana-hammock-friends-phone-case-phone-case7364869-friends-hello-my-name-is-princess-consuela-banana-p756448?__cf_chl_tk=Ma0.9LKPzAZUXU9W6IA4YQw14XXY3K4cd7w57Q2TT4k-1746235802-1.0.1.1-M...) which was used as the image on the introduction modal. 
     * Both images were found via a Google image search with results set to 'Creative Commons licenses'.
@@ -478,7 +478,7 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 
 # Credits
 ## Content
-* All copy, questions and answers on the site were written by me. I referred to the relevant episodes of Friends to verify all answers and information given to ensure everything is correct.
+* All copy, questions and answers on the site were written by me. I referred to the relevant episodes of Friends to verify all answers given, and all quotes and references used, to ensure everything is correct.
 * [Warner Bros](https://www.warnerbros.co.uk/tv/friends) - for the site colour scheme and the Friends quotes and references which appear throughout the site.
 * The following GitHub repositories for inspiration for creating a themed quiz using closable modals :-
      * [Diane-4P 'Harry Potter quiz'](https://github.com/Diane-4P/harry-potter-quiz?tab=readme-ov-file)  
@@ -522,7 +522,7 @@ Whilst the project in its current form is the minimum viable product, I have man
 
 Whilst this project is not perfect, overall I am proud of all the perseverance, late nights and dedication I put in to take this project from idea to reality. 
 
-By completing this MVP, I have proven to myself that I can persist at challenging tasks, even though getting to this stage has felt impossible at times.  
+By completing this MVP, I have proven to myself that I have the focus, ability and tenacity to persist at challenging tasks - even though getting to this stage has felt impossible at times.  
 
 I hope other fans of Friends will find as much joy in this project as I have.  
 

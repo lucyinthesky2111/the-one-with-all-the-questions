@@ -123,7 +123,7 @@ The one with all the questions - 'Friends' interactive trivia website returned n
 All user expectations and requirements (user story 1: user friendly navigation and responsive design) have been satisfied.
 * The site is fully responsive on screen sizes from 320px and upwards. 
 * The site is fully accessible, it contains appropriate alt text, a colour scheme of sufficient contrast, and has passed WAVE accessibility testing. 
-* All images used in the site have been optimised and cropped to suitable aspect ratio. 
+* All images used in the site have been optimised and cropped to suitable aspect ratios. 
 * There is a responsive nav bar and footer on all pages. 
 * All navigation links have been tested and proven to work. 
 * All navigation buttons have been tested and proven to work.  
@@ -168,7 +168,7 @@ User story 7: facility to see my current score throughout the game.
 * Both the correct and incorrect score are tallied correctly (incrementing each category by one mark as appropriate) and at the correct time (as soon as the user has answered and their answered has been ‘marked’). 
 
  ### Could Have
- User story 8: a message along with my final score, which is different according to what score I achieve. 
+ User story 8: a Friends related message along with my final score, which is different according to what score I achieve. 
  * Testing of the game achieving different scores each time, has verified that a different Friends related message is displayed according to the user’s final score as expected. 
  * It has been proven that there are 5 different messages available, 1 for each of these score brackets: 0-7, 8-15, 16-23, 24-29, 30 and that the correct message appears for the relevant score bracket. 
 
@@ -190,33 +190,16 @@ User story 11: ability to filter questions by difficulty level.
 # Peer Review
 * In the final stages of the project development, I submitted the project for review by fellow Code Institute students and alumni on slack. 
 * I received feedback that the quiz was functioning well with no errors found.  
-* It was suggested that to improve the user experience, I could ass functionality for the user to exit or restart the game whilst it is in progress. Whilst these would be useful features, I decided not to implement them as I felt it was too late in the project, due to the proximity of the submission deadline. However, this is something I will remember for future projects. 
+* It was suggested that to improve the user experience, I could add functionality for the user to exit or restart the game whilst it is in progress. Whilst these would be useful features, I decided not to implement them as I felt it was too late in the project, due to the proximity of the submission deadline. However, this is something I will remember for future projects. 
 
 * The site was proof-read by me. In addition to this, I also used ChatGPT and the ‘read aloud’ feature of Microsoft Word for further proof-reading. Any minor typographical or grammatical errors found were subsequently corrected. 
 
-* I asked a number of friends and family members to test the site for typos, to check the quiz works correctly, and that the external links to social media sites in the footer all open in new tabs. No errors were reported. Feedback from a particularly avid Friends fan was that they especially liked all the details that had been added to keep the whole site in keeping with the Friends themes.
+* I asked a number of friends and family members to test the site for typos, to check the quiz works correctly, and that the external links to social media sites in the footer all open in new tabs. No errors were reported. Feedback from a particularly avid Friends fan was that they especially liked all the details that had been added to keep the whole site in keeping with the Friends theme.
        
 # Bugs 
 ## Resolved
 
-* There was originally a contrast error on the Play Page caused by the blue and yellow coloured dots in the site title, which was subsequently resolved. The issue was that the original blue and yellow colours are too light against a white background. To solve this issue, slightly darker variants of these colours were used on the Play Page instead. The Play Page subsequently passed Wave Accessibility testing with no issues. 
-        <details>
-          <summary>Original blue contrast error</summary>
-          <img src="../assets/readme-images/blue-contrast-error.png" alt="Original blue contrast error"> 
-         </details>
-        <details>
-          <summary>Original yellow contrast error</summary>
-          <img src="../assets/readme-images/yellow-contrast-error.png" alt="Original yellow contrast error"> 
-         </details>
-        <details>
-          <summary>New blue no contrast error</summary>
-          <img src="../assets/readme-images/blue-contrast.png" alt="New blue no contrast error"> 
-         </details>
-        <details>
-          <summary>New yellow no contrast error</summary>
-          <img src="../assets/readme-images/yellow-contrast.png" alt="New yellow no contrast error"> 
-         </details>
-
+* There was originally a contrast error on the Play Page caused by the blue and yellow coloured dots in the site title, which was subsequently resolved. The issue was that the original blue and yellow colours are too light against a white background. To solve this issue, slightly darker variants of these colours were used on the Play Page instead. The Play Page subsequently passed Wave Accessibility testing with no issues.
 
 * On first run of the W3C HTML Validator, the error shown below was flagged on all pages of the site. This was resolved by replacing the p element with a span element. All pages of the site subsequently passed validation. 
         <details>
@@ -229,7 +212,7 @@ User story 11: ability to filter questions by difficulty level.
 
 ## Unresolved
 
-* Lighthouse recommends rectifying the largeste contentful paint and serving images in next-gen formats to improve mobile performance on lower scoring pages. This recommendation was not acted upon at this time as current performance is still acceptable, especially for an MVP, but this could be looked into in the future, especially if the site expands with additional content.
+* Lighthouse recommends rectifying the largest contentful paint and serving images in next-gen formats to improve mobile performance on lower scoring pages. This recommendation was not acted upon at this time as current performance is still acceptable, especially for an MVP, but this could be looked into in the future, especially if the site expands with additional content.
 
 * When testing the game on Sarfari on my 9th generation iPad and on Samsung Internet on my Samsung Galaxy S22, I noticed that the text in the answer boxes appears to the left of the box rather than in the centre. This happens despite the text being set to align centrally with CSS. The text displays correctly when viewing the site on other devices and browsers. Therefore, this appears to be isolated to these particular devices and/or browsers. As this is only a minor aesthetic issue which does not affect game play, it has been left unresolved at this stage due to time constraints. 
         <details>
@@ -238,6 +221,6 @@ User story 11: ability to filter questions by difficulty level.
          </details>
 
 
-* I received some feedback in my last project that html files should be organized into a folder. I tried to implement this for this project however, having html files in folders works on the live server but not in the deployed site. There are only 4 html files in the project. This was too time-consuming to try and fix for such a small number of html files and a minor annoyance caused by the lack of folder. I would have spent the time to rectify this issue had there been a vast number of html files. Therefore html files are not placed in a folder for this project. 
+* I received some feedback in my last project that HTML files should be organized into a folder. I tried to implement this for this project however, having HTML files in folders works on the live server but not in the deployed site. Due to the small number of HTML files (4) in this project, I decided not to fix this, as in this instance, the lack of folders only creates a minor annoyance rather than a major problem. I would have spent the time to rectify this issue had there been a vast number of HTML files.
 
 Back to [README.md](./README.md)

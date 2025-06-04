@@ -691,7 +691,7 @@ footer {
 
 /*targets the social media icons so their colours will change when they are hovered over. 
     To get this to work, had to target i element not a element as originally thought*/
-i:hover {
+#social-links i:hover {
     color: var(--hover);
 
 }
