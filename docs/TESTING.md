@@ -1,6 +1,6 @@
 # Testing
 
-The The one with all the questions - 'Friends' interactive trivia website has been tested using the following methods:
+The one with all the questions - 'Friends' interactive trivia website has been tested using the following methods:
 - [Code Validation](#code-validation)
     - [W3C HTML Validator](#w3c-html-validator) 
         - [Homepage](#homepage)
@@ -24,7 +24,7 @@ The The one with all the questions - 'Friends' interactive trivia website has be
 ## W3C HTML Validator
 The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the W3C HTML Validator tool.
 
-There was orginally a contrast error on the Play Page caused by the blue and yellow coloured dots in the site title, which was subsequently resolved (see [Resolved Bugs](#resolved)).
+There was originally a contrast error on the Play Page caused by the blue and yellow coloured dots in the site title, which was subsequently resolved (see [Resolved Bugs](#resolved)).
 
 ### Homepage 
 <h2 align="center"><img src="../assets/readme-images/homepage-html-validation.png" alt="screenshot of Homepage html validation"></h2>
@@ -39,12 +39,12 @@ There was orginally a contrast error on the Play Page caused by the blue and yel
 <h2 align="center"><img src="../assets/readme-images/html-validation-404-page.png" alt="screenshot of 404 Error Page html validation"></h2>
 
 ## W3C CSS Validator
-The The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the W3C CSS Validator tool.
+The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the W3C CSS Validator tool.
 ### CSS Stylesheet
 <h2 align="center"><img src="../assets/readme-images/css-validation.png" alt="screenshot of CSS validation"></h2>
 
 ## JSHint JavaScript Validator
-The The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the JSHint JavaScript Validator tool.
+The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the JSHint JavaScript Validator tool.
 ### JS Script File
 <h2 align="center"><img src="../assets/readme-images/js-hint.png" alt="screenshot JS validation"></h2>
 
@@ -129,10 +129,10 @@ All user expectations and requirements (user story 1: user friendly navigation a
 * All navigation buttons have been tested and proven to work.  
 * All social links in the footer have been tested, proven to work and proven to open in a new tab. 
 * All copy on the site has been proof-read and proven to be clear, concise and free of SPAG (spelling, grammar and punctuation errors). 
-* There is an Introduction Modal on the Homepage which clearly explains the purpose of site to the user (without the need for them to look at the corresponding site documentation) and links to other pages of the site. 
+* There is an Introduction Modal on the Homepage which clearly explains the purpose of the site to the user (without the need for them to look at the corresponding site documentation) and links to other pages of the site. 
 
 # Testing User Stories
-### Testing remaining user stories
+### Testing remaining user stories:
 
 ### Must Have
 User story 2: clear instructions as to how to play the game which are accessible from anywhere on the site. 
@@ -147,7 +147,7 @@ User story 3:  immediate visual feedback as to whether my answer is correct or i
 * There is an appropriate delay of 1 second between the answer feedback and the quiz moving on to the next question, to allow the user time to see their result. 
 
 User story 4: facility to see my final score at the end of the game, so I can replay and try to beat it. 
-* The user’s final score has been proven to always display at the end of game, regardless of what score the user achieves. 
+* The user’s final score has been proven to always display at the end of the game, regardless of what score the user achieves. 
 * It has also been proven that when the final score is displayed, any content which is no longer needed on the page (e.g. timer, progress bar, questions and answers box), are all hidden as expected.  
 * The navigation buttons which appear at the end of the game, directing the user to either play again or return home, have been tested and proven to work. 
 
@@ -185,7 +185,7 @@ User story 10: the questions and possible answers appear in a random order each 
  * Multiple test plays of the game have proven that the questions and possible answers do in fact, appear in a different random order in each new game as expected. 
 
 User story 11: ability to filter questions by difficulty level. 
-* Due to time constraints, this featured has not yet been implemented but will be added in the future.
+* Due to time constraints, this feature has not yet been implemented but will be added in the future.
 
 # Peer Review
 * In the final stages of the project development, I submitted the project for review by fellow Code Institute students and alumni on slack. 
