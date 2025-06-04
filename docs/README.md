@@ -211,7 +211,7 @@ I was able to successfully implement all of the initial stage features.
  <h2><img src="../assets/readme-images/timer.png" alt="Timer (styling and location)"></h2>Timer (styling and location)
 
  * The timer starts as soon as the user starts the question. 
- * If the user does not answer the question before the timer hits zero, the user will see a pop message telling them “Time’s up!” 
+ * If the user does not answer the question before the timer hits zero, the user will see a pop up message telling them “Time’s up!” 
 <h2><img src="../assets/readme-images/times-up-message.png" alt="Time's up message"></h2>Time's up message
 
 * The user is not shown the correct answer if they do not make an attempt to answer the question before the timer runs out. This is done to encourage the user to engage with the game properly. 
