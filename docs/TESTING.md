@@ -24,8 +24,6 @@ The one with all the questions - 'Friends' interactive trivia website has been t
 ## W3C HTML Validator
 The one with all the questions - 'Friends' interactive trivia website returned no errors or warnings when tested using the W3C HTML Validator tool.
 
-There was originally a contrast error on the Play Page caused by the blue and yellow coloured dots in the site title, which was subsequently resolved (see [Resolved Bugs](#resolved)).
-
 ### Homepage 
 <h2 align="center"><img src="../assets/readme-images/homepage-html-validation.png" alt="screenshot of Homepage html validation"></h2>
 
@@ -101,7 +99,9 @@ The one with all the questions - 'Friends' interactive trivia website returned n
 * I personally tested the website on a Samsung Galaxy S22, a 9th generation iPad, an Asus Tuf Gaming A15 laptop and a Samsung Odyssey G5 34" curved monitor.
 
 # WAVE Web Accessibility Evaluation Tools Checker
-The one with all the questions - 'Friends' interactive trivia website returned no errors or contrast errors when tested using the WAVE Web Accessibility Evaluation Tools Checker. 
+There was originally a contrast error on the Play Page caused by the blue and yellow coloured dots in the site title, which was resolved (see [Resolved Bugs](#resolved)).
+
+The one with all the questions - 'Friends' interactive trivia website subsequently returned no errors or contrast errors when tested using the WAVE Web Accessibility Evaluation Tools Checker. 
 ## Homepage 
 <h2 align="center"><img src="../assets/readme-images/wave-homepage.png" alt="Wave Homepage results"></h2>
 
