@@ -1,5 +1,30 @@
 # Testing
 
+## Introduction
+
+### Principles of Testing
+There are two types of software testing :- manual testing and automated testing. 
+
+### Manual Testing
+ Manual testing is also known as ‘user testing’ or ‘behaviour driven development’ and is where the developer essentially impersonates the user, and manually tests each aspect of the site for any errors. Depending on the content of the site, this involves tasks such as clicking on all links and buttons to ensure they all work as expected, filling in any forms to ensure they submit correctly, proof reading copy to ensure it is free of any spelling, punctuation or grammar errors, and checking the site displays properly on different browsers, at different resolutions etc.   
+
+Manual Testing also involves evaluating how the project performs against criteria set out in  user stories defined at the outset of the development process. For example, in the case of a quiz site such as this one, the user needs instructions as to how to play and the ability to see their final score (amongst other things) so the developer will therefore verify that these features have been included (and add them in if not).  
+
+Manual testing is best suited to small scale projects given that it is time consuming and prone to human error.  
+
+### Automated Testing 
+Automated testing (also known as ‘test driven development’)  is where the developer uses specialist tools to complete the testing process for them. This is an incremental process in which for each piece of functionality, a test is generally  written first to check the logic works. Once the test has passed, the actual code for the functionality is written. This method ensures the project works at every stage of its development. 
+
+Automated testing of JavaScript code can be carried out using the software ‘Jest’. 
+
+Automated testing is preferrable for large scale, and/or complex projects as it is quicker  and less error prone than manual testing. However, it does not test user experience. Therefore the most robust method of testing is a combination of both manual and automated testing. 
+
+### Testing of This Site
+Whilst in industry this site would usually have been tested using a combination of both manual and automated testing, the one with all the questions was tested using manual testing only. The reasons for this are: 
+* This site is small enough for me to effectively test manually. 
+* I considered the potential issue of ‘developer blindness/developer fatigue’ whereby  I may miss some of my own errors, and concluded that this risk could be sufficiently offset by asking other people (family, friends and fellow Code Institute students and alumni) to manually test the site for errors too. 
+* I am not confident in using Jest at this stage of my learning journey, however it is something I wish to become familiar with in the future.  
+
 The one with all the questions - 'Friends' interactive trivia website has been tested using the following methods:
 - [Code Validation](#code-validation)
     - [W3C HTML Validator](#w3c-html-validator) 
